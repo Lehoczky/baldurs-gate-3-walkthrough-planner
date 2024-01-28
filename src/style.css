@@ -1,0 +1,17 @@
+@import "@vue-flow/core/dist/style.css";
+@import "@vue-flow/core/dist/theme-default.css";
+@import "@vue-flow/controls/dist/style.css";
+@import "@vue-flow/node-resizer/dist/style.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+.vue-flow__resize-control.line {
+  border-width: 1px;
+  border-color: #646973;
+}
