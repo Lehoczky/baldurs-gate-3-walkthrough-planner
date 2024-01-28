@@ -1,0 +1,1791 @@
+{
+  "weapons": {
+    "Common": [
+      {
+        "name": "Artificial Leech",
+        "icon": "https://bg3.wiki/w/images/thumb/0/00/Artificial_Leech_Unfaded_Icon.png/50px-Artificial_Leech_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Artificial_Leech"
+      },
+      {
+        "name": "Battle-Worn Blade",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c4/Broken_Longsword_Item_Icon.png/50px-Broken_Longsword_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Battle-Worn_Blade"
+      },
+      {
+        "name": "Battleaxe",
+        "icon": "https://bg3.wiki/w/images/thumb/f/f6/Battleaxe_Unfaded_Icon.png/50px-Battleaxe_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Battleaxe"
+      },
+      {
+        "name": "Bonesaw",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9a/Bonesaw_Item_Icon.png/50px-Bonesaw_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Bonesaw"
+      },
+      {
+        "name": "BOOOAL's Arms",
+        "icon": "https://bg3.wiki/w/images/thumb/5/5c/Kuotoa_Javelin_Unfaded_Icon.png/50px-Kuotoa_Javelin_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/BOOOAL%27s_Arms"
+      },
+      {
+        "name": "Broken Pike",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d8/Broken_Pike_Unfaded_Icon.webp/50px-Broken_Pike_Unfaded_Icon.webp.png",
+        "wikiLink": "https://bg3.wiki/wiki/Broken_Pike"
+      },
+      {
+        "name": "Cemetery-Blue Torch",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8a/Torch_Unfaded_Icon.png/50px-Torch_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Cemetery-Blue_Torch"
+      },
+      {
+        "name": "Cleaver",
+        "icon": "https://bg3.wiki/w/images/thumb/3/38/Item_WPN_HUM_CleaverAxe_A_Icon.png/50px-Item_WPN_HUM_CleaverAxe_A_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Cleaver"
+      },
+      {
+        "name": "Club",
+        "icon": "https://bg3.wiki/w/images/thumb/e/ea/Club_Unfaded_Icon.png/50px-Club_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Club"
+      },
+      {
+        "name": "Crude Mace",
+        "icon": "https://bg3.wiki/w/images/thumb/5/57/Crude_Mace_Unfaded_Icon.png/50px-Crude_Mace_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Crude_Mace"
+      },
+      {
+        "name": "Cultist Brand",
+        "icon": "https://bg3.wiki/w/images/thumb/6/61/Cultist_Brand_Unfaded_Icon.png/50px-Cultist_Brand_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Cultist_Brand"
+      },
+      {
+        "name": "Deva Mace",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6b/Mace_Unfaded_Icon.png/50px-Mace_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Deva_Mace"
+      },
+      {
+        "name": "Djinni Scimitar",
+        "icon": "https://bg3.wiki/w/images/thumb/7/76/Item_WPN_Djinni_Scimitar_A_Icon.png/50px-Item_WPN_Djinni_Scimitar_A_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Djinni_Scimitar"
+      },
+      {
+        "name": "Drunk-Purple Torch",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8a/Torch_Unfaded_Icon.png/50px-Torch_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Drunk-Purple_Torch"
+      },
+      {
+        "name": "False Spear of the Night",
+        "icon": "https://bg3.wiki/w/images/thumb/f/f0/Rusty_Spear_Unfaded.png/50px-Rusty_Spear_Unfaded.png",
+        "wikiLink": "https://bg3.wiki/wiki/False_Spear_of_the_Night"
+      },
+      {
+        "name": "Flail of Myrkul",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b2/Flail_of_Myrkul_Icon.png/50px-Flail_of_Myrkul_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Flail_of_Myrkul"
+      },
+      {
+        "name": "Flail of the Vortex",
+        "icon": "https://bg3.wiki/w/images/thumb/5/5a/Flail_of_the_Vortex_Unfaded_Icon.png/50px-Flail_of_the_Vortex_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Flail_of_the_Vortex"
+      },
+      {
+        "name": "Githyanki Longsword",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c2/Githyanki_Longsword_Item_Icon.png/50px-Githyanki_Longsword_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Githyanki_Longsword"
+      },
+      {
+        "name": "Githyanki Shortsword",
+        "icon": "https://bg3.wiki/w/images/thumb/0/08/Githyanki_Shortsword_Unfaded_Icon.png/50px-Githyanki_Shortsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Githyanki_Shortsword"
+      },
+      {
+        "name": "Glaive",
+        "icon": "https://bg3.wiki/w/images/thumb/a/ac/Glaive_Unfaded_Icon.png/50px-Glaive_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Glaive"
+      },
+      {
+        "name": "Gnarled Tree Branch",
+        "icon": "https://bg3.wiki/w/images/thumb/3/3a/Gnarled_Tree_Branch_Unfaded.png/50px-Gnarled_Tree_Branch_Unfaded.png",
+        "wikiLink": "https://bg3.wiki/wiki/Gnarled_Tree_Branch"
+      },
+      {
+        "name": "Goblin Bow",
+        "icon": "https://bg3.wiki/w/images/thumb/d/dd/Goblin_Bow_Unfaded_Icon.png/50px-Goblin_Bow_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Goblin_Bow"
+      },
+      {
+        "name": "Goblin Scimitar",
+        "icon": "https://bg3.wiki/w/images/thumb/5/5c/Goblin_Scimitar_Unfaded_Icon.png/50px-Goblin_Scimitar_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Goblin_Scimitar"
+      },
+      {
+        "name": "Greataxe",
+        "icon": "https://bg3.wiki/w/images/thumb/f/fc/Greataxe_Unfaded_Icon.png/50px-Greataxe_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Greataxe"
+      },
+      {
+        "name": "Greatclub (Minotaur)",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e7/Item_WPN_MINOTAUR_Greatclub_A_Icon.png/50px-Item_WPN_MINOTAUR_Greatclub_A_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Greatclub_(Minotaur)"
+      },
+      {
+        "name": "Greatsword",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Greatsword_Unfaded_Icon.png/50px-Greatsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Greatsword"
+      },
+      {
+        "name": "Greatsword +1 (Common)",
+        "icon": "https://bg3.wiki/w/images/thumb/f/fc/Greatsword_B_PlusOne_Unfaded_Icon.png/50px-Greatsword_B_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Greatsword_%2B1_(Common)"
+      },
+      {
+        "name": "Halberd",
+        "icon": "https://bg3.wiki/w/images/thumb/5/55/Halberd_Unfaded_Icon.png/50px-Halberd_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Halberd"
+      },
+      {
+        "name": "King's Knife",
+        "icon": "https://bg3.wiki/w/images/thumb/7/73/Kings_Knife_Unfaded_Icon.png/50px-Kings_Knife_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/King%27s_Knife"
+      },
+      {
+        "name": "Lantern",
+        "icon": "https://bg3.wiki/w/images/thumb/0/09/Lantern_Weapon_Unfaded.png/50px-Lantern_Weapon_Unfaded.png",
+        "wikiLink": "https://bg3.wiki/wiki/Lantern"
+      },
+      {
+        "name": "Light Crossbow",
+        "icon": "https://bg3.wiki/w/images/thumb/0/09/Light_Crossbow_Unfaded_Icon.png/50px-Light_Crossbow_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Light_Crossbow"
+      },
+      {
+        "name": "Mace",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6b/Mace_Unfaded_Icon.png/50px-Mace_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Mace"
+      },
+      {
+        "name": "Makeshift Bow",
+        "icon": "https://bg3.wiki/w/images/thumb/1/1c/Makeshift_Bow_Unfaded.png/50px-Makeshift_Bow_Unfaded.png",
+        "wikiLink": "https://bg3.wiki/wiki/Makeshift_Bow"
+      },
+      {
+        "name": "Makeshift Spear",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9e/Jagged_Spear_Unfaded_Icon.png/50px-Jagged_Spear_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Makeshift_Spear"
+      },
+      {
+        "name": "Maul",
+        "icon": "https://bg3.wiki/w/images/thumb/f/f2/Maul_Unfaded_Icon.png/50px-Maul_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Maul"
+      },
+      {
+        "name": "Needle of the Outlaw Rogue",
+        "icon": "https://bg3.wiki/w/images/thumb/a/af/Needle_of_the_Outlaw_Rogue_Unfaded_Icon.png/50px-Needle_of_the_Outlaw_Rogue_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Needle_of_the_Outlaw_Rogue"
+      },
+      {
+        "name": "Pickaxe",
+        "icon": "https://bg3.wiki/w/images/thumb/4/44/Pickaxe_Unfaded_Icon.png/50px-Pickaxe_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Pickaxe"
+      },
+      {
+        "name": "Pitchfork",
+        "icon": "https://bg3.wiki/w/images/thumb/f/fb/Pitchfork_Unfaded_Icon.png/50px-Pitchfork_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Pitchfork"
+      },
+      {
+        "name": "Plague-Green Torch",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8a/Torch_Unfaded_Icon.png/50px-Torch_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Plague-Green_Torch"
+      },
+      {
+        "name": "Polished Dagger",
+        "icon": "https://bg3.wiki/w/images/thumb/6/67/Dagger_Unfaded_Icon.png/50px-Dagger_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Polished_Dagger"
+      },
+      {
+        "name": "Practice Sword",
+        "icon": "https://bg3.wiki/w/images/thumb/a/a6/Practice_Sword_Unfaded_Icon.png/50px-Practice_Sword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Practice_Sword"
+      },
+      {
+        "name": "Reinforced Greatsword",
+        "icon": "https://bg3.wiki/w/images/thumb/5/50/Greatsword_B_Unfaded_Icon.png/50px-Greatsword_B_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Reinforced_Greatsword"
+      },
+      {
+        "name": "Ritual Staff",
+        "icon": "https://bg3.wiki/w/images/thumb/f/fe/Goblin_Staff_Unfaded_Icon.png/50px-Goblin_Staff_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ritual_Staff"
+      },
+      {
+        "name": "Rusty Dagger",
+        "icon": "https://bg3.wiki/w/images/thumb/8/83/Rusty_Dagger_Unfaded_Icon.png/50px-Rusty_Dagger_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Dagger"
+      },
+      {
+        "name": "Rusty Glaive",
+        "icon": "https://bg3.wiki/w/images/thumb/d/da/Rusty_Glaive_Unfaded_Icon.png/50px-Rusty_Glaive_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Glaive"
+      },
+      {
+        "name": "Rusty Greatsword",
+        "icon": "https://bg3.wiki/w/images/thumb/d/dc/Rusty_Greatsword_Unfaded_Icon.png/50px-Rusty_Greatsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Greatsword"
+      },
+      {
+        "name": "Rusty Halberd",
+        "icon": "https://bg3.wiki/w/images/thumb/7/76/Rusty_Halberd_Unfaded_Icon.png/50px-Rusty_Halberd_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Halberd"
+      },
+      {
+        "name": "Rusty Handaxe",
+        "icon": "https://bg3.wiki/w/images/thumb/8/88/Item_WPN_HUM_Battleaxe_A_0_Rusty_A_Icon.png/50px-Item_WPN_HUM_Battleaxe_A_0_Rusty_A_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Handaxe"
+      },
+      {
+        "name": "Rusty Heavy Crossbow",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c5/Rusty_Heavy_Crossbow_Icon.webp/50px-Rusty_Heavy_Crossbow_Icon.webp.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Heavy_Crossbow"
+      },
+      {
+        "name": "Rusty Longsword",
+        "icon": "https://bg3.wiki/w/images/thumb/9/93/Rusty_Longsword_Unfaded_Icon.png/50px-Rusty_Longsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Longsword"
+      },
+      {
+        "name": "Rusty Mace",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c1/Rusty_Mace_Unfaded_Icon.png/50px-Rusty_Mace_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Mace"
+      },
+      {
+        "name": "Rusty Maul",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d2/Rusty_Maul_Unfaded_Icon.png/50px-Rusty_Maul_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Maul"
+      },
+      {
+        "name": "Rusty Morningstar",
+        "icon": "https://bg3.wiki/w/images/thumb/3/32/Rusty_Morningstar_Unfaded_Icon.png/50px-Rusty_Morningstar_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Morningstar"
+      },
+      {
+        "name": "Rusty Pike",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8b/Rusty_Pike_Unfaded_Icon.png/50px-Rusty_Pike_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Pike"
+      },
+      {
+        "name": "Rusty Scimitar",
+        "icon": "https://bg3.wiki/w/images/thumb/4/48/Rusty_Scimitar_Unfaded_Icon.png/50px-Rusty_Scimitar_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Scimitar"
+      },
+      {
+        "name": "Rusty Shortsword",
+        "icon": "https://bg3.wiki/w/images/thumb/a/ae/Rusty_Shortsword_Unfaded_Icon.png/50px-Rusty_Shortsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Shortsword"
+      },
+      {
+        "name": "Rusty Sickle",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b8/Item_WPN_HUM_Sickle_A_0_Rusty_A_Icon.png/50px-Item_WPN_HUM_Sickle_A_0_Rusty_A_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Sickle"
+      },
+      {
+        "name": "Rusty Spear",
+        "icon": "https://bg3.wiki/w/images/thumb/f/f0/Rusty_Spear_Unfaded.png/50px-Rusty_Spear_Unfaded.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Spear"
+      },
+      {
+        "name": "Rusty Trident",
+        "icon": "https://bg3.wiki/w/images/thumb/3/34/Rusty_Trident_Unfaded_Icon.png/50px-Rusty_Trident_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rusty_Trident"
+      },
+      {
+        "name": "Scalpel",
+        "icon": "https://bg3.wiki/w/images/thumb/2/28/Scalpel_Unfaded_Icon.png/50px-Scalpel_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Scalpel"
+      },
+      {
+        "name": "Scimitar (Sharran)",
+        "icon": "https://bg3.wiki/w/images/thumb/9/97/Justiciar%27s_Scimitar_Unfaded_Icon.png/50px-Justiciar%27s_Scimitar_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Scimitar_(Sharran)"
+      },
+      {
+        "name": "Scimitar of Cinder",
+        "icon": "https://bg3.wiki/w/images/thumb/d/da/Scimitar_Unfaded_Icon.png/50px-Scimitar_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Scimitar_of_Cinder"
+      },
+      {
+        "name": "Syringe",
+        "icon": "https://bg3.wiki/w/images/thumb/d/db/Syringe_Unfaded.png/50px-Syringe_Unfaded.png",
+        "wikiLink": "https://bg3.wiki/wiki/Syringe"
+      },
+      {
+        "name": "Torch",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8a/Torch_Unfaded_Icon.png/50px-Torch_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Torch"
+      },
+      {
+        "name": "Trepan",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8c/Trepan_Unfaded_Icon.png/50px-Trepan_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Trepan"
+      },
+      {
+        "name": "Trident of the Depths",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b8/Trident_Unfaded_Icon.png/50px-Trident_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Trident_of_the_Depths"
+      },
+      {
+        "name": "Twisted Oak Crook",
+        "icon": "https://bg3.wiki/w/images/thumb/b/bd/Dryad_Staff_Unfaded_Icon.png/50px-Dryad_Staff_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Twisted_Oak_Crook"
+      },
+      {
+        "name": "Twisting Branch",
+        "icon": "https://bg3.wiki/w/images/thumb/0/0f/Wood_Woad_Twisting_Branch_Unfaded_Icon.png/50px-Wood_Woad_Twisting_Branch_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Twisting_Branch"
+      },
+      {
+        "name": "Watcher Crossbow",
+        "icon": "https://bg3.wiki/w/images/thumb/5/53/Hellfire_Engine_Crossbow_Unfaded_Icon.png/50px-Hellfire_Engine_Crossbow_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Watcher_Crossbow"
+      },
+      {
+        "name": "Watcher Greatsword",
+        "icon": "https://bg3.wiki/w/images/thumb/5/50/Greatsword_B_Unfaded_Icon.png/50px-Greatsword_B_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Watcher_Greatsword"
+      },
+      {
+        "name": "Whipping Cane",
+        "icon": "https://bg3.wiki/w/images/thumb/1/11/Duergar_Whipping_Cane_Unfaded_Icon.png/50px-Duergar_Whipping_Cane_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Whipping_Cane"
+      },
+      {
+        "name": "Azer Warhammer",
+        "icon": "https://bg3.wiki/w/images/thumb/2/2c/Azer_Warhammer_Unfaded_Icon.png/50px-Azer_Warhammer_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Azer_Warhammer"
+      },
+      {
+        "name": "Broken Club",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c3/Broken_Club_Unfaded.png/50px-Broken_Club_Unfaded.png",
+        "wikiLink": "https://bg3.wiki/wiki/Broken_Club"
+      },
+      {
+        "name": "Chessa's Practice Sword",
+        "icon": "https://bg3.wiki/w/images/thumb/a/a6/Practice_Sword_Unfaded_Icon.png/50px-Practice_Sword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Chessa%27s_Practice_Sword"
+      },
+      {
+        "name": "Dad's Axe",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c2/Handaxe_Unfaded_Icon.png/50px-Handaxe_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Dad%27s_Axe"
+      },
+      {
+        "name": "Dagger",
+        "icon": "https://bg3.wiki/w/images/thumb/6/67/Dagger_Unfaded_Icon.png/50px-Dagger_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Dagger"
+      },
+      {
+        "name": "Druid Quarterstaff",
+        "icon": "https://bg3.wiki/w/images/thumb/8/81/Druid_Quarterstaff_Unfaded_Icon.png/50px-Druid_Quarterstaff_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Druid_Quarterstaff"
+      },
+      {
+        "name": "Flail",
+        "icon": "https://bg3.wiki/w/images/thumb/3/3f/Flail_Unfaded_Icon.png/50px-Flail_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Flail"
+      },
+      {
+        "name": "Flame Blade (Weapon)",
+        "icon": "https://bg3.wiki/w/images/thumb/6/61/Flame_Blade_Weapon_Unfaded_Icon.png/50px-Flame_Blade_Weapon_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Flame_Blade_(Weapon)"
+      },
+      {
+        "name": "Greatclub",
+        "icon": "https://bg3.wiki/w/images/thumb/3/39/Greatclub_Unfaded_Icon.png/50px-Greatclub_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Greatclub"
+      },
+      {
+        "name": "Hand Crossbow",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e5/Hand_Crossbow_Unfaded_Icon.png/50px-Hand_Crossbow_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hand_Crossbow"
+      },
+      {
+        "name": "Hand Crossbow (Yurgir)",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e5/Hand_Crossbow_Unfaded_Icon.png/50px-Hand_Crossbow_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hand_Crossbow_(Yurgir)"
+      },
+      {
+        "name": "Handaxe",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c2/Handaxe_Unfaded_Icon.png/50px-Handaxe_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Handaxe"
+      },
+      {
+        "name": "Heavy Crossbow",
+        "icon": "https://bg3.wiki/w/images/thumb/8/89/Heavy_Crossbow_Unfaded_Icon.png/50px-Heavy_Crossbow_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Heavy_Crossbow"
+      },
+      {
+        "name": "Heavy Spiked Club",
+        "icon": "https://bg3.wiki/w/images/thumb/2/25/Heavy_Spiked_Club_Unfaded.png/50px-Heavy_Spiked_Club_Unfaded.png",
+        "wikiLink": "https://bg3.wiki/wiki/Heavy_Spiked_Club"
+      },
+      {
+        "name": "Javelin",
+        "icon": "https://bg3.wiki/w/images/thumb/9/95/Javelin_Unfaded_Icon.png/50px-Javelin_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Javelin"
+      },
+      {
+        "name": "Kass' Practice Sword",
+        "icon": "https://bg3.wiki/w/images/thumb/a/a6/Practice_Sword_Unfaded_Icon.png/50px-Practice_Sword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Kass%27_Practice_Sword"
+      },
+      {
+        "name": "Light Hammer",
+        "icon": "https://bg3.wiki/w/images/thumb/4/4f/Light_Hammer_Unfaded_Icon.png/50px-Light_Hammer_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Light_Hammer"
+      },
+      {
+        "name": "Longbow",
+        "icon": "https://bg3.wiki/w/images/thumb/a/af/Longbow_Item_Icon.png/50px-Longbow_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Longbow"
+      },
+      {
+        "name": "Longsword",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d8/Longsword_Item_Icon.png/50px-Longsword_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Longsword"
+      },
+      {
+        "name": "Morningstar",
+        "icon": "https://bg3.wiki/w/images/thumb/3/3b/Morningstar_Unfaded_Icon.png/50px-Morningstar_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Morningstar"
+      },
+      {
+        "name": "Pike",
+        "icon": "https://bg3.wiki/w/images/thumb/0/0e/Pike_Unfaded_Icon.png/50px-Pike_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Pike"
+      },
+      {
+        "name": "Poo-Scraper",
+        "icon": "https://bg3.wiki/w/images/thumb/8/83/Rusty_Dagger_Unfaded_Icon.png/50px-Rusty_Dagger_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Poo-Scraper"
+      },
+      {
+        "name": "Quarterstaff",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9f/Quarterstaff_Unfaded_Icon.png/50px-Quarterstaff_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Quarterstaff"
+      },
+      {
+        "name": "Rapier",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c7/Rapier_Unfaded_Icon.png/50px-Rapier_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rapier"
+      },
+      {
+        "name": "Sahuagin Longbow",
+        "icon": "https://bg3.wiki/w/images/thumb/a/af/Longbow_Item_Icon.png/50px-Longbow_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sahuagin_Longbow"
+      },
+      {
+        "name": "Sahuagin Spear",
+        "icon": "https://bg3.wiki/w/images/thumb/6/62/Spear_Unfaded_Icon.png/50px-Spear_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sahuagin_Spear"
+      },
+      {
+        "name": "Salami",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8e/FOOD_Dried_Beef_Sausage_Unfaded.png/50px-FOOD_Dried_Beef_Sausage_Unfaded.png",
+        "wikiLink": "https://bg3.wiki/wiki/Salami"
+      },
+      {
+        "name": "Scimitar",
+        "icon": "https://bg3.wiki/w/images/thumb/d/da/Scimitar_Unfaded_Icon.png/50px-Scimitar_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Scimitar"
+      },
+      {
+        "name": "Shortbow",
+        "icon": "https://bg3.wiki/w/images/thumb/e/ef/Shortbow_Unfaded_Icon.png/50px-Shortbow_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shortbow"
+      },
+      {
+        "name": "Shortsword",
+        "icon": "https://bg3.wiki/w/images/thumb/7/7a/Shortsword_Unfaded_Icon.png/50px-Shortsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shortsword"
+      },
+      {
+        "name": "Shortsword (Yurgir)",
+        "icon": "https://bg3.wiki/w/images/thumb/4/44/Shortsword_Yurgir_Icon.png/50px-Shortsword_Yurgir_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shortsword_(Yurgir)"
+      },
+      {
+        "name": "Sickle",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9a/Sickle_Unfaded_Icon.png/50px-Sickle_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sickle"
+      },
+      {
+        "name": "Sickle (Redcap)",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9a/Sickle_Unfaded_Icon.png/50px-Sickle_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sickle_(Redcap)"
+      },
+      {
+        "name": "Spear",
+        "icon": "https://bg3.wiki/w/images/thumb/6/62/Spear_Unfaded_Icon.png/50px-Spear_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Spear"
+      },
+      {
+        "name": "Staff",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c1/Pale_Oak_Staff_Unfaded_Icon.png/50px-Pale_Oak_Staff_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Staff"
+      },
+      {
+        "name": "Staff of the Moonmaiden",
+        "icon": "https://bg3.wiki/w/images/thumb/8/89/Magic_Staff_B_Unfaded_Icon.png/50px-Magic_Staff_B_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Staff_of_the_Moonmaiden"
+      },
+      {
+        "name": "Trident",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b8/Trident_Unfaded_Icon.png/50px-Trident_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Trident"
+      },
+      {
+        "name": "War Pick",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e0/War_Pick_Unfaded_Icon.png/50px-War_Pick_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/War_Pick"
+      },
+      {
+        "name": "Warhammer",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d9/Warhammer_Item_Icon.png/50px-Warhammer_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Warhammer"
+      }
+    ],
+    "Uncommon": [
+      {
+        "name": "Argument Solver",
+        "icon": "https://bg3.wiki/w/images/thumb/5/5e/Greatclub_PlusOne_Unfaded_Icon.png/50px-Greatclub_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Argument_Solver"
+      },
+      {
+        "name": "Artificial Leech (+1)",
+        "icon": "https://bg3.wiki/w/images/thumb/0/00/Artificial_Leech_Unfaded_Icon.png/50px-Artificial_Leech_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Artificial_Leech_(%2B1)"
+      },
+      {
+        "name": "Assassin's Shortsword",
+        "icon": "https://bg3.wiki/w/images/thumb/2/27/Shortsword_PlusOne_Unfaded_Icon.png/50px-Shortsword_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Assassin%27s_Shortsword"
+      },
+      {
+        "name": "Assassin's Touch",
+        "icon": "https://bg3.wiki/w/images/thumb/6/67/Dagger_Unfaded_Icon.png/50px-Dagger_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Assassin%27s_Touch"
+      },
+      {
+        "name": "Battleaxe +1",
+        "icon": "https://bg3.wiki/w/images/thumb/7/79/Battleaxe_PlusOne_Unfaded_Icon.png/50px-Battleaxe_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Battleaxe_%2B1"
+      },
+      {
+        "name": "Bonesaw (+1)",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9a/Bonesaw_Item_Icon.png/50px-Bonesaw_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Bonesaw_(%2B1)"
+      },
+      {
+        "name": "Bow of Awareness",
+        "icon": "https://bg3.wiki/w/images/thumb/4/46/Shortbow_PlusOne_Unfaded_Icon.png/50px-Shortbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Bow_of_Awareness"
+      },
+      {
+        "name": "Ceremonial Battleaxe",
+        "icon": "https://bg3.wiki/w/images/thumb/7/79/Battleaxe_PlusOne_Unfaded_Icon.png/50px-Battleaxe_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ceremonial_Battleaxe"
+      },
+      {
+        "name": "Ceremonial Longsword",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6e/Longsword_%2B1_Unfaded_Icon.png/50px-Longsword_%2B1_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ceremonial_Longsword"
+      },
+      {
+        "name": "Ceremonial Mace",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8f/Mace_PlusOne_Unfaded_Icon.png/50px-Mace_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ceremonial_Mace"
+      },
+      {
+        "name": "Ceremonial Warhammer",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e4/Warhammer_PlusOne_Unfaded_Icon.png/50px-Warhammer_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ceremonial_Warhammer"
+      },
+      {
+        "name": "Club of Hill Giant Strength",
+        "icon": "https://bg3.wiki/w/images/thumb/e/ea/Club_Unfaded_Icon.png/50px-Club_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Club_of_Hill_Giant_Strength"
+      },
+      {
+        "name": "Comeback Handaxe",
+        "icon": "https://bg3.wiki/w/images/thumb/c/cf/Handaxe_PlusOne_Unfaded_Icon.png/50px-Handaxe_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Comeback_Handaxe"
+      },
+      {
+        "name": "Corellon's Grace",
+        "icon": "https://bg3.wiki/w/images/thumb/8/89/Magic_Staff_B_Unfaded_Icon.png/50px-Magic_Staff_B_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Corellon%27s_Grace"
+      },
+      {
+        "name": "Crossbow of Arcane Force",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b6/Crossbow_of_Arcane_Force_Unfaded_Icon.png/50px-Crossbow_of_Arcane_Force_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Crossbow_of_Arcane_Force"
+      },
+      {
+        "name": "Dagger +1",
+        "icon": "https://bg3.wiki/w/images/thumb/6/61/Dagger_PlusOne_Unfaded_Icon.png/50px-Dagger_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Dagger_%2B1"
+      },
+      {
+        "name": "Deep Delver",
+        "icon": "https://bg3.wiki/w/images/thumb/8/85/Warpick_PlusOne_Unfaded_Icon.png/50px-Warpick_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Deep_Delver"
+      },
+      {
+        "name": "Doom Hammer",
+        "icon": "https://bg3.wiki/w/images/thumb/1/1f/Maul_PlusOne_Unfaded_Icon.png/50px-Maul_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Doom_Hammer"
+      },
+      {
+        "name": "Dragon's Grasp",
+        "icon": "https://bg3.wiki/w/images/thumb/c/cf/Handaxe_PlusOne_Unfaded_Icon.png/50px-Handaxe_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Dragon%27s_Grasp"
+      },
+      {
+        "name": "Everburn Blade",
+        "icon": "https://bg3.wiki/w/images/thumb/f/fc/Greatsword_B_PlusOne_Unfaded_Icon.png/50px-Greatsword_B_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Everburn_Blade"
+      },
+      {
+        "name": "Exterminator's Axe",
+        "icon": "https://bg3.wiki/w/images/thumb/5/55/Greataxe_PlusOne_Unfaded_Icon.png/50px-Greataxe_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Exterminator%27s_Axe"
+      },
+      {
+        "name": "Faithbreaker",
+        "icon": "https://bg3.wiki/w/images/thumb/b/bd/Faithbreaker_Unfaded_Icon.png/50px-Faithbreaker_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Faithbreaker"
+      },
+      {
+        "name": "Firestoker",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b5/Hand_Crossbow_PlusOne_Unfaded_Icon.png/50px-Hand_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Firestoker"
+      },
+      {
+        "name": "Flail +1",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6b/Flail_PlusOne_Unfaded_Icon.png/50px-Flail_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Flail_%2B1"
+      },
+      {
+        "name": "Gandrel's Aspiration",
+        "icon": "https://bg3.wiki/w/images/thumb/5/59/Heavy_Crossbow_PlusOne_Unfaded_Icon.png/50px-Heavy_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Gandrel%27s_Aspiration"
+      },
+      {
+        "name": "Githyanki Crossbow",
+        "icon": "https://bg3.wiki/w/images/thumb/c/ce/Githyanki_Heavy_Crossbow_Unfaded_Icon.png/50px-Githyanki_Heavy_Crossbow_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Githyanki_Crossbow"
+      },
+      {
+        "name": "Githyanki Greatsword",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b5/Githyanki_Greatsword_Unfaded_Icon.png/50px-Githyanki_Greatsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Githyanki_Greatsword"
+      },
+      {
+        "name": "Githyanki Greatsword (Psionic)",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b5/Githyanki_Greatsword_Unfaded_Icon.png/50px-Githyanki_Greatsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Githyanki_Greatsword_(Psionic)"
+      },
+      {
+        "name": "Githyanki Longsword (+1)",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c2/Githyanki_Longsword_Item_Icon.png/50px-Githyanki_Longsword_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Githyanki_Longsword_(%2B1)"
+      },
+      {
+        "name": "Githyanki Shortsword (+1)",
+        "icon": "https://bg3.wiki/w/images/thumb/0/08/Githyanki_Shortsword_Unfaded_Icon.png/50px-Githyanki_Shortsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Githyanki_Shortsword_(%2B1)"
+      },
+      {
+        "name": "Glaive +1",
+        "icon": "https://bg3.wiki/w/images/thumb/7/70/Glaive_PlusOne_Unfaded_Icon.png/50px-Glaive_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Glaive_%2B1"
+      },
+      {
+        "name": "Greataxe +1",
+        "icon": "https://bg3.wiki/w/images/thumb/5/55/Greataxe_PlusOne_Unfaded_Icon.png/50px-Greataxe_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Greataxe_%2B1"
+      },
+      {
+        "name": "Greatclub +1",
+        "icon": "https://bg3.wiki/w/images/thumb/5/5e/Greatclub_PlusOne_Unfaded_Icon.png/50px-Greatclub_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Greatclub_%2B1"
+      },
+      {
+        "name": "Greatsword +1",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c2/Greatsword_PlusOne_Unfaded_Icon.png/50px-Greatsword_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Greatsword_%2B1"
+      },
+      {
+        "name": "Halberd +1",
+        "icon": "https://bg3.wiki/w/images/thumb/4/4d/Halberd_PlusOne_Unfaded_Icon.png/50px-Halberd_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Halberd_%2B1"
+      },
+      {
+        "name": "Hamarhraft",
+        "icon": "https://bg3.wiki/w/images/thumb/a/ab/Hamarhraft_Unfaded_Icon.png/50px-Hamarhraft_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hamarhraft"
+      },
+      {
+        "name": "Hand Crossbow +1",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b5/Hand_Crossbow_PlusOne_Unfaded_Icon.png/50px-Hand_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hand_Crossbow_%2B1"
+      },
+      {
+        "name": "Handaxe +1",
+        "icon": "https://bg3.wiki/w/images/thumb/c/cf/Handaxe_PlusOne_Unfaded_Icon.png/50px-Handaxe_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Handaxe_%2B1"
+      },
+      {
+        "name": "Heavy Crossbow +1",
+        "icon": "https://bg3.wiki/w/images/thumb/5/59/Heavy_Crossbow_PlusOne_Unfaded_Icon.png/50px-Heavy_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Heavy_Crossbow_%2B1"
+      },
+      {
+        "name": "Hellrider Longbow",
+        "icon": "https://bg3.wiki/w/images/thumb/7/79/Longbow_PlusOne_Unfaded_Icon.png/50px-Longbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hellrider_Longbow"
+      },
+      {
+        "name": "Hoppy",
+        "icon": "https://bg3.wiki/w/images/thumb/8/85/Warpick_PlusOne_Unfaded_Icon.png/50px-Warpick_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hoppy"
+      },
+      {
+        "name": "Hunter's Dagger",
+        "icon": "https://bg3.wiki/w/images/thumb/6/61/Dagger_PlusOne_Unfaded_Icon.png/50px-Dagger_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hunter%27s_Dagger"
+      },
+      {
+        "name": "Hunting Shortbow",
+        "icon": "https://bg3.wiki/w/images/thumb/4/46/Shortbow_PlusOne_Unfaded_Icon.png/50px-Shortbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hunting_Shortbow"
+      },
+      {
+        "name": "Intransigent Warhammer",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e4/Warhammer_PlusOne_Unfaded_Icon.png/50px-Warhammer_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Intransigent_Warhammer"
+      },
+      {
+        "name": "Ironwood Club",
+        "icon": "https://bg3.wiki/w/images/thumb/0/0f/Wood_Woad_Twisting_Branch_Unfaded_Icon.png/50px-Wood_Woad_Twisting_Branch_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ironwood_Club"
+      },
+      {
+        "name": "Jagged Spear",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9e/Jagged_Spear_Unfaded_Icon.png/50px-Jagged_Spear_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Jagged_Spear"
+      },
+      {
+        "name": "Javelin +1",
+        "icon": "https://bg3.wiki/w/images/thumb/f/fe/Javelin_PlusOne_Unfaded_Icon.png/50px-Javelin_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Javelin_%2B1"
+      },
+      {
+        "name": "Katana",
+        "icon": "https://bg3.wiki/w/images/thumb/4/4c/Katana_Unfaded_Icon.png/50px-Katana_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Katana"
+      },
+      {
+        "name": "Kurwin's Cauteriser",
+        "icon": "https://bg3.wiki/w/images/thumb/1/1f/Scimitar_PlusOne_Unfaded_Icon.png/50px-Scimitar_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Kurwin%27s_Cauteriser"
+      },
+      {
+        "name": "Light Crossbow +1",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c9/Light_Crossbow_PlusOne_Unfaded_Icon.png/50px-Light_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Light_Crossbow_%2B1"
+      },
+      {
+        "name": "Light Hammer +1",
+        "icon": "https://bg3.wiki/w/images/thumb/2/23/Light_Hammer_PlusOne_Unfaded_Icon.png/50px-Light_Hammer_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Light_Hammer_%2B1"
+      },
+      {
+        "name": "Light of Creation",
+        "icon": "https://bg3.wiki/w/images/thumb/6/69/Light_of_Creation_Unfaded_Icon.png/50px-Light_of_Creation_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Light_of_Creation"
+      },
+      {
+        "name": "Lightning Jabber",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9a/Kuotoa_Javelin_PlusOne_Unfaded_Icon.png/50px-Kuotoa_Javelin_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Lightning_Jabber"
+      },
+      {
+        "name": "Longbow +1",
+        "icon": "https://bg3.wiki/w/images/thumb/7/79/Longbow_PlusOne_Unfaded_Icon.png/50px-Longbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Longbow_%2B1"
+      },
+      {
+        "name": "Longsword +1",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6e/Longsword_%2B1_Unfaded_Icon.png/50px-Longsword_%2B1_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Longsword_%2B1"
+      },
+      {
+        "name": "Loviatar's Scourge",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8f/Mace_PlusOne_Unfaded_Icon.png/50px-Mace_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Loviatar%27s_Scourge"
+      },
+      {
+        "name": "Mace +1",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8f/Mace_PlusOne_Unfaded_Icon.png/50px-Mace_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Mace_%2B1"
+      },
+      {
+        "name": "Magical Pike",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c2/Pike_PlusOne_Unfaded_Icon.png/50px-Pike_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Magical_Pike"
+      },
+      {
+        "name": "Maul +1",
+        "icon": "https://bg3.wiki/w/images/thumb/1/1f/Maul_PlusOne_Unfaded_Icon.png/50px-Maul_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Maul_%2B1"
+      },
+      {
+        "name": "Melf's First Staff",
+        "icon": "https://bg3.wiki/w/images/thumb/8/89/Magic_Staff_B_Unfaded_Icon.png/50px-Magic_Staff_B_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Melf%27s_First_Staff"
+      },
+      {
+        "name": "Merregon Halberd",
+        "icon": "https://bg3.wiki/w/images/thumb/4/46/Merregon_Halberd_Unfaded_Icon.png/50px-Merregon_Halberd_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Merregon_Halberd"
+      },
+      {
+        "name": "Morningstar +1",
+        "icon": "https://bg3.wiki/w/images/thumb/4/40/Morningstar_PlusOne_Unfaded_Icon.png/50px-Morningstar_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Morningstar_%2B1"
+      },
+      {
+        "name": "Murderous Cut",
+        "icon": "https://bg3.wiki/w/images/thumb/8/83/Rusty_Dagger_Unfaded_Icon.png/50px-Rusty_Dagger_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Murderous_Cut"
+      },
+      {
+        "name": "Myrkulite Scourge",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6b/Flail_PlusOne_Unfaded_Icon.png/50px-Flail_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Myrkulite_Scourge"
+      },
+      {
+        "name": "Nature's Snare",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d2/Natures_Snare_Unfaded_Icon.png/50px-Natures_Snare_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Nature%27s_Snare"
+      },
+      {
+        "name": "Pike +1",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c2/Pike_PlusOne_Unfaded_Icon.png/50px-Pike_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Pike_%2B1"
+      },
+      {
+        "name": "Quarterstaff +1",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Quarterstaff_PlusOne_Unfaded_Icon.png/50px-Quarterstaff_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Quarterstaff_%2B1"
+      },
+      {
+        "name": "Rain Dancer",
+        "icon": "https://bg3.wiki/w/images/thumb/9/91/Magic_Staff_C_Unfaded_Icon.png/50px-Magic_Staff_C_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rain_Dancer"
+      },
+      {
+        "name": "Rapier +1",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d7/Rapier_PlusOne_Unfaded_Icon.png/50px-Rapier_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rapier_%2B1"
+      },
+      {
+        "name": "Render of Mind and Body",
+        "icon": "https://bg3.wiki/w/images/thumb/2/27/Shortsword_PlusOne_Unfaded_Icon.png/50px-Shortsword_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Render_of_Mind_and_Body"
+      },
+      {
+        "name": "Returning Pike",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c2/Pike_PlusOne_Unfaded_Icon.png/50px-Pike_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Returning_Pike"
+      },
+      {
+        "name": "Ritual Axe",
+        "icon": "https://bg3.wiki/w/images/thumb/c/cf/Handaxe_PlusOne_Unfaded_Icon.png/50px-Handaxe_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ritual_Axe"
+      },
+      {
+        "name": "Ritual Dagger",
+        "icon": "https://bg3.wiki/w/images/thumb/6/61/Dagger_PlusOne_Unfaded_Icon.png/50px-Dagger_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ritual_Dagger"
+      },
+      {
+        "name": "Ritual Dagger of Shar",
+        "icon": "https://bg3.wiki/w/images/thumb/6/61/Dagger_PlusOne_Unfaded_Icon.png/50px-Dagger_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ritual_Dagger_of_Shar"
+      },
+      {
+        "name": "Rupturing Blade",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d7/Rapier_PlusOne_Unfaded_Icon.png/50px-Rapier_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rupturing_Blade"
+      },
+      {
+        "name": "Scimitar +1",
+        "icon": "https://bg3.wiki/w/images/thumb/1/1f/Scimitar_PlusOne_Unfaded_Icon.png/50px-Scimitar_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Scimitar_%2B1"
+      },
+      {
+        "name": "Shadow Blade (weapon)",
+        "icon": "https://bg3.wiki/w/images/thumb/2/27/Shortsword_PlusOne_Unfaded_Icon.png/50px-Shortsword_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shadow_Blade_(weapon)"
+      },
+      {
+        "name": "Sharran Crossbow",
+        "icon": "https://bg3.wiki/w/images/thumb/0/09/Light_Crossbow_Unfaded_Icon.png/50px-Light_Crossbow_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sharran_Crossbow"
+      },
+      {
+        "name": "Shining Staver-of-Skulls",
+        "icon": "https://bg3.wiki/w/images/thumb/2/23/Light_Hammer_PlusOne_Unfaded_Icon.png/50px-Light_Hammer_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shining_Staver-of-Skulls"
+      },
+      {
+        "name": "Shortbow +1",
+        "icon": "https://bg3.wiki/w/images/thumb/4/46/Shortbow_PlusOne_Unfaded_Icon.png/50px-Shortbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shortbow_%2B1"
+      },
+      {
+        "name": "Shortsword +1",
+        "icon": "https://bg3.wiki/w/images/thumb/2/27/Shortsword_PlusOne_Unfaded_Icon.png/50px-Shortsword_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shortsword_%2B1"
+      },
+      {
+        "name": "Shortsword of First Blood",
+        "icon": "https://bg3.wiki/w/images/thumb/2/27/Shortsword_PlusOne_Unfaded_Icon.png/50px-Shortsword_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shortsword_of_First_Blood"
+      },
+      {
+        "name": "Skybreaker",
+        "icon": "https://bg3.wiki/w/images/thumb/a/a3/Light_Hammer_B_PlusOne_Unfaded_Icon.png/50px-Light_Hammer_B_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Skybreaker"
+      },
+      {
+        "name": "Spear +1",
+        "icon": "https://bg3.wiki/w/images/thumb/e/ea/Spear_PlusOne_Unfaded_Icon.png/50px-Spear_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Spear_%2B1"
+      },
+      {
+        "name": "Speedy Reply",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e8/Speedy_Reply_Scimitar_Unfaded_Icon.png/50px-Speedy_Reply_Scimitar_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Speedy_Reply"
+      },
+      {
+        "name": "Spellthief",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8f/Longbow_PlusOne_Item_Icon.png/50px-Longbow_PlusOne_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Spellthief"
+      },
+      {
+        "name": "Staff of a Mumbling Wizard",
+        "icon": "https://bg3.wiki/w/images/thumb/8/81/Druid_Quarterstaff_Unfaded_Icon.png/50px-Druid_Quarterstaff_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Staff_of_a_Mumbling_Wizard"
+      },
+      {
+        "name": "Staff of Arcane Blessing",
+        "icon": "https://bg3.wiki/w/images/thumb/9/91/Magic_Staff_A_Unfaded_Icon.png/50px-Magic_Staff_A_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Staff_of_Arcane_Blessing"
+      },
+      {
+        "name": "Staff of Crones",
+        "icon": "https://bg3.wiki/w/images/thumb/a/aa/Staff_of_Crones_Unfaded_Icon.png/50px-Staff_of_Crones_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Staff_of_Crones"
+      },
+      {
+        "name": "Steelforged Sword",
+        "icon": "https://bg3.wiki/w/images/thumb/2/27/Shortsword_PlusOne_Unfaded_Icon.png/50px-Shortsword_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Steelforged_Sword"
+      },
+      {
+        "name": "Svartlebee's Woundseeker",
+        "icon": "https://bg3.wiki/w/images/thumb/5/50/Greatsword_B_Unfaded_Icon.png/50px-Greatsword_B_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Svartlebee%27s_Woundseeker"
+      },
+      {
+        "name": "Sword of Justice",
+        "icon": "https://bg3.wiki/w/images/thumb/d/de/Sword_of_Justice_Unfaded_Icon.png/50px-Sword_of_Justice_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sword_of_Justice"
+      },
+      {
+        "name": "Sword of Screams",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d7/Rapier_PlusOne_Unfaded_Icon.png/50px-Rapier_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sword_of_Screams"
+      },
+      {
+        "name": "Sylvan Scimitar",
+        "icon": "https://bg3.wiki/w/images/thumb/1/1f/Scimitar_PlusOne_Unfaded_Icon.png/50px-Scimitar_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sylvan_Scimitar"
+      },
+      {
+        "name": "Syringe (+1)",
+        "icon": "https://bg3.wiki/w/images/thumb/d/db/Syringe_Unfaded.png/50px-Syringe_Unfaded.png",
+        "wikiLink": "https://bg3.wiki/wiki/Syringe_(%2B1)"
+      },
+      {
+        "name": "The Skinburster",
+        "icon": "https://bg3.wiki/w/images/thumb/4/4d/Halberd_PlusOne_Unfaded_Icon.png/50px-Halberd_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Skinburster"
+      },
+      {
+        "name": "The Undead Bane",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b7/Greataxe_B_PlusOne_Unfaded_Icon.png/50px-Greataxe_B_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Undead_Bane"
+      },
+      {
+        "name": "The Watcher's Guide",
+        "icon": "https://bg3.wiki/w/images/thumb/1/10/The_Watchers_Guide_Unfaded_Icon.png/50px-The_Watchers_Guide_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Watcher%27s_Guide"
+      },
+      {
+        "name": "Trepan (+1)",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8c/Trepan_Unfaded_Icon.png/50px-Trepan_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Trepan_(%2B1)"
+      },
+      {
+        "name": "Trident +1",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8a/Trident_PlusOne_Unfaded_Icon.png/50px-Trident_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Trident_%2B1"
+      },
+      {
+        "name": "Very Heavy Greataxe",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b7/Greataxe_B_PlusOne_Unfaded_Icon.png/50px-Greataxe_B_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Very_Heavy_Greataxe"
+      },
+      {
+        "name": "Vision of the Absolute",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d3/Vision_of_the_Absolute_Unfaded_Icon.png/50px-Vision_of_the_Absolute_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Vision_of_the_Absolute"
+      },
+      {
+        "name": "War Pick +1",
+        "icon": "https://bg3.wiki/w/images/thumb/8/85/Warpick_PlusOne_Unfaded_Icon.png/50px-Warpick_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/War_Pick_%2B1"
+      },
+      {
+        "name": "Warhammer +1",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e4/Warhammer_PlusOne_Unfaded_Icon.png/50px-Warhammer_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Warhammer_%2B1"
+      },
+      {
+        "name": "Witchbreaker",
+        "icon": "https://bg3.wiki/w/images/thumb/7/79/Battleaxe_PlusOne_Unfaded_Icon.png/50px-Battleaxe_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Witchbreaker"
+      },
+      {
+        "name": "Worgfang",
+        "icon": "https://bg3.wiki/w/images/thumb/5/51/Worgfang_Unfaded_Icon.png/50px-Worgfang_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Worgfang"
+      },
+      {
+        "name": "Wulbren's Hammer",
+        "icon": "https://bg3.wiki/w/images/thumb/9/91/Light_Hammer_B_Unfaded_Icon.png/50px-Light_Hammer_B_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Wulbren%27s_Hammer"
+      },
+      {
+        "name": "Xyanyde",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8f/Mace_PlusOne_Unfaded_Icon.png/50px-Mace_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Xyanyde"
+      }
+    ],
+    "Rare": [
+      {
+        "name": "Adamantine Longsword",
+        "icon": "https://bg3.wiki/w/images/thumb/9/92/Adamantine_Longsword_Unfaded_Icon.png/50px-Adamantine_Longsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Adamantine_Longsword"
+      },
+      {
+        "name": "Adamantine Mace",
+        "icon": "https://bg3.wiki/w/images/thumb/0/03/Adamantine_Mace_Unfaded_Icon.png/50px-Adamantine_Mace_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Adamantine_Mace"
+      },
+      {
+        "name": "Adamantine Scimitar",
+        "icon": "https://bg3.wiki/w/images/thumb/f/f5/Adamantine_Scimitar_Unfaded_Icon.png/50px-Adamantine_Scimitar_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Adamantine_Scimitar"
+      },
+      {
+        "name": "Ambusher",
+        "icon": "https://bg3.wiki/w/images/thumb/2/27/Shortsword_PlusOne_Unfaded_Icon.png/50px-Shortsword_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ambusher"
+      },
+      {
+        "name": "Bigboy's Chew Toy",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9b/Bigboy%27s_Chew_Toy_Unfaded_Icon.png/50px-Bigboy%27s_Chew_Toy_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Bigboy%27s_Chew_Toy"
+      },
+      {
+        "name": "Blackguard's Sword",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9a/Blackguard%27s_Sword_Item_Icon.png/50px-Blackguard%27s_Sword_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Blackguard%27s_Sword"
+      },
+      {
+        "name": "Blade of Oppressed Souls",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6e/Longsword_%2B1_Unfaded_Icon.png/50px-Longsword_%2B1_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Blade_of_Oppressed_Souls"
+      },
+      {
+        "name": "Blooded Greataxe",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d6/Blooded_Greataxe_Unfaded_Icon.png/50px-Blooded_Greataxe_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Blooded_Greataxe"
+      },
+      {
+        "name": "Bow of the Banshee",
+        "icon": "https://bg3.wiki/w/images/thumb/4/46/Shortbow_PlusOne_Unfaded_Icon.png/50px-Shortbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Bow_of_the_Banshee"
+      },
+      {
+        "name": "Breaching Pikestaff",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c2/Pike_PlusOne_Unfaded_Icon.png/50px-Pike_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Breaching_Pikestaff"
+      },
+      {
+        "name": "Cacophony",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Quarterstaff_PlusOne_Unfaded_Icon.png/50px-Quarterstaff_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Cacophony"
+      },
+      {
+        "name": "Caitiff Staff",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Quarterstaff_PlusOne_Unfaded_Icon.png/50px-Quarterstaff_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Caitiff_Staff"
+      },
+      {
+        "name": "Charge-Bound Warhammer",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e4/Warhammer_PlusOne_Unfaded_Icon.png/50px-Warhammer_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Charge-Bound_Warhammer"
+      },
+      {
+        "name": "Clown Hammer",
+        "icon": "https://bg3.wiki/w/images/thumb/4/4d/Clown_Hammer_Unfaded_Icon.png/50px-Clown_Hammer_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Clown_Hammer"
+      },
+      {
+        "name": "Cold Snap",
+        "icon": "https://bg3.wiki/w/images/thumb/2/2c/Dagger_PlusTwo_Unfaded_Icon.png/50px-Dagger_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Cold_Snap"
+      },
+      {
+        "name": "Corpsegrinder",
+        "icon": "https://bg3.wiki/w/images/thumb/d/de/Maul_PlusTwo_Unfaded_Icon.png/50px-Maul_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Corpsegrinder"
+      },
+      {
+        "name": "Corrosive Flail",
+        "icon": "https://bg3.wiki/w/images/thumb/c/cd/Flail_PlusTwo_Unfaded_Icon.png/50px-Flail_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Corrosive_Flail"
+      },
+      {
+        "name": "Creation's Echo",
+        "icon": "https://bg3.wiki/w/images/thumb/9/91/Magic_Staff_A_Unfaded_Icon.png/50px-Magic_Staff_A_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Creation%27s_Echo"
+      },
+      {
+        "name": "Cruel Sting",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6e/Longsword_%2B1_Unfaded_Icon.png/50px-Longsword_%2B1_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Cruel_Sting"
+      },
+      {
+        "name": "Dagger +2",
+        "icon": "https://bg3.wiki/w/images/thumb/2/2c/Dagger_PlusTwo_Unfaded_Icon.png/50px-Dagger_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Dagger_%2B2"
+      },
+      {
+        "name": "Darkfire Shortbow",
+        "icon": "https://bg3.wiki/w/images/thumb/4/46/Shortbow_PlusOne_Unfaded_Icon.png/50px-Shortbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Darkfire_Shortbow"
+      },
+      {
+        "name": "Defender Flail",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6b/Flail_PlusOne_Unfaded_Icon.png/50px-Flail_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Defender_Flail"
+      },
+      {
+        "name": "Defender Greataxe",
+        "icon": "https://bg3.wiki/w/images/thumb/c/ce/Greataxe_PlusTwo_Unfaded_Icon.png/50px-Greataxe_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Defender_Greataxe"
+      },
+      {
+        "name": "Despair of Athkatla",
+        "icon": "https://bg3.wiki/w/images/thumb/f/f8/Despair_of_Athkatla_Unfaded_Icon.png/50px-Despair_of_Athkatla_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Despair_of_Athkatla"
+      },
+      {
+        "name": "Dolor Amarus",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9b/Dolor_Amarus_Unfaded_Icon.png/50px-Dolor_Amarus_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Dolor_Amarus"
+      },
+      {
+        "name": "Drakethroat Glaive",
+        "icon": "https://bg3.wiki/w/images/thumb/0/03/Glaive_PlusTwo_Unfaded_Icon.png/50px-Glaive_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Drakethroat_Glaive"
+      },
+      {
+        "name": "Dread Iron Dagger",
+        "icon": "https://bg3.wiki/w/images/thumb/6/61/Dagger_PlusOne_Unfaded_Icon.png/50px-Dagger_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Dread_Iron_Dagger"
+      },
+      {
+        "name": "Duke Ravengard's Longsword",
+        "icon": "https://bg3.wiki/w/images/thumb/f/fb/Longsword_PlusTwo_Unfaded_Icon.png/50px-Longsword_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Duke_Ravengard%27s_Longsword"
+      },
+      {
+        "name": "Flail of Ages",
+        "icon": "https://bg3.wiki/w/images/thumb/c/cd/Flail_PlusTwo_Unfaded_Icon.png/50px-Flail_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Flail_of_Ages"
+      },
+      {
+        "name": "Fleshrender",
+        "icon": "https://bg3.wiki/w/images/thumb/2/29/Fleshrender_Unfaded_Icon.png/50px-Fleshrender_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Fleshrender"
+      },
+      {
+        "name": "Giantbreaker",
+        "icon": "https://bg3.wiki/w/images/thumb/5/59/Heavy_Crossbow_PlusOne_Unfaded_Icon.png/50px-Heavy_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Giantbreaker"
+      },
+      {
+        "name": "Gleamdance Dagger",
+        "icon": "https://bg3.wiki/w/images/thumb/2/2c/Dagger_PlusTwo_Unfaded_Icon.png/50px-Dagger_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Gleamdance_Dagger"
+      },
+      {
+        "name": "Gold Wyrmling Staff",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Quarterstaff_PlusOne_Unfaded_Icon.png/50px-Quarterstaff_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Gold_Wyrmling_Staff"
+      },
+      {
+        "name": "Greataxe +2",
+        "icon": "https://bg3.wiki/w/images/thumb/c/ce/Greataxe_PlusTwo_Unfaded_Icon.png/50px-Greataxe_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Greataxe_%2B2"
+      },
+      {
+        "name": "Hammer of the Just",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e4/Warhammer_PlusOne_Unfaded_Icon.png/50px-Warhammer_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hammer_of_the_Just"
+      },
+      {
+        "name": "Hand Crossbow +2",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b5/Hand_Crossbow_PlusOne_Unfaded_Icon.png/50px-Hand_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hand_Crossbow_%2B2"
+      },
+      {
+        "name": "Harmonic Dueller",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d7/Rapier_PlusOne_Unfaded_Icon.png/50px-Rapier_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Harmonic_Dueller"
+      },
+      {
+        "name": "Harmonium Halberd",
+        "icon": "https://bg3.wiki/w/images/thumb/4/4d/Halberd_PlusOne_Unfaded_Icon.png/50px-Halberd_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Harmonium_Halberd"
+      },
+      {
+        "name": "Harold",
+        "icon": "https://bg3.wiki/w/images/thumb/5/59/Heavy_Crossbow_PlusOne_Unfaded_Icon.png/50px-Heavy_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Harold"
+      },
+      {
+        "name": "Harper Sacredstriker",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Quarterstaff_PlusOne_Unfaded_Icon.png/50px-Quarterstaff_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Harper_Sacredstriker"
+      },
+      {
+        "name": "Hellbeard Halberd",
+        "icon": "https://bg3.wiki/w/images/thumb/4/46/Merregon_Halberd_Unfaded_Icon.png/50px-Merregon_Halberd_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hellbeard_Halberd"
+      },
+      {
+        "name": "Hollow's Staff",
+        "icon": "https://bg3.wiki/w/images/thumb/a/aa/Staff_of_Crones_Unfaded_Icon.png/50px-Staff_of_Crones_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hollow%27s_Staff"
+      },
+      {
+        "name": "Infernal Mace",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8f/Mace_PlusOne_Unfaded_Icon.png/50px-Mace_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Infernal_Mace"
+      },
+      {
+        "name": "Infernal Spear",
+        "icon": "https://bg3.wiki/w/images/thumb/e/ea/Spear_PlusOne_Unfaded_Icon.png/50px-Spear_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Infernal_Spear"
+      },
+      {
+        "name": "Jorgoral's Greatsword",
+        "icon": "https://bg3.wiki/w/images/thumb/f/fc/Greatsword_B_PlusOne_Unfaded_Icon.png/50px-Greatsword_B_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Jorgoral%27s_Greatsword"
+      },
+      {
+        "name": "Ketheric's Warhammer",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e4/Warhammer_PlusOne_Unfaded_Icon.png/50px-Warhammer_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ketheric%27s_Warhammer"
+      },
+      {
+        "name": "Larethian's Wrath",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6e/Longsword_%2B1_Unfaded_Icon.png/50px-Longsword_%2B1_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Larethian%27s_Wrath"
+      },
+      {
+        "name": "Least Expected",
+        "icon": "https://bg3.wiki/w/images/thumb/4/46/Shortbow_PlusOne_Unfaded_Icon.png/50px-Shortbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Least_Expected"
+      },
+      {
+        "name": "Longsword +2",
+        "icon": "https://bg3.wiki/w/images/thumb/f/fb/Longsword_PlusTwo_Unfaded_Icon.png/50px-Longsword_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Longsword_%2B2"
+      },
+      {
+        "name": "Mace +2",
+        "icon": "https://bg3.wiki/w/images/thumb/8/89/Mace_PlusTwo_Unfaded_Icon.png/50px-Mace_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Mace_%2B2"
+      },
+      {
+        "name": "Monster Slayer Glaive",
+        "icon": "https://bg3.wiki/w/images/thumb/7/70/Glaive_PlusOne_Unfaded_Icon.png/50px-Glaive_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Monster_Slayer_Glaive"
+      },
+      {
+        "name": "Moonlight Glaive",
+        "icon": "https://bg3.wiki/w/images/thumb/7/70/Glaive_PlusOne_Unfaded_Icon.png/50px-Glaive_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Moonlight_Glaive"
+      },
+      {
+        "name": "Ne'er Misser",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b5/Hand_Crossbow_PlusOne_Unfaded_Icon.png/50px-Hand_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ne%27er_Misser"
+      },
+      {
+        "name": "Pale Oak",
+        "icon": "https://bg3.wiki/w/images/thumb/c/c1/Pale_Oak_Staff_Unfaded_Icon.png/50px-Pale_Oak_Staff_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Pale_Oak"
+      },
+      {
+        "name": "Phalar Aluve",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6e/Longsword_%2B1_Unfaded_Icon.png/50px-Longsword_%2B1_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Phalar_Aluve"
+      },
+      {
+        "name": "Punch-Drunk Bastard",
+        "icon": "https://bg3.wiki/w/images/thumb/5/5e/Greatclub_PlusOne_Unfaded_Icon.png/50px-Greatclub_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Punch-Drunk_Bastard"
+      },
+      {
+        "name": "Quarterstaff +2",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Quarterstaff_PlusOne_Unfaded_Icon.png/50px-Quarterstaff_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Quarterstaff_%2B2"
+      },
+      {
+        "name": "Rapier +2",
+        "icon": "https://bg3.wiki/w/images/thumb/7/72/Rapier_PlusTwo_Unfaded_Icon.png/50px-Rapier_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rapier_%2B2"
+      },
+      {
+        "name": "Rat Bat",
+        "icon": "https://bg3.wiki/w/images/thumb/3/39/Greatclub_Unfaded_Icon.png/50px-Greatclub_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rat_Bat"
+      },
+      {
+        "name": "Ravengard's Scourger",
+        "icon": "https://bg3.wiki/w/images/thumb/6/62/Morningstar_PlusTwo_Unfaded_Icon.png/50px-Morningstar_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Ravengard%27s_Scourger"
+      },
+      {
+        "name": "Salty Scimitar(rrr)",
+        "icon": "https://bg3.wiki/w/images/thumb/a/a4/Salty_Scimitar%28rrr%29_Icon.webp/50px-Salty_Scimitar%28rrr%29_Icon.webp.png",
+        "wikiLink": "https://bg3.wiki/wiki/Salty_Scimitar(rrr)"
+      },
+      {
+        "name": "Scimitar +2",
+        "icon": "https://bg3.wiki/w/images/thumb/9/94/Scimitar_PlusTwo_Unfaded_Icon.png/50px-Scimitar_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Scimitar_%2B2"
+      },
+      {
+        "name": "Shadow Lantern",
+        "icon": "https://bg3.wiki/w/images/thumb/3/3e/Moonlantern_Unfaded_Icon.png/50px-Moonlantern_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shadow_Lantern"
+      },
+      {
+        "name": "Shattered Flail",
+        "icon": "https://bg3.wiki/w/images/thumb/7/76/Shattered_Flail_Unfaded_Icon.png/50px-Shattered_Flail_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shattered_Flail"
+      },
+      {
+        "name": "Shortsword +2",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8f/Shortsword_PlusTwo_Unfaded_Icon.png/50px-Shortsword_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shortsword_%2B2"
+      },
+      {
+        "name": "Sickle of BOOOAL",
+        "icon": "https://bg3.wiki/w/images/thumb/3/3c/Sickle_of_BOOOAL_Unfaded_Icon.png/50px-Sickle_of_BOOOAL_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sickle_of_BOOOAL"
+      },
+      {
+        "name": "Slicing Shortsword",
+        "icon": "https://bg3.wiki/w/images/thumb/2/27/Shortsword_PlusOne_Unfaded_Icon.png/50px-Shortsword_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Slicing_Shortsword"
+      },
+      {
+        "name": "Sorrow",
+        "icon": "https://bg3.wiki/w/images/thumb/7/70/Glaive_PlusOne_Unfaded_Icon.png/50px-Glaive_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sorrow"
+      },
+      {
+        "name": "Soulbreaker Greatsword",
+        "icon": "https://bg3.wiki/w/images/thumb/d/db/Githyanki_Greatsword_Red_Unfaded_Icon.png/50px-Githyanki_Greatsword_Red_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Soulbreaker_Greatsword"
+      },
+      {
+        "name": "Spear +2",
+        "icon": "https://bg3.wiki/w/images/thumb/0/01/Spear_PlusTwo_Unfaded_Icon.png/50px-Spear_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Spear_%2B2"
+      },
+      {
+        "name": "Spear of Night",
+        "icon": "https://bg3.wiki/w/images/thumb/6/62/Spear_Unfaded_Icon.png/50px-Spear_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Spear_of_Night"
+      },
+      {
+        "name": "Staff of Interruption",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Quarterstaff_PlusOne_Unfaded_Icon.png/50px-Quarterstaff_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Staff_of_Interruption"
+      },
+      {
+        "name": "Staff of the Emperor",
+        "icon": "https://bg3.wiki/w/images/thumb/9/91/Magic_Staff_A_Unfaded_Icon.png/50px-Magic_Staff_A_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Staff_of_the_Emperor"
+      },
+      {
+        "name": "Sussur Dagger",
+        "icon": "https://bg3.wiki/w/images/thumb/8/83/Sussur_Dagger_Unfaded_Icon.png/50px-Sussur_Dagger_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sussur_Dagger"
+      },
+      {
+        "name": "Sussur Greatsword",
+        "icon": "https://bg3.wiki/w/images/thumb/a/a5/Sussur_Greatsword_Unfaded_Icon.png/50px-Sussur_Greatsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sussur_Greatsword"
+      },
+      {
+        "name": "Sussur Sickle",
+        "icon": "https://bg3.wiki/w/images/thumb/8/88/Sussur_Sickle_Unfaded_Icon.png/50px-Sussur_Sickle_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sussur_Sickle"
+      },
+      {
+        "name": "Sword of Clutching Umbra",
+        "icon": "https://bg3.wiki/w/images/thumb/2/27/Shortsword_PlusOne_Unfaded_Icon.png/50px-Shortsword_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sword_of_Clutching_Umbra"
+      },
+      {
+        "name": "Sword of the Emperor",
+        "icon": "https://bg3.wiki/w/images/thumb/6/6e/Longsword_%2B1_Unfaded_Icon.png/50px-Longsword_%2B1_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sword_of_the_Emperor"
+      },
+      {
+        "name": "The Baneful",
+        "icon": "https://bg3.wiki/w/images/thumb/0/08/Githyanki_Shortsword_Unfaded_Icon.png/50px-Githyanki_Shortsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Baneful"
+      },
+      {
+        "name": "The Joltshooter",
+        "icon": "https://bg3.wiki/w/images/thumb/e/ee/The_Joltshooter_Unfaded_Icon.png/50px-The_Joltshooter_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Joltshooter"
+      },
+      {
+        "name": "The Long Arm of the Gur",
+        "icon": "https://bg3.wiki/w/images/thumb/5/59/Heavy_Crossbow_PlusOne_Unfaded_Icon.png/50px-Heavy_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Long_Arm_of_the_Gur"
+      },
+      {
+        "name": "The Sparky Points",
+        "icon": "https://bg3.wiki/w/images/thumb/1/1f/The_Sparky_Points_Unfaded_Icon.png/50px-The_Sparky_Points_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Sparky_Points"
+      },
+      {
+        "name": "The Spellsparkler",
+        "icon": "https://bg3.wiki/w/images/thumb/4/4d/The_Spellsparkler_Unfaded_Icon.png/50px-The_Spellsparkler_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Spellsparkler"
+      },
+      {
+        "name": "Thermodynamo Axe",
+        "icon": "https://bg3.wiki/w/images/thumb/7/79/Battleaxe_PlusOne_Unfaded_Icon.png/50px-Battleaxe_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Thermodynamo_Axe"
+      },
+      {
+        "name": "Thorn Blade",
+        "icon": "https://bg3.wiki/w/images/thumb/1/1f/Scimitar_PlusOne_Unfaded_Icon.png/50px-Scimitar_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Thorn_Blade"
+      },
+      {
+        "name": "Titanstring Bow",
+        "icon": "https://bg3.wiki/w/images/thumb/7/79/Longbow_PlusOne_Unfaded_Icon.png/50px-Longbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Titanstring_Bow"
+      },
+      {
+        "name": "Twist of Fortune",
+        "icon": "https://bg3.wiki/w/images/thumb/4/40/Morningstar_PlusOne_Unfaded_Icon.png/50px-Morningstar_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Twist_of_Fortune"
+      },
+      {
+        "name": "Unseen Menace",
+        "icon": "https://bg3.wiki/w/images/thumb/9/9d/Unseen_Menace_Unfaded_Icon.png/50px-Unseen_Menace_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Unseen_Menace"
+      },
+      {
+        "name": "Vicious Battleaxe",
+        "icon": "https://bg3.wiki/w/images/thumb/7/79/Battleaxe_PlusOne_Unfaded_Icon.png/50px-Battleaxe_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Vicious_Battleaxe"
+      },
+      {
+        "name": "Vicious Shortbow",
+        "icon": "https://bg3.wiki/w/images/thumb/4/46/Shortbow_PlusOne_Unfaded_Icon.png/50px-Shortbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Vicious_Shortbow"
+      },
+      {
+        "name": "Warhammer +2",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e4/Warhammer_PlusOne_Unfaded_Icon.png/50px-Warhammer_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Warhammer_%2B2"
+      },
+      {
+        "name": "Wavemother's Sickle",
+        "icon": "https://bg3.wiki/w/images/thumb/8/88/Sussur_Sickle_Unfaded_Icon.png/50px-Sussur_Sickle_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Wavemother%27s_Sickle"
+      }
+    ],
+    "Very Rare": [
+      {
+        "name": "Belm",
+        "icon": "https://bg3.wiki/w/images/thumb/0/0a/The_Clover_Unfaded_Icon.png/50px-The_Clover_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Belm"
+      },
+      {
+        "name": "Blightbringer",
+        "icon": "https://bg3.wiki/w/images/thumb/4/46/Shortbow_PlusOne_Unfaded_Icon.png/50px-Shortbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Blightbringer"
+      },
+      {
+        "name": "Dwarven Thrower",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e4/Warhammer_PlusOne_Unfaded_Icon.png/50px-Warhammer_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Dwarven_Thrower"
+      },
+      {
+        "name": "Fabricated Arbalest",
+        "icon": "https://bg3.wiki/w/images/thumb/5/59/Heavy_Crossbow_PlusOne_Unfaded_Icon.png/50px-Heavy_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Fabricated_Arbalest"
+      },
+      {
+        "name": "Foebreaker",
+        "icon": "https://bg3.wiki/w/images/thumb/d/de/Maul_PlusTwo_Unfaded_Icon.png/50px-Maul_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Foebreaker"
+      },
+      {
+        "name": "Halberd of Vigilance",
+        "icon": "https://bg3.wiki/w/images/thumb/a/af/Halberd_PlusTwo_Unfaded_Icon.png/50px-Halberd_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Halberd_of_Vigilance"
+      },
+      {
+        "name": "Handmaiden's Mace",
+        "icon": "https://bg3.wiki/w/images/thumb/8/89/Mace_PlusTwo_Unfaded_Icon.png/50px-Mace_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Handmaiden%27s_Mace"
+      },
+      {
+        "name": "Hellfire Engine Crossbow",
+        "icon": "https://bg3.wiki/w/images/thumb/5/53/Hellfire_Engine_Crossbow_Unfaded_Icon.png/50px-Hellfire_Engine_Crossbow_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hellfire_Engine_Crossbow"
+      },
+      {
+        "name": "Hellfire Greataxe",
+        "icon": "https://bg3.wiki/w/images/thumb/c/ce/Greataxe_PlusTwo_Unfaded_Icon.png/50px-Greataxe_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hellfire_Greataxe"
+      },
+      {
+        "name": "Hellfire Hand Crossbow",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b5/Hand_Crossbow_PlusOne_Unfaded_Icon.png/50px-Hand_Crossbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Hellfire_Hand_Crossbow"
+      },
+      {
+        "name": "Incandescent Staff",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Quarterstaff_PlusOne_Unfaded_Icon.png/50px-Quarterstaff_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Incandescent_Staff"
+      },
+      {
+        "name": "Infernal Rapier",
+        "icon": "https://bg3.wiki/w/images/thumb/5/5a/Infernal_Rapier_Unfaded_Icon.png/50px-Infernal_Rapier_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Infernal_Rapier"
+      },
+      {
+        "name": "Justiciar's Scimitar",
+        "icon": "https://bg3.wiki/w/images/thumb/9/97/Justiciar%27s_Scimitar_Unfaded_Icon.png/50px-Justiciar%27s_Scimitar_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Justiciar%27s_Scimitar"
+      },
+      {
+        "name": "Knife of the Undermountain King",
+        "icon": "https://bg3.wiki/w/images/thumb/7/73/Kings_Knife_Unfaded_Icon.png/50px-Kings_Knife_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Knife_of_the_Undermountain_King"
+      },
+      {
+        "name": "Mourning Frost",
+        "icon": "https://bg3.wiki/w/images/thumb/a/ab/Mourning_Frost_Unfaded_Icon.png/50px-Mourning_Frost_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Mourning_Frost"
+      },
+      {
+        "name": "Pelorsun Blade",
+        "icon": "https://bg3.wiki/w/images/thumb/d/d7/Rapier_PlusOne_Unfaded_Icon.png/50px-Rapier_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Pelorsun_Blade"
+      },
+      {
+        "name": "Rhapsody",
+        "icon": "https://bg3.wiki/w/images/thumb/e/e7/Rhapsody_Unfaded_Icon.png/50px-Rhapsody_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Rhapsody"
+      },
+      {
+        "name": "Sethan",
+        "icon": "https://bg3.wiki/w/images/thumb/c/ce/Greataxe_PlusTwo_Unfaded_Icon.png/50px-Greataxe_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sethan"
+      },
+      {
+        "name": "Staff of Cherished Necromancy",
+        "icon": "https://bg3.wiki/w/images/thumb/c/cf/Staff_of_Cherished_Necromancy_Unfaded_Icon.png/50px-Staff_of_Cherished_Necromancy_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Staff_of_Cherished_Necromancy"
+      },
+      {
+        "name": "Staff of Spellpower",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Quarterstaff_PlusOne_Unfaded_Icon.png/50px-Quarterstaff_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Staff_of_Spellpower"
+      },
+      {
+        "name": "Staff of the Ram",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Quarterstaff_PlusOne_Unfaded_Icon.png/50px-Quarterstaff_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Staff_of_the_Ram"
+      },
+      {
+        "name": "Stillmaker",
+        "icon": "https://bg3.wiki/w/images/thumb/7/7d/Stillmaker_Unfaded_Icon.png/50px-Stillmaker_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Stillmaker"
+      },
+      {
+        "name": "Sword of Chaos",
+        "icon": "https://bg3.wiki/w/images/thumb/2/29/Greatsword_PlusTwo_Unfaded_Icon.png/50px-Greatsword_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sword_of_Chaos"
+      },
+      {
+        "name": "Sword of Life Stealing",
+        "icon": "https://bg3.wiki/w/images/thumb/8/8f/Shortsword_PlusTwo_Unfaded_Icon.png/50px-Shortsword_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sword_of_Life_Stealing"
+      },
+      {
+        "name": "The Dancing Breeze",
+        "icon": "https://bg3.wiki/w/images/thumb/0/03/Glaive_PlusTwo_Unfaded_Icon.png/50px-Glaive_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Dancing_Breeze"
+      },
+      {
+        "name": "The Dead Shot",
+        "icon": "https://bg3.wiki/w/images/thumb/7/79/Longbow_PlusOne_Unfaded_Icon.png/50px-Longbow_PlusOne_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Dead_Shot"
+      },
+      {
+        "name": "The Sacred Star",
+        "icon": "https://bg3.wiki/w/images/thumb/6/62/Morningstar_PlusTwo_Unfaded_Icon.png/50px-Morningstar_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Sacred_Star"
+      },
+      {
+        "name": "Torch of Revocation",
+        "icon": "https://bg3.wiki/w/images/thumb/f/f5/Torch_of_Revocation_Unfaded_Icon.png/50px-Torch_of_Revocation_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Torch_of_Revocation"
+      },
+      {
+        "name": "Trident of the Waves",
+        "icon": "https://bg3.wiki/w/images/thumb/5/55/Allandra%27s_Whelm_Unfaded_Icon.png/50px-Allandra%27s_Whelm_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Trident_of_the_Waves"
+      },
+      {
+        "name": "Voss' Silver Sword",
+        "icon": "https://bg3.wiki/w/images/thumb/f/fb/Longsword_PlusTwo_Unfaded_Icon.png/50px-Longsword_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Voss%27_Silver_Sword"
+      },
+      {
+        "name": "Woe",
+        "icon": "https://bg3.wiki/w/images/thumb/5/57/Woe_Unfaded_Icon.png/50px-Woe_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Woe"
+      }
+    ],
+    "Legendary": [
+      {
+        "name": "Balduran's Giantslayer",
+        "icon": "https://bg3.wiki/w/images/thumb/6/68/Balduran_Giantslayer_Unfaded_Icon.png/50px-Balduran_Giantslayer_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Balduran%27s_Giantslayer"
+      },
+      {
+        "name": "Bloodthirst",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b0/Bloodthirst_Unfaded_Icon.png/50px-Bloodthirst_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Bloodthirst"
+      },
+      {
+        "name": "Crimson Mischief",
+        "icon": "https://bg3.wiki/w/images/thumb/0/09/Crimson_Mischief_Item_Icon.png/50px-Crimson_Mischief_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Crimson_Mischief"
+      },
+      {
+        "name": "Devotee's Mace",
+        "icon": "https://bg3.wiki/w/images/thumb/8/89/Mace_PlusTwo_Unfaded_Icon.png/50px-Mace_PlusTwo_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Devotee%27s_Mace"
+      },
+      {
+        "name": "Duellist's Prerogative",
+        "icon": "https://bg3.wiki/w/images/thumb/5/50/Duellist%27s_Prerogative_Unfaded_Icon.png/50px-Duellist%27s_Prerogative_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Duellist%27s_Prerogative"
+      },
+      {
+        "name": "Gontr Mael",
+        "icon": "https://bg3.wiki/w/images/thumb/a/a4/Gontr_Mael_Unfaded_Icon.png/50px-Gontr_Mael_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Gontr_Mael"
+      },
+      {
+        "name": "Markoheshkir",
+        "icon": "https://bg3.wiki/w/images/thumb/1/1c/Markoheshkir_Unfaded_Icon.png/50px-Markoheshkir_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Markoheshkir"
+      },
+      {
+        "name": "Nyrulna",
+        "icon": "https://bg3.wiki/w/images/thumb/1/12/Nyrulna_Unfaded_Icon.png/50px-Nyrulna_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Nyrulna"
+      },
+      {
+        "name": "Orphic Hammer",
+        "icon": "https://bg3.wiki/w/images/thumb/3/3b/Orphic_Hammer_Unfaded_Icon.png/50px-Orphic_Hammer_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Orphic_Hammer"
+      },
+      {
+        "name": "Selûne's Spear of Night",
+        "icon": "https://bg3.wiki/w/images/thumb/c/ca/Sel%C3%BBne%27s_Spear_of_Night_Unfaded_Icon.png/50px-Sel%C3%BBne%27s_Spear_of_Night_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Sel%C3%BBne%27s_Spear_of_Night"
+      },
+      {
+        "name": "Shar's Spear of Evening",
+        "icon": "https://bg3.wiki/w/images/thumb/c/ca/Sel%C3%BBne%27s_Spear_of_Night_Unfaded_Icon.png/50px-Sel%C3%BBne%27s_Spear_of_Night_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Shar%27s_Spear_of_Evening"
+      },
+      {
+        "name": "Silver Sword of the Astral Plane",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b5/Githyanki_Greatsword_Unfaded_Icon.png/50px-Githyanki_Greatsword_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Silver_Sword_of_the_Astral_Plane"
+      },
+      {
+        "name": "The Blood of Lathander",
+        "icon": "https://bg3.wiki/w/images/thumb/b/b2/The_Blood_of_Lathander_Unfaded_Icon.png/50px-The_Blood_of_Lathander_Unfaded_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/The_Blood_of_Lathander"
+      }
+    ],
+    "Story Item": [
+      {
+        "name": "Moonlantern",
+        "icon": "https://bg3.wiki/w/images/thumb/3/38/Moonlantern_Item_Icon.png/50px-Moonlantern_Item_Icon.png",
+        "wikiLink": "https://bg3.wiki/wiki/Moonlantern"
+      }
+    ]
+  }
+}
