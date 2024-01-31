@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "eslint:fix": "eslint . --ext .js,.ts,.vue --max-warnings=0 --fix",
     "format:fix": "prettier . --write --ignore-unknown",
-    "scrape": "tsx scripts/scrapeWiki.ts"
+    "scrape": "tsx scripts/scraper/index.ts"
   },
   "dependencies": {
     "@vue-flow/background": "^1.2.0",
