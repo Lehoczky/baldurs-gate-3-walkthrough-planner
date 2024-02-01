@@ -5925,5 +5925,1598 @@
       "rarity": "Very Rare",
       "armourType": "Medium armour"
     }
+  ],
+  "arrows": [
+    {
+      "name": "Arrow of Acid",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/Arrow_of_Acid_Unfaded_Icon.png/40px-Arrow_of_Acid_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Acid",
+      "rarity": "Common"
+    },
+    {
+      "name": "Arrow of Fire",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bb/Arrow_of_Fire_Unfaded_Icon.png/40px-Arrow_of_Fire_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Fire",
+      "rarity": "Common"
+    },
+    {
+      "name": "Arrow of Ice",
+      "icon": "https://bg3.wiki/w/images/thumb/4/45/Arrow_of_Ice_Unfaded_Icon.png/40px-Arrow_of_Ice_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Ice",
+      "rarity": "Common"
+    },
+    {
+      "name": "Arrow of Lightning",
+      "icon": "https://bg3.wiki/w/images/thumb/5/54/Arrow_of_Lightning_Unfaded_Icon.png/40px-Arrow_of_Lightning_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Lightning",
+      "rarity": "Common"
+    },
+    {
+      "name": "Arrow of Beast Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Beast_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Construct Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Construct_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Darkness",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b5/Arrow_of_Darkness_Unfaded_Icon.png/40px-Arrow_of_Darkness_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Darkness",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Elemental Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Elemental_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Fiend Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Fiend_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Ilmater",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2d/Arrow_of_Ilmater_Unfaded_Icon.png/40px-Arrow_of_Ilmater_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Ilmater",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Monstrosity Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Monstrosity_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Roaring Thunder",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bd/Arrow_of_Roaring_Thunder_Unfaded_Icon.png/40px-Arrow_of_Roaring_Thunder_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Roaring_Thunder",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Undead Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Undead_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Arcane Interference",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f6/Arrow_Of_Arcane_Interference_Unfaded.png/40px-Arrow_Of_Arcane_Interference_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Arcane_Interference",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Arrow of Many Targets",
+      "icon": "https://bg3.wiki/w/images/thumb/5/52/Arrow_of_Many_Targets_Unfaded_Icon.png/40px-Arrow_of_Many_Targets_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Many_Targets",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Arrow of Salving",
+      "icon": "https://bg3.wiki/w/images/thumb/7/75/Arrow_of_Salving_Unfaded_Icon.png/40px-Arrow_of_Salving_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Salving",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Arrow of Transposition",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a5/Arrow_of_Transposition_Unfaded_Icon.png/40px-Arrow_of_Transposition_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Transposition",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Smokepowder Arrow",
+      "icon": "https://bg3.wiki/w/images/thumb/7/70/Smokepowder_Arrow_Unfaded_Icon.png/40px-Smokepowder_Arrow_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Smokepowder_Arrow",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Arrow of Aberration Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Aberration_Slaying",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Arrow of Dragon Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Dragon_Slaying",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Arrow of Humanoid Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Humanoid_Slaying",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Arrow of Piercing",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cd/Arrow_of_Piercing_Unfaded_Icon.png/40px-Arrow_of_Piercing_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Piercing",
+      "rarity": "Common"
+    },
+    {
+      "name": "Barbed Arrow",
+      "icon": "https://bg3.wiki/w/images/thumb/5/52/Arrow_of_Many_Targets_Unfaded_Icon.png/40px-Arrow_of_Many_Targets_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Barbed_Arrow",
+      "rarity": "Common"
+    }
+  ],
+  "coatings": [
+    {
+      "name": "Basic Poison",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d5/COAT_Basic_Poison_Unfaded.png/40px-COAT_Basic_Poison_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Basic_Poison",
+      "rarity": "Common"
+    },
+    {
+      "name": "Simple Toxin",
+      "icon": "https://bg3.wiki/w/images/thumb/f/ff/COAT_Simple_Toxin_Unfaded.png/40px-COAT_Simple_Toxin_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Simple_Toxin",
+      "rarity": "Common"
+    },
+    {
+      "name": "Arsonist's Oil",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9b/Coat_Arsonist%27s_Oil_Unfaded.png/40px-Coat_Arsonist%27s_Oil_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arsonist%27s_Oil",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Diluted Oil of Sharpness",
+      "icon": "https://bg3.wiki/w/images/thumb/1/11/COAT_Diluted_Oil_of_Sharpness_Unfaded.png/40px-COAT_Diluted_Oil_of_Sharpness_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Diluted_Oil_of_Sharpness",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Drow Poison",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f2/COAT_Drow_Poison_Unfaded.png/40px-COAT_Drow_Poison_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Drow_Poison",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Oil of Accuracy",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2f/COAT_Oil_of_Accuracy_Unfaded.png/40px-COAT_Oil_of_Accuracy_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Oil_of_Accuracy",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Oil of Diminution",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1d/COAT_Oil_of_Diminution_Unfaded.png/40px-COAT_Oil_of_Diminution_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Oil_of_Diminution",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Serpent Fang Toxin",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2c/COAT_Serpent_Fang_Toxin_Unfaded.png/40px-COAT_Serpent_Fang_Toxin_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Serpent_Fang_Toxin",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Wizardsbane Oil",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2e/GRN_Holy_Water_Unfaded.png/40px-GRN_Holy_Water_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Wizardsbane_Oil",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Crawler Mucus",
+      "icon": "https://bg3.wiki/w/images/thumb/8/83/COAT_Crawler_Mucus_Unfaded_Icon.png/40px-COAT_Crawler_Mucus_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Crawler_Mucus",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Karabasan's Poison",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5a/COAT_Karabasan%27s_Poison_Unfaded.png/40px-COAT_Karabasan%27s_Poison_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Karabasan%27s_Poison",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Malice",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a4/COAT_Malice_Unfaded.png/40px-COAT_Malice_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Malice",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Oil of Bane",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c4/COAT_Oil_of_Bane_Unfaded.png/40px-COAT_Oil_of_Bane_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Oil_of_Bane",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Oil of Combustion",
+      "icon": "https://bg3.wiki/w/images/thumb/8/81/COAT_Oil_of_Combustion_Unfaded.png/40px-COAT_Oil_of_Combustion_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Oil_of_Combustion",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Oil of Freezing",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c4/COAT_Oil_of_Freezing_Unfaded.png/40px-COAT_Oil_of_Freezing_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Oil_of_Freezing",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Wyvern Toxin",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f9/COAT_Wyvern_Toxin_Unfaded.png/40px-COAT_Wyvern_Toxin_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Wyvern_Toxin",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Purple Worm Toxin",
+      "icon": "https://bg3.wiki/w/images/thumb/3/33/COAT_Purple_Worm_Toxin_Unfaded.png/40px-COAT_Purple_Worm_Toxin_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Purple_Worm_Toxin",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Thisobald's Brewed-Up Bellyglummer",
+      "icon": "https://bg3.wiki/w/images/thumb/8/86/COAT_Thisobald%27s_Brewed-Up_Bellyglummer_Unfaded.png/40px-COAT_Thisobald%27s_Brewed-Up_Bellyglummer_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Thisobald%27s_Brewed-Up_Bellyglummer",
+      "rarity": "Very Rare"
+    }
+  ],
+  "elixirs": [
+    {
+      "name": "Elixir of Acid Resistance",
+      "icon": "https://bg3.wiki/w/images/thumb/8/81/ELX_Elixir_of_Acid_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Acid_Resistance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Acid_Resistance",
+      "rarity": "Common"
+    },
+    {
+      "name": "Elixir of Cold Resistance",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0e/ELX_Elixir_of_Cold_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Cold_Resistance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Cold_Resistance",
+      "rarity": "Common"
+    },
+    {
+      "name": "Elixir of Force Resistance",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3f/ELX_Elixir_of_Force_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Force_Resistance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Force_Resistance",
+      "rarity": "Common"
+    },
+    {
+      "name": "Elixir of Hill Giant Strength",
+      "icon": "https://bg3.wiki/w/images/thumb/7/74/ELX_Elixir_of_Hill_Giant_Strength_Unfaded_Icon.png/40px-ELX_Elixir_of_Hill_Giant_Strength_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Hill_Giant_Strength",
+      "rarity": "Common"
+    },
+    {
+      "name": "Elixir of Radiant Resistance",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d7/ELX_Elixir_of_Radiant_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Radiant_Resistance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Radiant_Resistance",
+      "rarity": "Common"
+    },
+    {
+      "name": "Elixir of Thunder Resistance",
+      "icon": "https://bg3.wiki/w/images/thumb/c/ce/ELX_Elixir_of_Thunder_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Thunder_Resistance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Thunder_Resistance",
+      "rarity": "Common"
+    },
+    {
+      "name": "Elixir of Arcane Cultivation",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c8/ELX_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Arcane_Cultivation",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Greater Elixir of Arcane Cultivation",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/ELX_Greater_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Greater_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Greater_Elixir_of_Arcane_Cultivation",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Elixir of Barkskin",
+      "icon": "https://bg3.wiki/w/images/thumb/3/36/ELX_Elixir_of_Barkskin_Unfaded_Icon.png/40px-ELX_Elixir_of_Barkskin_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Barkskin",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Elixir of Bloodlust",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bd/POT_Potion_of_Vitality_Unfaded_Icon.png/40px-POT_Potion_of_Vitality_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Bloodlust",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Elixir of Darkvision",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a4/ELX_Elixir_of_Darkvision_Unfaded_Icon.png/40px-ELX_Elixir_of_Darkvision_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Darkvision",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Elixir of Fire Resistance",
+      "icon": "https://bg3.wiki/w/images/thumb/2/23/ELX_Elixir_of_Fire_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Fire_Resistance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Fire_Resistance",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Elixir of Heroism",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e5/ELX_Elixir_of_Heroism_Unfaded_Icon.png/40px-ELX_Elixir_of_Heroism_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Heroism",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Elixir of Lightning Resistance",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3f/ELX_Elixir_of_Lightning_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Lightning_Resistance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Lightning_Resistance",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Elixir of Peerless Focus",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f6/POT_Potion_Invulnerability_Unfaded_Icon.png/40px-POT_Potion_Invulnerability_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Peerless_Focus",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Elixir of Poison Resistance",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cb/ELX_Elixir_of_Poison_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Poison_Resistance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Poison_Resistance",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Elixir of the Colossus",
+      "icon": "https://bg3.wiki/w/images/thumb/0/07/ELX_Elixir_of_The_Colossus_Unfaded_Icon.png/40px-ELX_Elixir_of_The_Colossus_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_the_Colossus",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Elixir of Vigilance",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5f/ELX_Elixir_of_Vigilance_Unfaded_Icon.png/40px-ELX_Elixir_of_Vigilance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Vigilance",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Elixir of Battlemage's Power",
+      "icon": "https://bg3.wiki/w/images/thumb/a/aa/ELX_Elixir_of_Battlemage%27s_Power_Unfaded_Icon.png/40px-ELX_Elixir_of_Battlemage%27s_Power_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Battlemage%27s_Power",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Cloud Giant Strength",
+      "icon": "https://bg3.wiki/w/images/thumb/4/40/ELX_Elixir_of_Cloud_Giant_Strength_Unfaded_Icon.png/40px-ELX_Elixir_of_Cloud_Giant_Strength_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Cloud_Giant_Strength",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Guileful Movement",
+      "icon": "https://bg3.wiki/w/images/thumb/6/66/ELX_Elixir_of_Guileful_Movement_Unfaded_Icon.png/40px-ELX_Elixir_of_Guileful_Movement_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Guileful_Movement",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Necrotic Resistance",
+      "icon": "https://bg3.wiki/w/images/thumb/8/87/ELX_Elixir_of_Necrotic_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Necrotic_Resistance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Necrotic_Resistance",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of See Invisibility",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0f/ELX_Elixir_of_See_Invisibility_Unfaded_Icon.png/40px-ELX_Elixir_of_See_Invisibility_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_See_Invisibility",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Viciousness",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ad/ELX_Elixir_of_Viciousness_Unfaded_Icon.png/40px-ELX_Elixir_of_Viciousness_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Viciousness",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Superior Elixir of Arcane Cultivation",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cf/ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Superior_Elixir_of_Arcane_Cultivation",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Tadpole Elixir",
+      "icon": "https://bg3.wiki/w/images/thumb/e/ec/ELX_Tadpole_Elixir_Unfaded_Icon.png/40px-ELX_Tadpole_Elixir_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Tadpole_Elixir",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Psychic Resistance",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0c/ELX_Elixir_of_Psychic_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Psychic_Resistance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Psychic_Resistance",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Supreme Elixir of Arcane Cultivation",
+      "icon": "https://bg3.wiki/w/images/thumb/7/79/ELX_Supreme_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Supreme_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Supreme_Elixir_of_Arcane_Cultivation",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Elixir of Dragonborn Prowess: Acid",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Dragonborn_Prowess:_Acid",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Dragonborn Prowess: Fire",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Dragonborn_Prowess:_Fire",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Dragonborn Prowess: Frost",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Dragonborn_Prowess:_Frost",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Dragonborn Prowess: Lightning",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Dragonborn_Prowess:_Lightning",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Dragonborn Prowess: Poison",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Dragonborn_Prowess:_Poison",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Dwarven Resilience",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Dwarven_Resilience",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Elven Elegance",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Elven_Elegance",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Githyanki Providence",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Githyanki_Providence",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Gnomish Ingenuity",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Gnomish_Ingenuity",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Half-Elven Healing",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Half-Elven_Healing",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Half-Orcish Fury",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Half-Orcish_Fury",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Halfling Luck",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Halfling_Luck",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Human Versatility",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Human_Versatility",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Tiefling Vice",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Bottle_A_Unfaded_Icon.png/40px-Bottle_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Tiefling_Vice",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Elixir of Universal Resistance",
+      "icon": "/w/images/thumb/b/bb/ELX_Elixir_of_Universal_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Universal_Resistance_Unfaded_Icon.png",
+      "rarity": "Very Rare",
+      "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Universal_Resistance"
+    }
+  ],
+  "potions": [
+    {
+      "name": "Potion of Healing",
+      "icon": "https://bg3.wiki/w/images/thumb/0/04/POT_Potion_of_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Healing_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Healing",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Greater Healing",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3e/POT_Potion_of_Greater_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Greater_Healing_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Greater_Healing",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Superior Healing",
+      "icon": "https://bg3.wiki/w/images/thumb/9/90/POT_Potion_of_Superior_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Superior_Healing_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Superior_Healing",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Supreme Healing",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a6/POT_Potion_of_Supreme_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Supreme_Healing_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Supreme_Healing",
+      "rarity": "Common"
+    },
+    {
+      "name": "Antidote",
+      "icon": "https://bg3.wiki/w/images/thumb/6/60/POT_Antidote_Unfaded_Icon.png/40px-POT_Antidote_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Antidote",
+      "rarity": "Common"
+    },
+    {
+      "name": "Basilisk Oil",
+      "icon": "https://bg3.wiki/w/images/thumb/2/28/POT_Basilisk_Oil_Unfaded.png/40px-POT_Basilisk_Oil_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Basilisk_Oil",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Animal Speaking",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c9/POT_Potion_of_Animal_Speaking_Unfaded_Icon.png/40px-POT_Potion_of_Animal_Speaking_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Animal_Speaking",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Feather Fall",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7a/POT_Potion_of_Feather_Fall_Unfaded_Icon.png/40px-POT_Potion_of_Feather_Fall_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Feather_Fall",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Gaseous Form",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0f/POT_Potion_of_Gaseous_Form_Unfaded_Icon.png/40px-POT_Potion_of_Gaseous_Form_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Gaseous_Form",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Glorious Vaulting",
+      "icon": "https://bg3.wiki/w/images/thumb/3/30/POT_Potion_of_Glorious_Vaulting_Unfaded_Icon.png/40px-POT_Potion_of_Glorious_Vaulting_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Glorious_Vaulting",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Mind Reading",
+      "icon": "https://bg3.wiki/w/images/thumb/8/80/POT_Potion_of_Mind_Reading_Unfaded_Icon.png/40px-POT_Potion_of_Mind_Reading_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Mind_Reading",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Sleep",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6c/POT_Potion_of_Sleep_Unfaded_Icon.png/40px-POT_Potion_of_Sleep_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Sleep",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Vitality",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bd/POT_Potion_of_Vitality_Unfaded_Icon.png/40px-POT_Potion_of_Vitality_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Vitality",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Speed",
+      "icon": "https://bg3.wiki/w/images/thumb/8/87/POT_Potion_of_Speed_Unfaded_Icon.png/40px-POT_Potion_of_Speed_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Speed",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Remedial Potion",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5d/POT_Remedial_Potion_Unfaded_Icon.png/40px-POT_Remedial_Potion_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Remedial_Potion",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Potion of Angelic Reprieve",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5a/POT_Potion_of_Angelic_Reprieve_Unfaded_Icon.png/40px-POT_Potion_of_Angelic_Reprieve_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Angelic_Reprieve",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Potion of Flying",
+      "icon": "https://bg3.wiki/w/images/thumb/6/63/POT_Potion_of_Flying_Unfaded_Icon.png/40px-POT_Potion_of_Flying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Flying",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Potion of Invisibility",
+      "icon": "https://bg3.wiki/w/images/thumb/8/89/POT_Potion_of_Invisibility_Unfaded_Icon.png/40px-POT_Potion_of_Invisibility_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Invisibility",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Potion of Angelic Slumber",
+      "icon": "https://bg3.wiki/w/images/thumb/6/62/POT_Potion_of_Angelic_Slumber_Unfaded_Icon.png/40px-POT_Potion_of_Angelic_Slumber_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Angelic_Slumber",
+      "rarity": "Very Rare"
+    }
+  ],
+  "grenades": [
+    {
+      "name": "Acid Vial",
+      "icon": "https://bg3.wiki/w/images/thumb/7/73/GRN_Acid_Vial_Unfaded_Icon.png/40px-GRN_Acid_Vial_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Acid_Vial",
+      "rarity": "Common"
+    },
+    {
+      "name": "Alchemist's Fire",
+      "icon": "https://bg3.wiki/w/images/thumb/2/29/GRN_Alchemist%27s_Fire_Unfaded_Icon.png/40px-GRN_Alchemist%27s_Fire_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Alchemist%27s_Fire",
+      "rarity": "Common"
+    },
+    {
+      "name": "Caustic Bulb",
+      "icon": "https://bg3.wiki/w/images/thumb/9/94/GRN_Caustic_Bulb_Unfaded.png/40px-GRN_Caustic_Bulb_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Caustic_Bulb",
+      "rarity": "Common"
+    },
+    {
+      "name": "Grease Bottle",
+      "icon": "https://bg3.wiki/w/images/thumb/0/00/GRN_Grease_Bottle_Unfaded.png/40px-GRN_Grease_Bottle_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Grease_Bottle",
+      "rarity": "Common"
+    },
+    {
+      "name": "Haste Spore Flask",
+      "icon": "https://bg3.wiki/w/images/thumb/0/01/GRN_Haste_Spore_Flask_Unfaded.png/40px-GRN_Haste_Spore_Flask_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Haste_Spore_Flask",
+      "rarity": "Common"
+    },
+    {
+      "name": "Hearthlight Bomb",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fb/GRN_Hearthlight_Bomb_Unfaded.png/40px-GRN_Hearthlight_Bomb_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hearthlight_Bomb",
+      "rarity": "Common"
+    },
+    {
+      "name": "Holy Water",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2e/GRN_Holy_Water_Unfaded.png/40px-GRN_Holy_Water_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Holy_Water",
+      "rarity": "Common"
+    },
+    {
+      "name": "Oil Flask",
+      "icon": "https://bg3.wiki/w/images/thumb/6/62/GRN_Oil_Flask_Unfaded.png/40px-GRN_Oil_Flask_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Oil_Flask",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scrap and Shrapnel Grenade",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/GRN_Smokepowder_Bomb_Unfaded.png/40px-GRN_Smokepowder_Bomb_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scrap_and_Shrapnel_Grenade",
+      "rarity": "Common"
+    },
+    {
+      "name": "Smokepowder Bomb",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/GRN_Smokepowder_Bomb_Unfaded.png/40px-GRN_Smokepowder_Bomb_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Smokepowder_Bomb",
+      "rarity": "Common"
+    },
+    {
+      "name": "Spiked Bulb",
+      "icon": "https://bg3.wiki/w/images/thumb/2/21/GRN_Spiked_Bulb_Unfaded.png/40px-GRN_Spiked_Bulb_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Spiked_Bulb",
+      "rarity": "Common"
+    },
+    {
+      "name": "Void Bulb",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e9/GRN_Void_Bulb_Unfaded.png/40px-GRN_Void_Bulb_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Void_Bulb",
+      "rarity": "Common"
+    },
+    {
+      "name": "Web Grenade",
+      "icon": "https://bg3.wiki/w/images/thumb/6/61/GRN_Web_Grenade_Unfaded_Icon.png/40px-GRN_Web_Grenade_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Web_Grenade",
+      "rarity": "Common"
+    },
+    {
+      "name": "Sanguine Explosive",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c7/Out.webp/40px-Out.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Sanguine_Explosive",
+      "rarity": "Common"
+    },
+    {
+      "name": "Fungal Bamboozler",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a8/GRN_Noxious_Spore_Grenade_Unfaded.png/40px-GRN_Noxious_Spore_Grenade_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Fungal_Bamboozler",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Haste Spore Grenade",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7c/GRN_Haste_Spore_Grenade_Unfaded.png/40px-GRN_Haste_Spore_Grenade_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Haste_Spore_Grenade",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Noxious Spore Grenade",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a8/GRN_Noxious_Spore_Grenade_Unfaded.png/40px-GRN_Noxious_Spore_Grenade_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Noxious_Spore_Grenade",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Flashblinder",
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/GRN_Flashblinder_Unfaded.png/40px-GRN_Flashblinder_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Flashblinder",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Smokepowder Satchel",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e3/GRN_Smokepowder_Satchel_Unfaded.png/40px-GRN_Smokepowder_Satchel_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Smokepowder_Satchel",
+      "rarity": "Common"
+    },
+    {
+      "name": "Surprise-Based Teddy Bear",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9a/MISC_Stuffed_Bear_Clean_Unfaded_Icon.png/40px-MISC_Stuffed_Bear_Clean_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Surprise-Based_Teddy_Bear",
+      "rarity": "Common"
+    },
+    {
+      "name": "Runepowder Vial",
+      "icon": "https://bg3.wiki/w/images/thumb/4/45/GRN_Runepowder_Vial_Unfaded.png/40px-GRN_Runepowder_Vial_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Runepowder_Vial",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Flammable Slime Bomb",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c8/GRN_Flammable_Slime_Bomb_Unfaded_Icon.png/40px-GRN_Flammable_Slime_Bomb_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Flammable_Slime_Bomb",
+      "rarity": "Common"
+    },
+    {
+      "name": "Hag's Bane",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2d/GRN_Hag%27s_Bane_Unfaded.png/40px-GRN_Hag%27s_Bane_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hag%27s_Bane",
+      "rarity": "Common"
+    },
+    {
+      "name": "Orthon Explosive",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a5/GRN_Orthonic_Handbomb_Unfaded_Icon.png/40px-GRN_Orthonic_Handbomb_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Orthon_Explosive",
+      "rarity": "Common"
+    },
+    {
+      "name": "Orthonic Handbomb",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a5/GRN_Orthonic_Handbomb_Unfaded_Icon.png/40px-GRN_Orthonic_Handbomb_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Orthonic_Handbomb",
+      "rarity": "Common"
+    },
+    {
+      "name": "Phase Optimizer",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/GRN_Smokepowder_Bomb_Unfaded.png/40px-GRN_Smokepowder_Bomb_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Phase_Optimizer",
+      "rarity": "Common"
+    },
+    {
+      "name": "Poisonous Slime Bomb",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e2/GRN_Poisonous_Slime_Bomb_Unfaded.png/40px-GRN_Poisonous_Slime_Bomb_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Poisonous_Slime_Bomb",
+      "rarity": "Common"
+    },
+    {
+      "name": "Reflectoguard",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/GRN_Smokepowder_Bomb_Unfaded.png/40px-GRN_Smokepowder_Bomb_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Reflectoguard",
+      "rarity": "Common"
+    },
+    {
+      "name": "Volo's Jar of Moustache Wax",
+      "icon": "https://bg3.wiki/w/images/thumb/0/00/GRN_Grease_Bottle_Unfaded.png/40px-GRN_Grease_Bottle_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Volo%27s_Jar_of_Moustache_Wax",
+      "rarity": "Common"
+    },
+    {
+      "name": "Brilliant Retort",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/GRN_Smokepowder_Bomb_Unfaded.png/40px-GRN_Smokepowder_Bomb_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Brilliant_Retort",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Iron Flask",
+      "icon": "https://bg3.wiki/w/images/thumb/6/67/Iron_Flask_Unfaded.png/40px-Iron_Flask_Unfaded.png",
+      "wikiLink": "https://bg3.wiki/wiki/Iron_Flask",
+      "rarity": "Story Item"
+    }
+  ],
+  "scrolls": [
+    {
+      "name": "Scroll of Bone Chill",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b2/Scroll_of_Chill_Touch_Unfaded_Icon.png/40px-Scroll_of_Chill_Touch_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Bone_Chill",
+      "level": "Cantrip",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Fire Bolt",
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Scroll_of_Firebolt_Unfaded_Icon.png/40px-Scroll_of_Firebolt_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Fire_Bolt",
+      "level": "Cantrip",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Ray of Frost",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5a/Scroll_of_Ray_of_Frost_Unfaded_Icon.png/40px-Scroll_of_Ray_of_Frost_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Ray_of_Frost",
+      "level": "Cantrip",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Shocking Grasp",
+      "icon": "https://bg3.wiki/w/images/thumb/9/95/Scroll_of_Shocking_Grasp_Unfaded_Icon.png/40px-Scroll_of_Shocking_Grasp_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Shocking_Grasp",
+      "level": "Cantrip",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Animal Friendship",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a2/Scroll_of_Animal_Friendship_Unfaded_Icon.png/40px-Scroll_of_Animal_Friendship_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Animal_Friendship",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Burning Hands",
+      "icon": "https://bg3.wiki/w/images/thumb/c/ce/Scroll_of_Burning_Hands_Unfaded_Icon.png/40px-Scroll_of_Burning_Hands_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Burning_Hands",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Charm Person",
+      "icon": "https://bg3.wiki/w/images/thumb/e/eb/Scroll_of_Charm_Person_Unfaded_Icon.png/40px-Scroll_of_Charm_Person_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Charm_Person",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Chromatic Orb",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ab/Scroll_of_Chromatic_Orb_Unfaded_Icon.png/40px-Scroll_of_Chromatic_Orb_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Chromatic_Orb",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Colour Spray",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d8/Scroll_of_Colour_Spray_Unfaded_Icon.png/40px-Scroll_of_Colour_Spray_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Colour_Spray",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Disguise Self",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e1/Scroll_of_Disguise_Self_Unfaded_Icon.png/40px-Scroll_of_Disguise_Self_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Disguise_Self",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Expeditious Retreat",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5a/Scroll_of_Expeditious_Retreat_Unfaded_Icon.png/40px-Scroll_of_Expeditious_Retreat_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Expeditious_Retreat",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of False Life",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8e/Scroll_of_False_Life_Unfaded_Icon.png/40px-Scroll_of_False_Life_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_False_Life",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Feather Fall",
+      "icon": "https://bg3.wiki/w/images/thumb/9/98/Scroll_of_Feather_Fall_Unfaded_Icon.png/40px-Scroll_of_Feather_Fall_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Feather_Fall",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Find Familiar",
+      "icon": "https://bg3.wiki/w/images/thumb/9/95/Scroll_of_Find_Familiar_Unfaded_Icon.png/40px-Scroll_of_Find_Familiar_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Find_Familiar",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Fog Cloud",
+      "icon": "https://bg3.wiki/w/images/thumb/5/55/Scroll_of_Fog_Cloud_Unfaded_Icon.png/40px-Scroll_of_Fog_Cloud_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Fog_Cloud",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Goodberry",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c1/Scroll_of_Goodberry_Unfaded_Icon.png/40px-Scroll_of_Goodberry_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Goodberry",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Grease",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f1/Scroll_of_Grease_Unfaded_Icon.png/40px-Scroll_of_Grease_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Grease",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Ice Knife",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a2/Scroll_of_Ice_Knife_Unfaded_Icon.png/40px-Scroll_of_Ice_Knife_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Ice_Knife",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Jump",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f3/Scroll_of_Jump_Unfaded_Icon.png/40px-Scroll_of_Jump_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Jump",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Longstrider",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e4/Scroll_of_Longstrider_Unfaded_Icon.png/40px-Scroll_of_Longstrider_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Longstrider",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Mage Armour",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c9/Scroll_of_Mage_Armour_Unfaded_Icon.png/40px-Scroll_of_Mage_Armour_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Mage_Armour",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Magic Missile",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e9/Scroll_of_Magic_Missile_Unfaded_Icon.png/40px-Scroll_of_Magic_Missile_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Magic_Missile",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Protection from Evil and Good",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b9/Scroll_of_Protection_from_Evil_and_Good_Unfaded_Icon.png/40px-Scroll_of_Protection_from_Evil_and_Good_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Protection_from_Evil_and_Good",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Ray of Sickness",
+      "icon": "https://bg3.wiki/w/images/thumb/9/93/Scroll_of_Ray_of_Sickness_Unfaded_Icon.png/40px-Scroll_of_Ray_of_Sickness_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Ray_of_Sickness",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Sleep",
+      "icon": "https://bg3.wiki/w/images/thumb/2/28/Scroll_of_Sleep_Unfaded_Icon.png/40px-Scroll_of_Sleep_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Sleep",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Summon Quasit",
+      "icon": "https://bg3.wiki/w/images/thumb/9/95/Scroll_of_Summon_Quasit_Unfaded_Icon.png/40px-Scroll_of_Summon_Quasit_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Summon_Quasit",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Tasha's Hideous Laughter",
+      "icon": "https://bg3.wiki/w/images/thumb/7/75/Scroll_of_Tasha%27s_Hideous_Laughter_Unfaded_Icon.png/40px-Scroll_of_Tasha%27s_Hideous_Laughter_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Tasha%27s_Hideous_Laughter",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Thunderwave",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c8/Scroll_of_Thunderwave_Unfaded_Icon.png/40px-Scroll_of_Thunderwave_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Thunderwave",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Witch Bolt",
+      "icon": "https://bg3.wiki/w/images/thumb/7/76/Scroll_of_Witch_Bolt_Unfaded_Icon.png/40px-Scroll_of_Witch_Bolt_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Witch_Bolt",
+      "level": "Level 1",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Aid",
+      "icon": "https://bg3.wiki/w/images/thumb/9/90/Scroll_of_Aid_Unfaded_Icon.png/40px-Scroll_of_Aid_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Aid",
+      "level": "Level 2",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Arcane Lock",
+      "icon": "https://bg3.wiki/w/images/thumb/d/df/Scroll_of_Arcane_Lock_Unfaded_Icon.png/40px-Scroll_of_Arcane_Lock_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Arcane_Lock",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Blindness",
+      "icon": "https://bg3.wiki/w/images/thumb/4/49/Scroll_of_Blindness_Unfaded_Icon.png/40px-Scroll_of_Blindness_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Blindness",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Blur",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4e/Scroll_of_Blur_Unfaded_Icon.png/40px-Scroll_of_Blur_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Blur",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Cloud of Daggers",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1b/Scroll_of_Cloud_of_Daggers_Unfaded_Icon.png/40px-Scroll_of_Cloud_of_Daggers_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Cloud_of_Daggers",
+      "level": "Level 2",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Crown of Madness",
+      "icon": "https://bg3.wiki/w/images/thumb/6/69/Scroll_of_Crown_of_Madness_Unfaded_Icon.png/40px-Scroll_of_Crown_of_Madness_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Crown_of_Madness",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Darkness",
+      "icon": "https://bg3.wiki/w/images/thumb/5/56/Scroll_of_Darkness_Unfaded_Icon.png/40px-Scroll_of_Darkness_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Darkness",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Darkvision",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Scroll_of_Darkvision_Unfaded_Icon.png/40px-Scroll_of_Darkvision_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Darkvision",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Detect Thoughts",
+      "icon": "https://bg3.wiki/w/images/thumb/5/50/Scroll_of_Detect_Thoughts_Unfaded_Icon.png/40px-Scroll_of_Detect_Thoughts_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Detect_Thoughts",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Enlarge",
+      "icon": "https://bg3.wiki/w/images/thumb/6/60/Scroll_of_Enlarge_Unfaded_Icon.png/40px-Scroll_of_Enlarge_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Enlarge",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Flame Blade",
+      "icon": "https://bg3.wiki/w/images/thumb/5/52/Scroll_of_Flame_Blade_Unfaded_Icon.png/40px-Scroll_of_Flame_Blade_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Flame_Blade",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Flaming Sphere",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2b/Scroll_of_Flaming_Sphere_Unfaded_Icon.png/40px-Scroll_of_Flaming_Sphere_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Flaming_Sphere",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Gust of Wind",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c1/Scroll_of_Gust_of_Wind_Unfaded_Icon.png/40px-Scroll_of_Gust_of_Wind_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Gust_of_Wind",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Hold Person",
+      "icon": "https://bg3.wiki/w/images/thumb/3/32/Scroll_of_Hold_Person_Unfaded_Icon.png/40px-Scroll_of_Hold_Person_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Hold_Person",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Invisibility",
+      "icon": "https://bg3.wiki/w/images/thumb/0/05/Scroll_of_Invisibility_Unfaded_Icon.png/40px-Scroll_of_Invisibility_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Invisibility",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Knock",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1a/Scroll_of_Knock_Unfaded_Icon.png/40px-Scroll_of_Knock_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Knock",
+      "level": "Level 2",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Magic Weapon",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2d/Scroll_of_Magic_Weapon_Unfaded_Icon.png/40px-Scroll_of_Magic_Weapon_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Magic_Weapon",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Melf's Acid Arrow",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1d/Scroll_of_Melf%27s_Acid_Arrow_Unfaded_Icon.png/40px-Scroll_of_Melf%27s_Acid_Arrow_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Melf%27s_Acid_Arrow",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Mirror Image",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a0/Scroll_of_Mirror_Image_Unfaded_Icon.png/40px-Scroll_of_Mirror_Image_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Mirror_Image",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Misty Step",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7b/Scroll_of_Misty_Step_Unfaded_Icon.png/40px-Scroll_of_Misty_Step_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Misty_Step",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Phantasmal Force",
+      "icon": "https://bg3.wiki/w/images/thumb/7/72/Scroll_of_Phantasmal_Force_Unfaded_Icon.png/40px-Scroll_of_Phantasmal_Force_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Phantasmal_Force",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Ray of Enfeeblement",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e6/Scroll_of_Ray_of_Enfeeblement_Unfaded_Icon.png/40px-Scroll_of_Ray_of_Enfeeblement_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Ray_of_Enfeeblement",
+      "level": "Level 2",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Scorching Ray",
+      "icon": "https://bg3.wiki/w/images/thumb/1/14/Scroll_of_Scorching_Ray_Unfaded_Icon.png/40px-Scroll_of_Scorching_Ray_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Scorching_Ray",
+      "level": "Level 2",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of See Invisibility",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2d/Scroll_of_See_Invisibility_Unfaded_Icon.png/40px-Scroll_of_See_Invisibility_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_See_Invisibility",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Shatter",
+      "icon": "https://bg3.wiki/w/images/thumb/3/33/Scroll_of_Shatter_Unfaded_Icon.png/40px-Scroll_of_Shatter_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Shatter",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Web",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9e/Scroll_of_Web_Unfaded_Icon.png/40px-Scroll_of_Web_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Web",
+      "level": "Level 2",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Animate Dead",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e9/Scroll_of_Animate_Dead_Unfaded_Icon.png/40px-Scroll_of_Animate_Dead_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Animate_Dead",
+      "level": "Level 3",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Bestow Curse",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Scroll_of_Bestow_Curse_Unfaded_Icon.png/40px-Scroll_of_Bestow_Curse_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Bestow_Curse",
+      "level": "Level 3",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Blink",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f7/Scroll_of_Blink_Unfaded_Icon.png/40px-Scroll_of_Blink_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Blink",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Fear",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c7/Scroll_of_Fear_Unfaded_Icon.png/40px-Scroll_of_Fear_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Fear",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Feign Death",
+      "icon": "https://bg3.wiki/w/images/thumb/5/55/Scroll_of_Feign_Death_Unfaded_Icon.png/40px-Scroll_of_Feign_Death_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Feign_Death",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Fireball",
+      "icon": "https://bg3.wiki/w/images/thumb/5/59/Scroll_of_Fireball_Unfaded_Icon.png/40px-Scroll_of_Fireball_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Fireball",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Fly",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1c/Scroll_of_Fly_Unfaded_Icon.png/40px-Scroll_of_Fly_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Fly",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Gaseous Form",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6f/Scroll_of_Gaseous_Form_Unfaded_Icon.png/40px-Scroll_of_Gaseous_Form_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Gaseous_Form",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Glyph of Warding",
+      "icon": "https://bg3.wiki/w/images/thumb/8/82/Scroll_of_Glyph_of_Warding_Unfaded_Icon.png/40px-Scroll_of_Glyph_of_Warding_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Glyph_of_Warding",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Haste",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ad/Scroll_of_Haste_Unfaded_Icon.png/40px-Scroll_of_Haste_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Haste",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Hypnotic Pattern",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ad/Scroll_of_Hypnotic_Pattern_Unfaded_Icon.png/40px-Scroll_of_Hypnotic_Pattern_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Hypnotic_Pattern",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Lightning Bolt",
+      "icon": "https://bg3.wiki/w/images/thumb/e/ee/Scroll_of_Lightning_Bolt_Unfaded_Icon.png/40px-Scroll_of_Lightning_Bolt_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Lightning_Bolt",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Protection from Energy",
+      "icon": "https://bg3.wiki/w/images/thumb/4/49/Scroll_of_Protection_from_Energy_Unfaded_Icon.png/40px-Scroll_of_Protection_from_Energy_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Protection_from_Energy",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Remove Curse",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5a/Scroll_of_Remove_Curse_Unfaded_Icon.png/40px-Scroll_of_Remove_Curse_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Remove_Curse",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Revivify",
+      "icon": "https://bg3.wiki/w/images/thumb/6/62/Scroll_of_Revivify_Unfaded_Icon.png/40px-Scroll_of_Revivify_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Revivify",
+      "level": "Level 3",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Sleet Storm",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a7/Scroll_of_Sleet_Storm_Unfaded_Icon.png/40px-Scroll_of_Sleet_Storm_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Sleet_Storm",
+      "level": "Level 3",
+      "rarity": "Common"
+    },
+    {
+      "name": "Scroll of Slow",
+      "icon": "https://bg3.wiki/w/images/thumb/1/11/Scroll_of_Slow_Unfaded_Icon.png/40px-Scroll_of_Slow_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Slow",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Speak with Dead",
+      "icon": "https://bg3.wiki/w/images/thumb/a/aa/Scroll_of_Speak_With_Dead_Unfaded_Icon.png/40px-Scroll_of_Speak_With_Dead_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Speak_with_Dead",
+      "level": "Level 3",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Scroll of Stinking Cloud",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4f/Scroll_of_Stinking_Cloud_Unfaded_Icon.png/40px-Scroll_of_Stinking_Cloud_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Stinking_Cloud",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Vampiric Touch",
+      "icon": "https://bg3.wiki/w/images/thumb/d/dc/Scroll_of_Vampiric_Touch_Unfaded_Icon.png/40px-Scroll_of_Vampiric_Touch_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Vampiric_Touch",
+      "level": "Level 3",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Banishment",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5f/Scroll_of_Banishment_Unfaded_Icon.png/40px-Scroll_of_Banishment_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Banishment",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Blight",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Scroll_of_Blight_Unfaded_Icon.png/40px-Scroll_of_Blight_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Blight",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Confusion",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d8/Scroll_of_Confusion_Unfaded_Icon.png/40px-Scroll_of_Confusion_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Confusion",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Conjure Minor Elemental",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d4/Scroll_of_Conjure_Minor_Elemental_Unfaded_Icon.png/40px-Scroll_of_Conjure_Minor_Elemental_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Conjure_Minor_Elemental",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Dimension Door",
+      "icon": "https://bg3.wiki/w/images/thumb/3/30/Scroll_of_Dimension_Door_Unfaded_Icon.png/40px-Scroll_of_Dimension_Door_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Dimension_Door",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Evard's Black Tentacles",
+      "icon": "https://bg3.wiki/w/images/thumb/0/04/Scroll_of_Evard%27s_Black_Tentacles_Unfaded_Icon.png/40px-Scroll_of_Evard%27s_Black_Tentacles_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Evard%27s_Black_Tentacles",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Fire Shield",
+      "icon": "https://bg3.wiki/w/images/thumb/4/42/Scroll_of_Fire_Shield_Unfaded_Icon.png/40px-Scroll_of_Fire_Shield_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Fire_Shield",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Greater Invisibility",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4e/Scroll_of_Greater_Invisibility_Unfaded_Icon.png/40px-Scroll_of_Greater_Invisibility_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Greater_Invisibility",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Ice Storm",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6b/Scroll_of_Ice_Storm_Unfaded_Icon.png/40px-Scroll_of_Ice_Storm_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Ice_Storm",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Otiluke's Resilient Sphere",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bd/Scroll_of_Otiluke%27s_Resilient_Sphere_Unfaded_Icon.png/40px-Scroll_of_Otiluke%27s_Resilient_Sphere_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Otiluke%27s_Resilient_Sphere",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Phantasmal Killer",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bf/Scroll_of_Phantasmal_Killer_Unfaded_Icon.png/40px-Scroll_of_Phantasmal_Killer_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Phantasmal_Killer",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Polymorph",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4f/Scroll_of_Polymorph_Unfaded_Icon.png/40px-Scroll_of_Polymorph_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Polymorph",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Stoneskin",
+      "icon": "https://bg3.wiki/w/images/thumb/7/70/Scroll_of_Stoneskin_Unfaded_Icon.png/40px-Scroll_of_Stoneskin_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Stoneskin",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Wall of Fire",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c0/Scroll_of_Wall_of_Fire_Unfaded_Icon.png/40px-Scroll_of_Wall_of_Fire_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Wall_of_Fire",
+      "level": "Level 4",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Scroll of Artistry of War",
+      "icon": "https://bg3.wiki/w/images/thumb/5/52/Scroll_of_Artistry_of_War_Unfaded_Icon.png/40px-Scroll_of_Artistry_of_War_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Artistry_of_War",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Bestial Communion",
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Scroll_of_Bestial_Communion_Unfaded_Icon.png/40px-Scroll_of_Bestial_Communion_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Bestial_Communion",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Cloudkill",
+      "icon": "https://bg3.wiki/w/images/thumb/0/09/Scroll_of_Cloudkill_Unfaded_Icon.png/40px-Scroll_of_Cloudkill_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Cloudkill",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Cone of Cold",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c5/Scroll_of_Cone_of_Cold_Unfaded_Icon.png/40px-Scroll_of_Cone_of_Cold_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Cone_of_Cold",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Conjure Elemental",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e6/Scroll_of_Conjure_Elemental_Unfaded_Icon.png/40px-Scroll_of_Conjure_Elemental_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Conjure_Elemental",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Dethrone",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d9/Scroll_of_Dethrone_Unfaded_Icon.png/40px-Scroll_of_Dethrone_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Dethrone",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Dominate Person",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fb/Scroll_of_Dominate_Person_Unfaded_Icon.png/40px-Scroll_of_Dominate_Person_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Dominate_Person",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Hold Monster",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ad/Scroll_of_Hold_Monster_Unfaded_Icon.png/40px-Scroll_of_Hold_Monster_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Hold_Monster",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Planar Binding",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ae/Scroll_of_Planar_Binding_Unfaded_Icon.png/40px-Scroll_of_Planar_Binding_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Planar_Binding",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Seeming",
+      "icon": "https://bg3.wiki/w/images/thumb/1/17/Scroll_of_Seeming_Unfaded_Icon.png/40px-Scroll_of_Seeming_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Seeming",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Telekinesis",
+      "icon": "https://bg3.wiki/w/images/thumb/0/09/Scroll_of_Telekinesis_Unfaded_Icon.png/40px-Scroll_of_Telekinesis_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Telekinesis",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Wall of Stone",
+      "icon": "https://bg3.wiki/w/images/thumb/4/42/Scroll_of_Wall_of_Stone_Unfaded_Icon.png/40px-Scroll_of_Wall_of_Stone_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Wall_of_Stone",
+      "level": "Level 5",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Circle of Death",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f5/Scroll_of_Circle_of_Death_Unfaded_Icon.png/40px-Scroll_of_Circle_of_Death_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Circle_of_Death",
+      "level": "Level 6",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Chain Lightning",
+      "icon": "https://bg3.wiki/w/images/thumb/0/04/Scroll_of_Chain_Lightning_Unfaded_Icon.png/40px-Scroll_of_Chain_Lightning_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Chain_Lightning",
+      "level": "Level 6",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Disintegrate",
+      "icon": "https://bg3.wiki/w/images/thumb/3/39/Scroll_of_Disintegrate_Unfaded_Icon.png/40px-Scroll_of_Disintegrate_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Disintegrate",
+      "level": "Level 6",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Eyebite",
+      "icon": "https://bg3.wiki/w/images/thumb/b/be/Scroll_of_Eyebite_Unfaded_Icon.png/40px-Scroll_of_Eyebite_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Eyebite",
+      "level": "Level 6",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Flesh to Stone",
+      "icon": "https://bg3.wiki/w/images/thumb/1/18/Scroll_of_Flesh_to_Stone_Unfaded_Icon.png/40px-Scroll_of_Flesh_to_Stone_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Flesh_to_Stone",
+      "level": "Level 6",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Globe of Invulnerability",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0d/Scroll_of_Globe_of_Invulnerability_Unfaded_Icon.png/40px-Scroll_of_Globe_of_Invulnerability_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Globe_of_Invulnerability",
+      "level": "Level 6",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Otiluke's Freezing Sphere",
+      "icon": "https://bg3.wiki/w/images/thumb/4/43/Scroll_of_Otiluke%27s_Freezing_Sphere_Unfaded_Icon.png/40px-Scroll_of_Otiluke%27s_Freezing_Sphere_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Otiluke%27s_Freezing_Sphere",
+      "level": "Level 6",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Otto's Irresistible Dance",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8d/Scroll_of_Otto%27s_Irresistible_Dance_Unfaded_Icon.png/40px-Scroll_of_Otto%27s_Irresistible_Dance_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Otto%27s_Irresistible_Dance",
+      "level": "Level 6",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Sunbeam",
+      "icon": "https://bg3.wiki/w/images/thumb/3/31/Scroll_of_Sunbeam_Unfaded_Icon.png/40px-Scroll_of_Sunbeam_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Sunbeam",
+      "level": "Level 6",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Scroll of Wall of Ice",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Scroll_of_Wall_of_Ice_Unfaded_Icon.png/40px-Scroll_of_Wall_of_Ice_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Wall_of_Ice",
+      "level": "Level 6",
+      "rarity": "Very Rare"
+    }
   ]
 }

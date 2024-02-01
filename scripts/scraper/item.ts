@@ -1,3 +1,4 @@
+import { countBy } from "lodash-es"
 import type { Page } from "playwright"
 
 interface RawScrapedItem {
@@ -38,15 +39,6 @@ export async function getEasyToScrapeEquipmentsFromPage(
   return scrapedItems.map(toItem)
 }
 
-function toItem({ classes, name, icon, wikiLink }: RawScrapedItem): Item {
-  return {
-    name,
-    icon,
-    wikiLink,
-    rarity: rarityBasedOnClassList(classes),
-  }
-}
-
 export function separateItemDuplicates(items: Item[]): [Item[], Item[]] {
   const filteredItems: Item[] = []
   const usedWikiLinks: string[] = []
@@ -64,18 +56,18 @@ export function separateItemDuplicates(items: Item[]): [Item[], Item[]] {
   return [filteredItems, duplicates]
 }
 
-export function generateLogMessageForDuplicateItems(items: Item[]) {
-  const count = items.length
+export function generateLogMessageForDuplicateItems(duplicates: Item[]) {
+  const count = duplicates.length
   const infoHeading = `Removed ${count} duplicates: `
-  const infoList = items.map((item) => item.name).join(", ")
+  const duplicatesWithCount = countBy(duplicates, (item) => item.name)
+  const infoList = Object.entries(duplicatesWithCount)
+    .map(([name, count]) => `${name} (${count})`)
+    .join(", ")
+    .trimEnd()
   return infoHeading + infoList
 }
 
-export interface ItemWithArmourType {
-  name: string
-  icon: string
-  wikiLink: string
-  rarity: string
+export interface ItemWithArmourType extends Item {
   armourType: string
 }
 
@@ -198,7 +190,104 @@ async function scrapeWithArmourType(
 
 /** Consumables */
 
+export async function getEquipmentsFromTableWithRarityColumnFromPage(
+  page: Page,
+  itemRowSelector = `.mw-parser-output > table > tbody tr`,
+) {
+  return await page.locator(itemRowSelector).evaluateAll((elements) =>
+    elements.map((element) => {
+      const linkElement =
+        element.querySelector<HTMLAnchorElement>("td:nth-child(1) a")
+      const name = linkElement.getAttribute("title")
+      const icon = linkElement.querySelector("img").src
+      const relativeWikiLink = linkElement.getAttribute("href")
+      const wikiLink = `https://bg3.wiki${relativeWikiLink}`
+      const rarityCell = element.querySelector("td:nth-child(2)")
+      const rarity = rarityCell.textContent.trim()
+
+      return { name, icon, wikiLink, rarity }
+    }),
+  )
+}
+
+export async function getElixirsFromPage(page: Page) {
+  const normalElixirs =
+    await getEquipmentsFromTableWithRarityColumnFromPage(page)
+
+  // Yeah, I'm hardcoding it. Not worth to scrape for just this one item
+  const elixirOfUniversalResistance: Item = {
+    name: "Elixir of Universal Resistance",
+    icon: "/w/images/thumb/b/bb/ELX_Elixir_of_Universal_Resistance_Unfaded_Icon.png/40px-ELX_Elixir_of_Universal_Resistance_Unfaded_Icon.png",
+    rarity: "Very Rare",
+    wikiLink: "https://bg3.wiki/wiki/Elixir_of_Universal_Resistance",
+  }
+  return [...normalElixirs, elixirOfUniversalResistance]
+}
+
+export async function getGrenadesFromPage(page: Page) {
+  const getRegularGrenadesAndExplosiveSatchels =
+    getEasyToScrapeEquipmentsFromPage(page)
+  const getSpecialGrenades = getEquipmentsFromTableWithRarityColumnFromPage(
+    page,
+    `.mw-parser-output > table:nth-of-type(3) > tbody tr`,
+  )
+  const grenades = Promise.all([
+    getRegularGrenadesAndExplosiveSatchels,
+    getSpecialGrenades,
+  ])
+  return (await grenades).flat()
+}
+
+interface Scroll extends Item {
+  level: string
+}
+
+export async function getScrollsFromPage(page: Page): Promise<Scroll[]> {
+  const nthDivColItemSelector = (n: number) =>
+    `.mw-parser-output .div-col:nth-of-type(${n + 1}) .bg3wiki-itemicon`
+
+  const categories = [
+    { selector: nthDivColItemSelector(5), level: "Cantrip" },
+    { selector: nthDivColItemSelector(6), level: "Level 1" },
+    { selector: nthDivColItemSelector(7), level: "Level 2" },
+    { selector: nthDivColItemSelector(8), level: "Level 3" },
+    { selector: nthDivColItemSelector(9), level: "Level 4" },
+    { selector: nthDivColItemSelector(10), level: "Level 5" },
+    { selector: nthDivColItemSelector(11), level: "Level 6" },
+  ]
+
+  const promises = categories.map(({ selector, level }) =>
+    page.locator(selector).evaluateAll(
+      (elements, level) =>
+        elements.map((element) => {
+          const classes = Array.from(element.classList)
+          const linkElement = element.querySelector("a")
+          const name = linkElement.getAttribute("title")
+          const icon = linkElement.querySelector("img").src
+          const relativeWikiLink = linkElement.getAttribute("href")
+          const wikiLink = `https://bg3.wiki${relativeWikiLink}`
+
+          return { name, icon, wikiLink, classes, level }
+        }),
+      level,
+    ),
+  )
+  const scrollsByCategory = await Promise.all(promises)
+
+  return scrollsByCategory.flat().map(({ classes, ...props }) => ({
+    ...props,
+    rarity: rarityBasedOnClassList(classes),
+  }))
+}
+
 /** Utils */
+
+function toItem({ classes, ...props }: RawScrapedItem): Item {
+  return {
+    ...props,
+    rarity: rarityBasedOnClassList(classes),
+  }
+}
 
 function rarityBasedOnClassList(classes: string[]) {
   if (classes.includes("bg3wiki-itemicon-common")) {

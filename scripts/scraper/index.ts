@@ -11,69 +11,103 @@ import {
   generateLogMessageForDuplicateItems,
   getArmoursFromPage,
   getEasyToScrapeEquipmentsFromPage,
+  getElixirsFromPage,
+  getEquipmentsFromTableWithRarityColumnFromPage,
   getFootwearsFromPage,
+  getGrenadesFromPage,
   getHandwearFromPage,
   getHeadwearsFromPage,
+  getScrollsFromPage,
   separateItemDuplicates,
 } from "./item"
 
 async function main() {
   const spinner = ora("Opening browser page").start()
   const browser = await chromium.launch()
-  const context = await browser.newContext()
+  const context = await browser.newContext({ baseURL: "https://bg3.wiki/" })
   const page = await context.newPage()
   spinner.succeed("Browser opened")
 
   try {
     const weapons = await scrapeItemType({
       itemName: "weapons",
-      gotoFn: () => page.goto("https://bg3.wiki/wiki/List_of_Weapons"),
+      gotoFn: () => page.goto("/wiki/List_of_Weapons"),
       scraperFn: () => getEasyToScrapeEquipmentsFromPage(page),
     })
     const clothes = await scrapeItemType({
       itemName: "clothes",
-      gotoFn: () => page.goto("https://bg3.wiki/wiki/Clothing"),
+      gotoFn: () => page.goto("/wiki/Clothing"),
       scraperFn: () => getEasyToScrapeEquipmentsFromPage(page),
     })
     const shields = await scrapeItemType({
       itemName: "shields",
-      gotoFn: () => page.goto("https://bg3.wiki/wiki/Shields"),
+      gotoFn: () => page.goto("/wiki/Shields"),
       scraperFn: () => getHandwearFromPage(page),
     })
     const cloaks = await scrapeItemType({
       itemName: "cloaks",
-      gotoFn: () => page.goto("https://bg3.wiki/wiki/Cloaks"),
+      gotoFn: () => page.goto("/wiki/Cloaks"),
       scraperFn: () => getEasyToScrapeEquipmentsFromPage(page),
     })
     const amulets = await scrapeItemType({
       itemName: "amulets",
-      gotoFn: () => page.goto("https://bg3.wiki/wiki/Amulets"),
+      gotoFn: () => page.goto("/wiki/Amulets"),
       scraperFn: () => getHandwearFromPage(page),
     })
     const rings = await scrapeItemType({
       itemName: "rings",
-      gotoFn: () => page.goto("https://bg3.wiki/wiki/Rings"),
+      gotoFn: () => page.goto("/wiki/Rings"),
       scraperFn: () => getHandwearFromPage(page),
     })
     const armours = await scrapeItemType({
       itemName: "armours",
-      gotoFn: () => page.goto("https://bg3.wiki/wiki/Armour"),
+      gotoFn: () => page.goto("/wiki/Armour"),
       scraperFn: () => getArmoursFromPage(page),
     })
     const headwears = await scrapeItemType({
       itemName: "headwears",
-      gotoFn: () => page.goto("https://bg3.wiki/wiki/Headwear"),
+      gotoFn: () => page.goto("/wiki/Headwear"),
       scraperFn: () => getHeadwearsFromPage(page),
     })
     const footwears = await scrapeItemType({
       itemName: "footwear",
-      gotoFn: () => page.goto("https://bg3.wiki/wiki/Footwear"),
+      gotoFn: () => page.goto("/wiki/Footwear"),
       scraperFn: () => getFootwearsFromPage(page),
     })
     const handwears = await scrapeItemType({
       itemName: "handwears",
-      gotoFn: () => page.goto("https://bg3.wiki/wiki/Handwear"),
+      gotoFn: () => page.goto("/wiki/Handwear"),
       scraperFn: () => getHandwearFromPage(page),
+    })
+    const arrows = await scrapeItemType({
+      itemName: "arrows",
+      gotoFn: () => page.goto("/wiki/Arrows"),
+      scraperFn: () => getEquipmentsFromTableWithRarityColumnFromPage(page),
+    })
+    const coatings = await scrapeItemType({
+      itemName: "coatings",
+      gotoFn: () => page.goto("/wiki/Coatings"),
+      scraperFn: () => getEquipmentsFromTableWithRarityColumnFromPage(page),
+    })
+    const elixirs = await scrapeItemType({
+      itemName: "elixirs",
+      gotoFn: () => page.goto("/wiki/Elixirs"),
+      scraperFn: () => getElixirsFromPage(page),
+    })
+    const potions = await scrapeItemType({
+      itemName: "potions",
+      gotoFn: () => page.goto("/wiki/Potions"),
+      scraperFn: () => getEquipmentsFromTableWithRarityColumnFromPage(page),
+    })
+    const grenades = await scrapeItemType({
+      itemName: "grenades",
+      gotoFn: () => page.goto("/wiki/Grenades"),
+      scraperFn: () => getGrenadesFromPage(page),
+    })
+    const scrolls = await scrapeItemType({
+      itemName: "scrolls",
+      gotoFn: () => page.goto("/wiki/Scrolls"),
+      scraperFn: () => getScrollsFromPage(page),
     })
 
     const filePath = path.join("public", "items.json")
@@ -88,6 +122,12 @@ async function main() {
       rings,
       footwears,
       handwears,
+      arrows,
+      coatings,
+      elixirs,
+      potions,
+      grenades,
+      scrolls,
     })
     consola.success(`Saved scraped items to: ${filePath}`)
   } catch (error) {
@@ -117,10 +157,15 @@ async function scrapeItemType({
     spinner.succeed(`Successfully scraped ${itemsCount} ${itemName}`)
 
     const [itemsWithoutDuplicates, duplicates] = separateItemDuplicates(items)
-    consola.info(generateLogMessageForDuplicateItems(duplicates))
+    if (duplicates.length) {
+      consola.info(generateLogMessageForDuplicateItems(duplicates))
 
-    const itemsCountWithoutDuplicates = itemsWithoutDuplicates.length
-    consola.info(`Found ${itemsCountWithoutDuplicates} ${itemName} in total\n`)
+      const itemsCountWithoutDuplicates = itemsWithoutDuplicates.length
+      const duplicateSummaryMessage = `Found ${itemsCountWithoutDuplicates} ${itemName} in total`
+      consola.info(duplicateSummaryMessage)
+    }
+    consola.log("")
+
     return itemsWithoutDuplicates
   } catch (error) {
     spinner.fail(`Couldn't retrieve ${itemName}`)
