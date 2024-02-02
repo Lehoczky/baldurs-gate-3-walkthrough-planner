@@ -110,7 +110,7 @@ async function main() {
       scraperFn: () => getScrollsFromPage(page),
     })
 
-    const filePath = path.join("public", "items.json")
+    const filePath = path.join("public", "data.json")
     await writeJsonFile(filePath, {
       weapons,
       clothes,
