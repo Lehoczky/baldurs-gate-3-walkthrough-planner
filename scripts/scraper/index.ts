@@ -5,6 +5,7 @@ import ora from "ora"
 import type { Response } from "playwright"
 import { chromium } from "playwright"
 
+import { companions } from "./companions"
 import { writeJsonFile } from "./fsExtra"
 import type { Item } from "./item"
 import {
@@ -20,6 +21,8 @@ import {
   getScrollsFromPage,
   separateItemDuplicates,
 } from "./item"
+import { locations } from "./locations"
+import { scrapeSpells } from "./spells"
 
 async function main() {
   const spinner = ora("Opening browser page").start()
@@ -110,6 +113,9 @@ async function main() {
       scraperFn: () => getScrollsFromPage(page),
     })
 
+    const spells = await scrapeSpells(page)
+    consola.success(`Successfully scraped ${spells.length} spells`)
+
     const filePath = path.join("public", "data.json")
     await writeJsonFile(filePath, {
       weapons,
@@ -128,6 +134,9 @@ async function main() {
       potions,
       grenades,
       scrolls,
+      companions,
+      locations,
+      spells,
     })
     consola.success(`Saved scraped items to: ${filePath}`)
   } catch (error) {

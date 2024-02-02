@@ -7525,5 +7525,1873 @@
       "level": "Level 6",
       "rarity": "Very Rare"
     }
+  ],
+  "companions": [
+    {
+      "name": "Astarion",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1b/Portrait_Astarion.png/180px-Portrait_Astarion.png",
+      "wikiLink": "https://bg3.wiki/wiki/Astarion"
+    },
+    {
+      "name": "Gale",
+      "icon": "https://bg3.wiki/w/images/thumb/1/11/Portrait_Gale.png/180px-Portrait_Gale.png",
+      "wikiLink": "https://bg3.wiki/wiki/Gale"
+    },
+    {
+      "name": "Karlach",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b2/Portrait_Karlach.png/180px-Portrait_Karlach.png",
+      "wikiLink": "https://bg3.wiki/wiki/Karlach"
+    },
+    {
+      "name": "Lae'zel",
+      "icon": "https://bg3.wiki/w/images/thumb/8/86/Portrait_Lae%27zel.png/180px-Portrait_Lae%27zel.png",
+      "wikiLink": "https://bg3.wiki/wiki/Lae%27zel"
+    },
+    {
+      "name": "Shadowheart",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7e/Portrait_Shadowheart.png/180px-Portrait_Shadowheart.png",
+      "wikiLink": "https://bg3.wiki/wiki/Shadowheart"
+    },
+    {
+      "name": "Wyll",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6d/Portrait_Wyll.png/180px-Portrait_Wyll.png",
+      "wikiLink": "https://bg3.wiki/wiki/Wyll"
+    },
+    {
+      "name": "Halsin",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fe/Portrait_Halsin.png/180px-Portrait_Halsin.png",
+      "wikiLink": "https://bg3.wiki/wiki/Halsin"
+    },
+    {
+      "name": "Minthara",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c2/Portrait_Minthara.png/180px-Portrait_Minthara.png",
+      "wikiLink": "https://bg3.wiki/wiki/Minthara"
+    },
+    {
+      "name": "Minsc",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d6/Portrait_Minsc.png/180px-Portrait_Minsc.png",
+      "wikiLink": "https://bg3.wiki/wiki/Minsc"
+    },
+    {
+      "name": "Jaheira",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a8/Portrait_Jaheira.png/180px-Portrait_Jaheira.png",
+      "wikiLink": "https://bg3.wiki/wiki/Jaheira"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Blighted Village",
+      "description": "An abandoned village, now occupied by goblins ",
+      "icon": "https://bg3.wiki/w/images/thumb/0/01/Blighted_Village.jpg/400px-Blighted_Village.jpg",
+      "act": "Act One",
+      "area": "Wilderness",
+      "wikiLink": "https://bg3.wiki/wiki/Blighted_Village"
+    },
+    {
+      "name": "Emerald Grove",
+      "description": "A sacred grove and home to druids, and temporary refuge for a group of tiefling refugees",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cd/Sacred_Pool.png/400px-Sacred_Pool.png",
+      "act": "Act One",
+      "area": "Wilderness",
+      "wikiLink": "https://bg3.wiki/wiki/Emerald_Grove"
+    },
+    {
+      "name": "Forest",
+      "description": "A patch of woodland west of the grove",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3a/Forest.jpg/400px-Forest.jpg",
+      "act": "Act One",
+      "area": "Wilderness",
+      "wikiLink": "https://bg3.wiki/wiki/Forest"
+    },
+    {
+      "name": "Goblin Camp",
+      "description": "An old Selûnite temple in use as a base of operations for the Cult of the Absolute",
+      "icon": "https://bg3.wiki/w/images/thumb/3/32/Goblin_Camp.jpg/381px-Goblin_Camp.jpg",
+      "act": "Act One",
+      "area": "Wilderness",
+      "wikiLink": "https://bg3.wiki/wiki/Goblin_Camp"
+    },
+    {
+      "name": "Mountain Pass",
+      "description": "A trail at the edge of the wilderness, leading off to Rosymorn Monastery",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d5/Mountain_Pass.jpg/376px-Mountain_Pass.jpg",
+      "act": "Act One",
+      "area": "Wilderness",
+      "wikiLink": "https://bg3.wiki/wiki/Mountain_Pass"
+    },
+    {
+      "name": "Overgrown Ruins",
+      "description": "A large ruin near to the grove, with the remnants of what was once a chapel",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ad/Overgrown_Ruins.png/400px-Overgrown_Ruins.png",
+      "act": "Act One",
+      "area": "Wilderness",
+      "wikiLink": "https://bg3.wiki/wiki/Overgrown_Ruins"
+    },
+    {
+      "name": "Ravaged Beach",
+      "description": "A beach along the river Chionthar, now strewn with the remains of a crashed Nautiloid",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a4/Ravaged_Beach.jpg/388px-Ravaged_Beach.jpg",
+      "act": "Act One",
+      "area": "Wilderness",
+      "wikiLink": "https://bg3.wiki/wiki/Ravaged_Beach"
+    },
+    {
+      "name": "Sunlit Wetlands",
+      "description": "Picturesque wetlands that give way to a Putrid Bog when held under scrutiny",
+      "icon": "https://bg3.wiki/w/images/thumb/9/98/Sunlit_Wetlands.jpg/359px-Sunlit_Wetlands.jpg",
+      "act": "Act One",
+      "area": "Wilderness",
+      "wikiLink": "https://bg3.wiki/wiki/Sunlit_Wetlands"
+    },
+    {
+      "name": "The Risen Road",
+      "description": "A long stretch of road that connects Elturel and Baldur's Gate, running parallel to the river Chionthar",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d5/The_Risen_Road.jpg/373px-The_Risen_Road.jpg",
+      "act": "Act One",
+      "area": "Wilderness",
+      "wikiLink": "https://bg3.wiki/wiki/The_Risen_Road"
+    },
+    {
+      "name": "Waukeen's Rest",
+      "description": "An inn on the Risen Road, in flames after an assault from the Absolute",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c3/Waukeen%27s_Rest.jpg/378px-Waukeen%27s_Rest.jpg",
+      "act": "Act One",
+      "area": "Wilderness",
+      "wikiLink": "https://bg3.wiki/wiki/Waukeen%27s_Rest"
+    },
+    {
+      "name": "Rosymorn Monastery Trail",
+      "description": "A pilgrimage trail leading between the wilderness, Rosymorn Monastary and the Shadow-Cursed Lands",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4f/Screen_Rosymorn_Monastery_Trail_Bridge_East.jpg/400px-Screen_Rosymorn_Monastery_Trail_Bridge_East.jpg",
+      "act": "Act One",
+      "area": "Rosymorn Monastery Trail",
+      "wikiLink": "https://bg3.wiki/wiki/Rosymorn_Monastery_Trail"
+    },
+    {
+      "name": "Rosymorn Monastery",
+      "description": "A seculded monastery for monks of Lathander",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9b/Screen_View_South_Building_Rosymorn_Monastery.jpg/400px-Screen_View_South_Building_Rosymorn_Monastery.jpg",
+      "act": "Act One",
+      "area": "Rosymorn Monastery Trail",
+      "wikiLink": "https://bg3.wiki/wiki/Rosymorn_Monastery"
+    },
+    {
+      "name": "Creche Y'llek",
+      "description": "Rosymorn Monastery's living quarters, transformed into a githyanki base",
+      "icon": "https://bg3.wiki/w/images/thumb/1/11/Screen_Cr%C3%A8che_Y%27llek_Portrait_of_Vlaakith.jpg/400px-Screen_Cr%C3%A8che_Y%27llek_Portrait_of_Vlaakith.jpg",
+      "act": "Act One",
+      "area": "Rosymorn Monastery Trail",
+      "wikiLink": "https://bg3.wiki/wiki/Creche_Y%27llek"
+    },
+    {
+      "name": "Arcane Tower",
+      "description": "An isolated wizard tower protected by Arcane Cannons",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7c/Arcane_Tower.jpg/375px-Arcane_Tower.jpg",
+      "act": "Act One",
+      "area": "Under-world",
+      "wikiLink": "https://bg3.wiki/wiki/Arcane_Tower"
+    },
+    {
+      "name": "Ebonlake Grotto",
+      "description": "Home of the myconids, lead by Sovereign Spaw",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fd/Ebonlake_Grotto_Overview.jpg/475px-Ebonlake_Grotto_Overview.jpg",
+      "act": "Act One",
+      "area": "Under-world",
+      "wikiLink": "https://bg3.wiki/wiki/Ebonlake_Grotto"
+    },
+    {
+      "name": "Decrepit Village",
+      "description": "An abandoned village on a beach beside the Ebonlake",
+      "icon": "https://bg3.wiki/w/images/thumb/7/70/Decrepit_Village_2.jpg/417px-Decrepit_Village_2.jpg",
+      "act": "Act One",
+      "area": "Under-world",
+      "wikiLink": "https://bg3.wiki/wiki/Decrepit_Village"
+    },
+    {
+      "name": "Dread Hollow",
+      "description": "A cavernous hollow growing a large Sussur tree",
+      "icon": "https://bg3.wiki/w/images/thumb/6/68/Dread_Hollow.jpg/393px-Dread_Hollow.jpg",
+      "act": "Act One",
+      "area": "Under-world",
+      "wikiLink": "https://bg3.wiki/wiki/Dread_Hollow"
+    },
+    {
+      "name": "The Festering Cove",
+      "description": "A hidden cove, home to followers of BOOOAL",
+      "icon": "Act One",
+      "act": "https://bg3.wiki/w/images/thumb/c/c8/The_Festering_Cove.jpg/375px-The_Festering_Cove.jpg",
+      "area": "Under-world",
+      "wikiLink": "https://bg3.wiki/wiki/The_Festering_Cove"
+    },
+    {
+      "name": "Selûnite Outpost",
+      "description": "An abandoned outpost which previously housed followers of Selûne",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9e/Selunite_Outpost_Front.jpg/426px-Selunite_Outpost_Front.jpg",
+      "act": "Act One",
+      "area": "Under-world",
+      "wikiLink": "https://bg3.wiki/wiki/Sel%C3%BBnite_Outpost"
+    },
+    {
+      "name": "Storehouse",
+      "description": "A lone storehouse with an elevator leading to the surface",
+      "icon": "https://bg3.wiki/w/images/thumb/2/25/Storehouse_South.png/400px-Storehouse_South.png",
+      "act": "Act One",
+      "area": "Under-world",
+      "wikiLink": "https://bg3.wiki/wiki/Storehouse"
+    },
+    {
+      "name": "Grymforge",
+      "description": "The legendary Grymforge, built by Sharran worshippers in times past",
+      "icon": "https://bg3.wiki/w/images/thumb/4/41/Grymforge.jpg/375px-Grymforge.jpg",
+      "act": "Act One",
+      "area": "Under-world",
+      "wikiLink": "https://bg3.wiki/wiki/Grymforge"
+    },
+    {
+      "name": "Nautiloid",
+      "description": "A flying illithid ship visited during the prologue, travelling through the Hells",
+      "icon": "https://bg3.wiki/w/images/thumb/7/70/Nautiloid.webp/363px-Nautiloid.webp.png",
+      "act": "Act One",
+      "area": "Other planes",
+      "wikiLink": "https://bg3.wiki/wiki/Nautiloid"
+    },
+    {
+      "name": "Astral Plane",
+      "description": "A small section of the Astral Sea",
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Screen_Astral_Plane_South_East_A.jpg/400px-Screen_Astral_Plane_South_East_A.jpg",
+      "act": "Act One",
+      "area": "Other planes",
+      "wikiLink": "https://bg3.wiki/wiki/Astral_Plane"
+    },
+    {
+      "name": "Ruined Battlefield",
+      "description": "A large battlefield spanning half the region, with remnants of a conflict from before the shadow curse",
+      "icon": "https://bg3.wiki/w/images/thumb/9/96/Ruined_Battlefield.webp/375px-Ruined_Battlefield.webp.png",
+      "act": "Act Two",
+      "area": "Shadow-Cursed Lands",
+      "wikiLink": "https://bg3.wiki/wiki/Ruined_Battlefield"
+    },
+    {
+      "name": "Last Light Inn",
+      "description": "A sanctuary within the Shadow-Cursed Lands, currently occupied by Harpers and members of the Flaming Fist",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a7/Last_Light_Inn.webp/349px-Last_Light_Inn.webp.png",
+      "act": "Act Two",
+      "area": "Shadow-Cursed Lands",
+      "wikiLink": "https://bg3.wiki/wiki/Last_Light_Inn"
+    },
+    {
+      "name": "Reithwin Town",
+      "description": "A now empty town, previously home to followers of Selûne and the Thorm family",
+      "icon": "https://bg3.wiki/w/images/thumb/9/93/Reithwin_Town.webp/407px-Reithwin_Town.webp.png",
+      "act": "Act Two",
+      "area": "Shadow-Cursed Lands",
+      "wikiLink": "https://bg3.wiki/wiki/Reithwin_Town"
+    },
+    {
+      "name": "Grand Mausoleum",
+      "description": "The Thorm family mausoleum, resting place of Melodia Thorm and entrance to the Gauntlet of Shar",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6c/Grand_Mausoleum_Vestibule.jpg/400px-Grand_Mausoleum_Vestibule.jpg",
+      "act": "Act Two",
+      "area": "Shadow-Cursed Lands",
+      "wikiLink": "https://bg3.wiki/wiki/Grand_Mausoleum"
+    },
+    {
+      "name": "Moonrise Towers",
+      "description": "The seat of the Absolute and base of their operations, located south of Reithwin Town",
+      "icon": "https://bg3.wiki/w/images/thumb/4/47/Moonrise_Towers_Overview.jpg/400px-Moonrise_Towers_Overview.jpg",
+      "act": "Act Two",
+      "area": "Shadow-Cursed Lands",
+      "wikiLink": "https://bg3.wiki/wiki/Moonrise_Towers"
+    },
+    {
+      "name": "Shadowfell",
+      "description": "A plane of shadows and domain of Shar",
+      "icon": "https://bg3.wiki/w/images/thumb/3/36/Shadowfell.jpg/400px-Shadowfell.jpg",
+      "act": "Act Two",
+      "area": "Other planes",
+      "wikiLink": "https://bg3.wiki/wiki/Shadowfell"
+    },
+    {
+      "name": "Rivington",
+      "description": "The southern-most district of Baldur's Gate, located on the southern shore of the River Chionthar and south of of Wyrm's Crossing",
+      "icon": "https://bg3.wiki/w/images/thumb/8/87/Rivington.jpg/430px-Rivington.jpg",
+      "act": "Act Three",
+      "area": "Rivington",
+      "wikiLink": "https://bg3.wiki/wiki/Rivington"
+    },
+    {
+      "name": "Arfur's Mansion",
+      "description": "The home of toymaker Arfur Gregorio",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c0/Arfur%27s_Mansion.jpg/401px-Arfur%27s_Mansion.jpg",
+      "act": "Act Three",
+      "area": "Rivington",
+      "wikiLink": "https://bg3.wiki/wiki/Arfur%27s_Mansion"
+    },
+    {
+      "name": "Circus of the Last Days",
+      "description": "An extraplanar circus run by ringmaster Lucretious",
+      "icon": "https://bg3.wiki/w/images/thumb/2/20/Circus_of_the_Last_Days.jpg/495px-Circus_of_the_Last_Days.jpg",
+      "act": "Act Three",
+      "area": "Rivington",
+      "wikiLink": "https://bg3.wiki/wiki/Circus_of_the_Last_Days"
+    },
+    {
+      "name": "Open Hand Temple",
+      "description": "A temple dedicated to Ilmater, grieving after the loss of their head priest",
+      "icon": "https://bg3.wiki/w/images/thumb/0/03/Open_Hand_Temple_Front.jpg/400px-Open_Hand_Temple_Front.jpg",
+      "act": "Act Three",
+      "area": "Rivington",
+      "wikiLink": "https://bg3.wiki/wiki/Open_Hand_Temple"
+    },
+    {
+      "name": "Requisitioned Barn",
+      "description": "A large barn, currently in use as storage for refugee requisitions",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f8/Requisitioned_Barn.jpg/400px-Requisitioned_Barn.jpg",
+      "act": "Act Three",
+      "area": "Rivington",
+      "wikiLink": "https://bg3.wiki/wiki/Requisitioned_Barn"
+    },
+    {
+      "name": "South Span Checkpoint",
+      "description": "An intermediate checkpoint between Rivington and Wyrm's Crossing",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f2/South_Span_Checkpoint.jpg/408px-South_Span_Checkpoint.jpg",
+      "act": "Act Three",
+      "area": "Rivington",
+      "wikiLink": "https://bg3.wiki/wiki/South_Span_Checkpoint"
+    },
+    {
+      "name": "Sword Coast Couriers",
+      "description": "Rivington's post office, complete with pigeon carriers",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0c/SwordCoastCouriers_Exterior.jpg/401px-SwordCoastCouriers_Exterior.jpg",
+      "act": "Act Three",
+      "area": "Rivington",
+      "wikiLink": "https://bg3.wiki/wiki/Sword_Coast_Couriers"
+    },
+    {
+      "name": "Rivington General",
+      "description": "A weapons and armour store, run by Gyldro Angleiron and his clerk Exxvikyap",
+      "icon": "https://bg3.wiki/w/images/thumb/9/92/Rivington_General.jpg/400px-Rivington_General.jpg",
+      "act": "Act Three",
+      "area": "Rivington",
+      "wikiLink": "https://bg3.wiki/wiki/Rivington_General"
+    },
+    {
+      "name": "Wyrm's Crossing",
+      "description": "A crossing between Rivington and the Lower City of Baldur's Gate",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e2/Wyrm%27s_Crossing_Side.jpg/401px-Wyrm%27s_Crossing_Side.jpg",
+      "act": "Act Three",
+      "area": "Wyrm's Crossing",
+      "wikiLink": "https://bg3.wiki/wiki/Wyrm%27s_Crossing"
+    },
+    {
+      "name": "Danthelon's Dancing Axe",
+      "description": "A weapons and armour store owned by Entharl Danthelon, as well as a front to a Harper hideout",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d7/Danthelon%27s_Dancing_Axe.jpg/357px-Danthelon%27s_Dancing_Axe.jpg",
+      "act": "Act Three",
+      "area": "Wyrm's Crossing",
+      "wikiLink": "https://bg3.wiki/wiki/Danthelon%27s_Dancing_Axe"
+    },
+    {
+      "name": "Sharess' Caress",
+      "description": "A house of pleasure run by Mamzell Amira and Kira",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f4/Sharess%27_Caress.jpg/331px-Sharess%27_Caress.jpg",
+      "act": "Act Three",
+      "area": "Wyrm's Crossing",
+      "wikiLink": "https://bg3.wiki/wiki/Sharess%27_Caress"
+    },
+    {
+      "name": "Wyrm's Rock Fortress",
+      "description": "An island-fortress which serves as one of the Flaming Fist's headquarters",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2b/Wyrm%27s_Rock_Fortress.jpg/400px-Wyrm%27s_Rock_Fortress.jpg",
+      "act": "Act Three",
+      "area": "Wyrm's Crossing",
+      "wikiLink": "https://bg3.wiki/wiki/Wyrm%27s_Rock_Fortress"
+    },
+    {
+      "name": "Lower City",
+      "description": "The mercantile hub and southernmost region of the port-side city of Baldur's Gate",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e2/Lower_City.jpg/400px-Lower_City.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Lower_City"
+    },
+    {
+      "name": "Baldur's Mouth",
+      "description": "A print shop for news broadsheets, run by editor Ettvard",
+      "icon": "https://bg3.wiki/w/images/thumb/5/57/Baldur%27s_Mouth.jpg/400px-Baldur%27s_Mouth.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Baldur%27s_Mouth"
+    },
+    {
+      "name": "Basilisk Gate Barracks",
+      "description": "Barracks for the Flaming Fist and location of Heapside Prison",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9e/Basilisk_gate_crossing.jpg/400px-Basilisk_gate_crossing.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Basilisk_Gate_Barracks"
+    },
+    {
+      "name": "Bloomridge Park",
+      "description": "A large park in the north of the Lower City",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cf/Bloomridge_Park.jpg/400px-Bloomridge_Park.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Bloomridge_Park"
+    },
+    {
+      "name": "Candulhallow's Tombstones",
+      "description": "An unassuming funerary store nestled along a back street",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2e/Candulhallows_Tombstones_Entrance.jpg/400px-Candulhallows_Tombstones_Entrance.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Candulhallow%27s_Tombstones"
+    },
+    {
+      "name": "Counting House",
+      "description": "A banking and storage facility found along the southern coast of the Lower City",
+      "icon": "https://bg3.wiki/w/images/thumb/b/be/Tim-coddens-tim-coddens-thecountinghouse-01.webp/400px-Tim-coddens-tim-coddens-thecountinghouse-01.webp.png",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Counting_House"
+    },
+    {
+      "name": "Devil's Fee",
+      "description": "A curio store run by Helsik",
+      "icon": "https://bg3.wiki/w/images/thumb/f/ff/Devil%27s_Fee.jpg/400px-Devil%27s_Fee.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Devil%27s_Fee"
+    },
+    {
+      "name": "Elerrathin's Home",
+      "description": "The home of Jaheira and her wards, with a large, lush basement cavern",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5f/Elerrathins_Home.jpg/400px-Elerrathins_Home.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Elerrathin%27s_Home"
+    },
+    {
+      "name": "Elfsong Tavern",
+      "description": "A well-known tavern, popular with adventurers and independent operators",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d2/Elfsong_Tavern_Street_View.jpg/460px-Elfsong_Tavern_Street_View.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Elfsong_Tavern"
+    },
+    {
+      "name": "Felogyr's Fireworks",
+      "description": "A fireworks store in the south-east of the city",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f9/Jef-simons-jef-simons-bg3-citypropuse1.webp/400px-Jef-simons-jef-simons-bg3-citypropuse1.webp.png",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Felogyr%27s_Fireworks"
+    },
+    {
+      "name": "Flymm Cargo",
+      "description": "A dock-side warehouse and access point to the Lower City Sewers and Iron Throne",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4f/Flymm_Cargo.jpg/400px-Flymm_Cargo.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Flymm_Cargo"
+    },
+    {
+      "name": "Forge of the Nine",
+      "description": "An outdoor smithy, possibly run by Dammon",
+      "icon": "https://bg3.wiki/w/images/thumb/9/94/Forge_of_the_Nine.jpg/400px-Forge_of_the_Nine.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Forge_of_the_Nine"
+    },
+    {
+      "name": "Graveyard (Lower City)",
+      "description": "The Lower City's graveyard, housing several mausoleums and a morgue",
+      "icon": "https://bg3.wiki/w/images/thumb/3/35/Graveyard_%28Lower_City%29.jpg/400px-Graveyard_%28Lower_City%29.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Graveyard_(Lower_City)"
+    },
+    {
+      "name": "House of Grief",
+      "description": "A healing house run by Sharran cultists, and aboveground facade to their cloister",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3e/House_of_Grief.jpg/400px-House_of_Grief.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/House_of_Grief"
+    },
+    {
+      "name": "Lady Jannath's Estate",
+      "description": "The home of Lady Jannath and her husband, the artist Oskar Fevras",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f0/Lady_Jannaths_Estate_Exterior.png/381px-Lady_Jannaths_Estate_Exterior.png",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Lady_Jannath%27s_Estate"
+    },
+    {
+      "name": "Lustrous Lass",
+      "description": "A cursed ship docked at Greyharbour",
+      "icon": "https://bg3.wiki/w/images/thumb/d/dc/Lustrous_Lass.jpg/400px-Lustrous_Lass.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Lustrous_Lass"
+    },
+    {
+      "name": "Old Garlow's Place",
+      "description": "A somewhat rundown house and hideout for a group of hag survivors",
+      "icon": "https://bg3.wiki/w/index.php?title=Special:Upload&wpDestFile=Old_Garlow%27s_Place.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Old_Garlow%27s_Place"
+    },
+    {
+      "name": "Philgrave's Mansion",
+      "description": "A waterside mansion and home of Mystic Carrion",
+      "icon": "https://bg3.wiki/w/images/thumb/0/06/Philgrave%27s_Mansion.jpg/340px-Philgrave%27s_Mansion.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Philgrave%27s_Mansion"
+    },
+    {
+      "name": "Steel Watch Foundry",
+      "description": "Factory for Gortash's Steel Watch, found near the Grey Harbour",
+      "icon": "https://bg3.wiki/w/images/thumb/4/41/Steel_Watch_Foundry.png/355px-Steel_Watch_Foundry.png",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Steel_Watch_Foundry"
+    },
+    {
+      "name": "Sorcerous Sundries",
+      "description": "A large magical marketplace, run by the renound wizard Lorroakan",
+      "icon": "https://bg3.wiki/w/images/thumb/1/11/Sorcerous_Sundries.jpg/400px-Sorcerous_Sundries.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Sorcerous_Sundries"
+    },
+    {
+      "name": "Stormshore Tabernacle",
+      "description": "A house of worship in the north-eastern part of the city",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7a/Stormshore_tabernacle.jpg/400px-Stormshore_tabernacle.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Stormshore_Tabernacle"
+    },
+    {
+      "name": "Szarr Palace",
+      "description": "Palace of Cazador Szarr and home to his vampire spawn",
+      "icon": "https://bg3.wiki/w/images/thumb/a/aa/Olivier-mir-cazador-001.webp/416px-Olivier-mir-cazador-001.webp.png",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Szarr_Palace"
+    },
+    {
+      "name": "The Blushing Mermaid",
+      "description": "A large tavern with an old ship's bow protruding from the side",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a4/Blushing_Mermaid_Outside.jpg/400px-Blushing_Mermaid_Outside.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/The_Blushing_Mermaid"
+    },
+    {
+      "name": "Wine Festival",
+      "description": "A small festival taking place on the Highberry's home porch, hosted by Cora Highberry",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d3/Wine_Festival.jpg/400px-Wine_Festival.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Wine_Festival"
+    },
+    {
+      "name": "The Lodge",
+      "description": "Headquarters of the Society of Brilliance, perched high above the Greyharbour Docks",
+      "icon": "https://bg3.wiki/w/images/thumb/e/eb/The_Lodge.jpg/400px-The_Lodge.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/The_Lodge"
+    },
+    {
+      "name": "Water Queen's House",
+      "description": "An outdoor temple to Bitch Queen Umberlee, overseen by Wavemistress Allandra Grey",
+      "icon": "https://bg3.wiki/w/images/thumb/2/25/Water_Queen%27s_House_Sideview.jpg/400px-Water_Queen%27s_House_Sideview.jpg",
+      "act": "Act Three",
+      "area": "Baldur's Gate",
+      "wikiLink": "https://bg3.wiki/wiki/Water_Queen%27s_House"
+    },
+    {
+      "name": "Lower City Sewers",
+      "description": "A large sewerage network beneath the Lower City",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f5/Lower_City_Sewers_North.jpg/400px-Lower_City_Sewers_North.jpg",
+      "act": "Act Three",
+      "area": "Underground",
+      "wikiLink": "https://bg3.wiki/wiki/Lower_City_Sewers"
+    },
+    {
+      "name": "Undercity Ruins",
+      "description": "The remains of an old city, located in a vast cavern beneath Baldur's Gate",
+      "icon": "https://bg3.wiki/w/images/thumb/8/80/Undercity_Ruins.jpg/400px-Undercity_Ruins.jpg",
+      "act": "Act Three",
+      "area": "Underground",
+      "wikiLink": "https://bg3.wiki/wiki/Undercity_Ruins"
+    },
+    {
+      "name": "Upper City",
+      "description": "A wealthy region in Baldur's Gate, home to its patriar families",
+      "icon": "https://bg3.wiki/w/images/thumb/4/43/Upper_City_Invasion.webp/400px-Upper_City_Invasion.webp.png",
+      "act": "Act Three",
+      "area": "Upper City",
+      "wikiLink": "https://bg3.wiki/wiki/Upper_City"
+    },
+    {
+      "name": "Astral Plane*",
+      "description": "A small section of the Astral Sea",
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Screen_Astral_Plane_South_East_A.jpg/400px-Screen_Astral_Plane_South_East_A.jpg",
+      "act": "Act Three",
+      "area": "Other planes",
+      "wikiLink": "https://bg3.wiki/wiki/Astral_Plane"
+    },
+    {
+      "name": "House of Hope",
+      "description": "Raphael's home in the hells",
+      "icon": "https://bg3.wiki/w/images/thumb/6/66/Edward-vanderghote-houseofhope-01.webp/400px-Edward-vanderghote-houseofhope-01.webp.png",
+      "act": "Act Three",
+      "area": "Other planes",
+      "wikiLink": "https://bg3.wiki/wiki/House_of_Hope"
+    }
+  ],
+  "spells": [
+    {
+      "name": "Acid Splash",
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Acid_Splash_Icon.webp/40px-Acid_Splash_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Acid_Splash",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Blade Ward",
+      "icon": "https://bg3.wiki/w/images/thumb/0/04/Blade_Ward_Icon.webp/40px-Blade_Ward_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blade_Ward",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Bone Chill",
+      "icon": "https://bg3.wiki/w/images/thumb/0/03/Bone_Chill_Icon.webp/40px-Bone_Chill_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bone_Chill",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Dancing Lights",
+      "icon": "https://bg3.wiki/w/images/thumb/b/ba/Dancing_Lights_Icon.webp/40px-Dancing_Lights_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dancing_Lights",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Eldritch Blast",
+      "icon": "https://bg3.wiki/w/images/thumb/d/db/Eldritch_Blast_Icon.webp/40px-Eldritch_Blast_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Eldritch_Blast",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Fire Bolt",
+      "icon": "https://bg3.wiki/w/images/thumb/2/23/Fire_Bolt_Icon.webp/40px-Fire_Bolt_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Fire_Bolt",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Friends",
+      "icon": "https://bg3.wiki/w/images/thumb/7/75/Friends_Icon.webp/40px-Friends_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Friends",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Guidance",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7f/Guidance_Icon.webp/40px-Guidance_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Guidance",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Light",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5c/Light_Icon.webp/40px-Light_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Light",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Mage Hand",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f9/Mage_Hand_Icon.webp/40px-Mage_Hand_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mage_Hand",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Minor Illusion",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9d/Minor_Illusion_Icon.webp/40px-Minor_Illusion_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Minor_Illusion",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Poison Spray",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1d/Poison_Spray_Icon.webp/40px-Poison_Spray_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Poison_Spray",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Produce Flame",
+      "icon": "https://bg3.wiki/w/images/thumb/e/ec/Produce_Flame_Icon.webp/40px-Produce_Flame_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Produce_Flame",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Ray of Frost",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f9/Ray_of_Frost_Icon.webp/40px-Ray_of_Frost_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ray_of_Frost",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Resistance (Cantrip)",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a1/Resistance_Cantrip_Icon.webp/40px-Resistance_Cantrip_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Resistance_(Cantrip)",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Sacred Flame",
+      "icon": "https://bg3.wiki/w/images/thumb/1/16/Sacred_Flame_Icon.webp/40px-Sacred_Flame_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Sacred_Flame",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Shillelagh",
+      "icon": "https://bg3.wiki/w/images/thumb/6/68/Shillelagh_Icon.webp/40px-Shillelagh_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Shillelagh",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Shocking Grasp",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2f/Shocking_Grasp_Icon.webp/40px-Shocking_Grasp_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Shocking_Grasp",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Thaumaturgy",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3f/Thaumaturgy_Icon.webp/40px-Thaumaturgy_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Thaumaturgy",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Thorn Whip",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e8/Thorn_Whip_Icon.webp/40px-Thorn_Whip_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Thorn_Whip",
+      "level": "Cantrip"
+    },
+    {
+      "name": "True Strike",
+      "icon": "https://bg3.wiki/w/images/thumb/4/47/True_Strike_Icon.webp/40px-True_Strike_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/True_Strike",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Vicious Mockery",
+      "icon": "https://bg3.wiki/w/images/thumb/6/66/Vicious_Mockery_Icon.webp/40px-Vicious_Mockery_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Vicious_Mockery",
+      "level": "Cantrip"
+    },
+    {
+      "name": "Animal Friendship",
+      "icon": "https://bg3.wiki/w/images/thumb/3/36/Animal_Friendship_Icon.webp/40px-Animal_Friendship_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Animal_Friendship",
+      "level": "1st level"
+    },
+    {
+      "name": "Armour of Agathys",
+      "icon": "https://bg3.wiki/w/images/thumb/7/77/Armour_of_Agathys_Icon.webp/40px-Armour_of_Agathys_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Armour_of_Agathys",
+      "level": "1st level"
+    },
+    {
+      "name": "Arms of Hadar",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3e/Arms_of_Hadar_Icon.webp/40px-Arms_of_Hadar_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arms_of_Hadar",
+      "level": "1st level"
+    },
+    {
+      "name": "Bane (Spell)",
+      "icon": "https://bg3.wiki/w/images/thumb/6/62/Bane_Spell_Icon.webp/40px-Bane_Spell_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bane_(Spell)",
+      "level": "1st level"
+    },
+    {
+      "name": "Bless",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c4/Bless_Icon.webp/40px-Bless_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bless",
+      "level": "1st level"
+    },
+    {
+      "name": "Burning Hands",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cf/Burning_Hands_Icon.webp/40px-Burning_Hands_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Burning_Hands",
+      "level": "1st level"
+    },
+    {
+      "name": "Charm Person",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bc/Charm_Person_Icon.webp/40px-Charm_Person_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Charm_Person",
+      "level": "1st level"
+    },
+    {
+      "name": "Chromatic Orb",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8e/Chromatic_Orb_Icon.webp/40px-Chromatic_Orb_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Chromatic_Orb",
+      "level": "1st level"
+    },
+    {
+      "name": "Colour Spray",
+      "icon": "https://bg3.wiki/w/images/thumb/2/24/Colour_Spray_Icon.webp/40px-Colour_Spray_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Colour_Spray",
+      "level": "1st level"
+    },
+    {
+      "name": "Command",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7f/Command_Halt_Icon.webp/40px-Command_Halt_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Command",
+      "level": "1st level"
+    },
+    {
+      "name": "Compelled Duel",
+      "icon": "https://bg3.wiki/w/images/thumb/7/73/Compelled_Duel_Icon.webp/40px-Compelled_Duel_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Compelled_Duel",
+      "level": "1st level"
+    },
+    {
+      "name": "Create or Destroy Water",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4a/Create_or_Destroy_Water_Icon.webp/40px-Create_or_Destroy_Water_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Create_or_Destroy_Water",
+      "level": "1st level"
+    },
+    {
+      "name": "Cure Wounds",
+      "icon": "https://bg3.wiki/w/images/thumb/4/40/Cure_Wounds_Icon.webp/40px-Cure_Wounds_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Cure_Wounds",
+      "level": "1st level"
+    },
+    {
+      "name": "Disguise Self",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8d/Disguise_Self_Icon.webp/40px-Disguise_Self_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Disguise_Self",
+      "level": "1st level"
+    },
+    {
+      "name": "Dissonant Whispers",
+      "icon": "https://bg3.wiki/w/images/thumb/4/40/Dissonant_Whispers_Icon.webp/40px-Dissonant_Whispers_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dissonant_Whispers",
+      "level": "1st level"
+    },
+    {
+      "name": "Divine Favour",
+      "icon": "https://bg3.wiki/w/images/thumb/4/44/Divine_Favour_Icon.webp/40px-Divine_Favour_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Divine_Favour",
+      "level": "1st level"
+    },
+    {
+      "name": "Divine Smite",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4b/Divine_Smite_Icon.webp/40px-Divine_Smite_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Divine_Smite",
+      "level": "1st level"
+    },
+    {
+      "name": "Enhance Leap",
+      "icon": "https://bg3.wiki/w/images/thumb/4/46/Enhance_Leap_Icon.webp/40px-Enhance_Leap_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Enhance_Leap",
+      "level": "1st level"
+    },
+    {
+      "name": "Ensnaring Strike",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d0/Ensnaring_Strike_%28Ranged%29_Icon.webp/40px-Ensnaring_Strike_%28Ranged%29_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ensnaring_Strike",
+      "level": "1st level"
+    },
+    {
+      "name": "Entangle",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d9/Entangle_Icon.webp/40px-Entangle_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Entangle",
+      "level": "1st level"
+    },
+    {
+      "name": "Expeditious Retreat",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d6/Expeditious_Retreat_Icon.webp/40px-Expeditious_Retreat_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Expeditious_Retreat",
+      "level": "1st level"
+    },
+    {
+      "name": "Faerie Fire",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a1/Faerie_Fire_Icon.webp/40px-Faerie_Fire_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Faerie_Fire",
+      "level": "1st level"
+    },
+    {
+      "name": "False Life",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f2/False_Life_Icon.webp/40px-False_Life_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/False_Life",
+      "level": "1st level"
+    },
+    {
+      "name": "Feather Fall",
+      "icon": "https://bg3.wiki/w/images/thumb/0/00/Feather_Fall_Icon.webp/40px-Feather_Fall_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Feather_Fall",
+      "level": "1st level"
+    },
+    {
+      "name": "Find Familiar",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Find_Familiar_Cat_Icon.webp/40px-Find_Familiar_Cat_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Find_Familiar",
+      "level": "1st level"
+    },
+    {
+      "name": "Fog Cloud",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c0/Fog_Cloud_Icon.webp/40px-Fog_Cloud_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Fog_Cloud",
+      "level": "1st level"
+    },
+    {
+      "name": "Goodberry",
+      "icon": "https://bg3.wiki/w/images/thumb/4/42/Goodberry_Icon.webp/40px-Goodberry_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Goodberry",
+      "level": "1st level"
+    },
+    {
+      "name": "Grease",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7a/Grease_Icon.webp/40px-Grease_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Grease",
+      "level": "1st level"
+    },
+    {
+      "name": "Guiding Bolt",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2c/Guiding_Bolt_Icon.webp/40px-Guiding_Bolt_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Guiding_Bolt",
+      "level": "1st level"
+    },
+    {
+      "name": "Hail of Thorns",
+      "icon": "https://bg3.wiki/w/images/thumb/6/63/Hail_of_Thorns_Icon.webp/40px-Hail_of_Thorns_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hail_of_Thorns",
+      "level": "1st level"
+    },
+    {
+      "name": "Healing Word",
+      "icon": "https://bg3.wiki/w/images/thumb/e/ef/Healing_Word_Icon.webp/40px-Healing_Word_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Healing_Word",
+      "level": "1st level"
+    },
+    {
+      "name": "Hellish Rebuke",
+      "icon": "https://bg3.wiki/w/images/thumb/8/82/Hellish_Rebuke_Icon.webp/40px-Hellish_Rebuke_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hellish_Rebuke",
+      "level": "1st level"
+    },
+    {
+      "name": "Heroism",
+      "icon": "https://bg3.wiki/w/images/thumb/1/19/Heroism_Icon.webp/40px-Heroism_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Heroism",
+      "level": "1st level"
+    },
+    {
+      "name": "Hex",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9f/Hex_Icon.webp/40px-Hex_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hex",
+      "level": "1st level"
+    },
+    {
+      "name": "Hunter's Mark",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f6/Hunter%27s_Mark_Icon.webp/40px-Hunter%27s_Mark_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hunter%27s_Mark",
+      "level": "1st level"
+    },
+    {
+      "name": "Ice Knife",
+      "icon": "https://bg3.wiki/w/images/thumb/1/17/Ice_Knife_Icon.webp/40px-Ice_Knife_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ice_Knife",
+      "level": "1st level"
+    },
+    {
+      "name": "Inflict Wounds",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3d/Inflict_Wounds_Icon.webp/40px-Inflict_Wounds_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Inflict_Wounds",
+      "level": "1st level"
+    },
+    {
+      "name": "Longstrider",
+      "icon": "https://bg3.wiki/w/images/thumb/3/35/Longstrider_Icon.webp/40px-Longstrider_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Longstrider",
+      "level": "1st level"
+    },
+    {
+      "name": "Mage Armour",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0d/Mage_Armour_Icon.webp/40px-Mage_Armour_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mage_Armour",
+      "level": "1st level"
+    },
+    {
+      "name": "Magic Missile",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d4/Magic_Missile_Icon.webp/40px-Magic_Missile_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Magic_Missile",
+      "level": "1st level"
+    },
+    {
+      "name": "Protection from Evil and Good",
+      "icon": "https://bg3.wiki/w/images/thumb/3/35/Protection_from_Evil_and_Good_Icon.webp/40px-Protection_from_Evil_and_Good_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Protection_from_Evil_and_Good",
+      "level": "1st level"
+    },
+    {
+      "name": "Ray of Sickness",
+      "icon": "https://bg3.wiki/w/images/thumb/7/74/Ray_of_Sickness_Icon.webp/40px-Ray_of_Sickness_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ray_of_Sickness",
+      "level": "1st level"
+    },
+    {
+      "name": "Sanctuary",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c1/Sanctuary_Icon.webp/40px-Sanctuary_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Sanctuary",
+      "level": "1st level"
+    },
+    {
+      "name": "Searing Smite",
+      "icon": "https://bg3.wiki/w/images/thumb/5/50/Searing_Smite_Icon.webp/40px-Searing_Smite_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Searing_Smite",
+      "level": "1st level"
+    },
+    {
+      "name": "Shield",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e7/Shield_Icon.webp/40px-Shield_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Shield",
+      "level": "1st level"
+    },
+    {
+      "name": "Shield of Faith",
+      "icon": "https://bg3.wiki/w/images/thumb/8/83/Shield_of_Faith_Icon.webp/40px-Shield_of_Faith_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Shield_of_Faith",
+      "level": "1st level"
+    },
+    {
+      "name": "Sleep",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ae/Sleep_Icon.webp/40px-Sleep_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Sleep",
+      "level": "1st level"
+    },
+    {
+      "name": "Speak with Animals",
+      "icon": "https://bg3.wiki/w/images/thumb/2/24/Speak_with_Animals_Icon.webp/40px-Speak_with_Animals_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Speak_with_Animals",
+      "level": "1st level"
+    },
+    {
+      "name": "Tasha's Hideous Laughter",
+      "icon": "https://bg3.wiki/w/images/thumb/2/27/Tasha%27s_Hideous_Laughter_Icon.webp/40px-Tasha%27s_Hideous_Laughter_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Tasha%27s_Hideous_Laughter",
+      "level": "1st level"
+    },
+    {
+      "name": "Thunderous Smite",
+      "icon": "https://bg3.wiki/w/images/thumb/d/dd/Thunderous_Smite_Icon.webp/40px-Thunderous_Smite_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Thunderous_Smite",
+      "level": "1st level"
+    },
+    {
+      "name": "Thunderwave",
+      "icon": "https://bg3.wiki/w/images/thumb/0/04/Thunderwave_Icon.webp/40px-Thunderwave_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Thunderwave",
+      "level": "1st level"
+    },
+    {
+      "name": "Witch Bolt",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d2/Witch_Bolt_Icon.webp/40px-Witch_Bolt_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Witch_Bolt",
+      "level": "1st level"
+    },
+    {
+      "name": "Wrathful Smite",
+      "icon": "https://bg3.wiki/w/images/thumb/7/79/Wrathful_Smite_Icon.webp/40px-Wrathful_Smite_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Wrathful_Smite",
+      "level": "1st level"
+    },
+    {
+      "name": "Aid",
+      "icon": "https://bg3.wiki/w/images/thumb/5/50/Aid_Icon.webp/40px-Aid_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Aid",
+      "level": "2nd level"
+    },
+    {
+      "name": "Arcane Lock",
+      "icon": "https://bg3.wiki/w/images/thumb/7/79/Arcane_Lock_Icon.webp/40px-Arcane_Lock_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arcane_Lock",
+      "level": "2nd level"
+    },
+    {
+      "name": "Barkskin",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Barkskin_Icon.webp/40px-Barkskin_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Barkskin",
+      "level": "2nd level"
+    },
+    {
+      "name": "Blindness",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5a/Blindness_Icon.webp/40px-Blindness_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blindness",
+      "level": "2nd level"
+    },
+    {
+      "name": "Blur",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0d/Blur_Icon.webp/40px-Blur_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blur",
+      "level": "2nd level"
+    },
+    {
+      "name": "Branding Smite",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5e/Branding_Smite_Melee_Icon.webp/40px-Branding_Smite_Melee_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Branding_Smite",
+      "level": "2nd level"
+    },
+    {
+      "name": "Calm Emotions",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d9/Calm_Emotions_Icon.webp/40px-Calm_Emotions_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Calm_Emotions",
+      "level": "2nd level"
+    },
+    {
+      "name": "Cloud of Daggers",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3d/Cloud_of_Daggers_Icon.webp/40px-Cloud_of_Daggers_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Cloud_of_Daggers",
+      "level": "2nd level"
+    },
+    {
+      "name": "Crown of Madness",
+      "icon": "https://bg3.wiki/w/images/thumb/4/48/Crown_of_Madness_Icon.webp/40px-Crown_of_Madness_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Crown_of_Madness",
+      "level": "2nd level"
+    },
+    {
+      "name": "Darkness",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bf/Darkness_Icon.webp/40px-Darkness_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Darkness",
+      "level": "2nd level"
+    },
+    {
+      "name": "Darkvision (spell)",
+      "icon": "https://bg3.wiki/w/images/thumb/0/01/Darkvision_spell_Icon.webp/40px-Darkvision_spell_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Darkvision_(spell)",
+      "level": "2nd level"
+    },
+    {
+      "name": "Detect Thoughts",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b6/Detect_Thoughts_Icon.webp/40px-Detect_Thoughts_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Detect_Thoughts",
+      "level": "2nd level"
+    },
+    {
+      "name": "Enhance Ability",
+      "icon": "https://bg3.wiki/w/images/thumb/6/65/Enhance_Ability_Icon.webp/40px-Enhance_Ability_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Enhance_Ability",
+      "level": "2nd level"
+    },
+    {
+      "name": "Enlarge/Reduce",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c6/Enlarge_Reduce_Icon.webp/40px-Enlarge_Reduce_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Enlarge/Reduce",
+      "level": "2nd level"
+    },
+    {
+      "name": "Enthrall",
+      "icon": "https://bg3.wiki/w/images/thumb/9/90/Enthrall_Icon.webp/40px-Enthrall_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Enthrall",
+      "level": "2nd level"
+    },
+    {
+      "name": "Flame Blade",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c8/Flame_Blade_Icon.webp/40px-Flame_Blade_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Flame_Blade",
+      "level": "2nd level"
+    },
+    {
+      "name": "Flaming Sphere",
+      "icon": "https://bg3.wiki/w/images/thumb/6/66/Flaming_Sphere_Icon.webp/40px-Flaming_Sphere_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Flaming_Sphere",
+      "level": "2nd level"
+    },
+    {
+      "name": "Gust of Wind",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Gust_of_Wind_Icon.webp/40px-Gust_of_Wind_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Gust_of_Wind",
+      "level": "2nd level"
+    },
+    {
+      "name": "Heat Metal",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a3/Heat_Metal_Icon.webp/40px-Heat_Metal_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Heat_Metal",
+      "level": "2nd level"
+    },
+    {
+      "name": "Hold Person",
+      "icon": "https://bg3.wiki/w/images/thumb/7/75/Hold_Person_Icon.webp/40px-Hold_Person_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hold_Person",
+      "level": "2nd level"
+    },
+    {
+      "name": "Invisibility",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d5/Invisibility_Icon.webp/40px-Invisibility_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Invisibility",
+      "level": "2nd level"
+    },
+    {
+      "name": "Knock",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a4/Knock_Icon.webp/40px-Knock_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Knock",
+      "level": "2nd level"
+    },
+    {
+      "name": "Lesser Restoration",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e4/Lesser_Restoration_Icon.webp/40px-Lesser_Restoration_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Lesser_Restoration",
+      "level": "2nd level"
+    },
+    {
+      "name": "Magic Weapon",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9c/Magic_Weapon_Icon.webp/40px-Magic_Weapon_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Magic_Weapon",
+      "level": "2nd level"
+    },
+    {
+      "name": "Melf's Acid Arrow",
+      "icon": "https://bg3.wiki/w/images/thumb/6/67/Melf%27s_Acid_Arrow_Icon.webp/40px-Melf%27s_Acid_Arrow_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Melf%27s_Acid_Arrow",
+      "level": "2nd level"
+    },
+    {
+      "name": "Mirror Image",
+      "icon": "https://bg3.wiki/w/images/thumb/4/41/Mirror_Image_Icon.webp/40px-Mirror_Image_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mirror_Image",
+      "level": "2nd level"
+    },
+    {
+      "name": "Misty Step",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1f/Misty_Step_Icon.webp/40px-Misty_Step_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Misty_Step",
+      "level": "2nd level"
+    },
+    {
+      "name": "Moonbeam",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Moonbeam_Icon.webp/40px-Moonbeam_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Moonbeam",
+      "level": "2nd level"
+    },
+    {
+      "name": "Pass Without Trace",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2b/Pass_Without_Trace_Icon.webp/40px-Pass_Without_Trace_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Pass_Without_Trace",
+      "level": "2nd level"
+    },
+    {
+      "name": "Phantasmal Force",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ac/Phantasmal_Force_Icon.webp/40px-Phantasmal_Force_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Phantasmal_Force",
+      "level": "2nd level"
+    },
+    {
+      "name": "Prayer of Healing",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e0/Prayer_of_Healing_Icon.webp/40px-Prayer_of_Healing_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Prayer_of_Healing",
+      "level": "2nd level"
+    },
+    {
+      "name": "Protection from Poison",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3b/Protection_from_Poison_Icon.webp/40px-Protection_from_Poison_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Protection_from_Poison",
+      "level": "2nd level"
+    },
+    {
+      "name": "Ray of Enfeeblement",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7b/Ray_of_Enfeeblement_Icon.webp/40px-Ray_of_Enfeeblement_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ray_of_Enfeeblement",
+      "level": "2nd level"
+    },
+    {
+      "name": "Scorching Ray",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8e/Scorching_Ray_Icon.webp/40px-Scorching_Ray_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scorching_Ray",
+      "level": "2nd level"
+    },
+    {
+      "name": "See Invisibility (Spell)",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fe/See_Invisibility_Spell_Icon.webp/40px-See_Invisibility_Spell_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/See_Invisibility_(Spell)",
+      "level": "2nd level"
+    },
+    {
+      "name": "Shatter",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c5/Shatter_Icon.webp/40px-Shatter_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Shatter",
+      "level": "2nd level"
+    },
+    {
+      "name": "Silence",
+      "icon": "https://bg3.wiki/w/images/thumb/7/78/Silence_Icon.webp/40px-Silence_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Silence",
+      "level": "2nd level"
+    },
+    {
+      "name": "Spike Growth",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d4/Spike_Growth_Icon.webp/40px-Spike_Growth_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Spike_Growth",
+      "level": "2nd level"
+    },
+    {
+      "name": "Spiritual Weapon",
+      "icon": "https://bg3.wiki/w/images/thumb/2/26/Spiritual_Weapon_Icon.webp/40px-Spiritual_Weapon_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Spiritual_Weapon",
+      "level": "2nd level"
+    },
+    {
+      "name": "Warding Bond",
+      "icon": "https://bg3.wiki/w/images/thumb/e/ea/Warding_Bond_Icon.webp/40px-Warding_Bond_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Warding_Bond",
+      "level": "2nd level"
+    },
+    {
+      "name": "Web",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Web_Icon.webp/40px-Web_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Web",
+      "level": "2nd level"
+    },
+    {
+      "name": "Animate Dead",
+      "icon": "https://bg3.wiki/w/images/thumb/9/91/Animate_Dead_Skeleton_Icon.webp/40px-Animate_Dead_Skeleton_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Animate_Dead",
+      "level": "3rd level"
+    },
+    {
+      "name": "Beacon of Hope",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5d/Beacon_of_Hope_Icon.webp/40px-Beacon_of_Hope_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Beacon_of_Hope",
+      "level": "3rd level"
+    },
+    {
+      "name": "Bestow Curse",
+      "icon": "https://bg3.wiki/w/images/thumb/0/00/Bestow_Curse_Icon.webp/40px-Bestow_Curse_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bestow_Curse",
+      "level": "3rd level"
+    },
+    {
+      "name": "Blinding Smite",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5e/Blinding_Smite_Icon.webp/40px-Blinding_Smite_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blinding_Smite",
+      "level": "3rd level"
+    },
+    {
+      "name": "Blink",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b3/Blink_Icon.webp/40px-Blink_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blink",
+      "level": "3rd level"
+    },
+    {
+      "name": "Call Lightning",
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Call_Lightning_Icon.webp/40px-Call_Lightning_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Call_Lightning",
+      "level": "3rd level"
+    },
+    {
+      "name": "Conjure Barrage",
+      "icon": "https://bg3.wiki/w/images/thumb/d/df/Conjure_Barrage_Icon.webp/40px-Conjure_Barrage_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Conjure_Barrage",
+      "level": "3rd level"
+    },
+    {
+      "name": "Counterspell",
+      "icon": "https://bg3.wiki/w/images/thumb/5/50/Counterspell_Icon.webp/40px-Counterspell_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Counterspell",
+      "level": "3rd level"
+    },
+    {
+      "name": "Crusader's Mantle",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4d/Crusader%27s_Mantle_Icon.webp/40px-Crusader%27s_Mantle_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Crusader%27s_Mantle",
+      "level": "3rd level"
+    },
+    {
+      "name": "Daylight",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6e/Daylight_Icon.webp/40px-Daylight_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Daylight",
+      "level": "3rd level"
+    },
+    {
+      "name": "Elemental Weapon",
+      "icon": "https://bg3.wiki/w/images/thumb/0/06/Elemental_Weapon_Icon.webp/40px-Elemental_Weapon_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Elemental_Weapon",
+      "level": "3rd level"
+    },
+    {
+      "name": "Fear",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ad/Fear_Icon.webp/40px-Fear_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Fear",
+      "level": "3rd level"
+    },
+    {
+      "name": "Feign Death",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fe/Feign_Death_Icon.webp/40px-Feign_Death_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Feign_Death",
+      "level": "3rd level"
+    },
+    {
+      "name": "Fireball",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cb/Fireball_Icon.webp/40px-Fireball_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Fireball",
+      "level": "3rd level"
+    },
+    {
+      "name": "Gaseous Form",
+      "icon": "https://bg3.wiki/w/images/thumb/6/62/Gaseous_Form_Icon.webp/40px-Gaseous_Form_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Gaseous_Form",
+      "level": "3rd level"
+    },
+    {
+      "name": "Glyph of Warding",
+      "icon": "https://bg3.wiki/w/images/thumb/8/88/Glyph_of_Warding_Icon.webp/40px-Glyph_of_Warding_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Glyph_of_Warding",
+      "level": "3rd level"
+    },
+    {
+      "name": "Grant Flight",
+      "icon": "https://bg3.wiki/w/images/thumb/4/45/Grant_Flight_Icon.webp/40px-Grant_Flight_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Grant_Flight",
+      "level": "3rd level"
+    },
+    {
+      "name": "Haste",
+      "icon": "https://bg3.wiki/w/images/thumb/1/11/Haste_Icon.webp/40px-Haste_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Haste",
+      "level": "3rd level"
+    },
+    {
+      "name": "Hunger of Hadar",
+      "icon": "https://bg3.wiki/w/images/thumb/4/44/Hunger_of_Hadar_Icon.webp/40px-Hunger_of_Hadar_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hunger_of_Hadar",
+      "level": "3rd level"
+    },
+    {
+      "name": "Hypnotic Pattern",
+      "icon": "https://bg3.wiki/w/images/thumb/2/28/Hypnotic_Pattern_Icon.webp/40px-Hypnotic_Pattern_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hypnotic_Pattern",
+      "level": "3rd level"
+    },
+    {
+      "name": "Lightning Arrow",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e3/Lightning_Arrow_Icon.webp/40px-Lightning_Arrow_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Lightning_Arrow",
+      "level": "3rd level"
+    },
+    {
+      "name": "Lightning Bolt",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cb/Lightning_Bolt_Icon.webp/40px-Lightning_Bolt_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Lightning_Bolt",
+      "level": "3rd level"
+    },
+    {
+      "name": "Mass Healing Word",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f8/Mass_Healing_Word_Icon.webp/40px-Mass_Healing_Word_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mass_Healing_Word",
+      "level": "3rd level"
+    },
+    {
+      "name": "Plant Growth",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ad/Plant_Growth_Icon.webp/40px-Plant_Growth_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Plant_Growth",
+      "level": "3rd level"
+    },
+    {
+      "name": "Protection from Energy",
+      "icon": "https://bg3.wiki/w/images/thumb/1/15/Protection_from_Energy_Icon.webp/40px-Protection_from_Energy_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Protection_from_Energy",
+      "level": "3rd level"
+    },
+    {
+      "name": "Remove Curse",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7f/Remove_Curse_Icon.webp/40px-Remove_Curse_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Remove_Curse",
+      "level": "3rd level"
+    },
+    {
+      "name": "Revivify",
+      "icon": "https://bg3.wiki/w/images/thumb/5/59/Revivify_Icon.webp/40px-Revivify_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Revivify",
+      "level": "3rd level"
+    },
+    {
+      "name": "Sleet Storm",
+      "icon": "https://bg3.wiki/w/images/thumb/5/50/Sleet_Storm_Icon.webp/40px-Sleet_Storm_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Sleet_Storm",
+      "level": "3rd level"
+    },
+    {
+      "name": "Slow",
+      "icon": "https://bg3.wiki/w/images/thumb/b/be/Slow_Icon.webp/40px-Slow_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Slow",
+      "level": "3rd level"
+    },
+    {
+      "name": "Speak with Dead",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8c/Speak_with_Dead_Icon.webp/40px-Speak_with_Dead_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Speak_with_Dead",
+      "level": "3rd level"
+    },
+    {
+      "name": "Spirit Guardians",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d6/Spirit_Guardians_Icon.webp/40px-Spirit_Guardians_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Spirit_Guardians",
+      "level": "3rd level"
+    },
+    {
+      "name": "Stinking Cloud",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b7/Stinking_Cloud_Icon.webp/40px-Stinking_Cloud_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Stinking_Cloud",
+      "level": "3rd level"
+    },
+    {
+      "name": "Vampiric Touch",
+      "icon": "https://bg3.wiki/w/images/thumb/8/85/Vampiric_Touch_Icon.webp/40px-Vampiric_Touch_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Vampiric_Touch",
+      "level": "3rd level"
+    },
+    {
+      "name": "Warden of Vitality",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0b/Warden_of_Vitality_Icon.webp/40px-Warden_of_Vitality_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Warden_of_Vitality",
+      "level": "3rd level"
+    },
+    {
+      "name": "Banishment",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6d/Banishment_Icon.webp/40px-Banishment_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Banishment",
+      "level": "4th level"
+    },
+    {
+      "name": "Blight",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e0/Blight_Icon.webp/40px-Blight_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blight",
+      "level": "4th level"
+    },
+    {
+      "name": "Confusion",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7b/Confusion_Icon.webp/40px-Confusion_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Confusion",
+      "level": "4th level"
+    },
+    {
+      "name": "Conjure Minor Elemental",
+      "icon": "https://bg3.wiki/w/images/thumb/0/08/Conjure_Minor_Elemental_Azer_Icon.webp/40px-Conjure_Minor_Elemental_Azer_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Conjure_Minor_Elemental",
+      "level": "4th level"
+    },
+    {
+      "name": "Conjure Woodland Being",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8a/Conjure_Woodland_Being_Icon.webp/40px-Conjure_Woodland_Being_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Conjure_Woodland_Being",
+      "level": "4th level"
+    },
+    {
+      "name": "Death Ward",
+      "icon": "https://bg3.wiki/w/images/thumb/8/84/Death_Ward_Icon.webp/40px-Death_Ward_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Death_Ward",
+      "level": "4th level"
+    },
+    {
+      "name": "Dimension Door",
+      "icon": "https://bg3.wiki/w/images/thumb/d/da/Dimension_Door_Icon.webp/40px-Dimension_Door_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dimension_Door",
+      "level": "4th level"
+    },
+    {
+      "name": "Dominate Beast",
+      "icon": "https://bg3.wiki/w/images/thumb/8/83/Dominate_Beast_Icon.webp/40px-Dominate_Beast_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dominate_Beast",
+      "level": "4th level"
+    },
+    {
+      "name": "Evard's Black Tentacles",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d6/Evard%27s_Black_Tentacles_Icon.webp/40px-Evard%27s_Black_Tentacles_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Evard%27s_Black_Tentacles",
+      "level": "4th level"
+    },
+    {
+      "name": "Fire Shield",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e0/Fire_Shield_Icon.webp/40px-Fire_Shield_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Fire_Shield",
+      "level": "4th level"
+    },
+    {
+      "name": "Freedom of Movement",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f0/Freedom_of_Movement_Icon.webp/40px-Freedom_of_Movement_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Freedom_of_Movement",
+      "level": "4th level"
+    },
+    {
+      "name": "Grasping Vine",
+      "icon": "https://bg3.wiki/w/images/thumb/6/63/Grasping_Vine_Spell_Icon.webp/40px-Grasping_Vine_Spell_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Grasping_Vine",
+      "level": "4th level"
+    },
+    {
+      "name": "Greater Invisibility",
+      "icon": "https://bg3.wiki/w/images/thumb/2/28/Greater_Invisibility_Icon.webp/40px-Greater_Invisibility_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Greater_Invisibility",
+      "level": "4th level"
+    },
+    {
+      "name": "Guardian of Faith",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7d/Guardian_of_Faith_Icon.webp/40px-Guardian_of_Faith_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Guardian_of_Faith",
+      "level": "4th level"
+    },
+    {
+      "name": "Ice Storm",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9b/Ice_Storm_Icon.webp/40px-Ice_Storm_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ice_Storm",
+      "level": "4th level"
+    },
+    {
+      "name": "Otiluke's Resilient Sphere",
+      "icon": "https://bg3.wiki/w/images/thumb/8/82/Otiluke%27s_Resilient_Sphere_Icon.webp/40px-Otiluke%27s_Resilient_Sphere_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Otiluke%27s_Resilient_Sphere",
+      "level": "4th level"
+    },
+    {
+      "name": "Phantasmal Killer",
+      "icon": "https://bg3.wiki/w/images/thumb/d/da/Phantasmal_Killer_Icon.webp/40px-Phantasmal_Killer_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Phantasmal_Killer",
+      "level": "4th level"
+    },
+    {
+      "name": "Polymorph",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f6/Polymorph_Icon.webp/40px-Polymorph_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Polymorph",
+      "level": "4th level"
+    },
+    {
+      "name": "Stoneskin",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c3/Stoneskin_Icon.webp/40px-Stoneskin_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Stoneskin",
+      "level": "4th level"
+    },
+    {
+      "name": "Wall of Fire",
+      "icon": "https://bg3.wiki/w/images/thumb/c/ca/Wall_of_Fire_Icon.webp/40px-Wall_of_Fire_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Wall_of_Fire",
+      "level": "4th level"
+    },
+    {
+      "name": "Banishing Smite",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3b/Banishing_Smite_Melee_Icon.webp/40px-Banishing_Smite_Melee_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Banishing_Smite",
+      "level": "5th level"
+    },
+    {
+      "name": "Cloudkill",
+      "icon": "https://bg3.wiki/w/images/thumb/7/74/Cloudkill_Icon.webp/40px-Cloudkill_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Cloudkill",
+      "level": "5th level"
+    },
+    {
+      "name": "Cone of Cold",
+      "icon": "https://bg3.wiki/w/images/thumb/e/ef/Cone_of_Cold_Icon.webp/40px-Cone_of_Cold_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Cone_of_Cold",
+      "level": "5th level"
+    },
+    {
+      "name": "Conjure Elemental",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e6/Conjure_Elemental_Icon.webp/40px-Conjure_Elemental_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Conjure_Elemental",
+      "level": "5th level"
+    },
+    {
+      "name": "Contagion",
+      "icon": "https://bg3.wiki/w/images/thumb/6/60/Contagion_Filth_Fever_Icon.webp/40px-Contagion_Filth_Fever_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Contagion",
+      "level": "5th level"
+    },
+    {
+      "name": "Destructive Wave",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fd/Destructive_Wave_Icon.webp/40px-Destructive_Wave_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Destructive_Wave",
+      "level": "5th level"
+    },
+    {
+      "name": "Dispel Evil and Good",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c6/Dispel_Evil_and_Good_Icon.webp/40px-Dispel_Evil_and_Good_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dispel_Evil_and_Good",
+      "level": "5th level"
+    },
+    {
+      "name": "Dominate Person",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1d/Dominate_Person_Icon.webp/40px-Dominate_Person_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dominate_Person",
+      "level": "5th level"
+    },
+    {
+      "name": "Flame Strike",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b8/Flame_Strike_Icon.webp/40px-Flame_Strike_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Flame_Strike",
+      "level": "5th level"
+    },
+    {
+      "name": "Greater Restoration",
+      "icon": "https://bg3.wiki/w/images/thumb/e/ee/Greater_Restoration_Icon.webp/40px-Greater_Restoration_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Greater_Restoration",
+      "level": "5th level"
+    },
+    {
+      "name": "Hold Monster",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cf/Hold_Monster_Icon.webp/40px-Hold_Monster_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hold_Monster",
+      "level": "5th level"
+    },
+    {
+      "name": "Insect Plague",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a2/Insect_Plague_Icon.webp/40px-Insect_Plague_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Insect_Plague",
+      "level": "5th level"
+    },
+    {
+      "name": "Mass Cure Wounds",
+      "icon": "https://bg3.wiki/w/images/thumb/3/32/Mass_Cure_Wounds_Icon.webp/40px-Mass_Cure_Wounds_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mass_Cure_Wounds",
+      "level": "5th level"
+    },
+    {
+      "name": "Planar Binding",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fa/Planar_Binding_Icon.webp/40px-Planar_Binding_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Planar_Binding",
+      "level": "5th level"
+    },
+    {
+      "name": "Seeming",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f4/Seeming_Icon.webp/40px-Seeming_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Seeming",
+      "level": "5th level"
+    },
+    {
+      "name": "Telekinesis",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c7/Telekinesis_Icon.webp/40px-Telekinesis_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Telekinesis",
+      "level": "5th level"
+    },
+    {
+      "name": "Wall of Stone",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e2/Wall_of_Stone_Icon.webp/40px-Wall_of_Stone_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Wall_of_Stone",
+      "level": "5th level"
+    },
+    {
+      "name": "Arcane Gate",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6e/Arcane_Gate_Icon.webp/40px-Arcane_Gate_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arcane_Gate",
+      "level": "6th level"
+    },
+    {
+      "name": "Blade Barrier",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bb/Blade_Barrier_Icon.webp/40px-Blade_Barrier_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blade_Barrier",
+      "level": "6th level"
+    },
+    {
+      "name": "Chain Lightning",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c9/Chain_Lightning_Icon.webp/40px-Chain_Lightning_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Chain_Lightning",
+      "level": "6th level"
+    },
+    {
+      "name": "Circle of Death",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f2/Circle_of_Death_Icon.webp/40px-Circle_of_Death_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Circle_of_Death",
+      "level": "6th level"
+    },
+    {
+      "name": "Create Undead",
+      "icon": "https://bg3.wiki/w/images/thumb/d/da/Create_Undead_Icon.webp/40px-Create_Undead_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Create_Undead",
+      "level": "6th level"
+    },
+    {
+      "name": "Disintegrate",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8a/Disintegrate_Icon.webp/40px-Disintegrate_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Disintegrate",
+      "level": "6th level"
+    },
+    {
+      "name": "Eyebite",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f7/Eyebite_Panicked_Icon.webp/40px-Eyebite_Panicked_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Eyebite",
+      "level": "6th level"
+    },
+    {
+      "name": "Flesh to Stone",
+      "icon": "https://bg3.wiki/w/images/thumb/7/72/Flesh_to_Stone_Icon.webp/40px-Flesh_to_Stone_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Flesh_to_Stone",
+      "level": "6th level"
+    },
+    {
+      "name": "Globe of Invulnerability",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7a/Globe_of_Invulnerability_Icon.webp/40px-Globe_of_Invulnerability_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Globe_of_Invulnerability",
+      "level": "6th level"
+    },
+    {
+      "name": "Harm",
+      "icon": "https://bg3.wiki/w/images/thumb/0/09/Harm_Icon.webp/40px-Harm_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Harm",
+      "level": "6th level"
+    },
+    {
+      "name": "Heal",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d3/Heal_Icon.webp/40px-Heal_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Heal",
+      "level": "6th level"
+    },
+    {
+      "name": "Heroes' Feast",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a0/Heroes%27_Feast_Icon.webp/40px-Heroes%27_Feast_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Heroes%27_Feast",
+      "level": "6th level"
+    },
+    {
+      "name": "Otiluke's Freezing Sphere",
+      "icon": "https://bg3.wiki/w/images/thumb/a/af/Otiluke%27s_Freezing_Sphere_Icon.webp/40px-Otiluke%27s_Freezing_Sphere_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Otiluke%27s_Freezing_Sphere",
+      "level": "6th level"
+    },
+    {
+      "name": "Otto's Irresistible Dance",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8c/Otto%27s_Irresistible_Dance_Icon.webp/40px-Otto%27s_Irresistible_Dance_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Otto%27s_Irresistible_Dance",
+      "level": "6th level"
+    },
+    {
+      "name": "Planar Ally",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f3/Planar_Ally_Icon.webp/40px-Planar_Ally_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Planar_Ally",
+      "level": "6th level"
+    },
+    {
+      "name": "Sunbeam",
+      "icon": "https://bg3.wiki/w/images/thumb/6/63/Sunbeam_Icon.webp/40px-Sunbeam_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Sunbeam",
+      "level": "6th level"
+    },
+    {
+      "name": "Wall of Ice",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d2/Wall_of_Ice_Icon.webp/40px-Wall_of_Ice_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Wall_of_Ice",
+      "level": "6th level"
+    },
+    {
+      "name": "Wall of Thorns",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6e/Wall_of_Thorns_Icon.webp/40px-Wall_of_Thorns_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Wall_of_Thorns",
+      "level": "6th level"
+    },
+    {
+      "name": "Wind Walk",
+      "icon": "https://bg3.wiki/w/images/thumb/0/06/Wind_Walk_Icon.webp/40px-Wind_Walk_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Wind_Walk",
+      "level": "6th level"
+    }
   ]
 }
