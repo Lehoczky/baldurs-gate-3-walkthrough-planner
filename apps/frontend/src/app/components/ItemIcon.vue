@@ -11,15 +11,13 @@
 <script setup lang="ts">
 import type { StyleValue } from "vue"
 
-import type { Rarity } from "../types"
-
 const props = defineProps({
   src: {
     type: String,
     required: true,
   },
   rarity: {
-    type: String as PropType<Rarity>,
+    type: String,
     required: true,
   },
 })

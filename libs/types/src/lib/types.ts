@@ -34,3 +34,25 @@ export interface Spell {
   wikiLink: string
   level: string
 }
+
+export interface SavedWikiData {
+  weapons: Item[]
+  clothes: Item[]
+  armours: Item[]
+  shields: Item[]
+  headwears: Item[]
+  cloaks: Item[]
+  amulets: Item[]
+  rings: Item[]
+  footwears: Item[]
+  handwears: Item[]
+  arrows: Item[]
+  coatings: Item[]
+  elixirs: Item[]
+  potions: Item[]
+  grenades: Item[]
+  scrolls: Item[]
+  companions: Companion[]
+  locations: Location[]
+  spells: Spell[]
+}

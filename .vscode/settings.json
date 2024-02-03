@@ -4,5 +4,12 @@
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit"
   },
-  "cSpell.words": ["Handwear", "handwears", "Headwears", "itemicon", "vueflow"]
+  "cSpell.words": [
+    "Handwear",
+    "handwears",
+    "Headwears",
+    "itemicon",
+    "vueflow",
+    "vueuse"
+  ]
 }

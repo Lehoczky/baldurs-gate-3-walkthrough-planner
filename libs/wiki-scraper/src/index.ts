@@ -7,7 +7,6 @@ import { chromium } from "playwright"
 
 import { companions } from "./lib/companions"
 import { writeJsonFile } from "./lib/fsExtra"
-import type { Item } from "./lib/item"
 import {
   generateLogMessageForDuplicateItems,
   getArmoursFromPage,
@@ -23,6 +22,7 @@ import {
 } from "./lib/item"
 import { locations } from "./lib/locations"
 import { scrapeSpells } from "./lib/spells"
+import { Item, SavedWikiData } from "@baldurs-gate-3-walkthrough-planner/types"
 
 async function main() {
   const spinner = ora("Opening browser page").start()
@@ -123,7 +123,7 @@ async function main() {
       "public",
       "data.json",
     )
-    await writeJsonFile(filePath, {
+    const scrapedData: SavedWikiData = {
       weapons,
       clothes,
       armours,
@@ -143,7 +143,8 @@ async function main() {
       companions,
       locations,
       spells,
-    })
+    }
+    await writeJsonFile(filePath, scrapedData)
     consola.success(`Saved scraped items to: ${filePath}`)
   } catch (error) {
     consola.error(error)

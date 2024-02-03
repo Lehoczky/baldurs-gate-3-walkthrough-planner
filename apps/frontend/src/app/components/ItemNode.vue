@@ -17,12 +17,12 @@ import type { NodeProps } from "@vue-flow/core"
 import { Handle, Position } from "@vue-flow/core"
 import { NodeResizer } from "@vue-flow/node-resizer"
 
-import type { Item, Rarity } from "../types"
 import ItemIcon from "./ItemIcon.vue"
+import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
 
 interface NodeData {
   icon: Item["icon"]
-  rarity: Rarity
+  rarity: string
 }
 
 defineProps<NodeProps<NodeData>>()

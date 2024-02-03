@@ -12,11 +12,10 @@
         />
       </label>
 
-      <RightSidebarRarityGroup
-        v-for="(items, rarity) in shownWeapons"
-        :key="rarity"
-        :rarity="rarity"
-        :items="items"
+      <RightSidebarItem
+        v-for="item in shownWeapons"
+        :key="item.name"
+        :item="item"
       />
     </TheRightSidebar>
   </main>
@@ -25,43 +24,28 @@
 <script setup lang="ts">
 import { useFetch } from "@vueuse/core"
 
-import RightSidebarRarityGroup from "./components/RightSidebarRarityGroup.vue"
 import ThePlanningCanvas from "./components/ThePlanningCanvas.vue"
 import TheRightSidebar from "./components/TheRightSidebar.vue"
-import type { ItemsByRarity, Rarity } from "./types"
+import RightSidebarItem from "./components/RightSidebarItem.vue"
+import type { SavedWikiData } from "@baldurs-gate-3-walkthrough-planner/types"
 
 const searchText = ref("")
-const { data: weaponsByRarity, isFinished } = useFetch(
-  "/weapons.json",
-  {},
-).json<ItemsByRarity>()
+const { data, isFinished } = useFetch("/data.json", {
+  initialData: {},
+}).json<SavedWikiData>()
 
-const rarities = computed(() => {
-  if (!weaponsByRarity.value) {
-    return []
-  }
-  return Object.keys(weaponsByRarity.value) as Rarity[]
-})
+const weapons = computed(() => data.value.weapons ?? [])
 
-const shownWeapons = computed<ItemsByRarity | null>(() => {
-  if (!weaponsByRarity.value) {
+const shownWeapons = computed(() => {
+  if (!weapons.value.length) {
     return null
   }
   if (!searchText.value) {
-    return weaponsByRarity.value
+    return weapons.value
   }
 
-  const filteredWeapons = {} as any
-  for (const rarity of rarities.value) {
-    filteredWeapons[rarity] = weaponsByRarity.value[rarity]!.filter(
-      ({ name }) =>
-        name.toLowerCase().startsWith(searchText.value.toLowerCase()),
-    )
-
-    if (!filteredWeapons[rarity].length) {
-      delete filteredWeapons[rarity]
-    }
-  }
-  return filteredWeapons
+  return weapons.value.filter(({ name }) =>
+    name.toLowerCase().startsWith(searchText.value.toLowerCase()),
+  )
 })
 </script>

@@ -4,7 +4,7 @@
     :draggable="true"
     @dragstart="onDragStart"
   >
-    <ItemIcon class="mb-1.5" :src="item.icon" :rarity="rarity" />
+    <ItemIcon class="mb-1.5" :src="item.icon" :rarity="item.rarity" />
 
     <a :href="item.wikiLink" class="group" target="_blank">
       <TextClamp
@@ -21,16 +21,12 @@
 <script setup lang="ts">
 import TextClamp from "vue3-text-clamp"
 
-import type { Item, Rarity } from "../types"
 import ItemIcon from "./ItemIcon.vue"
+import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
 
 const props = defineProps({
   item: {
     type: Object as PropType<Item>,
-    required: true,
-  },
-  rarity: {
-    type: String as PropType<Rarity>,
     required: true,
   },
 })
@@ -42,7 +38,10 @@ function onDragStart(event: DragEvent) {
   if (event.dataTransfer) {
     event.dataTransfer.setData("application/vueflow-node-name", props.item.name)
     event.dataTransfer.setData("application/vueflow-node-icon", props.item.icon)
-    event.dataTransfer.setData("application/vueflow-node-rarity", props.rarity)
+    event.dataTransfer.setData(
+      "application/vueflow-node-rarity",
+      props.item.rarity,
+    )
     event.dataTransfer.effectAllowed = "move"
   }
 }
