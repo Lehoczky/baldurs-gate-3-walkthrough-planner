@@ -1,7 +1,9 @@
-const { createGlobPatternsForDependencies } = require("@nx/vue/tailwind")
-const { join } = require("path")
+// @ts-expect-error: internal nx types
+import { createGlobPatternsForDependencies } from "@nx/vue/tailwind"
+import { join } from "path"
 
-/** @type {import('tailwindcss').Config} */
+import { Config } from "tailwindcss"
+
 module.exports = {
   content: [
     join(__dirname, "index.html"),
@@ -12,4 +14,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+} satisfies Config

@@ -22,7 +22,6 @@ const props = defineProps({
   },
 })
 
-// eslint-disable-next-line vue/return-in-computed-property
 const rarityColor = computed<string>(() => {
   switch (props.rarity) {
     case "Common":
