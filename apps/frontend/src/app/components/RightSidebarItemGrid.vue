@@ -17,7 +17,6 @@ import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
 import { useVirtualList } from "@vueuse/core"
 import type { PropType } from "vue"
 import { chunk } from "lodash-es"
-import RightSidebarItem from "./RightSidebarItem.vue"
 
 const props = defineProps({
   items: {

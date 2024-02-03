@@ -1,9 +1,9 @@
 <template>
-  <main class="h-dvh grid grid-cols-[auto_520px] text-[#d2d2d2]">
+  <main class="grid h-dvh grid-cols-[auto_520px] text-[#d2d2d2]">
     <ThePlanningCanvas />
 
-    <TheRightSidebar v-if="isFinished" class="flex flex-col overflow-auto">
-      <label class="mb-4 flex flex-col">
+    <TheRightSidebar v-if="storeLoaded" class="flex flex-col overflow-auto">
+      <label class="mb-3 flex flex-col">
         <span class="mb-1 text-xl">Search</span>
         <input
           v-model="searchText"
@@ -12,8 +12,19 @@
         />
       </label>
 
+      <div class="mb-4">
+        <div class="text-xl">Categories</div>
+        <swiper-container slides-per-view="5">
+          <swiper-slide v-for="category in categories" :key="category">
+            <BButton @click="selectedCategory = category">
+              {{ category }}
+            </BButton>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
       <RightSidebarItemGrid
-        :items="shownWeapons"
+        :items="shownEntities"
         class="h-full"
       ></RightSidebarItemGrid>
     </TheRightSidebar>
@@ -21,29 +32,14 @@
 </template>
 
 <script setup lang="ts">
-import { useFetch } from "@vueuse/core"
-import ThePlanningCanvas from "./components/ThePlanningCanvas.vue"
-import TheRightSidebar from "./components/TheRightSidebar.vue"
-import RightSidebarItemGrid from "./components/RightSidebarItemGrid.vue"
-import type { SavedWikiData } from "@baldurs-gate-3-walkthrough-planner/types"
+import { useStore } from "./store"
 
-const searchText = ref("")
-const { data, isFinished } = useFetch("/data.json", {
-  initialData: {},
-}).json<SavedWikiData>()
+const store = useStore()
+const { fetchStoreData } = store
+const { searchText, shownEntities, storeLoaded, categories, selectedCategory } =
+  storeToRefs(store)
 
-const weapons = computed(() => data.value.weapons ?? [])
-
-const shownWeapons = computed(() => {
-  if (!weapons.value.length) {
-    return null
-  }
-  if (!searchText.value) {
-    return weapons.value
-  }
-
-  return weapons.value.filter(({ name }) =>
-    name.toLowerCase().startsWith(searchText.value.toLowerCase()),
-  )
+onMounted(async () => {
+  await fetchStoreData()
 })
 </script>

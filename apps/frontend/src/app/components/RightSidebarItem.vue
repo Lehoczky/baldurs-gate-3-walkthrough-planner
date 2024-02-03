@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex h-[110px] w-[110px] flex-col items-center justify-center rounded-md bg-[#242424] p-1 text-center text-sm leading-4 shadow-lg"
+    class="flex h-[110px] w-[110px] cursor-move flex-col items-center justify-center rounded-md bg-[#242424] p-1 text-center text-sm leading-4 shadow-lg"
     :draggable="true"
     @dragstart="onDragStart"
   >
@@ -21,7 +21,6 @@
 <script setup lang="ts">
 import TextClamp from "vue3-text-clamp"
 
-import ItemIcon from "./ItemIcon.vue"
 import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
 
 const props = defineProps({

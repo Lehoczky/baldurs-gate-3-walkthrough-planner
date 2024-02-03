@@ -17,8 +17,6 @@ import { Controls } from "@vue-flow/controls"
 import { useVueFlow, VueFlow } from "@vue-flow/core"
 import { useEventListener } from "@vueuse/core"
 
-import ItemNode from "./ItemNode.vue"
-
 const {
   findNode,
   onConnect,

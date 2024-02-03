@@ -56,3 +56,5 @@ export interface SavedWikiData {
   locations: Location[]
   spells: Spell[]
 }
+
+export type Category = keyof SavedWikiData
