@@ -1,3 +1,8 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
   "cSpell.words": ["Handwear", "handwears", "Headwears", "itemicon", "vueflow"]
 }

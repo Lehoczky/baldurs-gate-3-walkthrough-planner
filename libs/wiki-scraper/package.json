@@ -1,0 +1,11 @@
+{
+  "name": "@baldurs-gate-3-walkthrough-planner/wiki-scraper",
+  "type": "module",
+  "scripts": {
+    "scrape": "tsx ./src/index.ts"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "tsx": "^4.7.0"
+  }
+}
