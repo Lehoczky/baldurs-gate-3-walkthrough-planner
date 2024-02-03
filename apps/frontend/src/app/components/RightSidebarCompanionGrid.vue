@@ -2,10 +2,10 @@
   <div v-bind="containerProps">
     <div v-bind="wrapperProps">
       <div v-for="row in list" :key="row.index" class="mb-2 flex gap-2">
-        <RightSidebarItem
-          v-for="item in row.data"
-          :key="item.name"
-          :item="item"
+        <RightSidebarCompanion
+          v-for="companion in row.data"
+          :key="companion.name"
+          :companion="companion"
         />
       </div>
     </div>
@@ -13,14 +13,14 @@
 </template>
 
 <script setup lang="ts">
-import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
+import type { Companion } from "@baldurs-gate-3-walkthrough-planner/types"
 import { useVirtualList } from "@vueuse/core"
 import type { PropType } from "vue"
 import { chunk } from "lodash-es"
 
 const props = defineProps({
   entities: {
-    type: Array as PropType<Item[]>,
+    type: Array as PropType<Companion[]>,
     required: true,
   },
 })
@@ -28,10 +28,10 @@ const props = defineProps({
 watch(toRef(props, "entities"), () => scrollTo(0))
 
 const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
-  computed(() => chunk(props.entities, 4)),
+  computed(() => chunk(props.entities, 3)),
   {
-    itemHeight: 118,
-    overscan: 20,
+    itemHeight: 158,
+    overscan: 3,
   },
 )
 </script>

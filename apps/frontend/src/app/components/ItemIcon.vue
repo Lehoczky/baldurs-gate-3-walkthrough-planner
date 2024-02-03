@@ -18,12 +18,14 @@ const props = defineProps({
   },
   rarity: {
     type: String,
-    required: true,
+    default: undefined,
   },
 })
 
 const rarityColor = computed<string>(() => {
   switch (props.rarity) {
+    case undefined:
+      return "transparent"
     case "Common":
       return "72, 72, 72"
     case "Uncommon":

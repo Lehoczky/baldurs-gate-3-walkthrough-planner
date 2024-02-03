@@ -14,19 +14,24 @@
 
       <div class="mb-4">
         <div class="text-xl">Categories</div>
-        <swiper-container slides-per-view="5">
+        <!-- <swiper-container slides-per-view="5">
           <swiper-slide v-for="category in categories" :key="category">
             <BButton @click="selectedCategory = category">
               {{ category }}
             </BButton>
           </swiper-slide>
-        </swiper-container>
+        </swiper-container> -->
+
+        <BButton
+          v-for="category in categories"
+          :key="category"
+          @click="selectedCategory = category"
+        >
+          {{ category }}
+        </BButton>
       </div>
 
-      <RightSidebarItemGrid
-        :items="shownEntities"
-        class="h-full"
-      ></RightSidebarItemGrid>
+      <RightSidebarEntityGrid class="h-full"></RightSidebarEntityGrid>
     </TheRightSidebar>
   </main>
 </template>
@@ -36,7 +41,7 @@ import { useStore } from "./store"
 
 const store = useStore()
 const { fetchStoreData } = store
-const { searchText, shownEntities, storeLoaded, categories, selectedCategory } =
+const { searchText, storeLoaded, categories, selectedCategory } =
   storeToRefs(store)
 
 onMounted(async () => {
