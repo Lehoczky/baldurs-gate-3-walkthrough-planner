@@ -11,6 +11,8 @@
     "handwears",
     "Headwears",
     "itemicon",
+    "linkify",
+    "markdownit",
     "nodrag",
     "overscan",
     "resizer",

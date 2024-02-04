@@ -1,8 +1,7 @@
 TODO:
 
-- saving and loading
-- import/export
 - profiles
+- import/export
 - node groups
 - filters
 - PWA

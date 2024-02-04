@@ -14,13 +14,6 @@
 
       <div class="mb-4">
         <div class="text-xl">Categories</div>
-        <!-- <swiper-container slides-per-view="5">
-          <swiper-slide v-for="category in categories" :key="category">
-            <BButton @click="selectedCategory = category">
-              {{ category }}
-            </BButton>
-          </swiper-slide>
-        </swiper-container> -->
 
         <BButton
           v-for="category in categories"
