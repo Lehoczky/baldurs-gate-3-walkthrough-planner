@@ -5,32 +5,29 @@
     <TheRightSidebar v-if="storeLoaded" class="flex flex-col overflow-auto">
       <label class="mb-3 flex flex-col">
         <span class="mb-1 text-xl">Search</span>
-        <input
-          v-model="searchText"
-          type="text"
-          class="rounded-md px-2 py-1 text-lg focus:outline-none focus:ring focus:ring-slate-500"
+        <InputText v-model="searchText" type="text" />
+      </label>
+
+      <label class="mb-4">
+        <div class="mb-1 text-xl">Categories</div>
+
+        <Dropdown
+          scroll-height="400px"
+          v-model="selectedCategory"
+          :options="categories"
         />
       </label>
 
-      <div class="mb-4">
-        <div class="text-xl">Categories</div>
-
-        <BButton
-          v-for="category in categories"
-          :key="category"
-          @click="selectedCategory = category"
-        >
-          {{ category }}
-        </BButton>
-      </div>
-
-      <RightSidebarEntityGrid class="h-full"></RightSidebarEntityGrid>
+      <RightSidebarEntityGrid class="h-full" />
     </TheRightSidebar>
   </main>
 </template>
 
 <script setup lang="ts">
 import { useStore } from "./store"
+import Dropdown from "primevue/dropdown"
+
+import InputText from "primevue/inputtext"
 
 const store = useStore()
 const { fetchStoreData } = store

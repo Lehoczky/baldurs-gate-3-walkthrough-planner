@@ -31,7 +31,7 @@ const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
   computed(() => chunk(props.entities, 4)),
   {
     itemHeight: 118,
-    overscan: 20,
+    overscan: 16,
   },
 )
 </script>

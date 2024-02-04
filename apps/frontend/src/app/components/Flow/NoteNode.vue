@@ -15,7 +15,7 @@
       class="prose prose-sm max-w-none flex-1 cursor-text"
       @dblclick="startEditing"
       v-html="renderedText"
-    ></div>
+    />
   </div>
 </template>
 

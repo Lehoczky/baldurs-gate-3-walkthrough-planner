@@ -1,5 +1,5 @@
 <template>
-  <component :is="gridForCategory" :entities="shownEntities"></component>
+  <component :is="gridForCategory" :entities="shownEntities" />
 </template>
 
 <script setup lang="ts">

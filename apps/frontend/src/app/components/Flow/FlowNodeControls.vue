@@ -12,13 +12,14 @@
       <div>New Note</div>
     </FlowNodeControlElement>
 
-    <BButton @click="save">Save</BButton>
-    <BButton @click="load">Load</BButton>
+    <Button label="Save" @click="save" />
+    <Button label="Load" @click="load" />
   </Panel>
 </template>
 
 <script setup lang="ts">
 import { Panel, useVueFlow } from "@vue-flow/core"
+import Button from "primevue/button"
 
 function onDragStart(event: DragEvent, type: string) {
   if (event.dataTransfer) {

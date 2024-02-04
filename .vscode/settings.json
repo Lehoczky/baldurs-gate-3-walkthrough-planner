@@ -10,11 +10,13 @@
     "Handwear",
     "handwears",
     "Headwears",
+    "inputtext",
     "itemicon",
     "linkify",
     "markdownit",
     "nodrag",
     "overscan",
+    "primevue",
     "resizer",
     "vueflow",
     "vueuse"

@@ -6,11 +6,52 @@
     "@vue/eslint-config-prettier/skip-formatting",
     "../../.eslintrc.json"
   ],
-  "ignorePatterns": ["!**/*"],
+  "ignorePatterns": ["!**/*", "src/design-system"],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx", "*.vue"],
+      "rules": {}
+    },
+    {
+      "files": ["*.vue"],
       "rules": {
+        "vue/component-api-style": ["warn", ["script-setup"]],
+        "vue/component-name-in-template-casing": [
+          "warn",
+          "PascalCase",
+          {
+            "ignores": []
+          }
+        ],
+        "vue/custom-event-name-casing": ["warn", "kebab-case"],
+        "vue/define-emits-declaration": ["error", "type-based"],
+        "vue/html-self-closing": ["warn", { "html": { "void": "always" } }],
+        "vue/next-tick-style": ["error", "promise"],
+        "vue/no-ref-object-destructure": "warn",
+        "vue/no-required-prop-with-default": "warn",
+        "vue/no-static-inline-styles": "warn",
+        "vue/no-this-in-before-route-enter": "warn",
+        "vue/no-useless-mustaches": "warn",
+        "vue/no-useless-v-bind": "warn",
+        "vue/component-tags-order": [
+          "error",
+          {
+            "order": [
+              "i18n",
+              "template",
+              "script:not([setup])",
+              "script[setup]",
+              "style"
+            ]
+          }
+        ],
+        "vue/prefer-separate-static-class": "warn",
+        "vue/prefer-true-attribute-shorthand": "warn",
+        "vue/dot-notation": "warn",
+        "vue/eqeqeq": ["warn", "smart"],
+        "vue/no-sparse-arrays": "warn",
+        "vue/no-useless-concat": "warn",
+        "vue/prefer-template": "warn",
         "vue/multi-word-component-names": "off"
       }
     }
