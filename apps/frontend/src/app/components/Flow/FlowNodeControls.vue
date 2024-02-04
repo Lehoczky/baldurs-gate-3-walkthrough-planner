@@ -11,16 +11,36 @@
     <FlowNodeControlElement @dragstart="onDragStart($event, 'note')">
       <div>New Note</div>
     </FlowNodeControlElement>
+
+    <BButton @click="save">Save</BButton>
+    <BButton @click="load">Load</BButton>
   </Panel>
 </template>
 
 <script setup lang="ts">
-import { Panel } from "@vue-flow/core"
+import { Panel, useVueFlow } from "@vue-flow/core"
 
 function onDragStart(event: DragEvent, type: string) {
   if (event.dataTransfer) {
     event.dataTransfer.setData("application/vueflow-node-type", type)
     event.dataTransfer.effectAllowed = "move"
+  }
+}
+
+const { toObject, setNodes, setEdges, setTransform } = useVueFlow()
+
+function save() {
+  localStorage.setItem("wp:saved-flow", JSON.stringify(toObject()))
+}
+
+function load() {
+  const flow = JSON.parse(localStorage.getItem("wp:saved-flow"))
+
+  if (flow) {
+    const [x = 0, y = 0] = flow.position
+    setNodes(flow.nodes)
+    setEdges(flow.edges)
+    setTransform({ x, y, zoom: flow.zoom || 0 })
   }
 }
 </script>
