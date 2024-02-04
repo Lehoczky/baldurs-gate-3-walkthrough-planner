@@ -15,6 +15,7 @@
           scroll-height="400px"
           v-model="selectedCategory"
           :options="categories"
+          filter
         />
       </label>
 
