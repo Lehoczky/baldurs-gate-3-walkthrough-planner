@@ -38,5 +38,5 @@
 
 .vue-flow__resize-control.line {
   border-width: 1px;
-  border-color: #646973;
+  border-color: transparent;
 }
