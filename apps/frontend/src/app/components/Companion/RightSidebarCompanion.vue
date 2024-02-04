@@ -11,21 +11,17 @@
       height="110"
     />
 
-    <a :href="companion.wikiLink" class="group" target="_blank">
-      <TextClamp
-        class="underline-offset-1 group-hover:underline"
-        :title="title"
-        :text="companion.name"
-        :max-lines="2"
-        @clamp-change="isTextClamped = $event"
-      />
+    <a
+      :href="companion.wikiLink"
+      class="underline-offset-1 hover:underline"
+      target="_blank"
+    >
+      {{ companion.name }}
     </a>
   </div>
 </template>
 
 <script setup lang="ts">
-import TextClamp from "vue3-text-clamp"
-
 import type { Companion } from "@baldurs-gate-3-walkthrough-planner/types"
 
 const props = defineProps({
@@ -35,13 +31,9 @@ const props = defineProps({
   },
 })
 
-const isTextClamped = ref(false)
-const title = computed(() =>
-  isTextClamped.value ? props.companion.name : null,
-)
-
 function onDragStart(event: DragEvent) {
   if (event.dataTransfer) {
+    event.dataTransfer.setData("application/vueflow-node-type", "companion")
     event.dataTransfer.setData(
       "application/vueflow-node-name",
       props.companion.name,

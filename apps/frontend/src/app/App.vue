@@ -1,6 +1,6 @@
 <template>
   <main class="grid h-dvh grid-cols-[auto_520px] text-[#d2d2d2]">
-    <ThePlanningCanvas />
+    <TheFlow />
 
     <TheRightSidebar v-if="storeLoaded" class="flex flex-col overflow-auto">
       <label class="mb-3 flex flex-col">

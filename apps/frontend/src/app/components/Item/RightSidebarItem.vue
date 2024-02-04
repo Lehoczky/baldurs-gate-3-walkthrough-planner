@@ -35,6 +35,7 @@ const title = computed(() => (isTextClamped.value ? props.item.name : null))
 
 function onDragStart(event: DragEvent) {
   if (event.dataTransfer) {
+    event.dataTransfer.setData("application/vueflow-node-type", "item")
     event.dataTransfer.setData("application/vueflow-node-name", props.item.name)
     event.dataTransfer.setData("application/vueflow-node-icon", props.item.icon)
     event.dataTransfer.setData(

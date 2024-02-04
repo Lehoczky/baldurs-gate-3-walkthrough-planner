@@ -1,9 +1,8 @@
 TODO:
 
-- note node
-- start-, and end nodes
-- node groups
 - saving and loading
+- import/export
 - profiles
+- node groups
 - filters
 - PWA

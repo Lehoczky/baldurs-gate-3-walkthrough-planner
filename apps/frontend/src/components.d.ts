@@ -8,8 +8,14 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     BButton: typeof import('./app/components/BButton.vue')['default']
+    EndNode: typeof import('./app/components/Flow/EndNode.vue')['default']
+    FlowControls: typeof import('./app/components/FlowControls.vue')['default']
+    FlowNodeControlButton: typeof import('./app/components/FlowNodeControlButton.vue')['default']
+    FlowNodeControlElement: typeof import('./app/components/Flow/FlowNodeControlElement.vue')['default']
+    FlowNodeControls: typeof import('./app/components/Flow/FlowNodeControls.vue')['default']
     ItemIcon: typeof import('./app/components/Item/ItemIcon.vue')['default']
     ItemNode: typeof import('./app/components/Item/ItemNode.vue')['default']
+    NoteNode: typeof import('./app/components/Flow/NoteNode.vue')['default']
     RightSidebarCompanion: typeof import('./app/components/Companion/RightSidebarCompanion.vue')['default']
     RightSidebarCompanionGrid: typeof import('./app/components/Companion/RightSidebarCompanionGrid.vue')['default']
     RightSidebarCompanionItem: typeof import('./app/components/RightSidebarCompanionItem.vue')['default']
@@ -19,6 +25,8 @@ declare module 'vue' {
     RightSidebarLocation: typeof import('./app/components/Location/RightSidebarLocation.vue')['default']
     RightSidebarLocationGrid: typeof import('./app/components/Location/RightSidebarLocationGrid.vue')['default']
     RightSidebarLocationItem: typeof import('./app/components/RightSidebarLocationItem.vue')['default']
+    StartNode: typeof import('./app/components/Flow/StartNode.vue')['default']
+    TheFlow: typeof import('./app/components/TheFlow.vue')['default']
     ThePlanningCanvas: typeof import('./app/components/ThePlanningCanvas.vue')['default']
     TheRightSidebar: typeof import('./app/components/TheRightSidebar.vue')['default']
   }

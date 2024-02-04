@@ -7,7 +7,11 @@
     <img class="aspect-video rounded-md" :src="location.icon" width="210" />
 
     <div>
-      <a :href="location.wikiLink" class="group text-xl" target="_blank">
+      <a
+        :href="location.wikiLink"
+        class="text-xl underline-offset-2 hover:underline"
+        target="_blank"
+      >
         {{ location.name }}
       </a>
 
@@ -29,6 +33,7 @@ const props = defineProps({
 
 function onDragStart(event: DragEvent) {
   if (event.dataTransfer) {
+    event.dataTransfer.setData("application/vueflow-node-type", "location")
     event.dataTransfer.setData(
       "application/vueflow-node-name",
       props.location.name,
