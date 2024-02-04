@@ -27,8 +27,6 @@ export default defineConfig({
     Components({
       dirs: ["src/app/components"],
       dts: "src/components.d.ts",
-      directoryAsNamespace: true,
-      collapseSamePrefixes: true,
     }),
     AutoImport({
       imports: ["vue", "pinia"],

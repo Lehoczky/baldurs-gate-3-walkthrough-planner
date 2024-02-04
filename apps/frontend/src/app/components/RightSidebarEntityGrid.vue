@@ -4,9 +4,9 @@
 
 <script setup lang="ts">
 import { useStore } from "../store"
-import RightSidebarCompanionGrid from "./RightSidebarCompanionGrid.vue"
-import RightSidebarItemGrid from "./RightSidebarItemGrid.vue"
-import RightSidebarLocationGrid from "./RightSidebarLocationGrid.vue"
+import RightSidebarCompanionGrid from "./Companion/RightSidebarCompanionGrid.vue"
+import RightSidebarItemGrid from "./Item/RightSidebarItemGrid.vue"
+import RightSidebarLocationGrid from "./Location/RightSidebarLocationGrid.vue"
 
 const store = useStore()
 const { shownEntities, selectedCategory } = storeToRefs(store)

@@ -1,10 +1,9 @@
 TODO:
 
-- categories
-- filters
 - note node
-- node groups
 - start-, and end nodes
+- node groups
 - saving and loading
 - profiles
+- filters
 - PWA
