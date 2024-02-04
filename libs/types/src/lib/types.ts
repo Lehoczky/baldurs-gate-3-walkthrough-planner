@@ -35,7 +35,13 @@ export interface Spell {
   level: string
 }
 
+export interface Category {
+  name: string
+  icon: string
+}
+
 export interface SavedWikiData {
+  categories: Category[]
   weapons: Item[]
   clothes: Item[]
   armours: Item[]
@@ -56,5 +62,3 @@ export interface SavedWikiData {
   locations: Location[]
   spells: Spell[]
 }
-
-export type Category = keyof SavedWikiData

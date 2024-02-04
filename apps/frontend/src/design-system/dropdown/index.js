@@ -240,7 +240,7 @@ export default {
       "leading-none",
 
       // Sizing
-      "pr-7 py-3 px-3",
+      "pr-7 py-2 px-2",
       "-mr-7",
       "w-full",
 

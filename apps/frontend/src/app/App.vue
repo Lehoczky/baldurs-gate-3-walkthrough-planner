@@ -12,11 +12,20 @@
         <div class="mb-1 text-xl">Categories</div>
 
         <Dropdown
-          scroll-height="400px"
-          v-model="selectedCategory"
+          v-model="selectedCategoryName"
           :options="categories"
+          option-label="name"
+          option-value="name"
+          scroll-height="400px"
           filter
-        />
+        >
+          <template #option="{ option }">
+            <div class="flex items-center gap-1.5">
+              <img :src="option.icon" width="44" height="44" />
+              <div class="capitalize">{{ option.name }}</div>
+            </div>
+          </template>
+        </Dropdown>
       </label>
 
       <RightSidebarEntityGrid class="h-full" />
@@ -32,10 +41,8 @@ import InputText from "primevue/inputtext"
 
 const store = useStore()
 const { fetchStoreData } = store
-const { searchText, storeLoaded, categories, selectedCategory } =
+const { searchText, storeLoaded, categories, selectedCategoryName } =
   storeToRefs(store)
 
-onMounted(async () => {
-  await fetchStoreData()
-})
+fetchStoreData()
 </script>

@@ -1,7 +1,7 @@
 // Not worth to scrape these, they likely won't change,
 // and the DOM on the companion page is a mess.
 
-import { Companion } from "@baldurs-gate-3-walkthrough-planner/types"
+import type { Companion } from "@baldurs-gate-3-walkthrough-planner/types"
 
 // https://bg3.wiki/wiki/Companions
 export const companions: Companion[] = [

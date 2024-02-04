@@ -1,4 +1,4 @@
-import { Location } from "@baldurs-gate-3-walkthrough-planner/types"
+import type { Location } from "@baldurs-gate-3-walkthrough-planner/types"
 
 // https://bg3.wiki/wiki/List_of_locations
 export const locations: Location[] = [

@@ -1,4 +1,4 @@
-import { Spell } from "@baldurs-gate-3-walkthrough-planner/types"
+import type { Spell } from "@baldurs-gate-3-walkthrough-planner/types"
 import type { Page } from "playwright"
 
 export async function scrapeSpells(page: Page): Promise<Spell[]> {

@@ -1,5 +1,7 @@
 import type { SavedWikiData } from "@baldurs-gate-3-walkthrough-planner/types"
 import { useFetch } from "@vueuse/core"
+import { categories as categories_ } from "../constants"
+import { first } from "lodash-es"
 
 export const useStore = defineStore("store", () => {
   const {
@@ -12,10 +14,10 @@ export const useStore = defineStore("store", () => {
   }).json<SavedWikiData>()
 
   const searchText = ref("")
-  const categories = computed(() => Object.keys(data.value))
-  const selectedCategory = ref("weapons")
+  const categories = ref(categories_)
+  const selectedCategoryName = ref(first(categories_).name)
   const entitiesForSelectedCategory = computed(() => {
-    return data.value[selectedCategory.value] ?? []
+    return data.value[selectedCategoryName.value] ?? []
   })
 
   const shownEntities = computed(() => {
@@ -36,6 +38,6 @@ export const useStore = defineStore("store", () => {
     entitiesForSelectedCategory,
     shownEntities,
     searchText,
-    selectedCategory,
+    selectedCategoryName,
   }
 })

@@ -22,7 +22,7 @@ import {
 } from "./item"
 import { locations } from "./locations"
 import { scrapeSpells } from "./spells"
-import { Item } from "@baldurs-gate-3-walkthrough-planner/types"
+import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
 
 async function main() {
   const spinner = ora("Opening browser page").start()

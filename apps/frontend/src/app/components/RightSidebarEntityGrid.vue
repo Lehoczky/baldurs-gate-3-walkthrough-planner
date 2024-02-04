@@ -9,10 +9,10 @@ import RightSidebarItemGrid from "./Item/RightSidebarItemGrid.vue"
 import RightSidebarLocationGrid from "./Location/RightSidebarLocationGrid.vue"
 
 const store = useStore()
-const { shownEntities, selectedCategory } = storeToRefs(store)
+const { shownEntities, selectedCategoryName } = storeToRefs(store)
 
 const gridForCategory = computed(() => {
-  switch (selectedCategory.value) {
+  switch (selectedCategoryName.value) {
     case "companions":
       return RightSidebarCompanionGrid
     case "locations":
