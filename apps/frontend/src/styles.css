@@ -7,20 +7,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Colors are generated with: https://uicolors.app/create */
+
 :root {
   color-scheme: dark;
 
-  --primary-50: 240 240 240;
-  --primary-100: 224 224 224;
-  --primary-200: 199 199 199;
-  --primary-300: 166 166 166;
-  --primary-400: 125 125 125;
-  --primary-500: 99 99 99;
-  --primary-600: 82 82 82;
-  --primary-700: 69 69 69;
-  --primary-800: 59 59 59;
-  --primary-900: 51 51 51;
-  --primary-950: 28 28 28;
+  --primary-50: 255 248 237;
+  --primary-100: 255 239 212;
+  --primary-200: 255 218 168;
+  --primary-300: 255 191 113;
+  --primary-400: 255 160 70;
+  --primary-500: 254 123 17;
+  --primary-600: 239 95 7;
+  --primary-700: 198 70 8;
+  --primary-800: 157 56 15;
+  --primary-900: 126 48 16;
+  --primary-950: 68 21 6;
 
   --surface-0: 255 255 255;
   --surface-50: 235 235 235;
