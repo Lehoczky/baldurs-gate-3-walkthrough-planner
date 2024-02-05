@@ -4,6 +4,7 @@ import { nxViteTsPaths } from "@nx/vite/plugins/nx-tsconfig-paths.plugin"
 import AutoImport from "unplugin-auto-import/vite"
 import Components from "unplugin-vue-components/vite"
 import { VitePWA } from "vite-plugin-pwa"
+import { visualizer } from "rollup-plugin-visualizer"
 
 export default defineConfig({
   root: __dirname,
@@ -41,9 +42,14 @@ export default defineConfig({
         enabled: true,
       },
     }),
+    visualizer({
+      // open: true,
+      filename: "tmp/stats.html",
+    }),
   ],
   build: {
     outDir: "../../dist/apps/frontend",
+    emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
       transformMixedEsModules: true,

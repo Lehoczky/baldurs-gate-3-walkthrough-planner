@@ -1,11 +1,18 @@
-import markdownit from "markdown-it"
+import type MarkdownItConstructor from "markdown-it"
 
-let md: ReturnType<typeof markdownit>
+let md: InstanceType<typeof MarkdownItConstructor>
 
 export function useMarkdownIt(text: Ref<string>) {
-  if (!md) {
+  const render = ref(() => text.value)
+
+  async function init() {
+    const markdownit = (await import("markdown-it")).default
     md = markdownit({ linkify: true })
     md.linkify.set({ fuzzyEmail: false })
+    render.value = () => md.render(text.value)
   }
-  return computed(() => md.render(text.value))
+  if (!md) {
+    init()
+  }
+  return computed(() => render.value())
 }
