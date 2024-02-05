@@ -3,6 +3,7 @@ import vue from "@vitejs/plugin-vue"
 import { nxViteTsPaths } from "@nx/vite/plugins/nx-tsconfig-paths.plugin"
 import AutoImport from "unplugin-auto-import/vite"
 import Components from "unplugin-vue-components/vite"
+import { VitePWA } from "vite-plugin-pwa"
 
 export default defineConfig({
   root: __dirname,
@@ -32,6 +33,13 @@ export default defineConfig({
       imports: ["vue", "pinia"],
       dirs: [],
       dts: "src/auto-imports.d.ts",
+    }),
+    VitePWA({
+      registerType: "autoUpdate",
+      includeAssets: ["data.json", "icon.png"],
+      devOptions: {
+        enabled: true,
+      },
     }),
   ],
   build: {

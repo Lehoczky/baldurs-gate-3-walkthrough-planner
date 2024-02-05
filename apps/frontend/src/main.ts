@@ -4,6 +4,7 @@ import { createApp } from "vue"
 import PrimeVue from "primevue/config"
 import DesignSystem from "./design-system"
 import App from "./app/App.vue"
+import ToastService from "primevue/toastservice"
 
 const pinia = createPinia()
 
@@ -13,4 +14,5 @@ createApp(App)
     unstyled: true,
     pt: DesignSystem,
   })
+  .use(ToastService)
   .mount("#root")
