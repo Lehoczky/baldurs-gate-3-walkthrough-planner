@@ -1,26 +1,8 @@
 <template>
-  <div
-    class="bg-surface-900 flex h-[110px] w-[110px] cursor-move flex-col items-center justify-center rounded-md p-1 text-center text-sm leading-4 shadow-lg"
-    :draggable="true"
-    @dragstart="onDragStart"
-  >
-    <ItemIcon class="mb-1.5" :src="item.icon" :rarity="item.rarity" />
-
-    <a :href="item.wikiLink" class="group" target="_blank">
-      <TextClamp
-        class="underline-offset-1 group-hover:underline"
-        :title="title"
-        :text="item.name"
-        :max-lines="2"
-        @clamp-change="isTextClamped = $event"
-      />
-    </a>
-  </div>
+  <BaseItem draggable="true" :item="item" @dragstart="onDragStart" />
 </template>
 
 <script setup lang="ts">
-import TextClamp from "vue3-text-clamp"
-
 import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
 
 const props = defineProps({
@@ -30,17 +12,15 @@ const props = defineProps({
   },
 })
 
-const isTextClamped = ref(false)
-const title = computed(() => (isTextClamped.value ? props.item.name : null))
-
 function onDragStart(event: DragEvent) {
   if (event.dataTransfer) {
-    event.dataTransfer.setData("application/vueflow-node-type", "item")
-    event.dataTransfer.setData("application/vueflow-node-name", props.item.name)
-    event.dataTransfer.setData("application/vueflow-node-icon", props.item.icon)
+    const dragData = {
+      type: "item",
+      ...props.item,
+    }
     event.dataTransfer.setData(
-      "application/vueflow-node-rarity",
-      props.item.rarity,
+      "application/vueflow-node",
+      JSON.stringify(dragData),
     )
     event.dataTransfer.effectAllowed = "move"
   }

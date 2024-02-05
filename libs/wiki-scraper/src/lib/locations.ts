@@ -151,8 +151,8 @@ export const locations: Location[] = [
   {
     name: "The Festering Cove",
     description: "A hidden cove, home to followers of BOOOAL",
-    icon: "Act One",
-    act: "https://bg3.wiki/w/images/thumb/c/c8/The_Festering_Cove.jpg/375px-The_Festering_Cove.jpg",
+    icon: "https://bg3.wiki/w/images/thumb/c/c8/The_Festering_Cove.jpg/375px-The_Festering_Cove.jpg",
+    act: "Act One",
     area: "Under-world",
     wikiLink: "https://bg3.wiki/wiki/The_Festering_Cove",
   },

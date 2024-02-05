@@ -28,7 +28,7 @@ watch(toRef(props, "entities"), () => scrollTo(0))
 const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
   computed(() => props.entities),
   {
-    itemHeight: 152,
+    itemHeight: 160,
     overscan: 3,
   },
 )

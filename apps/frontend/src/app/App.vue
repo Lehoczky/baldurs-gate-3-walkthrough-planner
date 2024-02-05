@@ -1,10 +1,10 @@
 <template>
-  <main class="grid h-dvh grid-cols-[auto_520px] text-[#d2d2d2]">
+  <main class="grid h-dvh grid-cols-[auto_528px] text-[#d2d2d2]">
     <TheFlow />
 
     <TheRightSidebar v-if="storeLoaded" class="flex flex-col overflow-auto">
-      <div class="mb-6 space-y-4">
-        <label class="flex flex-col">
+      <div class="mb-6">
+        <label class="mb-2 flex flex-col">
           <div class="mb-1 text-xl">Search</div>
           <InputText v-model="searchText" type="text" />
         </label>

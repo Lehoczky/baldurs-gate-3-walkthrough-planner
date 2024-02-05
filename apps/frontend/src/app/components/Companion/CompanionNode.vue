@@ -4,8 +4,8 @@
     <Handle type="source" :position="Position.Bottom" />
     <Handle type="source" :position="Position.Left" />
     <Handle type="source" :position="Position.Right" />
-    <BaseItem
-      :item="data"
+    <BaseCompanion
+      :companion="data"
       aria-haspopup="true"
       @contextmenu="contextMenu.show($event)"
     />
@@ -18,10 +18,10 @@ import type { NodeProps } from "@vue-flow/core"
 import { Handle, Position, useNode, useVueFlow } from "@vue-flow/core"
 import ContextMenu from "primevue/contextmenu"
 import { defineDeleteMenuItem } from "../../contextmenu"
-import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
+import type { Companion } from "@baldurs-gate-3-walkthrough-planner/types"
 import type { MenuItem } from "primevue/menuitem"
 
-interface NodeData extends Item {}
+interface NodeData extends Companion {}
 
 defineProps<NodeProps<NodeData>>()
 
@@ -34,11 +34,11 @@ const contextMenuItems = ref<MenuItem[]>([
 </script>
 
 <style>
-.vue-flow__node-item {
+.vue-flow__node-companion {
   @apply rounded-md;
 }
 
-.vue-flow__node-item.selected {
+.vue-flow__node-companion.selected {
   @apply ring-surface-500 ring-4;
 }
 </style>

@@ -52,7 +52,8 @@
         "vue/no-sparse-arrays": "warn",
         "vue/no-useless-concat": "warn",
         "vue/prefer-template": "warn",
-        "vue/multi-word-component-names": "off"
+        "vue/multi-word-component-names": "off",
+        "vue/no-v-html": "off"
       }
     }
   ]

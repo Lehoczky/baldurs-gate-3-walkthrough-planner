@@ -1,6 +1,6 @@
 import type { SavedWikiData } from "@baldurs-gate-3-walkthrough-planner/types"
 import { useFetch } from "@vueuse/core"
-import { categories as categories_ } from "../constants"
+import { categories as categories_ } from "../constants/categories"
 import { first } from "lodash-es"
 
 export const useStore = defineStore("store", () => {

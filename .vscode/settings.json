@@ -4,12 +4,14 @@
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit"
   },
+  "css.customData": [".vscode/tailwind.json"],
   "cSpell.words": [
     "Baldur's",
     "dbclick",
     "Handwear",
     "handwears",
     "Headwears",
+    "iconify",
     "inputtext",
     "itemicon",
     "linkify",

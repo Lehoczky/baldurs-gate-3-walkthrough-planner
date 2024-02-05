@@ -1,12 +1,18 @@
 <template>
-  <div class="bg-[#232323]" @drop="onDrop">
-    <VueFlow @dragover="onDragOver($event as any)">
+  <div class="bg-[#222222]" @drop="onDrop">
+    <VueFlow :min-zoom="0.2" @dragover="onDragOver($event as any)">
       <Background />
       <Controls :position="PanelPosition.TopLeft" />
       <FlowNodeControls />
 
       <template #node-item="props">
         <ItemNode v-bind="props" />
+      </template>
+      <template #node-location="props">
+        <LocationNode v-bind="props" />
+      </template>
+      <template #node-companion="props">
+        <CompanionNode v-bind="props" />
       </template>
       <template #node-start="props">
         <StartNode v-bind="props" />
@@ -24,7 +30,12 @@
 <script setup lang="ts">
 import { Background } from "@vue-flow/background"
 import { Controls } from "@vue-flow/controls"
-import { useVueFlow, VueFlow, PanelPosition } from "@vue-flow/core"
+import {
+  useVueFlow,
+  VueFlow,
+  PanelPosition,
+  type XYPosition,
+} from "@vue-flow/core"
 import { useEventListener } from "@vueuse/core"
 
 const {
@@ -64,72 +75,17 @@ function onDrop(event: DragEvent) {
   })
 
   const id = crypto.randomUUID()
-  const type = event.dataTransfer?.getData("application/vueflow-node-type")
-
-  switch (type) {
-    case "item":
-    case "companion":
-    case "location": {
-      const label = event.dataTransfer?.getData("application/vueflow-node-name")
-      const icon = event.dataTransfer?.getData("application/vueflow-node-icon")
-      const rarity = event.dataTransfer?.getData(
-        "application/vueflow-node-rarity",
-      )
-
-      const newNode = {
-        id,
-        type: "item",
-        position,
-        label,
-        data: {
-          icon,
-          rarity,
-        },
-      }
-
-      addNodes([newNode])
-      break
-    }
-    case "note": {
-      const newNode = {
-        id,
-        type: "note",
-        position,
-        label: "Write something here...",
-      }
-
-      addNodes([newNode])
-      break
-    }
-    case "start": {
-      const newNode = {
-        id,
-        type: "start",
-        position,
-        label: "Journey Starts",
-      }
-
-      addNodes([newNode])
-      break
-    }
-    case "end": {
-      const newNode = {
-        id,
-        type: "end",
-        position,
-        label: "Journey Ends",
-      }
-
-      addNodes([newNode])
-      break
-    }
-    default:
-      return
-  }
+  const rawNodeData = event.dataTransfer?.getData("application/vueflow-node")
+  const nodeData = JSON.parse(rawNodeData)
+  const node = createNode(id, position, nodeData)
+  addNodes(node)
 
   // align node position after drop, so it's centered to the mouse
   nextTick(() => {
-    const node = findNode(id)!
+    const node = findNode(id)
+    if (!node) {
+      return
+    }
     node.selected = true
 
     const stop = watch(
@@ -146,5 +102,51 @@ function onDrop(event: DragEvent) {
       { deep: true, flush: "post" },
     )
   })
+}
+
+function createNode(
+  id: string,
+  position: XYPosition,
+  data: Record<string, any>,
+) {
+  switch (data.type) {
+    case "item":
+    case "location":
+    case "companion": {
+      return {
+        id,
+        type: data.type,
+        position,
+        label: data.name,
+        data: { ...data },
+      }
+    }
+    case "note": {
+      return {
+        id,
+        type: "note",
+        position,
+        label: "Write something here...",
+      }
+    }
+    case "start": {
+      return {
+        id,
+        type: "start",
+        position,
+        label: "Journey Starts",
+      }
+    }
+    case "end": {
+      return {
+        id,
+        type: "end",
+        position,
+        label: "Journey Ends",
+      }
+    }
+    default:
+      return
+  }
 }
 </script>

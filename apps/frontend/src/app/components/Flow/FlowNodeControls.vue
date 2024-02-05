@@ -23,7 +23,8 @@ import Button from "primevue/button"
 
 function onDragStart(event: DragEvent, type: string) {
   if (event.dataTransfer) {
-    event.dataTransfer.setData("application/vueflow-node-type", type)
+    const data = JSON.stringify({ type })
+    event.dataTransfer.setData("application/vueflow-node", data)
     event.dataTransfer.effectAllowed = "move"
   }
 }
@@ -45,3 +46,9 @@ function load() {
   }
 }
 </script>
+
+<style>
+.vue-flow__controls-button {
+  @apply border-b-surface-500 bg-surface-600 fill-surface-100;
+}
+</style>
