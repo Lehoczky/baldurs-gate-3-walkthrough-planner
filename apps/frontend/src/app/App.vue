@@ -23,7 +23,8 @@
         <RightSidebarEntityGrid class="h-full" />
       </TheRightSidebar>
     </main>
-    <Toast />
+
+    <Toast position="bottom-left" />
   </div>
 </template>
 
@@ -32,21 +33,21 @@ import { useStore } from "./store"
 import Toast from "primevue/toast"
 import { useToast } from "primevue/usetoast"
 import InputText from "primevue/inputtext"
-import { useRegisterSW } from "virtual:pwa-register/vue"
+import { onOfflineReady } from "./hooks/onOfflineReady"
 
 const store = useStore()
 const { fetchStoreData } = store
 const { searchText, storeLoaded, categories, selectedCategoryName } =
   storeToRefs(store)
 
-fetchStoreData()
-
 const toast = useToast()
-useRegisterSW({
-  onOfflineReady: () =>
-    toast.add({
-      severity: "success",
-      summary: "Ready to work offline",
-    }),
+onOfflineReady(() => {
+  toast.add({
+    severity: "info",
+    summary: "Ready to work offline",
+    life: 3000,
+  })
 })
+
+fetchStoreData()
 </script>
