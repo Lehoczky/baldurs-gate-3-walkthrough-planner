@@ -46,9 +46,3 @@ function load() {
   }
 }
 </script>
-
-<style>
-.vue-flow__controls-button {
-  @apply border-b-surface-500 bg-surface-600 fill-surface-100;
-}
-</style>

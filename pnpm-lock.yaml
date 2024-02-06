@@ -11,9 +11,6 @@ importers:
       '@vue-flow/background':
         specifier: ^1.2.0
         version: 1.2.0(@vue-flow/core@1.31.0)
-      '@vue-flow/controls':
-        specifier: ^1.1.1
-        version: 1.1.1(@vue-flow/core@1.31.0)(vue@3.4.15)
       '@vue-flow/core':
         specifier: ^1.31.0
         version: 1.31.0(vue@3.4.15)
@@ -3225,16 +3222,6 @@ packages:
       '@vue-flow/core': ^1.12.2
     dependencies:
       '@vue-flow/core': 1.31.0(vue@3.4.15)
-    dev: false
-
-  /@vue-flow/controls@1.1.1(@vue-flow/core@1.31.0)(vue@3.4.15):
-    resolution: {integrity: sha512-TCoRD5aYZQsM/N7QlPJcIILg1Gxm0O/zoUikxaeadcom1OlKFHutY72agsySJEWM6fTlyb7w8DYCbB4T8YbFoQ==}
-    peerDependencies:
-      '@vue-flow/core': ^1.23.0
-      vue: ^3.3.0
-    dependencies:
-      '@vue-flow/core': 1.31.0(vue@3.4.15)
-      vue: 3.4.15(typescript@5.3.3)
     dev: false
 
   /@vue-flow/core@1.31.0(vue@3.4.15):

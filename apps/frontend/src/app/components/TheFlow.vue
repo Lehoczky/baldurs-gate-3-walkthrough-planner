@@ -2,7 +2,6 @@
   <div class="bg-[#222222]" @drop="onDrop">
     <VueFlow :min-zoom="0.2" @dragover="onDragOver($event as any)">
       <Background />
-      <Controls :position="PanelPosition.TopLeft" />
       <FlowNodeControls />
 
       <template #node-item="props">
@@ -29,13 +28,7 @@
 
 <script setup lang="ts">
 import { Background } from "@vue-flow/background"
-import { Controls } from "@vue-flow/controls"
-import {
-  useVueFlow,
-  VueFlow,
-  PanelPosition,
-  type XYPosition,
-} from "@vue-flow/core"
+import { useVueFlow, VueFlow, type XYPosition } from "@vue-flow/core"
 import { useEventListener } from "@vueuse/core"
 
 const {
