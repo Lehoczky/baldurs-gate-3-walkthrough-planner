@@ -23,6 +23,7 @@
     "resizer",
     "toastservice",
     "unplugin",
+    "usetoast",
     "vueflow",
     "vueuse"
   ]

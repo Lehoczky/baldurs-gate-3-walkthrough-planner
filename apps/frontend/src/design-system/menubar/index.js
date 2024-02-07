@@ -16,6 +16,9 @@ export default {
       // Color
       "bg-surface-50 dark:bg-surface-700",
       "border border-surface-200 dark:border-surface-700",
+
+      // Shadow
+      "shadow-md",
     ],
   },
   menu: ({ props }) => ({

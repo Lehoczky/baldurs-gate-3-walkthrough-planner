@@ -14,13 +14,13 @@ export default {
   container: ({ props }) => ({
     class: [
       "my-4 rounded-md w-full",
-      "border-solid border-0 border-l-[6px]",
       "backdrop-blur-[10px] shadow-md",
+      "border",
 
       // Colors
       {
         "bg-blue-100/70 dark:bg-blue-500/20": props.message.severity == "info",
-        "bg-green-100/70 dark:bg-green-500/20":
+        "bg-green-100/70 dark:bg-green-500/10":
           props.message.severity == "success",
         "bg-orange-100/70 dark:bg-orange-500/20":
           props.message.severity == "warn",
@@ -29,7 +29,7 @@ export default {
       {
         "border-blue-500 dark:border-blue-400":
           props.message.severity == "info",
-        "border-green-500 dark:border-green-400":
+        "border-green-500 dark:border-green-400/10":
           props.message.severity == "success",
         "border-orange-500 dark:border-orange-400":
           props.message.severity == "warn",
@@ -51,7 +51,7 @@ export default {
   icon: {
     class: [
       // Sizing and Spacing
-      "w-6 h-6",
+      "w-em h-em",
       "text-lg leading-none mr-2 shrink-0",
     ],
   },
@@ -64,18 +64,23 @@ export default {
     ],
   },
   summary: {
-    class: "font-bold block",
+    class: "font-bolder block",
   },
-  detail: {
-    class: "mt-2 block",
-  },
+  detail: ({ props }) => ({
+    class: [
+      "block",
+      {
+        "mt-2": !!props.message.detail,
+      },
+    ],
+  }),
   closebutton: {
     class: [
       // Flexbox
       "flex items-center justify-center",
 
       // Size
-      "w-8 h-8",
+      "w-em h-em",
 
       // Spacing and Misc
       "ml-auto  relative",
