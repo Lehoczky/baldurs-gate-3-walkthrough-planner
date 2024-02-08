@@ -1,5 +1,8 @@
 TODO:
 
 - import/export
-- flow menubar
 - node groups
+- multiple saves
+- edge labels
+- autosave
+- README (obviously)
