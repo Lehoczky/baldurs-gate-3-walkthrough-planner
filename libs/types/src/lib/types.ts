@@ -40,6 +40,12 @@ export interface Category {
   icon: string
 }
 
+export interface Boss {
+  name: string
+  icon: string
+  wikiLink: string
+}
+
 export interface SavedWikiData {
   categories: Category[]
   weapons: Item[]
@@ -61,4 +67,5 @@ export interface SavedWikiData {
   companions: Companion[]
   locations: Location[]
   spells: Spell[]
+  bosses: Boss[]
 }

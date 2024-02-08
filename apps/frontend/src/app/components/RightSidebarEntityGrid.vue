@@ -13,6 +13,7 @@ const { shownEntities, selectedCategoryName } = storeToRefs(store)
 
 const gridForCategory = computed(() => {
   switch (selectedCategoryName.value) {
+    case "bosses":
     case "companions":
       return RightSidebarCompanionGrid
     case "locations":

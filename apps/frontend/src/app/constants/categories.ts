@@ -77,4 +77,8 @@ export const categories: Category[] = [
     name: "spells",
     icon: "https://bg3.wiki/w/images/thumb/1/19/Magic_Missile_Icon.png/150px-Magic_Missile_Icon.png",
   },
+  {
+    name: "bosses",
+    icon: "https://bg3.wiki/w/images/thumb/e/ea/Creatures.png/150px-Creatures.png",
+  },
 ]
