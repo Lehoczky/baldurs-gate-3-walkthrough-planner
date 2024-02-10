@@ -91,9 +91,14 @@ function selectNewlyAddedNodesOnChanges(changes: NodeChange[]) {
   }
 }
 
-useEventListener("keydown", ({ key }) => {
+useEventListener("keydown", (event) => {
+  const { key, ctrlKey } = event
+
   if (key === "Delete") {
     deleteSelectedNodes()
+  } else if (ctrlKey && key === "s") {
+    event.preventDefault()
+    save()
   }
 })
 
