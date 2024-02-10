@@ -29,16 +29,16 @@
 </template>
 
 <script setup lang="ts">
-import { useStore } from "./store"
+import { useDataStore } from "./store/data"
 import Toast from "primevue/toast"
 import { useToast } from "primevue/usetoast"
 import InputText from "primevue/inputtext"
 import { onOfflineReady } from "./hooks/onOfflineReady"
 
-const store = useStore()
-const { fetchStoreData } = store
+const dataStore = useDataStore()
+const { fetchStoreData } = dataStore
 const { searchText, storeLoaded, categories, selectedCategoryName } =
-  storeToRefs(store)
+  storeToRefs(dataStore)
 
 const toast = useToast()
 onOfflineReady(() => {

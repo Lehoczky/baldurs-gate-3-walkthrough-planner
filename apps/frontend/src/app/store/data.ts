@@ -3,7 +3,7 @@ import { useFetch } from "@vueuse/core"
 import { categories as categories_ } from "../constants/categories"
 import { first } from "lodash-es"
 
-export const useStore = defineStore("store", () => {
+export const useDataStore = defineStore("data", () => {
   const {
     data,
     isFinished: storeLoaded,

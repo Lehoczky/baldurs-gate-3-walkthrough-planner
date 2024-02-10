@@ -1,8 +1,8 @@
 TODO:
 
-- import/export
-- node groups
 - multiple saves
 - edge labels
+- import/export
+- node groups
 - autosave
 - README (obviously)
