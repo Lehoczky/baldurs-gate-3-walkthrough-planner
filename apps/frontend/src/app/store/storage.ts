@@ -26,12 +26,14 @@ export const useStorageStore = defineStore("storage", () => {
     })
   }
 
-  function load() {
+  async function load() {
     const flow: FlowExportObject = JSON.parse(localStorage.getItem(STORAGE_KEY))
 
     if (flow) {
-      hasUnsavedChanges.value = false
-      fromObject(flow)
+      await fromObject(flow)
+      setTimeout(() => {
+        hasUnsavedChanges.value = false
+      })
     }
   }
 

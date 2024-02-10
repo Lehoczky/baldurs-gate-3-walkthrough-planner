@@ -34,11 +34,21 @@ import Toast from "primevue/toast"
 import { useToast } from "primevue/usetoast"
 import InputText from "primevue/inputtext"
 import { onOfflineReady } from "./hooks/onOfflineReady"
+import { useStorageStore } from "./store/storage"
+import { useEventListener } from "@vueuse/core"
 
 const dataStore = useDataStore()
 const { fetchStoreData } = dataStore
 const { searchText, storeLoaded, categories, selectedCategoryName } =
   storeToRefs(dataStore)
+
+const storageStore = useStorageStore()
+const { hasUnsavedChanges } = storeToRefs(storageStore)
+useEventListener("beforeunload", (event) => {
+  if (hasUnsavedChanges.value) {
+    event.preventDefault()
+  }
+})
 
 const toast = useToast()
 onOfflineReady(() => {
