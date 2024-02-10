@@ -18,13 +18,7 @@ export default defineConfig({
     host: "localhost",
   },
   plugins: [
-    vue({
-      template: {
-        compilerOptions: {
-          isCustomElement: (tag) => tag.startsWith("swiper-"),
-        },
-      },
-    }),
+    vue(),
     nxViteTsPaths(),
     Components({
       dirs: ["src/app/components"],
