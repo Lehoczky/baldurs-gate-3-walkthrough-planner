@@ -40,15 +40,14 @@ import {
   VueFlow,
   type NodeAddChange,
   type NodeChange,
-  type FlowExportObject,
 } from "@vue-flow/core"
 import { useEventListener } from "@vueuse/core"
 import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
 import { useCustomNode } from "../hooks/useCustomNode"
-import { useToast } from "primevue/usetoast"
 import { useNodeDrop } from "../hooks/useNodeDragAndDrop"
 import { useAddNodeFromContextMenu } from "../hooks/useAddNodeFromContextMenu"
+import { useStorageStore } from "../store/storage"
 
 const {
   findNode,
@@ -59,14 +58,22 @@ const {
   addSelectedNodes,
   getNodes,
   onNodesChange,
-  toObject,
-  fromObject,
+  onEdgesChange,
 } = useVueFlow({
+  id: "main",
   zoomOnDoubleClick: false,
 })
 onConnect((params) => addEdges(params))
 
+const storageStore = useStorageStore()
+const { save, load } = storageStore
+const { hasUnsavedChanges } = storeToRefs(storageStore)
+
+onEdgesChange(() => {
+  hasUnsavedChanges.value = true
+})
 onNodesChange((changes) => {
+  hasUnsavedChanges.value = true
   selectNewlyAddedNodesOnChanges(changes)
 })
 
@@ -142,24 +149,4 @@ function openContextMenu(event: MouseEvent) {
 }
 
 const { onDragOver, onDrop } = useNodeDrop()
-
-const toast = useToast()
-function save() {
-  localStorage.setItem("wp:saved-flow", JSON.stringify(toObject()))
-  toast.add({
-    summary: "Save Successful",
-    severity: "success",
-    life: 1000,
-  })
-}
-
-function load() {
-  const flow: FlowExportObject = JSON.parse(
-    localStorage.getItem("wp:saved-flow"),
-  )
-
-  if (flow) {
-    fromObject(flow)
-  }
-}
 </script>
