@@ -45,11 +45,14 @@ import {
   type Node,
   type GraphNode,
   type XYPosition,
+  type NodeChange,
+  type FlowExportObject,
 } from "@vue-flow/core"
 import { useEventListener } from "@vueuse/core"
 import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
 import { useCustomNode } from "../hooks/useCustomNode"
+import { useToast } from "primevue/usetoast"
 
 const {
   findNode,
@@ -63,12 +66,21 @@ const {
   addSelectedNodes,
   getNodes,
   onNodesChange,
+  toObject,
+  fromObject,
 } = useVueFlow({
   zoomOnDoubleClick: false,
 })
 onConnect((params) => addEdges(params))
 
 onNodesChange((changes) => {
+  selectNewlyAddedNodesOnChanges(changes)
+})
+
+/**
+ * Select the nodes that gets added to the flow.
+ */
+function selectNewlyAddedNodesOnChanges(changes: NodeChange[]) {
   const addedNodes = changes
     .filter(({ type }) => type === "add")
     .map((changes: NodeAddChange) => changes.item.id)
@@ -77,13 +89,20 @@ onNodesChange((changes) => {
   if (addedNodes.length) {
     addSelectedNodes(addedNodes)
   }
-})
+}
 
+/**
+ * Delete the selected nodes when "Delete" key
+ * is pressed.
+ */
 useEventListener("keydown", ({ key }) => {
   if (key === "Delete") {
-    removeNodes(getSelectedNodes.value)
+    deleteSelectedNodes()
   }
 })
+function deleteSelectedNodes() {
+  removeNodes(getSelectedNodes.value)
+}
 
 const contextMenu = ref<ContextMenu>()
 const contextMenuItems = ref<MenuItem[]>([
@@ -93,10 +112,28 @@ const contextMenuItems = ref<MenuItem[]>([
     command: () => selectEveryNode(),
   },
   {
+    separator: true,
+  },
+  {
+    label: "New Start Node",
+    icon: "i-lucide-arrow-right",
+    command: () => addCustomNode("start"),
+  },
+  {
+    label: "New End Node",
+    icon: "i-lucide-flame-kindling",
+    command: () => addCustomNode("end"),
+  },
+  {
     label: "New Note",
     icon: "i-lucide-notebook",
-    command: () => addNote(),
+    command: () => addCustomNode("note"),
   },
+  {
+    separator: true,
+  },
+  { label: "Save", icon: "i-lucide-save", command: () => save() },
+  { label: "Load", icon: "i-lucide-archive-restore", command: () => load() },
 ])
 
 function selectEveryNode() {
@@ -104,6 +141,10 @@ function selectEveryNode() {
 }
 
 const lastOpenedContextMenuPosition = ref<XYPosition>()
+/**
+ * Open the context menu and save it's position
+ * to know where to place newly created nodes.
+ */
 function openContextMenu(event: MouseEvent) {
   contextMenu.value.show(event)
   lastOpenedContextMenuPosition.value = {
@@ -113,7 +154,7 @@ function openContextMenu(event: MouseEvent) {
 }
 
 const { create } = useCustomNode()
-function addNote() {
+function addCustomNode(type: string) {
   const { left, top } = vueFlowRef.value.getBoundingClientRect()
 
   const position = project({
@@ -121,7 +162,7 @@ function addNote() {
     y: lastOpenedContextMenuPosition.value.y - top,
   })
   const node = {
-    ...create("note"),
+    ...create(type),
     position,
   }
   addNodes(node)
@@ -154,14 +195,14 @@ async function onDrop(event: DragEvent) {
     data: { ...nodeData },
   }
   addNodes(node)
-  await centerNewNodeToItsPosition(id)
+  await nextTick()
+  centerNodeToItsOwnPosition(id)
 }
 
 /**
  * Align node position after drop, so it's centered to the mouse.
  */
-async function centerNewNodeToItsPosition(id: string) {
-  await nextTick()
+function centerNodeToItsOwnPosition(id: string) {
   const node = findNode(id)
   if (!node) {
     return
@@ -183,6 +224,26 @@ function translateToCenter(node: GraphNode) {
   node.position = {
     x: node.position.x - node.dimensions.width / 2,
     y: node.position.y - node.dimensions.height / 2,
+  }
+}
+
+const toast = useToast()
+function save() {
+  localStorage.setItem("wp:saved-flow", JSON.stringify(toObject()))
+  toast.add({
+    summary: "Save Successful",
+    severity: "success",
+    life: 1000,
+  })
+}
+
+function load() {
+  const flow: FlowExportObject = JSON.parse(
+    localStorage.getItem("wp:saved-flow"),
+  )
+
+  if (flow) {
+    fromObject(flow)
   }
 }
 </script>

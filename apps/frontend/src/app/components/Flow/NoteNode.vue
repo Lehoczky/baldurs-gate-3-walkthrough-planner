@@ -17,7 +17,7 @@
       />
       <div
         v-else
-        class="prose prose-sm h-full max-w-none flex-1 cursor-text"
+        class="prose prose-sm prose-gray h-full max-w-none flex-1 cursor-text"
         @dblclick="startEditing"
         v-html="renderedText"
       />
