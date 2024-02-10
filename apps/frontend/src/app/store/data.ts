@@ -41,3 +41,7 @@ export const useDataStore = defineStore("data", () => {
     selectedCategoryName,
   }
 })
+
+if (import.meta.hot) {
+  import.meta.hot.accept(acceptHMRUpdate(useDataStore, import.meta.hot))
+}
