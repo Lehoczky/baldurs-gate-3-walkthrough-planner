@@ -13,7 +13,6 @@ declare module 'vue' {
     CategorySelect: typeof import('./app/components/CategorySelect.vue')['default']
     CompanionNode: typeof import('./app/components/Companion/CompanionNode.vue')['default']
     EndNode: typeof import('./app/components/Flow/EndNode.vue')['default']
-    FlowMenubar: typeof import('./app/components/Flow/FlowMenubar.vue')['default']
     ItemIcon: typeof import('./app/components/Item/ItemIcon.vue')['default']
     ItemNode: typeof import('./app/components/Item/ItemNode.vue')['default']
     LocationNode: typeof import('./app/components/Location/LocationNode.vue')['default']

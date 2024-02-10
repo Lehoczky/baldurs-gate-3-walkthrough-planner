@@ -29,9 +29,6 @@
       </VueFlow>
     </div>
 
-    <div class="absolute left-1/2 top-6 -translate-x-1/2">
-      <FlowMenubar />
-    </div>
     <ContextMenu ref="contextMenu" :model="contextMenuItems" />
   </div>
 </template>
@@ -42,9 +39,6 @@ import {
   useVueFlow,
   VueFlow,
   type NodeAddChange,
-  type Node,
-  type GraphNode,
-  type XYPosition,
   type NodeChange,
   type FlowExportObject,
 } from "@vue-flow/core"
@@ -53,16 +47,15 @@ import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
 import { useCustomNode } from "../hooks/useCustomNode"
 import { useToast } from "primevue/usetoast"
+import { useNodeDrop } from "../hooks/useNodeDragAndDrop"
+import { useAddNodeFromContextMenu } from "../hooks/useAddNodeFromContextMenu"
 
 const {
   findNode,
   onConnect,
   addEdges,
-  addNodes,
-  project,
   removeNodes,
   getSelectedNodes,
-  vueFlowRef,
   addSelectedNodes,
   getNodes,
   onNodesChange,
@@ -91,20 +84,19 @@ function selectNewlyAddedNodesOnChanges(changes: NodeChange[]) {
   }
 }
 
-/**
- * Delete the selected nodes when "Delete" key
- * is pressed.
- */
 useEventListener("keydown", ({ key }) => {
   if (key === "Delete") {
     deleteSelectedNodes()
   }
 })
+
 function deleteSelectedNodes() {
   removeNodes(getSelectedNodes.value)
 }
 
 const contextMenu = ref<ContextMenu>()
+const { create } = useCustomNode()
+const { saveContextMenuPosition, addCustomNode } = useAddNodeFromContextMenu()
 const contextMenuItems = ref<MenuItem[]>([
   {
     label: "Select All",
@@ -117,17 +109,17 @@ const contextMenuItems = ref<MenuItem[]>([
   {
     label: "New Start Node",
     icon: "i-lucide-arrow-right",
-    command: () => addCustomNode("start"),
+    command: () => addCustomNode(create("start")),
   },
   {
     label: "New End Node",
     icon: "i-lucide-flame-kindling",
-    command: () => addCustomNode("end"),
+    command: () => addCustomNode(create("end")),
   },
   {
     label: "New Note",
     icon: "i-lucide-notebook",
-    command: () => addCustomNode("note"),
+    command: () => addCustomNode(create("note")),
   },
   {
     separator: true,
@@ -140,92 +132,16 @@ function selectEveryNode() {
   addSelectedNodes(getNodes.value)
 }
 
-const lastOpenedContextMenuPosition = ref<XYPosition>()
 /**
  * Open the context menu and save it's position
  * to know where to place newly created nodes.
  */
 function openContextMenu(event: MouseEvent) {
   contextMenu.value.show(event)
-  lastOpenedContextMenuPosition.value = {
-    x: event.clientX,
-    y: event.clientY,
-  }
+  saveContextMenuPosition(event)
 }
 
-const { create } = useCustomNode()
-function addCustomNode(type: string) {
-  const { left, top } = vueFlowRef.value.getBoundingClientRect()
-
-  const position = project({
-    x: lastOpenedContextMenuPosition.value.x - left,
-    y: lastOpenedContextMenuPosition.value.y - top,
-  })
-  const node = {
-    ...create(type),
-    position,
-  }
-  addNodes(node)
-}
-
-function onDragOver(event: DragEvent) {
-  event.preventDefault()
-
-  if (event.dataTransfer) {
-    event.dataTransfer.dropEffect = "move"
-  }
-}
-
-async function onDrop(event: DragEvent) {
-  const { left, top } = vueFlowRef.value.getBoundingClientRect()
-
-  const position = project({
-    x: event.clientX - left,
-    y: event.clientY - top,
-  })
-
-  const id = crypto.randomUUID()
-  const rawNodeData = event.dataTransfer?.getData("application/vueflow-node")
-  const nodeData = JSON.parse(rawNodeData)
-  const node: Node = {
-    id,
-    type: nodeData.type,
-    position,
-    label: nodeData.name,
-    data: { ...nodeData },
-  }
-  addNodes(node)
-  await nextTick()
-  centerNodeToItsOwnPosition(id)
-}
-
-/**
- * Align node position after drop, so it's centered to the mouse.
- */
-function centerNodeToItsOwnPosition(id: string) {
-  const node = findNode(id)
-  if (!node) {
-    return
-  }
-
-  const stop = watch(
-    () => node.dimensions,
-    (dimensions) => {
-      if (dimensions.width > 0 && dimensions.height > 0) {
-        translateToCenter(node)
-        stop()
-      }
-    },
-    { deep: true, flush: "post" },
-  )
-}
-
-function translateToCenter(node: GraphNode) {
-  node.position = {
-    x: node.position.x - node.dimensions.width / 2,
-    y: node.position.y - node.dimensions.height / 2,
-  }
-}
+const { onDragOver, onDrop } = useNodeDrop()
 
 const toast = useToast()
 function save() {

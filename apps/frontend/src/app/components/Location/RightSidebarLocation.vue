@@ -2,12 +2,13 @@
   <BaseLocation
     draggable="true"
     :location="location"
-    @dragstart="onDragStart"
+    @dragstart="onDragStart($event, dragData)"
   />
 </template>
 
 <script setup lang="ts">
 import type { Location } from "@baldurs-gate-3-walkthrough-planner/types"
+import { onDragStart } from "../../hooks/useNodeDragAndDrop"
 
 const props = defineProps({
   location: {
@@ -16,17 +17,8 @@ const props = defineProps({
   },
 })
 
-function onDragStart(event: DragEvent) {
-  if (event.dataTransfer) {
-    const dragData = {
-      type: "location",
-      ...props.location,
-    }
-    event.dataTransfer.setData(
-      "application/vueflow-node",
-      JSON.stringify(dragData),
-    )
-    event.dataTransfer.effectAllowed = "move"
-  }
-}
+const dragData = computed(() => ({
+  type: "location",
+  ...props.location,
+}))
 </script>
