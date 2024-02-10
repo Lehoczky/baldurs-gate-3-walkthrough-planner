@@ -44,6 +44,14 @@ module.exports = {
       spacing: {
         em: "1em",
       },
+      /** https://tailwindcss.com/docs/typography-plugin#adding-custom-color-themes */
+      typography: ({ theme }) => ({
+        gray: {
+          css: {
+            "--tw-prose-bullets": theme("colors.gray[500]"),
+          },
+        },
+      }),
     },
   },
   plugins: [
