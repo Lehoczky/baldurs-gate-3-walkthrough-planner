@@ -3,6 +3,7 @@
   "affected": {
     "defaultBase": "master"
   },
+  "defaultProject": "frontend",
   "targetDefaults": {
     "build": {
       "cache": true,
