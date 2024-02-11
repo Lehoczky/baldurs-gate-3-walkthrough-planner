@@ -44,11 +44,18 @@ const { searchText, storeLoaded, categories, selectedCategoryName } =
 
 const storageStore = useStorageStore()
 const { hasUnsavedChanges } = storeToRefs(storageStore)
-useEventListener("beforeunload", (event) => {
+
+// Turning it off during development, because
+// it's annoying.
+if (!import.meta.env.DEV) {
+  useEventListener("beforeunload", warnWhenLeavingTheSiteWithUnsavedChanges)
+}
+
+function warnWhenLeavingTheSiteWithUnsavedChanges(event: BeforeUnloadEvent) {
   if (hasUnsavedChanges.value) {
     event.preventDefault()
   }
-})
+}
 
 const toast = useToast()
 onOfflineReady(() => {

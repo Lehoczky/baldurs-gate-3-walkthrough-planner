@@ -1,6 +1,9 @@
 import { useVueFlow, type FlowExportObject } from "@vue-flow/core"
 import { useTitle } from "@vueuse/core"
 import { useToast } from "primevue/usetoast"
+import { download, parseJsonFile } from "../utils"
+import { useFileDialog } from "@vueuse/core"
+import { first } from "lodash-es"
 
 const STORAGE_KEY = "wp:saved-flow"
 
@@ -37,10 +40,66 @@ export const useStorageStore = defineStore("storage", () => {
     }
   }
 
+  const { open, onChange } = useFileDialog({
+    accept: "text/*",
+    multiple: false,
+  })
+
+  onChange(async (files) => {
+    const file = first(files)
+    await loadFileIntoFlow(file)
+  })
+
+  function saveToFile() {
+    const defaultFileName = "bg3 walkthrough plan.json"
+    download(defaultFileName, JSON.stringify(toObject()))
+    hasUnsavedChanges.value = false
+  }
+
+  function loadFromFile() {
+    open()
+  }
+
+  async function loadFileIntoFlow(file: File) {
+    try {
+      const data = await parseJsonFile<FlowExportObject>(file)
+      if (!data.nodes) {
+        toast.add({
+          summary: "The selected file doesn't seem to contain any elements.",
+          detail: "The loading was skipped.",
+          severity: "warn",
+        })
+        return
+      }
+      await fromObject(data)
+
+      setTimeout(() => {
+        hasUnsavedChanges.value = false
+      })
+    } catch (error) {
+      if (error instanceof Error) {
+        const detail =
+          error instanceof SyntaxError
+            ? "The selected file doesn't seem to contain valid JSON."
+            : error.message
+
+        toast.add({
+          summary: "Failed to load file",
+          detail,
+          severity: "error",
+        })
+      } else {
+        throw error
+      }
+    }
+  }
+
   return {
     hasUnsavedChanges,
     save,
     load,
+    saveToFile,
+    loadFromFile,
   }
 })
 

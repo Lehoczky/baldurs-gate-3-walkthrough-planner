@@ -32,3 +32,48 @@ export const randomInt = (a = 1, b = 0) => {
   const upper = Math.floor(Math.max(a, b))
   return Math.floor(lower + Math.random() * (upper - lower + 1))
 }
+
+/**
+ * Opens the user's system file dialog prompting to download
+ * the given data.
+ *
+ * @param fileName default name of the saved file. This is what will show up as file name in the user's file dialog.
+ * @param data the content of the file.
+ * @param mime [mime type](https://developer.mozilla.org/en-US/docs/Glossary/MIME_type) of the file
+ * @param bom
+ */
+export function download(
+  fileName: string,
+  data: string | ArrayBuffer | ArrayBufferView | Blob,
+  mime = "text/plain",
+  bom?: string | Uint8Array,
+) {
+  const blobData = bom === undefined ? [data] : [bom, data]
+  const blob = new Blob(blobData, { type: mime })
+  const a = document.createElement("a")
+
+  a.download = fileName
+  a.href = URL.createObjectURL(blob)
+  a.click()
+  setTimeout(() => {
+    URL.revokeObjectURL(a.href)
+    a.remove()
+  }, 200)
+}
+
+export async function parseJsonFile<T = any>(file: File) {
+  return await new Promise<T>((resolve, reject) => {
+    const fileReader = new FileReader()
+    fileReader.onload = (event) => {
+      const result = event.target.result as string
+      try {
+        const parsedJSON = JSON.parse(result)
+        resolve(parsedJSON)
+      } catch (error) {
+        reject(error)
+      }
+    }
+    fileReader.onerror = (error) => reject(error)
+    fileReader.readAsText(file)
+  })
+}

@@ -1,5 +1,5 @@
 <template>
-  <div class="relative grid">
+  <div class="grid">
     <div class="bg-[#222222]" @drop="onDrop">
       <VueFlow
         :min-zoom="0.2"
@@ -66,7 +66,7 @@ const {
 onConnect((params) => addEdges(params))
 
 const storageStore = useStorageStore()
-const { save, load } = storageStore
+const { save, load, saveToFile, loadFromFile } = storageStore
 const { hasUnsavedChanges } = storeToRefs(storageStore)
 
 onEdgesChange(() => {
@@ -116,6 +116,11 @@ const contextMenuItems = ref<MenuItem[]>([
     command: () => selectEveryNode(),
   },
   {
+    label: "Clear Canvas",
+    icon: "i-lucide-trash-2",
+    command: () => removeEveryNode(),
+  },
+  {
     separator: true,
   },
   {
@@ -136,12 +141,37 @@ const contextMenuItems = ref<MenuItem[]>([
   {
     separator: true,
   },
-  { label: "Save", icon: "i-lucide-save", command: () => save() },
-  { label: "Load", icon: "i-lucide-archive-restore", command: () => load() },
+  {
+    label: "Save",
+    icon: "i-lucide-save",
+    command: () => save(),
+  },
+  {
+    label: "Load",
+    icon: "i-lucide-archive-restore",
+    command: () => load(),
+  },
+  {
+    separator: true,
+  },
+  {
+    label: "Save to file",
+    icon: "i-lucide-hard-drive-download",
+    command: () => saveToFile(),
+  },
+  {
+    label: "Load from file",
+    icon: "i-lucide-hard-drive-upload",
+    command: () => loadFromFile(),
+  },
 ])
 
 function selectEveryNode() {
   addSelectedNodes(getNodes.value)
+}
+
+function removeEveryNode() {
+  removeNodes(getNodes.value)
 }
 
 /**
