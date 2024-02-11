@@ -37,7 +37,10 @@
   --surface-950: 28 28 28;
 }
 
+.vue-flow__handle {
+  @apply bg-surface-800 border-surface-500 h-2 w-2 shadow;
+}
+
 .vue-flow__resize-control.line {
-  border-width: 1px;
-  border-color: transparent;
+  @apply border border-transparent;
 }
