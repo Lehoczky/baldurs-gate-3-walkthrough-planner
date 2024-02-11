@@ -3,10 +3,10 @@
 </template>
 
 <script setup lang="ts">
-import { useDataStore } from "../store/data"
-import RightSidebarCompanionGrid from "./Companion/RightSidebarCompanionGrid.vue"
-import RightSidebarItemGrid from "./Item/RightSidebarItemGrid.vue"
-import RightSidebarLocationGrid from "./Location/RightSidebarLocationGrid.vue"
+import { useDataStore } from "../../store/data"
+import RightSidebarCompanionGrid from "../Companion/RightSidebarCompanionGrid.vue"
+import RightSidebarItemGrid from "../Item/RightSidebarItemGrid.vue"
+import RightSidebarLocationGrid from "../Location/RightSidebarLocationGrid.vue"
 
 const dataStore = useDataStore()
 const { shownEntities, selectedCategoryName } = storeToRefs(dataStore)
