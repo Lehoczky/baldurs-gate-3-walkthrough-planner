@@ -4,7 +4,7 @@
       <VueFlow
         :min-zoom="0.2"
         @dragover="onDragOver($event as any)"
-        @contextmenu="openContextMenu($event as any)"
+        @contextmenu="flowContextMenu.show($event as any)"
       >
         <Background />
 
@@ -29,7 +29,7 @@
       </VueFlow>
     </div>
 
-    <ContextMenu ref="contextMenu" :model="contextMenuItems" />
+    <FlowContextMenu ref="flowContextMenu" />
   </div>
 </template>
 
@@ -42,11 +42,8 @@ import {
   type NodeChange,
 } from "@vue-flow/core"
 import { useEventListener } from "@vueuse/core"
-import ContextMenu from "primevue/contextmenu"
-import type { MenuItem } from "primevue/menuitem"
-import { useCustomNode } from "../hooks/useCustomNode"
+import FlowContextMenu from "./Flow/FlowContextMenu.vue"
 import { useNodeDrop } from "../hooks/useNodeDragAndDrop"
-import { useAddNodeFromContextMenu } from "../hooks/useAddNodeFromContextMenu"
 import { useStorageStore } from "../store/storage"
 
 const {
@@ -56,7 +53,6 @@ const {
   removeNodes,
   getSelectedNodes,
   addSelectedNodes,
-  getNodes,
   onNodesChange,
   onEdgesChange,
 } = useVueFlow({
@@ -65,8 +61,10 @@ const {
 })
 onConnect((params) => addEdges(params))
 
+const { onDragOver, onDrop } = useNodeDrop()
+const flowContextMenu = ref<InstanceType<typeof FlowContextMenu>>()
 const storageStore = useStorageStore()
-const { save, load, saveToFile, loadFromFile } = storageStore
+const { save } = storageStore
 const { hasUnsavedChanges } = storeToRefs(storageStore)
 
 onEdgesChange(() => {
@@ -105,83 +103,4 @@ useEventListener("keydown", (event) => {
 function deleteSelectedNodes() {
   removeNodes(getSelectedNodes.value)
 }
-
-const contextMenu = ref<ContextMenu>()
-const { create } = useCustomNode()
-const { saveContextMenuPosition, addCustomNode } = useAddNodeFromContextMenu()
-const contextMenuItems = ref<MenuItem[]>([
-  {
-    label: "Select All",
-    icon: "i-lucide-box-select",
-    command: () => selectEveryNode(),
-  },
-  {
-    label: "Clear Canvas",
-    icon: "i-lucide-trash-2",
-    command: () => removeEveryNode(),
-  },
-  {
-    separator: true,
-  },
-  {
-    label: "New Start Node",
-    icon: "i-lucide-arrow-right",
-    command: () => addCustomNode(create("start")),
-  },
-  {
-    label: "New End Node",
-    icon: "i-lucide-flame-kindling",
-    command: () => addCustomNode(create("end")),
-  },
-  {
-    label: "New Note",
-    icon: "i-lucide-notebook",
-    command: () => addCustomNode(create("note")),
-  },
-  {
-    separator: true,
-  },
-  {
-    label: "Save",
-    icon: "i-lucide-save",
-    command: () => save(),
-  },
-  {
-    label: "Load",
-    icon: "i-lucide-archive-restore",
-    command: () => load(),
-  },
-  {
-    separator: true,
-  },
-  {
-    label: "Save to file",
-    icon: "i-lucide-hard-drive-download",
-    command: () => saveToFile(),
-  },
-  {
-    label: "Load from file",
-    icon: "i-lucide-hard-drive-upload",
-    command: () => loadFromFile(),
-  },
-])
-
-function selectEveryNode() {
-  addSelectedNodes(getNodes.value)
-}
-
-function removeEveryNode() {
-  removeNodes(getNodes.value)
-}
-
-/**
- * Open the context menu and save it's position
- * to know where to place newly created nodes.
- */
-function openContextMenu(event: MouseEvent) {
-  contextMenu.value.show(event)
-  saveContextMenuPosition(event)
-}
-
-const { onDragOver, onDrop } = useNodeDrop()
 </script>
