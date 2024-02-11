@@ -30,6 +30,11 @@
     </div>
 
     <FlowContextMenu ref="flowContextMenu" />
+    <ContextMenu ref="edgeContextMenu" :model="edgeContextMenuItems" />
+    <LazyEdgeLabelDialog
+      v-if="showEdgeLabelDialog"
+      @close="showEdgeLabelDialog = false"
+    />
   </div>
 </template>
 
@@ -40,11 +45,15 @@ import {
   VueFlow,
   type NodeAddChange,
   type NodeChange,
+  type EdgeMouseEvent,
 } from "@vue-flow/core"
+
 import { useEventListener } from "@vueuse/core"
 import FlowContextMenu from "./Flow/FlowContextMenu.vue"
 import { useNodeDrop } from "../hooks/useNodeDragAndDrop"
 import { useStorageStore } from "../store/storage"
+import ContextMenu from "primevue/contextmenu"
+import type { MenuItem } from "primevue/menuitem"
 
 const {
   findNode,
@@ -55,6 +64,8 @@ const {
   addSelectedNodes,
   onNodesChange,
   onEdgesChange,
+  onEdgeContextMenu,
+  addSelectedEdges,
 } = useVueFlow({
   id: "main",
   zoomOnDoubleClick: false,
@@ -63,6 +74,7 @@ onConnect((params) => addEdges(params))
 
 const { onDragOver, onDrop } = useNodeDrop()
 const flowContextMenu = ref<InstanceType<typeof FlowContextMenu>>()
+const edgeContextMenu = ref<ContextMenu>()
 const storageStore = useStorageStore()
 const { save } = storageStore
 const { hasUnsavedChanges } = storeToRefs(storageStore)
@@ -74,6 +86,27 @@ onNodesChange((changes) => {
   hasUnsavedChanges.value = true
   selectNewlyAddedNodesOnChanges(changes)
 })
+
+onEdgeContextMenu(({ edge, event }: EdgeMouseEvent) => {
+  addSelectedEdges([edge])
+  edgeContextMenu.value.show(event)
+})
+const LazyEdgeLabelDialog = defineAsyncComponent({
+  loader: () => {
+    return import("./Flow/EdgeLabelDialog.vue")
+  },
+  delay: 0,
+})
+const showEdgeLabelDialog = ref(false)
+const edgeContextMenuItems = ref<MenuItem[]>([
+  {
+    label: "Edit label",
+    icon: "i-lucide-message-square-text",
+    command: () => {
+      showEdgeLabelDialog.value = true
+    },
+  },
+])
 
 /**
  * Select the nodes that gets added to the flow.

@@ -12,6 +12,7 @@ declare module 'vue' {
     BaseLocation: typeof import('./app/components/Location/BaseLocation.vue')['default']
     CategorySelect: typeof import('./app/components/Sidebar/CategorySelect.vue')['default']
     CompanionNode: typeof import('./app/components/Companion/CompanionNode.vue')['default']
+    EdgeLabelDialog: typeof import('./app/components/Flow/EdgeLabelDialog.vue')['default']
     EndNode: typeof import('./app/components/Flow/EndNode.vue')['default']
     EntityGrid: typeof import('./app/components/Sidebar/EntityGrid.vue')['default']
     FlowContextMenu: typeof import('./app/components/Flow/FlowContextMenu.vue')['default']

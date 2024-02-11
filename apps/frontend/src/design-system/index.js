@@ -5,6 +5,7 @@ import contextmenu from "./contextmenu"
 import button from "./button"
 import inputtext from "./inputtext"
 import dropdown from "./dropdown"
+import dialog from "./dialog"
 
 export default {
   global,
@@ -14,4 +15,5 @@ export default {
   button,
   inputtext,
   dropdown,
+  dialog,
 }

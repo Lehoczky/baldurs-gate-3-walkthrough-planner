@@ -44,3 +44,10 @@
 .vue-flow__resize-control.line {
   @apply border border-transparent;
 }
+.vue-flow__edge-textbg {
+  @apply fill-surface-900;
+}
+
+.vue-flow__edge-text {
+  @apply fill-surface-100;
+}
