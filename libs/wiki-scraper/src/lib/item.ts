@@ -76,15 +76,15 @@ export async function getArmoursFromPage(
   return await scrapeArmourCategories(page, [
     {
       armourType: "Light armour",
-      selector: `.mw-parser-output > table:nth-of-type(1) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(1) td:first-of-type .bg3wiki-itemicon`,
     },
     {
       armourType: "Medium armour",
-      selector: `.mw-parser-output > table:nth-of-type(2) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(2) td:first-of-type .bg3wiki-itemicon`,
     },
     {
       armourType: "Heavy armour",
-      selector: `.mw-parser-output > table:nth-of-type(3) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(3) td:first-of-type .bg3wiki-itemicon`,
     },
   ])
 }
@@ -93,19 +93,19 @@ export async function getHeadwearsFromPage(page: Page) {
   return await scrapeArmourCategories(page, [
     {
       armourType: "Non-Armour",
-      selector: `.mw-parser-output > table:nth-of-type(1) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(1) td:first-of-type .bg3wiki-itemicon`,
     },
     {
       armourType: "Light armour",
-      selector: `.mw-parser-output > table:nth-of-type(2) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(2) td:first-of-type .bg3wiki-itemicon`,
     },
     {
       armourType: "Medium armour",
-      selector: `.mw-parser-output > table:nth-of-type(3) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(3) td:first-of-type .bg3wiki-itemicon`,
     },
     {
       armourType: "Heavy armour",
-      selector: `.mw-parser-output > table:nth-of-type(4) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(4) td:first-of-type .bg3wiki-itemicon`,
     },
   ])
 }
@@ -114,19 +114,19 @@ export async function getFootwearsFromPage(page: Page) {
   return await scrapeArmourCategories(page, [
     {
       armourType: "Non-Armour",
-      selector: `.mw-parser-output > table:nth-of-type(1) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(1) td:first-of-type .bg3wiki-itemicon`,
     },
     {
       armourType: "Light armour",
-      selector: `.mw-parser-output > table:nth-of-type(2) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(2) td:first-of-type .bg3wiki-itemicon`,
     },
     {
       armourType: "Medium armour",
-      selector: `.mw-parser-output > table:nth-of-type(3) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(3) td:first-of-type .bg3wiki-itemicon`,
     },
     {
       armourType: "Heavy armour",
-      selector: `.mw-parser-output > table:nth-of-type(4) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(4) td:first-of-type .bg3wiki-itemicon`,
     },
   ])
 }
@@ -135,19 +135,19 @@ export async function getHandwearFromPage(page: Page) {
   return await scrapeArmourCategories(page, [
     {
       armourType: "Non-Armour",
-      selector: `.mw-parser-output > table:nth-of-type(1) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(1) td:first-of-type .bg3wiki-itemicon`,
     },
     {
       armourType: "Light armour",
-      selector: `.mw-parser-output > table:nth-of-type(2) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(2) td:first-of-type .bg3wiki-itemicon`,
     },
     {
       armourType: "Medium armour",
-      selector: `.mw-parser-output > table:nth-of-type(3) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(3) td:first-of-type .bg3wiki-itemicon`,
     },
     {
       armourType: "Heavy armour",
-      selector: `.mw-parser-output > table:nth-of-type(4) .bg3wiki-itemicon`,
+      selector: `.mw-parser-output > table:nth-of-type(4) td:first-of-type .bg3wiki-itemicon`,
     },
   ])
 }

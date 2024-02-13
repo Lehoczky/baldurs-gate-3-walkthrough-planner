@@ -2101,12 +2101,6 @@
       "rarity": "Legendary"
     },
     {
-      "name": "Orphic Hammer",
-      "icon": "https://bg3.wiki/w/images/thumb/3/3b/Orphic_Hammer_Unfaded_Icon.png/50px-Orphic_Hammer_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Orphic_Hammer",
-      "rarity": "Legendary"
-    },
-    {
       "name": "Selûne's Spear of Night",
       "icon": "https://bg3.wiki/w/images/thumb/c/ca/Sel%C3%BBne%27s_Spear_of_Night_Unfaded_Icon.png/50px-Sel%C3%BBne%27s_Spear_of_Night_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Sel%C3%BBne%27s_Spear_of_Night",
@@ -2134,6 +2128,12 @@
       "name": "Moonlantern",
       "icon": "https://bg3.wiki/w/images/thumb/3/38/Moonlantern_Item_Icon.png/50px-Moonlantern_Item_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Moonlantern",
+      "rarity": "Story Item"
+    },
+    {
+      "name": "Orphic Hammer",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3b/Orphic_Hammer_Unfaded_Icon.png/50px-Orphic_Hammer_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Orphic_Hammer",
       "rarity": "Story Item"
     }
   ],
@@ -3029,6 +3029,13 @@
       "name": "Shield (Equipment)",
       "icon": "https://bg3.wiki/w/images/thumb/a/ac/Item_WPN_HUM_Shield_D_0_Unfaded_Icon.png/50px-Item_WPN_HUM_Shield_D_0_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shield_(Equipment)",
+      "rarity": "Common",
+      "armourType": "Non-Armour"
+    },
+    {
+      "name": "Spiked Shield",
+      "icon": "https://bg3.wiki/w/images/thumb/2/27/Spiked_Shield_Unfaded_Icon.png/50px-Spiked_Shield_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Spiked_Shield",
       "rarity": "Common",
       "armourType": "Non-Armour"
     },
@@ -3987,13 +3994,6 @@
       "armourType": "Non-Armour"
     },
     {
-      "name": "Raw Steak",
-      "icon": "https://bg3.wiki/w/images/thumb/3/35/FOOD_Raw_Steak_Unfaded_Icon.png/25px-FOOD_Raw_Steak_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Raw_Steak",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
-    },
-    {
       "name": "Gold Necklace",
       "icon": "https://bg3.wiki/w/images/thumb/0/0b/Amulet_Necklace_B_Gold_A_Unfaded_Icon.png/50px-Amulet_Necklace_B_Gold_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gold_Necklace",
@@ -4675,13 +4675,6 @@
       "armourType": "Light armour"
     },
     {
-      "name": "Guiding Light",
-      "icon": "https://bg3.wiki/w/images/thumb/b/bf/Ring_D_Gold_A_1_Unfaded_Icon.png/50px-Ring_D_Gold_A_1_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Guiding_Light",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
-    },
-    {
       "name": "Guild Ring",
       "icon": "https://bg3.wiki/w/images/thumb/8/82/Guild_Ring_Unfaded_Icon.png/50px-Guild_Ring_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Guild_Ring",
@@ -4984,7 +4977,7 @@
     },
     {
       "name": "True Love's Embrace",
-      "icon": "https://bg3.wiki/w/images/thumb/1/14/Ring_B_1_Unfaded_Icon.png/25px-Ring_B_1_Unfaded_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/1/14/Ring_B_1_Unfaded_Icon.png/50px-Ring_B_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/True_Love%27s_Embrace",
       "rarity": "Rare",
       "armourType": "Medium armour"
