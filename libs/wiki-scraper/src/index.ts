@@ -1,10 +1,15 @@
 import path from "node:path"
 
+import type {
+  Item,
+  SavedWikiData,
+} from "@baldurs-gate-3-walkthrough-planner/types"
 import { consola } from "consola"
 import ora from "ora"
 import type { Response } from "playwright"
 import { chromium } from "playwright"
 
+import { bosses } from "./lib/bosses"
 import { companions } from "./lib/companions"
 import { writeJsonFile } from "./lib/fsExtra"
 import {
@@ -22,7 +27,6 @@ import {
 } from "./lib/item"
 import { locations } from "./lib/locations"
 import { scrapeSpells } from "./lib/spells"
-import { Item, SavedWikiData } from "@baldurs-gate-3-walkthrough-planner/types"
 
 async function main() {
   const spinner = ora("Opening browser page").start()
@@ -143,6 +147,7 @@ async function main() {
       companions,
       locations,
       spells,
+      bosses,
     }
     await writeJsonFile(filePath, scrapedData)
     consola.success(`Saved scraped items to: ${filePath}`)

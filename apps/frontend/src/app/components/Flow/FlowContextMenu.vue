@@ -3,11 +3,12 @@
 </template>
 
 <script setup lang="ts">
+import { useVueFlow } from "@vue-flow/core"
 import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
+
 import { useAddNodeFromContextMenu } from "../../hooks/useAddNodeFromContextMenu"
 import { useStorageStore } from "../../store/storage"
-import { useVueFlow } from "@vue-flow/core"
 import {
   createEndNode,
   createGroupNode,

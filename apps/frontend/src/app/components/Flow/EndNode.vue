@@ -13,6 +13,7 @@ import type { NodeProps } from "@vue-flow/core"
 import { Handle, Position, useNode, useVueFlow } from "@vue-flow/core"
 import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
+
 import { defineDeleteMenuItem } from "../../contextmenu"
 
 defineProps<NodeProps>()

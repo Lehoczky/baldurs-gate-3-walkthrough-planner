@@ -8,6 +8,7 @@
 
 <script setup lang="ts">
 import type { Location } from "@baldurs-gate-3-walkthrough-planner/types"
+
 import { onDragStart } from "../../hooks/useNodeDragAndDrop"
 
 const props = defineProps({

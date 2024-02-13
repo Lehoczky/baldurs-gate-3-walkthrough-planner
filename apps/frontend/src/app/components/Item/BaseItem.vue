@@ -17,9 +17,8 @@
 </template>
 
 <script setup lang="ts">
-import TextClamp from "vue3-text-clamp"
-
 import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
+import TextClamp from "vue3-text-clamp"
 
 const props = defineProps({
   item: {

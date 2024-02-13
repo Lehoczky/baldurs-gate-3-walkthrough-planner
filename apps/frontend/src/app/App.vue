@@ -10,13 +10,13 @@
 </template>
 
 <script setup lang="ts">
-import { useDataStore } from "./store/data"
+import { useEventListener } from "@vueuse/core"
 import Toast from "primevue/toast"
 import { useToast } from "primevue/usetoast"
 
 import { onOfflineReady } from "./hooks/onOfflineReady"
+import { useDataStore } from "./store/data"
 import { useStorageStore } from "./store/storage"
-import { useEventListener } from "@vueuse/core"
 
 const dataStore = useDataStore()
 const { fetchStoreData } = dataStore

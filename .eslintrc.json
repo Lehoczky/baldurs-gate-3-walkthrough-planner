@@ -5,6 +5,7 @@
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx", "*.vue"],
+      "plugins": ["simple-import-sort"],
       "rules": {
         // Possible Problems
         "no-constant-binary-expression": "warn",
@@ -47,6 +48,10 @@
         "require-await": "warn",
         "yoda": ["warn", "never", { "exceptRange": true }],
 
+        // Simple import sort
+        "simple-import-sort/imports": "warn",
+
+        // NX
         "@nx/enforce-module-boundaries": [
           "error",
           {

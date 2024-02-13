@@ -47,7 +47,6 @@ export interface Boss {
 }
 
 export interface SavedWikiData {
-  categories: Category[]
   weapons: Item[]
   clothes: Item[]
   armours: Item[]

@@ -1,7 +1,7 @@
 // @ts-expect-error: internal nx types
+import { getIconCollections,iconsPlugin } from "@egoist/tailwindcss-icons"
 import { createGlobPatternsForDependencies } from "@nx/vue/tailwind"
 import { join } from "path"
-import { iconsPlugin, getIconCollections } from "@egoist/tailwindcss-icons"
 import type { Config } from "tailwindcss"
 
 module.exports = {

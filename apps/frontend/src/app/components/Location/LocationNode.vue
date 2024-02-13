@@ -15,12 +15,13 @@
 </template>
 
 <script setup lang="ts">
+import type { Location } from "@baldurs-gate-3-walkthrough-planner/types"
 import type { NodeProps } from "@vue-flow/core"
 import { Handle, Position, useNode, useVueFlow } from "@vue-flow/core"
 import ContextMenu from "primevue/contextmenu"
-import { defineDeleteMenuItem } from "../../contextmenu"
-import type { Location } from "@baldurs-gate-3-walkthrough-planner/types"
 import type { MenuItem } from "primevue/menuitem"
+
+import { defineDeleteMenuItem } from "../../contextmenu"
 
 interface NodeData extends Location {}
 

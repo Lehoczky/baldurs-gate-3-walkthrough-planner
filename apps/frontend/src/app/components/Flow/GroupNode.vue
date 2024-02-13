@@ -24,13 +24,14 @@
 </template>
 
 <script setup lang="ts">
-import { type NodeProps, Position, Handle } from "@vue-flow/core"
+import { Handle,type NodeProps, Position } from "@vue-flow/core"
 import { useNode, useVueFlow } from "@vue-flow/core"
-import ContextMenu from "primevue/contextmenu"
-import type { MenuItem } from "primevue/menuitem"
-import { defineDeleteMenuItem } from "../../contextmenu"
 import { NodeResizer } from "@vue-flow/node-resizer"
 import { useToString } from "@vueuse/core"
+import ContextMenu from "primevue/contextmenu"
+import type { MenuItem } from "primevue/menuitem"
+
+import { defineDeleteMenuItem } from "../../contextmenu"
 
 const props = defineProps<NodeProps>()
 const labelAsString = useToString(props.label)

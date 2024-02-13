@@ -1,5 +1,6 @@
 import path from "node:path"
 
+import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
 import { consola } from "consola"
 import ora from "ora"
 import type { Response } from "playwright"
@@ -22,7 +23,6 @@ import {
 } from "./item"
 import { locations } from "./locations"
 import { scrapeSpells } from "./spells"
-import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
 
 async function main() {
   const spinner = ora("Opening browser page").start()

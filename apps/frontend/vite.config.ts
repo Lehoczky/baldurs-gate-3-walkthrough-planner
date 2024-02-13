@@ -1,10 +1,10 @@
-import { defineConfig } from "vite"
-import vue from "@vitejs/plugin-vue"
 import { nxViteTsPaths } from "@nx/vite/plugins/nx-tsconfig-paths.plugin"
+import vue from "@vitejs/plugin-vue"
+import { visualizer } from "rollup-plugin-visualizer"
 import AutoImport from "unplugin-auto-import/vite"
 import Components from "unplugin-vue-components/vite"
+import { defineConfig } from "vite"
 import { VitePWA } from "vite-plugin-pwa"
-import { visualizer } from "rollup-plugin-visualizer"
 
 export default defineConfig({
   root: __dirname,

@@ -19,6 +19,7 @@
 
 <script setup lang="ts">
 import InputText from "primevue/inputtext"
+
 import { useDataStore } from "../store/data"
 
 const dataStore = useDataStore()

@@ -16,6 +16,7 @@
 import type { Item } from "@baldurs-gate-3-walkthrough-planner/types"
 import { useVirtualList } from "@vueuse/core"
 import type { PropType } from "vue"
+
 import { chunk } from "../../utils"
 
 const props = defineProps({

@@ -35,9 +35,9 @@
 </template>
 
 <script setup lang="ts">
-import InputText from "primevue/inputtext"
 import Button from "primevue/button"
 import Dialog from "primevue/dialog"
+import InputText from "primevue/inputtext"
 
 const props = defineProps({
   label: {

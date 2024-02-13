@@ -44,25 +44,24 @@
 <script setup lang="ts">
 import { Background } from "@vue-flow/background"
 import {
-  useVueFlow,
-  VueFlow,
+  type EdgeMouseEvent,
   type NodeAddChange,
   type NodeChange,
-  type EdgeMouseEvent,
+  useVueFlow,
+  VueFlow,
 } from "@vue-flow/core"
-
 import { useEventListener } from "@vueuse/core"
-import FlowContextMenu from "./Flow/FlowContextMenu.vue"
-import { useNodeDrop } from "../hooks/useNodeDragAndDrop"
-import { useStorageStore } from "../store/storage"
 import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
+
+import { useNodeDrop } from "../hooks/useNodeDragAndDrop"
+import { useStorageStore } from "../store/storage"
+import FlowContextMenu from "./Flow/FlowContextMenu.vue"
 
 const {
   addEdges,
   addSelectedEdges,
   addSelectedNodes,
-  getSelectedEdges,
   getSelectedNodes,
   onConnect,
   onEdgeContextMenu,

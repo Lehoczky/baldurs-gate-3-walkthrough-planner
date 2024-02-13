@@ -30,11 +30,11 @@
 </template>
 
 <script setup lang="ts">
-import InputText from "primevue/inputtext"
-import Button from "primevue/button"
-import Dialog from "primevue/dialog"
 import { useVueFlow } from "@vue-flow/core"
 import { first } from "lodash-es"
+import Button from "primevue/button"
+import Dialog from "primevue/dialog"
+import InputText from "primevue/inputtext"
 
 const emit = defineEmits<{
   (event: "close"): void

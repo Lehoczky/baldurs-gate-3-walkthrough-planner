@@ -1,4 +1,4 @@
-import { useVueFlow, type XYPosition, type Node } from "@vue-flow/core"
+import { type Node,useVueFlow, type XYPosition } from "@vue-flow/core"
 
 const lastOpenedContextMenuPosition = ref<XYPosition>()
 

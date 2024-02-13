@@ -27,13 +27,14 @@
 </template>
 
 <script setup lang="ts">
-import { useNode, type NodeProps, useVueFlow } from "@vue-flow/core"
+import { type NodeProps, useNode, useVueFlow } from "@vue-flow/core"
 import { NodeResizer } from "@vue-flow/node-resizer"
 import { onClickOutside } from "@vueuse/core"
-import { useMarkdownIt } from "../../hooks/useMarkdownIt"
 import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
+
 import { defineDeleteMenuItem } from "../../contextmenu"
+import { useMarkdownIt } from "../../hooks/useMarkdownIt"
 
 const props = defineProps<NodeProps>()
 
