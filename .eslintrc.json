@@ -31,7 +31,6 @@
         "no-multi-str": "warn",
         "no-negated-condition": "warn",
         "no-nested-ternary": "warn",
-        "no-return-assign": "warn",
         "no-throw-literal": "warn",
         "no-unneeded-ternary": "warn",
         "no-useless-concat": "warn",

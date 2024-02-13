@@ -32,6 +32,8 @@ export const useDataStore = defineStore("data", () => {
     )
   })
 
+  watch(selectedCategoryName, () => (searchText.value = ""))
+
   return {
     data,
     error,
