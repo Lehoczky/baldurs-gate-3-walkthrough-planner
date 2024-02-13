@@ -16,6 +16,8 @@ declare module 'vue' {
     EndNode: typeof import('./app/components/Flow/EndNode.vue')['default']
     EntityGrid: typeof import('./app/components/Sidebar/EntityGrid.vue')['default']
     FlowContextMenu: typeof import('./app/components/Flow/FlowContextMenu.vue')['default']
+    GroupLabelDialog: typeof import('./app/components/Flow/GroupLabelDialog.vue')['default']
+    GroupNode: typeof import('./app/components/Flow/GroupNode.vue')['default']
     ItemIcon: typeof import('./app/components/Item/ItemIcon.vue')['default']
     ItemNode: typeof import('./app/components/Item/ItemNode.vue')['default']
     LocationNode: typeof import('./app/components/Location/LocationNode.vue')['default']

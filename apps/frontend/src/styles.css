@@ -38,12 +38,20 @@
 }
 
 .vue-flow__handle {
-  @apply bg-surface-800 border-surface-500 h-2 w-2 shadow;
+  background-color: var(--handle-bg, theme("colors.surface.800"));
+  border-color: var(--handle-border, theme("colors.surface.500"));
+
+  @apply h-2 w-2 shadow;
 }
 
 .vue-flow__resize-control.line {
-  @apply border border-transparent;
+  @apply border-2 border-transparent;
 }
+
+.vue-flow__resize-control.handle {
+  @apply h-2 w-2 border-transparent bg-transparent;
+}
+
 .vue-flow__edge-textbg {
   @apply fill-surface-900;
 }

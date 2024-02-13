@@ -1,6 +1,6 @@
 <template>
   <div class="grid">
-    <div class="bg-[#222222]" @drop="onDrop">
+    <div class="bg-canvas" @drop="onDrop">
       <VueFlow
         :min-zoom="0.2"
         @dragover="onDragOver($event as any)"
@@ -25,6 +25,9 @@
         </template>
         <template #node-note="props">
           <NoteNode v-bind="props" />
+        </template>
+        <template #node-group="props">
+          <GroupNode v-bind="props" />
         </template>
       </VueFlow>
     </div>
@@ -56,16 +59,16 @@ import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
 
 const {
-  findNode,
-  onConnect,
   addEdges,
-  removeNodes,
-  getSelectedNodes,
-  addSelectedNodes,
-  onNodesChange,
-  onEdgesChange,
-  onEdgeContextMenu,
   addSelectedEdges,
+  addSelectedNodes,
+  getSelectedEdges,
+  getSelectedNodes,
+  onConnect,
+  onEdgeContextMenu,
+  onEdgesChange,
+  onNodesChange,
+  removeNodes,
 } = useVueFlow({
   id: "main",
   zoomOnDoubleClick: false,
@@ -114,8 +117,7 @@ const edgeContextMenuItems = ref<MenuItem[]>([
 function selectNewlyAddedNodesOnChanges(changes: NodeChange[]) {
   const addedNodes = changes
     .filter(({ type }) => type === "add")
-    .map((changes: NodeAddChange) => changes.item.id)
-    .map((id) => findNode(id))
+    .map((changes: NodeAddChange) => changes.item)
 
   if (addedNodes.length) {
     addSelectedNodes(addedNodes)

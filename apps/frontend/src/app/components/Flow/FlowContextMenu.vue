@@ -6,14 +6,20 @@
 import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
 import { useAddNodeFromContextMenu } from "../../hooks/useAddNodeFromContextMenu"
-import { useCustomNode } from "../../hooks/useCustomNode"
 import { useStorageStore } from "../../store/storage"
 import { useVueFlow } from "@vue-flow/core"
+import {
+  createEndNode,
+  createGroupNode,
+  createNoteNode,
+  createStartNode,
+} from "./customNodes"
 
 const storageStore = useStorageStore()
 const { save, load, saveToFile, loadFromFile } = storageStore
-const { removeNodes, addSelectedNodes, getNodes } = useVueFlow({ id: "main" })
-const { create } = useCustomNode()
+const { removeNodes, addSelectedNodes, getNodes } = useVueFlow({
+  id: "main",
+})
 const { saveContextMenuPosition, addCustomNode } = useAddNodeFromContextMenu()
 const contextMenuItems = ref<MenuItem[]>([
   {
@@ -32,17 +38,25 @@ const contextMenuItems = ref<MenuItem[]>([
   {
     label: "New Start Node",
     icon: "i-lucide-arrow-right",
-    command: () => addCustomNode(create("start")),
+    command: () => addCustomNode(createStartNode()),
   },
   {
     label: "New End Node",
     icon: "i-lucide-flame-kindling",
-    command: () => addCustomNode(create("end")),
+    command: () => addCustomNode(createEndNode()),
   },
   {
     label: "New Note",
     icon: "i-lucide-notebook",
-    command: () => addCustomNode(create("note")),
+    command: () => addCustomNode(createNoteNode()),
+  },
+  {
+    separator: true,
+  },
+  {
+    label: "New Group",
+    icon: "i-lucide-group",
+    command: () => addCustomNode(createGroupNode()),
   },
   {
     separator: true,

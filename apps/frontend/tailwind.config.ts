@@ -40,6 +40,7 @@ module.exports = {
           900: "rgb(var(--surface-900) / <alpha-value>)",
           950: "rgb(var(--surface-950) / <alpha-value>)",
         },
+        canvas: "#222222",
       },
       spacing: {
         em: "1em",

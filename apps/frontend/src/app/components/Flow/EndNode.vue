@@ -3,7 +3,7 @@
     <div aria-haspopup="true" @contextmenu="contextMenu.show($event)">
       {{ label }}
     </div>
-    <Handle type="source" :position="Position.Left" />
+    <Handle type="target" :position="Position.Left" />
     <ContextMenu ref="contextMenu" :model="contextMenuItems" />
   </div>
 </template>
