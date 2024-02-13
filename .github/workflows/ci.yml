@@ -13,15 +13,13 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
-permissions:
-  actions: read
-  contents: read
-
 jobs:
   ci:
     name: CI
     runs-on: ubuntu-latest
-
+    permissions:
+      actions: read
+      contents: write
     steps:
       - name: Check out Git repository ⏬
         uses: actions/checkout@v4
