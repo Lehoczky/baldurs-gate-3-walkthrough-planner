@@ -50,7 +50,7 @@ jobs:
         run: npx nx affected -t lint
 
       - name: Build the site 🏗
-        run: npx nx run frontend:build
+        run: npx nx run frontend:build:production
 
       - name: Deploy 🚀
         if: github.ref == 'refs/heads/master'
