@@ -47,9 +47,9 @@ module.exports = {
       },
       /** https://tailwindcss.com/docs/typography-plugin#adding-custom-color-themes */
       typography: ({ theme }) => ({
-        gray: {
+        slate: {
           css: {
-            "--tw-prose-bullets": theme("colors.gray[500]"),
+            "--tw-prose-bullets": theme("colors.slate[500]"),
           },
         },
       }),

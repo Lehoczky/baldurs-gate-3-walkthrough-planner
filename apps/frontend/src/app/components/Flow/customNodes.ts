@@ -29,6 +29,6 @@ export function createGroupNode() {
     id: crypto.randomUUID(),
     type: "group",
     label: "Group",
-    zIndex: -1000,
+    zIndex: -1002,
   } satisfies Partial<Node>
 }
