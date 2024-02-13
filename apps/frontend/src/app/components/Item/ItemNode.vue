@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Handle type="target" :position="Position.Top" />
+    <Handle type="source" :position="Position.Top" />
     <Handle type="source" :position="Position.Bottom" />
     <Handle type="source" :position="Position.Left" />
     <Handle type="source" :position="Position.Right" />

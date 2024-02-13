@@ -2,7 +2,6 @@
   <div class="grid">
     <div class="bg-canvas" @drop="onDrop">
       <VueFlow
-        :min-zoom="0.2"
         @dragover="onDragOver($event as any)"
         @contextmenu="flowContextMenu.show($event as any)"
       >
@@ -45,6 +44,7 @@
 import { Background } from "@vue-flow/background"
 import {
   type EdgeMouseEvent,
+  MarkerType,
   type NodeAddChange,
   type NodeChange,
   useVueFlow,
@@ -71,6 +71,13 @@ const {
 } = useVueFlow({
   id: "main",
   zoomOnDoubleClick: false,
+  defaultEdgeOptions: {
+    labelBgPadding: [8, 4],
+    markerEnd: {
+      type: MarkerType.ArrowClosed,
+    },
+  },
+  minZoom: 0.2,
 })
 onConnect((params) => addEdges(params))
 
