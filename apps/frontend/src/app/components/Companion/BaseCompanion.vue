@@ -7,6 +7,7 @@
       :src="companion.icon"
       width="110"
       height="110"
+      alt=""
     />
 
     <a

@@ -7,6 +7,7 @@
       :src="location.icon"
       width="210"
       height="118px"
+      alt=""
     />
 
     <div class="my-1 flex flex-1 flex-col">

@@ -1,5 +1,5 @@
 <template>
-  <img class="item-icon rounded-md" :src="src" width="50" height="50" />
+  <img class="item-icon rounded-md" :src="src" width="50" height="50" alt="" />
 </template>
 
 <script setup lang="ts">
