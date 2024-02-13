@@ -24,7 +24,7 @@
 </template>
 
 <script setup lang="ts">
-import { Handle,type NodeProps, Position } from "@vue-flow/core"
+import { Handle, type NodeProps, Position } from "@vue-flow/core"
 import { useNode, useVueFlow } from "@vue-flow/core"
 import { NodeResizer } from "@vue-flow/node-resizer"
 import { useToString } from "@vueuse/core"
@@ -38,9 +38,7 @@ const labelAsString = useToString(props.label)
 
 const showDialog = ref(false)
 const LazyGroupLabelDialog = defineAsyncComponent({
-  loader: () => {
-    return import("./GroupLabelDialog.vue")
-  },
+  loader: () => import("./GroupLabelDialog.vue"),
   delay: 0,
 })
 

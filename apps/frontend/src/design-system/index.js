@@ -6,6 +6,7 @@ import button from "./button"
 import inputtext from "./inputtext"
 import dropdown from "./dropdown"
 import dialog from "./dialog"
+import message from "./message"
 
 export default {
   global,
@@ -16,4 +17,5 @@ export default {
   inputtext,
   dropdown,
   dialog,
+  message,
 }

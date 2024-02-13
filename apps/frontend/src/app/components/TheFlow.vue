@@ -94,9 +94,7 @@ onEdgeContextMenu(({ edge, event }: EdgeMouseEvent) => {
   edgeContextMenu.value.show(event)
 })
 const LazyEdgeLabelDialog = defineAsyncComponent({
-  loader: () => {
-    return import("./Flow/EdgeLabelDialog.vue")
-  },
+  loader: () => import("./Flow/EdgeLabelDialog.vue"),
   delay: 0,
 })
 const showEdgeLabelDialog = ref(false)

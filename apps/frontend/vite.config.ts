@@ -8,10 +8,7 @@ import { VitePWA } from "vite-plugin-pwa"
 
 export default defineConfig({
   root: __dirname,
-  base:
-    process.env.NX_TASK_TARGET_CONFIGURATION === "development"
-      ? "/"
-      : "/baldurs-gate-3-walkthrough-planner/",
+  base: "/baldurs-gate-3-walkthrough-planner/",
   cacheDir: "../../node_modules/.vite/apps/frontend",
   server: {
     port: 4200,
