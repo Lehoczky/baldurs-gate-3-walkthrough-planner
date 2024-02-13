@@ -44,7 +44,9 @@ jobs:
         uses: nrwl/nx-set-shas@v3
         with:
           main-branch-name: master
-      - run: git branch --track master origin/master
+
+      - if: github.ref != 'refs/heads/master'
+        run: git branch --track master origin/master
 
       - name: Check lint errors 🧹
         run: npx nx affected -t lint
