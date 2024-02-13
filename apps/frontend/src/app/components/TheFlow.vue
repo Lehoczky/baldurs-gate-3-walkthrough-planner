@@ -24,7 +24,7 @@
           <EndNode v-bind="props" />
         </template>
         <template #node-note="props">
-          <NoteNode v-bind="props" />
+          <LazyNoteNode v-bind="props" />
         </template>
         <template #node-group="props">
           <GroupNode v-bind="props" />
@@ -107,6 +107,12 @@ const edgeContextMenuItems = ref<MenuItem[]>([
     },
   },
 ])
+
+const LazyNoteNode = defineAsyncComponent({
+  loader: () => import("./Flow/NoteNode.vue"),
+  delay: 0,
+})
+requestIdleCallback(() => import("./Flow/NoteNode.vue"))
 
 /**
  * Select the nodes that gets added to the flow.
