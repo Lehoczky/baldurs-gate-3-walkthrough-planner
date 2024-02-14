@@ -1,6 +1,6 @@
 <template>
   <div class="grid">
-    <div class="bg-canvas" @drop="onDrop">
+    <div class="bg-canvas relative" @drop="onDrop">
       <VueFlow
         @dragover="onDragOver($event as any)"
         @contextmenu="flowContextMenu.show($event as any)"
@@ -29,6 +29,8 @@
           <GroupNode v-bind="props" />
         </template>
       </VueFlow>
+
+      <EmptyFlow v-if="showEmptyMessage" />
     </div>
 
     <FlowContextMenu ref="flowContextMenu" />
@@ -50,7 +52,7 @@ import {
   useVueFlow,
   VueFlow,
 } from "@vue-flow/core"
-import { useEventListener } from "@vueuse/core"
+import { useEventListener, watchOnce } from "@vueuse/core"
 import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
 
@@ -62,6 +64,7 @@ const {
   addEdges,
   addSelectedEdges,
   addSelectedNodes,
+  getNodes,
   getSelectedNodes,
   onConnect,
   onEdgeContextMenu,
@@ -148,4 +151,11 @@ useEventListener("keydown", (event) => {
 function deleteSelectedNodes() {
   removeNodes(getSelectedNodes.value)
 }
+
+const isFlowEmpty = computed(() => !getNodes.value.length)
+const isFlowPristine = ref(true)
+watchOnce(hasUnsavedChanges, () => (isFlowPristine.value = false))
+const showEmptyMessage = computed(() => {
+  return isFlowEmpty.value && isFlowPristine.value
+})
 </script>

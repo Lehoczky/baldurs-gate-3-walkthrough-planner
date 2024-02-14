@@ -13,6 +13,7 @@ declare module 'vue' {
     CategorySelect: typeof import('./app/components/Sidebar/CategorySelect.vue')['default']
     CompanionNode: typeof import('./app/components/Companion/CompanionNode.vue')['default']
     EdgeLabelDialog: typeof import('./app/components/Flow/EdgeLabelDialog.vue')['default']
+    EmptyFlow: typeof import('./app/components/Flow/EmptyFlow.vue')['default']
     EndNode: typeof import('./app/components/Flow/EndNode.vue')['default']
     EntityGrid: typeof import('./app/components/Sidebar/EntityGrid.vue')['default']
     FlowContextMenu: typeof import('./app/components/Flow/FlowContextMenu.vue')['default']
