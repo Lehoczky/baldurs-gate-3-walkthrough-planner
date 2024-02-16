@@ -17,6 +17,7 @@ import {
 } from "./customNodes"
 
 const storageStore = useStorageStore()
+const { hasSave } = storeToRefs(storageStore)
 const { save, load, saveToFile, loadFromFile } = storageStore
 const { removeNodes, addSelectedNodes, getNodes } = useVueFlow({
   id: "main",
@@ -70,6 +71,7 @@ const contextMenuItems = ref<MenuItem[]>([
   {
     label: "Load",
     icon: "i-lucide-archive-restore",
+    disabled: () => !hasSave.value,
     command: () => load(),
   },
   {

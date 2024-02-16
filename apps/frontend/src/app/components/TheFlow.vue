@@ -30,7 +30,10 @@
         </template>
       </VueFlow>
 
-      <EmptyFlow v-if="showEmptyMessage" />
+      <EmptyFlow
+        v-if="showEmptyMessage"
+        class="absolute left-1/2 top-[40%] -translate-x-1/2 -translate-y-1/2"
+      />
     </div>
 
     <FlowContextMenu ref="flowContextMenu" />
@@ -88,8 +91,8 @@ const { onDragOver, onDrop } = useNodeDrop()
 const flowContextMenu = ref<InstanceType<typeof FlowContextMenu>>()
 const edgeContextMenu = ref<ContextMenu>()
 const storageStore = useStorageStore()
-const { save } = storageStore
-const { hasUnsavedChanges } = storeToRefs(storageStore)
+const { save, load } = storageStore
+const { hasUnsavedChanges, hasSave } = storeToRefs(storageStore)
 
 onEdgesChange(() => {
   hasUnsavedChanges.value = true
@@ -157,5 +160,11 @@ const isFlowPristine = ref(true)
 watchOnce(hasUnsavedChanges, () => (isFlowPristine.value = false))
 const showEmptyMessage = computed(() => {
   return isFlowEmpty.value && isFlowPristine.value
+})
+
+onMounted(() => {
+  if (hasSave) {
+    load()
+  }
 })
 </script>

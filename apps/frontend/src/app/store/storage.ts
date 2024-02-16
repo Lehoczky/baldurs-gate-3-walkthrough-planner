@@ -1,4 +1,4 @@
-import { type FlowExportObject,useVueFlow } from "@vue-flow/core"
+import { type FlowExportObject, useVueFlow } from "@vue-flow/core"
 import { useTitle } from "@vueuse/core"
 import { useFileDialog } from "@vueuse/core"
 import { first } from "lodash-es"
@@ -8,7 +8,13 @@ import { download, parseJsonFile } from "../utils"
 
 const STORAGE_KEY = "wp:saved-flow"
 
+interface SavedData {
+  savedAt: string
+  flow: FlowExportObject
+}
+
 export const useStorageStore = defineStore("storage", () => {
+  const hasSave = ref(Boolean(localStorage.getItem(STORAGE_KEY)))
   const hasUnsavedChanges = ref(false)
   const title = computed(() => {
     return hasUnsavedChanges.value
@@ -21,8 +27,13 @@ export const useStorageStore = defineStore("storage", () => {
 
   const toast = useToast()
   function save() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(toObject()))
+    const savedData: SavedData = {
+      savedAt: new Date().toDateString(),
+      flow: toObject(),
+    }
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(savedData))
     hasUnsavedChanges.value = false
+    hasSave.value = true
     toast.add({
       summary: "Save Successful",
       severity: "success",
@@ -31,12 +42,17 @@ export const useStorageStore = defineStore("storage", () => {
   }
 
   async function load() {
-    const flow: FlowExportObject = JSON.parse(localStorage.getItem(STORAGE_KEY))
+    const savedData: SavedData = JSON.parse(localStorage.getItem(STORAGE_KEY))
 
-    if (flow) {
-      await fromObject(flow)
+    if (savedData) {
+      await fromObject(savedData.flow)
       setTimeout(() => {
         hasUnsavedChanges.value = false
+        toast.add({
+          summary: `Loaded save from ${savedData.savedAt}`,
+          severity: "info",
+          life: 2500,
+        })
       })
     }
   }
@@ -101,6 +117,7 @@ export const useStorageStore = defineStore("storage", () => {
     load,
     saveToFile,
     loadFromFile,
+    hasSave,
   }
 })
 
