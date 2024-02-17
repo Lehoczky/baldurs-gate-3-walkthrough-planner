@@ -77,3 +77,21 @@ export async function parseJsonFile<T = any>(file: File) {
     fileReader.readAsText(file)
   })
 }
+
+/**
+ * @see https://stackoverflow.com/a/75124481/10876366
+ */
+export function isEditableElement(el: EventTarget) {
+  if (el instanceof HTMLElement && el.isContentEditable) {
+    return true
+  }
+  if (el instanceof HTMLInputElement) {
+    if (/text|email|number|password|search|tel|url/.test(el.type || "")) {
+      return !(el.disabled || el.readOnly)
+    }
+  }
+  if (el instanceof HTMLTextAreaElement) {
+    return !(el.disabled || el.readOnly)
+  }
+  return false
+}

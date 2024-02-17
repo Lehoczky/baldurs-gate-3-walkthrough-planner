@@ -61,6 +61,7 @@ import type { MenuItem } from "primevue/menuitem"
 
 import { useNodeDrop } from "../hooks/useNodeDragAndDrop"
 import { useStorageStore } from "../store/storage"
+import { isEditableElement } from "../utils"
 import FlowContextMenu from "./Flow/FlowContextMenu.vue"
 
 const {
@@ -141,10 +142,13 @@ function selectNewlyAddedNodesOnChanges(changes: NodeChange[]) {
 }
 
 useEventListener("keydown", (event) => {
-  const { key, ctrlKey } = event
+  const { key, ctrlKey, target } = event
 
   if (key === "Delete") {
     deleteSelectedNodes()
+  } else if (ctrlKey && key === "a" && !isEditableElement(target)) {
+    event.preventDefault()
+    selectEveryNode()
   } else if (ctrlKey && key === "s") {
     event.preventDefault()
     save()
@@ -153,6 +157,10 @@ useEventListener("keydown", (event) => {
 
 function deleteSelectedNodes() {
   removeNodes(getSelectedNodes.value)
+}
+
+function selectEveryNode() {
+  addSelectedNodes(getNodes.value)
 }
 
 const isFlowEmpty = computed(() => !getNodes.value.length)
