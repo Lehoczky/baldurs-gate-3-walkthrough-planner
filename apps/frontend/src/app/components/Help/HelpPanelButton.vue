@@ -1,7 +1,7 @@
 <template>
   <button
     :title="open ? '' : 'Help'"
-    class="bg-surface-900 border-surface-800 absolute -bottom-1 left-1/2 grid size-6 -translate-x-1/2 translate-y-1/2 place-items-center rounded-b-full border"
+    class="bg-surface-900 border-surface-800 absolute -bottom-1 left-1/2 grid size-10 -translate-x-1/2 translate-y-1/2 place-items-center rounded-b-full border md:size-6"
     :class="{
       'rounded-full': open,
     }"

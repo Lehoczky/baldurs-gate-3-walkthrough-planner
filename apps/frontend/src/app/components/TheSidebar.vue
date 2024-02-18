@@ -1,6 +1,8 @@
 <template>
-  <div class="bg-sidebar flex flex-col overflow-auto p-4 shadow-md">
-    <div class="mb-6">
+  <div
+    class="bg-sidebar flex gap-6 overflow-auto p-4 shadow-md max-lg:justify-center lg:flex-col"
+  >
+    <div>
       <label class="mb-2 flex flex-col">
         <div class="mb-1 text-xl">Search</div>
         <InputText id="search" v-model="searchText" type="search" />

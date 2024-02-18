@@ -1,6 +1,8 @@
 <template>
   <div>
-    <main class="grid h-dvh grid-cols-[auto_528px] text-[#d2d2d2]">
+    <main
+      class="grid h-dvh text-[#d2d2d2] max-lg:grid-rows-[55%_auto] lg:grid-cols-[auto_528px]"
+    >
       <TheFlow />
       <TheSidebar v-if="storeLoaded" />
     </main>
