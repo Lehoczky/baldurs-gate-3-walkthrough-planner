@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-surface-900 flex h-[110px] w-[110px] cursor-move flex-col items-center justify-center rounded-md p-1 text-center text-sm leading-4 shadow-lg"
+    class="bg-surface-900 flex size-[110px] cursor-move flex-col items-center justify-center rounded-md p-1 text-center text-sm leading-4 shadow-lg"
   >
     <ItemIcon class="mb-1.5" :src="item.icon" :rarity="item.rarity" />
 

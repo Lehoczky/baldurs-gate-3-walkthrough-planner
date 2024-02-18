@@ -1,9 +1,10 @@
 <template>
   <div
-    class="flex h-[150px] w-[150px] cursor-move flex-col items-center justify-center rounded-md bg-[#242424] p-2 text-center text-sm leading-4 shadow-lg"
+    v-once
+    class="bg-card flex size-[150px] cursor-move flex-col items-center justify-center rounded-md p-2 text-center text-sm leading-4 shadow-lg"
   >
     <img
-      class="mb-2 h-[110px] w-[110px] rounded-md object-cover object-top"
+      class="mb-2 size-[110px] rounded-md object-cover object-top"
       :src="companion.icon"
       width="110"
       height="110"

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="note text-primary-600 relative h-full rounded-md border-4 border-current shadow-lg"
+    class="group-node text-primary-600 relative h-full rounded-md border-4 border-current shadow-lg"
   >
     <Handle type="target" :position="Position.Top" />
     <Handle type="source" :position="Position.Bottom" />
@@ -73,7 +73,7 @@ function editGroupName(value: string | undefined) {
 </style>
 
 <style scoped>
-.note {
+.group-node {
   --handle-bg: theme("colors.primary.500");
   --handle-border: theme("colors.primary.300");
 }

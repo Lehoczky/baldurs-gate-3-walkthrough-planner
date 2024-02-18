@@ -44,6 +44,7 @@ module.exports = {
         },
         sidebar: "#1b1b1b",
         canvas: "#222222",
+        card: "#242424",
       },
       spacing: {
         em: "1em",
