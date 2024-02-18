@@ -26,6 +26,7 @@ import {
   separateItemDuplicates,
 } from "./lib/item"
 import { locations } from "./lib/locations"
+import { sortByRarity } from "./lib/sorter"
 import { scrapeSpells } from "./lib/spells"
 
 async function main() {
@@ -187,7 +188,7 @@ async function scrapeItemType({
     }
     consola.log("")
 
-    return itemsWithoutDuplicates
+    return sortByRarity(itemsWithoutDuplicates)
   } catch (error) {
     spinner.fail(`Couldn't retrieve ${itemName}`)
     throw error
