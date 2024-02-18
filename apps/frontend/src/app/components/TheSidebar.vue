@@ -3,7 +3,7 @@
     <div class="mb-6">
       <label class="mb-2 flex flex-col">
         <div class="mb-1 text-xl">Search</div>
-        <InputText v-model="searchText" type="text" />
+        <InputText id="search" v-model="searchText" type="search" />
       </label>
 
       <label>
@@ -31,6 +31,7 @@
 </template>
 
 <script setup lang="ts">
+import { useEventListener } from "@vueuse/core"
 import InputText from "primevue/inputtext"
 
 import { useDataStore } from "../store/data"
@@ -42,5 +43,15 @@ const { searchText, categories, selectedCategoryName, error } =
 const LazyErrorMessage = defineAsyncComponent({
   loader: () => import("primevue/message"),
   delay: 0,
+})
+
+useEventListener("keydown", (event) => {
+  const { key, ctrlKey } = event
+
+  if (ctrlKey && key === "k") {
+    event.preventDefault()
+    const searchInput = document.getElementById("search")
+    searchInput.focus()
+  }
 })
 </script>

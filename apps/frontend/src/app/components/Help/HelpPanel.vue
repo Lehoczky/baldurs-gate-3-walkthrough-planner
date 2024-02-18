@@ -2,7 +2,7 @@
   <div
     class="bg-surface-950 w-72 -translate-y-full rounded-b-lg px-4 py-2.5 shadow transition-transform ease-out"
     :class="{
-      'translate-y-0': open,
+      '!translate-y-0': open,
     }"
   >
     <ul v-once class="space-y-2.5">
@@ -18,6 +18,7 @@
         shortcut="Delete / Backspace"
       />
       <HelpListItem action="Save" shortcut="Ctrl + S" />
+      <HelpListItem action="Focus search" shortcut="Ctrl + K" />
     </ul>
 
     <HelpPanelButton v-model="open" />
