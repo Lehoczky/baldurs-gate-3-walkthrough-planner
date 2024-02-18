@@ -42,6 +42,7 @@ module.exports = {
           900: rgbVar("--surface-900"),
           950: rgbVar("--surface-950"),
         },
+        sidebar: "#1b1b1b",
         canvas: "#222222",
       },
       spacing: {

@@ -34,6 +34,8 @@
         v-if="showEmptyMessage"
         class="absolute left-1/2 top-[40%] -translate-x-1/2 -translate-y-1/2"
       />
+
+      <HelpPanel class="absolute left-8 top-0" />
     </div>
 
     <FlowContextMenu ref="flowContextMenu" />

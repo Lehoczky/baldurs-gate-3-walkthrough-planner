@@ -2,7 +2,10 @@
   "recommendations": [
     "nrwl.angular-console",
     "esbenp.prettier-vscode",
-    "Vue.volar",
-    "Vue.vscode-typescript-vue-plugin"
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "github.vscode-github-actions",
+    "bradlc.vscode-tailwindcss"
   ]
 }
