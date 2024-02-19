@@ -1,1 +1,1 @@
-export * from './lib/drag-and-drop-mobile'
+export * from "./lib/drag-and-drop-mobile"
