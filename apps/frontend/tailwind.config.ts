@@ -13,6 +13,9 @@ module.exports = {
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {
+    data: {
+      "mobile-drag-enabled": "mobile-drag-enabled",
+    },
     extend: {
       colors: {
         primary: {

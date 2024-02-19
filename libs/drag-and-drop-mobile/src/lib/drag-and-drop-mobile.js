@@ -202,6 +202,7 @@ let DragDropTouch
             if (DragDropTouch._ISPRESSHOLDMODE) {
               this._pressHoldInterval = setTimeout(function () {
                 _this._isDragEnabled = true
+                src.setAttribute("data-mobile-drag-enabled", "")
                 _this._touchmove(e)
               }, DragDropTouch._PRESSHOLDAWAIT)
             }
@@ -317,6 +318,9 @@ let DragDropTouch
     // clear all members
     DragDropTouch.prototype._reset = function () {
       this._destroyImage()
+      if (this._dragSource) {
+        this._dragSource.removeAttribute("data-mobile-drag-enabled")
+      }
       this._dragSource = null
       this._lastTouch = null
       this._lastTarget = null

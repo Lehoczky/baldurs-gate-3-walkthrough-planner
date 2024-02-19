@@ -1,6 +1,7 @@
 <template>
   <BaseItem
     draggable="true"
+    class="has-[[data-mobile-drag-enabled]]:!bg-surface-700 data-mobile-drag-enabled:!bg-surface-700 transition-color duration-200"
     :item="item"
     @dragstart="onDragStart($event, dragData)"
   />
