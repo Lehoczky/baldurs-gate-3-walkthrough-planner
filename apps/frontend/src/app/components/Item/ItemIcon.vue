@@ -1,5 +1,11 @@
 <template>
-  <img class="item-icon rounded-md" :src="src" width="50" height="50" alt="" />
+  <img
+    class="item-icon rounded-md max-sm:pointer-events-none"
+    :src="src"
+    width="50"
+    height="50"
+    alt=""
+  />
 </template>
 
 <script setup lang="ts">
