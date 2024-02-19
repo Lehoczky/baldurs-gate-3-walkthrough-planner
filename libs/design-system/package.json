@@ -1,5 +1,5 @@
 {
-  "name": "@baldurs-gate-3-walkthrough-planner/drag-and-drop-mobile",
+  "name": "@baldurs-gate-3-walkthrough-planner/design-system",
   "version": "0.0.1",
   "type": "module",
   "main": "./src/index.js",

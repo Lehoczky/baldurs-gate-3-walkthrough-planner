@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@baldurs-gate-3-walkthrough-planner/design-system": [
+        "libs/design-system/src/index.js"
+      ],
       "@baldurs-gate-3-walkthrough-planner/drag-and-drop-mobile": [
         "libs/drag-and-drop-mobile/src/index.js"
       ],

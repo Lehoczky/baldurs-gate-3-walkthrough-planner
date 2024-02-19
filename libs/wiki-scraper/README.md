@@ -1,6 +1,12 @@
 # wiki-scraper
 
-This library was generated with [Nx](https://nx.dev).
+Web scraper which collects information from the [BG3 wiki](https://bg3.wiki/) and saves it to the app's `data.json` file.
+
+## Usage
+
+```sh
+npx nx run wiki-scraper:scrape
+```
 
 ## Building
 
