@@ -7,14 +7,17 @@
     "jsxImportSource": "vue",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": true
   },
   "files": [],
   "include": [],
   "references": [
     {
-      "path": "./tsconfig.app.json",
+      "path": "./tsconfig.app.json"
     },
+    {
+      "path": "./tsconfig.node.json"
+    }
   ],
-  "extends": "../../tsconfig.base.json",
+  "extends": "../../tsconfig.base.json"
 }

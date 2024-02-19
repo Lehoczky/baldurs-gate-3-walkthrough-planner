@@ -6,14 +6,74 @@
     "@vue/eslint-config-prettier/skip-formatting",
     "../../.eslintrc.json"
   ],
-  "ignorePatterns": ["!**/*", "src/design-system"],
+  "ignorePatterns": ["!**/*"],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx", "*.vue"],
       "rules": {}
     },
     {
+      "files": ["*.ts", "*.tsx", "*.vue"],
+      "parserOptions": {
+        "project": ["apps/frontend/tsconfig.*?.json"]
+      },
+      "rules": {
+        "@typescript-eslint/no-confusing-void-expression": [
+          "warn",
+          { "ignoreArrowShorthand": true }
+        ],
+        "@typescript-eslint/no-for-in-array": "warn",
+        "@typescript-eslint/no-misused-promises": [
+          "warn",
+          { "checksVoidReturn": false }
+        ],
+        "@typescript-eslint/non-nullable-type-assertion-style": "warn",
+        "@typescript-eslint/prefer-return-this-type": "warn",
+        "@typescript-eslint/prefer-string-starts-ends-with": "warn",
+        "@typescript-eslint/prefer-optional-chain": "warn",
+        "@typescript-eslint/promise-function-async": [
+          "warn",
+          { "checkArrowFunctions": false }
+        ],
+
+        "dot-notation": "off",
+        "@typescript-eslint/dot-notation": "warn",
+        "no-throw-literal": "off",
+        "@typescript-eslint/no-throw-literal": [
+          "warn",
+          {
+            "allowThrowingUnknown": true
+          }
+        ],
+        "require-await": "off",
+        "@typescript-eslint/require-await": "warn",
+        "no-return-await": "off",
+        "@typescript-eslint/return-await": ["warn", "always"],
+        "camelcase": "off",
+        "@typescript-eslint/naming-convention": [
+          // Ignore properties that require quotes
+          "warn",
+          {
+            "selector": "property",
+            "format": ["camelCase"],
+            "filter": {
+              // you can expand this regex as you find more cases that require quoting that you want to allow
+              "regex": "^[{A-Z} | {0-9}]|[- ]",
+              "match": false
+            }
+          }
+        ],
+
+        "@typescript-eslint/prefer-includes": "warn"
+      }
+    },
+    {
       "files": ["*.vue"],
+      "parser": "vue-eslint-parser",
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "project": ["apps/frontend/tsconfig.*?.json"]
+      },
       "rules": {
         "vue/component-api-style": ["warn", ["script-setup"]],
         "vue/component-name-in-template-casing": [
@@ -53,7 +113,8 @@
         "vue/no-useless-concat": "warn",
         "vue/prefer-template": "warn",
         "vue/multi-word-component-names": "off",
-        "vue/no-v-html": "off"
+        "vue/no-v-html": "off",
+        "vue/no-dupe-keys": "off"
       }
     }
   ]
