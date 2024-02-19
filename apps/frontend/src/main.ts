@@ -1,4 +1,5 @@
 import "./styles.css"
+import "@baldurs-gate-3-walkthrough-planner/drag-and-drop-mobile"
 
 import { createPinia } from "pinia"
 import PrimeVue, { type PrimeVueConfiguration } from "primevue/config"
