@@ -41,7 +41,7 @@
   background-color: var(--handle-bg, theme("colors.surface.800"));
   border-color: var(--handle-border, theme("colors.surface.500"));
 
-  @apply h-2 w-2 shadow;
+  @apply size-4 shadow md:size-2;
 }
 
 .vue-flow__resize-control.line {
