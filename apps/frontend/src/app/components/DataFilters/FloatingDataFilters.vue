@@ -1,5 +1,6 @@
 <template>
   <div
+    ref="root"
     class="bg-sidebar -translate-y-full px-4 pb-6 pt-3 transition-transform ease-out"
     :class="{
       '!translate-y-0': open,
@@ -17,5 +18,9 @@
 </template>
 
 <script setup lang="ts">
+import { onClickOutside } from "@vueuse/core"
+
 const open = ref(false)
+const root = ref<HTMLElement>(null)
+onClickOutside(root, () => (open.value = false))
 </script>
