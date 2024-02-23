@@ -28,7 +28,7 @@ export const useDataStore = defineStore("data", () => {
     }
 
     return entitiesForSelectedCategory.value.filter(({ name }) =>
-      name.toLowerCase().startsWith(searchText.value.toLowerCase()),
+      name.toLowerCase().includes(searchText.value.toLowerCase()),
     )
   })
 
