@@ -1,4 +1,4 @@
-import { type GraphNode, type Node,useVueFlow } from "@vue-flow/core"
+import { type GraphNode, type Node, useVueFlow } from "@vue-flow/core"
 
 const DATA_TRANSFER_ID = "application/vueflow-node"
 

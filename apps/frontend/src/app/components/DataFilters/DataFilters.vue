@@ -16,6 +16,7 @@
 import { useEventListener } from "@vueuse/core"
 import InputText from "primevue/inputtext"
 
+import { useDeselectElements } from "../../hooks/useDeselectElements"
 import { useDataStore } from "../../store/data"
 
 const dataStore = useDataStore()
@@ -28,6 +29,9 @@ useEventListener("keydown", (event) => {
     event.preventDefault()
     const searchInput = document.getElementById("search")
     searchInput.focus()
+    setTimeout(() => deselectElements(), 200)
   }
 })
+
+const { deselectElements } = useDeselectElements()
 </script>
