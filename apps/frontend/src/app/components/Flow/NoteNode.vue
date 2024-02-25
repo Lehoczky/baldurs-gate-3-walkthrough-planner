@@ -1,23 +1,23 @@
 <template>
   <div
-    class="flex h-full overflow-auto rounded-md bg-yellow-300 p-4 text-slate-800 shadow-lg"
+    class="flex h-full overflow-hidden rounded-md bg-yellow-300 text-slate-800 shadow-lg"
   >
     <NodeResizer :min-width="120" :min-height="120" />
     <div
       aria-haspopup="true"
-      class="w-full"
+      class="nowheel w-full"
       @contextmenu="contextMenu.show($event)"
     >
       <textarea
         v-if="editing"
         ref="textarea"
         v-model="text"
-        class="nodrag mt-0.5 h-full w-full flex-1 resize-none bg-yellow-300 text-sm text-slate-800 outline-none placeholder:italic placeholder:text-slate-500"
+        class="scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600 nodrag mt-0.5 h-full w-full flex-1 resize-none bg-yellow-300 p-4 text-sm text-slate-800 outline-none placeholder:italic placeholder:text-slate-500"
         placeholder="Write something here..."
       />
       <div
         v-else
-        class="prose prose-sm prose-slate h-full max-w-none flex-1 cursor-text"
+        class="scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600 prose prose-sm prose-slate h-full max-w-none flex-1 cursor-text overflow-auto p-4"
         @dblclick="startEditing"
         v-html="renderedText"
       />

@@ -1,8 +1,8 @@
 import { getIconCollections, iconsPlugin } from "@egoist/tailwindcss-icons"
-// @ts-expect-error: internal nx types
 import { createGlobPatternsForDependencies } from "@nx/vue/tailwind"
 import { join } from "path"
 import type { Config } from "tailwindcss"
+import type { PluginUtils } from "tailwindcss/types/config"
 
 const rgbVar = (prop: string) => `rgb(var(${prop}) / <alpha-value>)`
 
@@ -53,7 +53,7 @@ module.exports = {
         em: "1em",
       },
       /** https://tailwindcss.com/docs/typography-plugin#adding-custom-color-themes */
-      typography: ({ theme }) => ({
+      typography: ({ theme }: PluginUtils) => ({
         slate: {
           css: {
             "--tw-prose-bullets": theme("colors.slate[500]"),
@@ -63,6 +63,7 @@ module.exports = {
     },
   },
   plugins: [
+    require("tailwind-scrollbar"),
     require("@tailwindcss/typography"),
     iconsPlugin({
       collections: getIconCollections(["lucide", "ri"]),
