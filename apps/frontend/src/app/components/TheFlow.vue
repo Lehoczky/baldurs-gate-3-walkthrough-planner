@@ -125,10 +125,10 @@ const edgeContextMenuItems = ref<MenuItem[]>([
 ])
 
 const LazyNoteNode = defineAsyncComponent({
-  loader: () => import("./Flow/NoteNode.vue"),
+  loader: () => import("./SpecialNodes/NoteNode.vue"),
   delay: 0,
 })
-requestIdleCallback(() => import("./Flow/NoteNode.vue"))
+requestIdleCallback(() => import("./SpecialNodes/NoteNode.vue"))
 
 /**
  * Select the nodes that gets added to the flow.

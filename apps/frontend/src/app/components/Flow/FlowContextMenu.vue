@@ -14,7 +14,7 @@ import {
   createGroupNode,
   createNoteNode,
   createStartNode,
-} from "./customNodes"
+} from "../SpecialNodes/specialNodes"
 
 const storageStore = useStorageStore()
 const { hasSave } = storeToRefs(storageStore)
