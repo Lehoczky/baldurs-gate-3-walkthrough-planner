@@ -114,12 +114,12 @@ export async function scrapeSpells(page: Page): Promise<Spell[]> {
     )
 
   return [
-    ...cantrips,
-    ...level1,
-    ...level2,
-    ...level3,
-    ...level4,
-    ...level5,
     ...level6,
+    ...level5,
+    ...level4,
+    ...level3,
+    ...level2,
+    ...level1,
+    ...cantrips,
   ]
 }
