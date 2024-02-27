@@ -18,7 +18,7 @@ export const useStorageStore = defineStore("storage", () => {
   const hasUnsavedChanges = ref(false)
   const title = computed(() => {
     return hasUnsavedChanges.value
-      ? "Walkthrough planner * | Baldur's Gate 3"
+      ? "* Walkthrough planner | Baldur's Gate 3"
       : "Walkthrough planner | Baldur's Gate 3"
   })
   useTitle(title)
