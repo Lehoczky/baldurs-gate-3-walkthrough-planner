@@ -74,6 +74,7 @@ const {
   getSelectedNodes,
   onConnect,
   onEdgeContextMenu,
+  onEdgeDoubleClick,
   onEdgesChange,
   onNodesChange,
   removeNodes,
@@ -105,9 +106,13 @@ onNodesChange((changes) => {
   selectNewlyAddedNodesOnChanges(changes)
 })
 
-onEdgeContextMenu(({ edge, event }: EdgeMouseEvent) => {
+onEdgeContextMenu(({ edge, event }) => {
   addSelectedEdges([edge])
   edgeContextMenu.value.show(event)
+})
+onEdgeDoubleClick(({ edge }) => {
+  addSelectedEdges([edge])
+  showEdgeLabelDialog.value = true
 })
 const LazyEdgeLabelDialog = defineAsyncComponent({
   loader: () => import("./Flow/EdgeLabelDialog.vue"),

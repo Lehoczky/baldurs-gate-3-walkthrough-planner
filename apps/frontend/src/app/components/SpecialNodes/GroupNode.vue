@@ -7,7 +7,11 @@
     <Handle type="source" :position="Position.Left" />
     <Handle type="source" :position="Position.Right" />
     <NodeResizer :min-width="240" :min-height="240" />
-    <div aria-haspopup="true" @contextmenu="contextMenu.show($event)">
+    <div
+      aria-haspopup="true"
+      @dblclick="showDialog = true"
+      @contextmenu="contextMenu.show($event)"
+    >
       <div
         class="bg-canvas absolute right-0 top-0 rounded-bl-lg border-b-2 border-l-2 border-current px-6 py-3"
       >
@@ -43,6 +47,7 @@ const LazyGroupLabelDialog = defineAsyncComponent({
 })
 
 const { id, node } = useNode()
+node.selectable = false
 const { removeNodes } = useVueFlow()
 const contextMenu = ref<ContextMenu>()
 const contextMenuItems = ref<MenuItem[]>([
