@@ -1,4 +1,9 @@
-import { type FlowExportObject, useVueFlow } from "@vue-flow/core"
+import {
+  type EdgeChange,
+  type FlowExportObject,
+  type NodeChange,
+  useVueFlow,
+} from "@vue-flow/core"
 import { useTitle } from "@vueuse/core"
 import { useFileDialog } from "@vueuse/core"
 import { first } from "lodash-es"
@@ -111,8 +116,16 @@ export const useStorageStore = defineStore("storage", () => {
     }
   }
 
+  function updateSavedState(changes: Array<NodeChange | EdgeChange>) {
+    const shouldUpdateSavedState = changes.some(({ type }) => type !== "select")
+    if (shouldUpdateSavedState) {
+      hasUnsavedChanges.value = true
+    }
+  }
+
   return {
     hasUnsavedChanges,
+    updateSavedState,
     save,
     load,
     saveToFile,

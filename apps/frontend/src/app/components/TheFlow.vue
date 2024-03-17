@@ -50,7 +50,6 @@
 <script setup lang="ts">
 import { Background } from "@vue-flow/background"
 import {
-  type EdgeMouseEvent,
   MarkerType,
   type NodeAddChange,
   type NodeChange,
@@ -95,14 +94,14 @@ const { onDragOver, onDrop } = useNodeDrop()
 const flowContextMenu = ref<InstanceType<typeof FlowContextMenu>>()
 const edgeContextMenu = ref<ContextMenu>()
 const storageStore = useStorageStore()
-const { save, load } = storageStore
+const { save, load, updateSavedState } = storageStore
 const { hasUnsavedChanges, hasSave } = storeToRefs(storageStore)
 
-onEdgesChange(() => {
-  hasUnsavedChanges.value = true
+onEdgesChange((changes) => {
+  updateSavedState(changes)
 })
 onNodesChange((changes) => {
-  hasUnsavedChanges.value = true
+  updateSavedState(changes)
   selectNewlyAddedNodesOnChanges(changes)
 })
 
