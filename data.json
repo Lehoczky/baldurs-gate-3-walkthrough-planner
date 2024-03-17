@@ -2,7 +2,7 @@
   "weapons": [
     {
       "name": "Moonlantern",
-      "icon": "https://bg3.wiki/w/images/thumb/3/38/Moonlantern_Item_Icon.png/50px-Moonlantern_Item_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3e/Moonlantern_Unfaded_Icon.png/50px-Moonlantern_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Moonlantern",
       "rarity": "Story Item"
     },
@@ -928,12 +928,6 @@
       "name": "Crossbow of Arcane Force",
       "icon": "https://bg3.wiki/w/images/thumb/b/b6/Crossbow_of_Arcane_Force_Unfaded_Icon.png/50px-Crossbow_of_Arcane_Force_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Crossbow_of_Arcane_Force",
-      "rarity": "Uncommon"
-    },
-    {
-      "name": "Dagger +1",
-      "icon": "https://bg3.wiki/w/images/thumb/6/61/Dagger_PlusOne_Unfaded_Icon.png/50px-Dagger_PlusOne_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Dagger_%2B1",
       "rarity": "Uncommon"
     },
     {
@@ -2726,13 +2720,6 @@
       "armourType": "Medium armour"
     },
     {
-      "name": "Dark Justiciar Mail",
-      "icon": "https://bg3.wiki/w/images/thumb/9/98/Dark_Justiciar_Mail_Unfaded_Icon.png/50px-Dark_Justiciar_Mail_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Mail",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
-    },
-    {
       "name": "Half Plate Armour +1",
       "icon": "https://bg3.wiki/w/images/thumb/5/57/Half_Plate_PlusOne_Unfaded_Icon.png/50px-Half_Plate_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Half_Plate_Armour_%2B1",
@@ -3037,7 +3024,7 @@
     },
     {
       "name": "Absolute's Protector",
-      "icon": "https://bg3.wiki/w/images/thumb/e/e2/Safeguard_Shield_Item_Icon.png/50px-Safeguard_Shield_Item_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/7/79/Safeguard_Shield_Unfaded_Icon.png/50px-Safeguard_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Absolute%27s_Protector",
       "rarity": "Rare",
       "armourType": "Non-Armour"
@@ -3563,13 +3550,6 @@
       "armourType": "Light armour"
     },
     {
-      "name": "Dark Justiciar Mask",
-      "icon": "https://bg3.wiki/w/images/thumb/3/3d/Dark_Justiciar_Mask_Unfaded_Icon.png/50px-Dark_Justiciar_Mask_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Mask",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
-    },
-    {
       "name": "Helmet of Arcane Acuity",
       "icon": "https://bg3.wiki/w/images/thumb/a/a0/Helmet_of_Arcane_Acuity_Unfaded_Icon.png/50px-Helmet_of_Arcane_Acuity_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Helmet_of_Arcane_Acuity",
@@ -3582,13 +3562,6 @@
       "wikiLink": "https://bg3.wiki/wiki/Helmet_of_Autonomy",
       "rarity": "Uncommon",
       "armourType": "Light armour"
-    },
-    {
-      "name": "Dark Justiciar Helm",
-      "icon": "https://bg3.wiki/w/images/thumb/2/2a/Dark_Justiciar_Helm_Unfaded_Icon.png/50px-Dark_Justiciar_Helm_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Helm",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
     },
     {
       "name": "Helmet of Smiting",
@@ -3620,7 +3593,7 @@
     },
     {
       "name": "Bycocket",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d7/Generated_ARM_Hat_Wizard_C_Icon.png/50px-Generated_ARM_Hat_Wizard_C_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/2/26/Generated_ARM_Hat_Wizard_C_Unfaded.png/50px-Generated_ARM_Hat_Wizard_C_Unfaded.png",
       "wikiLink": "https://bg3.wiki/wiki/Bycocket",
       "rarity": "Common",
       "armourType": "Non-Armour"
@@ -3795,7 +3768,7 @@
     },
     {
       "name": "Formidable Helmet",
-      "icon": "https://bg3.wiki/w/images/thumb/2/2a/Item_ARM_Helmet_Metal_J_Icon.png/50px-Item_ARM_Helmet_Metal_J_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7e/Item_ARM_Helmet_Metal_J_Unfaded.png/50px-Item_ARM_Helmet_Metal_J_Unfaded.png",
       "wikiLink": "https://bg3.wiki/wiki/Formidable_Helmet",
       "rarity": "Common",
       "armourType": "Medium armour"
@@ -3823,7 +3796,7 @@
     },
     {
       "name": "Reinforced Helmet",
-      "icon": "https://bg3.wiki/w/images/thumb/2/2a/Item_ARM_Helmet_Metal_J_Icon.png/50px-Item_ARM_Helmet_Metal_J_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7e/Item_ARM_Helmet_Metal_J_Unfaded.png/50px-Item_ARM_Helmet_Metal_J_Unfaded.png",
       "wikiLink": "https://bg3.wiki/wiki/Reinforced_Helmet",
       "rarity": "Common",
       "armourType": "Medium armour"
@@ -3991,7 +3964,7 @@
     },
     {
       "name": "Amulet of Windrider",
-      "icon": "https://bg3.wiki/w/images/thumb/b/b6/Amulet_Necklace_D_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_D_Bronze_A_1_Unfaded_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/1/13/Amulet_Necklace_D_Gold_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_D_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_Windrider",
       "rarity": "Very Rare",
       "armourType": "Heavy armour"
@@ -4054,7 +4027,7 @@
     },
     {
       "name": "Amulet of Branding",
-      "icon": "https://bg3.wiki/w/images/thumb/2/22/Amulet_of_Branding_Unfaded_Icon.png/50px-Amulet_of_Branding_Unfaded_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5e/Amulet_Necklace_D_Silver_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_D_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_Branding",
       "rarity": "Rare",
       "armourType": "Medium armour"
@@ -4329,13 +4302,6 @@
       "name": "Barnabus' Collar",
       "icon": "https://bg3.wiki/w/images/thumb/2/26/Amulet_Necklace_A_Silver_A_Unfaded_Icon.png/50px-Amulet_Necklace_A_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Barnabus%27_Collar",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
-    },
-    {
-      "name": "Bronze Necklace",
-      "icon": "https://bg3.wiki/w/images/thumb/0/07/Amulet_Necklace_B_Bronze_A_Unfaded_Icon.png/50px-Amulet_Necklace_B_Bronze_A_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Bronze_Necklace",
       "rarity": "Common",
       "armourType": "Non-Armour"
     },
@@ -4902,13 +4868,6 @@
       "armourType": "Non-Armour"
     },
     {
-      "name": "Bronze Ring",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f4/Ring_D_Unfaded_Icon.png/50px-Ring_D_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Bronze_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
-    },
-    {
       "name": "Carnelian Ring",
       "icon": "https://bg3.wiki/w/images/thumb/4/4f/Ring_C_Unfaded_Icon.png/50px-Ring_C_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Carnelian_Ring",
@@ -4931,7 +4890,7 @@
     },
     {
       "name": "Dark Ring",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7e/Ring_I_Unfaded_Icon.png/50px-Ring_I_Unfaded_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/c/ce/Ring_I_1_Unfaded_Icon.png/50px-Ring_I_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Ring",
       "rarity": "Common",
       "armourType": "Non-Armour"
@@ -5108,29 +5067,8 @@
     },
     {
       "name": "Boots of Brilliance",
-      "icon": "https://bg3.wiki/w/images/thumb/e/e4/Shoes_Bard_Unfaded_Icon.png/50px-Shoes_Bard_Unfaded_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/8/89/Boots_of_Brilliance_Unfaded_Icon.png/50px-Boots_of_Brilliance_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Brilliance",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
-    },
-    {
-      "name": "Boots of Genial Striding",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f3/Boots_of_Genial_Striding_Unfaded_Icon.png/50px-Boots_of_Genial_Striding_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Boots_of_Genial_Striding",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
-    },
-    {
-      "name": "Boots of Speed",
-      "icon": "https://bg3.wiki/w/images/thumb/3/33/Boots_of_Speed_Unfaded_Icon.png/50px-Boots_of_Speed_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Boots_of_Speed",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
-    },
-    {
-      "name": "Boots of Uninhibited Kushigo",
-      "icon": "https://bg3.wiki/w/images/thumb/1/1e/Boots_of_Uninhibited_Kushigo_Unfaded_Icon.png/50px-Boots_of_Uninhibited_Kushigo_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Boots_of_Uninhibited_Kushigo",
       "rarity": "Rare",
       "armourType": "Non-Armour"
     },
@@ -5219,13 +5157,6 @@
       "armourType": "Medium armour"
     },
     {
-      "name": "Boots of Aid and Comfort",
-      "icon": "https://bg3.wiki/w/images/thumb/3/30/Boots_of_Aid_and_Comfort_Unfaded_Icon.png/50px-Boots_of_Aid_and_Comfort_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Boots_of_Aid_and_Comfort",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
-    },
-    {
       "name": "Boots of Stormy Clamour",
       "icon": "https://bg3.wiki/w/images/thumb/f/fe/Boots_of_Stormy_Clamour_Unfaded_Icon.png/50px-Boots_of_Stormy_Clamour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Stormy_Clamour",
@@ -5280,13 +5211,6 @@
       "wikiLink": "https://bg3.wiki/wiki/Varsh_Ko%27kuu%27s_Boots",
       "rarity": "Uncommon",
       "armourType": "Non-Armour"
-    },
-    {
-      "name": "Boots of Elemental Momentum",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f8/Boots_of_Elemental_Momentum_Unfaded_Icon.png/50px-Boots_of_Elemental_Momentum_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Boots_of_Elemental_Momentum",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
     },
     {
       "name": "Boots of Striding",
@@ -5635,7 +5559,7 @@
     },
     {
       "name": "Gloves of Uninhibited Kushigo",
-      "icon": "https://bg3.wiki/w/images/thumb/5/56/Gloves_of_Uninhibited_Kushigo_Unfaded_Icon.png/50px-Gloves_of_Uninhibited_Kushigo_Unfaded_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b7/Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png/50px-Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Uninhibited_Kushigo",
       "rarity": "Rare",
       "armourType": "Non-Armour"
@@ -5677,7 +5601,7 @@
     },
     {
       "name": "Seraphic Pugilist Gloves",
-      "icon": "https://bg3.wiki/w/images/thumb/5/56/Gloves_of_Uninhibited_Kushigo_Unfaded_Icon.png/50px-Gloves_of_Uninhibited_Kushigo_Unfaded_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/7/79/Seraphic_Pugilist_Gloves_Unfaded_Icon.png/50px-Seraphic_Pugilist_Gloves_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Seraphic_Pugilist_Gloves",
       "rarity": "Rare",
       "armourType": "Non-Armour"
@@ -6849,16 +6773,16 @@
       "rarity": "Very Rare"
     },
     {
-      "name": "Scroll of Circle of Death",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f5/Scroll_of_Circle_of_Death_Unfaded_Icon.png/40px-Scroll_of_Circle_of_Death_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Circle_of_Death",
+      "name": "Scroll of Chain Lightning",
+      "icon": "https://bg3.wiki/w/images/thumb/0/04/Scroll_of_Chain_Lightning_Unfaded_Icon.png/40px-Scroll_of_Chain_Lightning_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Chain_Lightning",
       "level": "Level 6",
       "rarity": "Very Rare"
     },
     {
-      "name": "Scroll of Chain Lightning",
-      "icon": "https://bg3.wiki/w/images/thumb/0/04/Scroll_of_Chain_Lightning_Unfaded_Icon.png/40px-Scroll_of_Chain_Lightning_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Chain_Lightning",
+      "name": "Scroll of Circle of Death",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f5/Scroll_of_Circle_of_Death_Unfaded_Icon.png/40px-Scroll_of_Circle_of_Death_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Scroll_of_Circle_of_Death",
       "level": "Level 6",
       "rarity": "Very Rare"
     },
@@ -8534,12 +8458,6 @@
       "level": "3rd level"
     },
     {
-      "name": "Blink",
-      "icon": "https://bg3.wiki/w/images/thumb/b/b3/Blink_Icon.webp/40px-Blink_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Blink",
-      "level": "3rd level"
-    },
-    {
       "name": "Call Lightning",
       "icon": "https://bg3.wiki/w/images/thumb/9/99/Call_Lightning_Icon.webp/40px-Call_Lightning_Icon.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Call_Lightning",
@@ -8552,21 +8470,9 @@
       "level": "3rd level"
     },
     {
-      "name": "Counterspell",
-      "icon": "https://bg3.wiki/w/images/thumb/5/50/Counterspell_Icon.webp/40px-Counterspell_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Counterspell",
-      "level": "3rd level"
-    },
-    {
       "name": "Crusader's Mantle",
       "icon": "https://bg3.wiki/w/images/thumb/4/4d/Crusader%27s_Mantle_Icon.webp/40px-Crusader%27s_Mantle_Icon.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Crusader%27s_Mantle",
-      "level": "3rd level"
-    },
-    {
-      "name": "Daylight",
-      "icon": "https://bg3.wiki/w/images/thumb/6/6e/Daylight_Icon.webp/40px-Daylight_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Daylight",
       "level": "3rd level"
     },
     {
@@ -8732,24 +8638,6 @@
       "level": "2nd level"
     },
     {
-      "name": "Blindness",
-      "icon": "https://bg3.wiki/w/images/thumb/5/5a/Blindness_Icon.webp/40px-Blindness_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Blindness",
-      "level": "2nd level"
-    },
-    {
-      "name": "Blur",
-      "icon": "https://bg3.wiki/w/images/thumb/0/0d/Blur_Icon.webp/40px-Blur_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Blur",
-      "level": "2nd level"
-    },
-    {
-      "name": "Branding Smite",
-      "icon": "https://bg3.wiki/w/images/thumb/5/5e/Branding_Smite_Melee_Icon.webp/40px-Branding_Smite_Melee_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Branding_Smite",
-      "level": "2nd level"
-    },
-    {
       "name": "Calm Emotions",
       "icon": "https://bg3.wiki/w/images/thumb/d/d9/Calm_Emotions_Icon.webp/40px-Calm_Emotions_Icon.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Calm_Emotions",
@@ -8762,21 +8650,9 @@
       "level": "2nd level"
     },
     {
-      "name": "Crown of Madness",
-      "icon": "https://bg3.wiki/w/images/thumb/4/48/Crown_of_Madness_Icon.webp/40px-Crown_of_Madness_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Crown_of_Madness",
-      "level": "2nd level"
-    },
-    {
       "name": "Darkness",
       "icon": "https://bg3.wiki/w/images/thumb/b/bf/Darkness_Icon.webp/40px-Darkness_Icon.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Darkness",
-      "level": "2nd level"
-    },
-    {
-      "name": "Darkvision (spell)",
-      "icon": "https://bg3.wiki/w/images/thumb/0/01/Darkvision_spell_Icon.webp/40px-Darkvision_spell_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Darkvision_(spell)",
       "level": "2nd level"
     },
     {
@@ -9023,18 +8899,6 @@
       "name": "Compelled Duel",
       "icon": "https://bg3.wiki/w/images/thumb/7/73/Compelled_Duel_Icon.webp/40px-Compelled_Duel_Icon.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Compelled_Duel",
-      "level": "1st level"
-    },
-    {
-      "name": "Create or Destroy Water",
-      "icon": "https://bg3.wiki/w/images/thumb/4/4a/Create_or_Destroy_Water_Icon.webp/40px-Create_or_Destroy_Water_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Create_or_Destroy_Water",
-      "level": "1st level"
-    },
-    {
-      "name": "Cure Wounds",
-      "icon": "https://bg3.wiki/w/images/thumb/4/40/Cure_Wounds_Icon.webp/40px-Cure_Wounds_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Cure_Wounds",
       "level": "1st level"
     },
     {
@@ -9293,12 +9157,6 @@
       "name": "Bone Chill",
       "icon": "https://bg3.wiki/w/images/thumb/0/03/Bone_Chill_Icon.webp/40px-Bone_Chill_Icon.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Bone_Chill",
-      "level": "Cantrip"
-    },
-    {
-      "name": "Dancing Lights",
-      "icon": "https://bg3.wiki/w/images/thumb/b/ba/Dancing_Lights_Icon.webp/40px-Dancing_Lights_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Dancing_Lights",
       "level": "Cantrip"
     },
     {
