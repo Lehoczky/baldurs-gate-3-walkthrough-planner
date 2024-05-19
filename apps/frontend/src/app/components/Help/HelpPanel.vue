@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-surface-950 z-20 w-72 -translate-y-full rounded-b-lg px-4 py-2.5 shadow transition-transform ease-out max-sm:hidden"
+    class="z-20 w-72 -translate-y-full rounded-b-lg bg-surface-950 px-4 py-2.5 shadow transition-transform ease-out max-sm:hidden"
     :class="{
       '!translate-y-0': open,
     }"
@@ -19,6 +19,7 @@
       />
       <HelpListItem action="Save" shortcut="Ctrl + S" />
       <HelpListItem action="Focus search" shortcut="Ctrl + K" />
+      <HelpListItem action="Getting Started guide" shortcut="F1" />
     </ul>
 
     <HelpPanelButton v-model="open" />

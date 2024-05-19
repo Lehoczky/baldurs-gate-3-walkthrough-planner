@@ -56,7 +56,7 @@ module.exports = {
       typography: ({ theme }: PluginUtils) => ({
         slate: {
           css: {
-            "--tw-prose-bullets": theme("colors.slate[500]"),
+            "--tw-prose-bullets": theme("colors.slate[600]"),
           },
         },
       }),

@@ -20,6 +20,7 @@ declare module 'vue' {
     EntityGrid: typeof import('./app/components/Sidebar/EntityGrid.vue')['default']
     FloatingDataFilters: typeof import('./app/components/DataFilters/FloatingDataFilters.vue')['default']
     FlowContextMenu: typeof import('./app/components/Flow/FlowContextMenu.vue')['default']
+    GettingStartedDialog: typeof import('./app/components/GettingStartedDialog.vue')['default']
     GroupLabelDialog: typeof import('./app/components/SpecialNodes/GroupLabelDialog.vue')['default']
     GroupNode: typeof import('./app/components/SpecialNodes/GroupNode.vue')['default']
     HelpListItem: typeof import('./app/components/Help/HelpListItem.vue')['default']

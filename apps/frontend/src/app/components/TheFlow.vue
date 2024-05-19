@@ -1,6 +1,6 @@
 <template>
   <div class="grid">
-    <div class="bg-canvas relative" @drop="onDrop">
+    <div class="relative bg-canvas" @drop="onDrop">
       <VueFlow
         @dragover="onDragOver($event as any)"
         @contextmenu="flowContextMenu.show($event as any)"
@@ -33,6 +33,10 @@
       <EmptyFlow
         v-if="showEmptyMessage"
         class="absolute left-1/2 top-[40%] -translate-x-1/2 -translate-y-1/2"
+      />
+      <LazyGettingStartedDialog
+        v-if="showTutorial"
+        @close="showTutorial = false"
       />
 
       <HelpPanel class="absolute left-8 top-0" />
@@ -158,6 +162,9 @@ useEventListener("keydown", (event) => {
   } else if (ctrlKey && key === "s") {
     event.preventDefault()
     save()
+  } else if (key === "F1") {
+    event.preventDefault()
+    showTutorial.value = true
   }
 })
 
@@ -180,5 +187,11 @@ onMounted(() => {
   if (hasSave) {
     load()
   }
+})
+
+const showTutorial = ref(showEmptyMessage.value)
+const LazyGettingStartedDialog = defineAsyncComponent({
+  loader: () => import("./GettingStartedDialog.vue"),
+  delay: 0,
 })
 </script>

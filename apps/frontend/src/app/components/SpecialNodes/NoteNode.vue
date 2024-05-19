@@ -12,12 +12,12 @@
         v-if="editing"
         ref="textarea"
         v-model="text"
-        class="scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600 nodrag mt-0.5 h-full w-full flex-1 resize-none bg-yellow-300 p-4 text-sm text-slate-800 outline-none placeholder:italic placeholder:text-slate-500"
+        class="nodrag mt-0.5 h-full w-full flex-1 resize-none bg-yellow-300 p-4 text-sm text-slate-800 outline-none scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600 placeholder:italic placeholder:text-slate-500"
         placeholder="Write something here..."
       />
       <div
         v-else
-        class="scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600 prose prose-sm prose-slate h-full max-w-none flex-1 cursor-text overflow-auto p-4"
+        class="prose prose-sm prose-slate h-full max-w-none flex-1 cursor-text overflow-auto p-4 scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600"
         @dblclick="startEditing"
         v-html="renderedText"
       />
