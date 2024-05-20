@@ -23,6 +23,7 @@ export function createNoteNode(): Omit<Node, "position"> {
     label: "Write something here...",
     width: 300,
     height: 220,
+    data: { editing: true },
   }
 }
 

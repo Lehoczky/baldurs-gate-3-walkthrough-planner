@@ -39,20 +39,25 @@ import { useMarkdownIt } from "../../hooks/useMarkdownIt"
 const props = defineProps<NodeProps>()
 
 const { node } = useNode()
-const editing = ref(false)
+const editing = ref()
 const textarea = ref<HTMLTextAreaElement>()
 const text = ref(props.label as string)
 const renderedText = useMarkdownIt(computed(() => node.label as string))
 
-async function startEditing() {
+function startEditing() {
   editing.value = true
-  await nextTick()
-  textarea.value.select()
+  setTimeout(() => textarea.value.select(), 50)
 }
 
 onClickOutside(textarea, () => {
   editing.value = false
   node.label = text.value
+})
+
+onMounted(() => {
+  if (props.data.editing) {
+    startEditing()
+  }
 })
 
 const { id } = useNode()
