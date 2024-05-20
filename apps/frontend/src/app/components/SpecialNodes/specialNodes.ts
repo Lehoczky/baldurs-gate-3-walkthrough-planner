@@ -1,34 +1,36 @@
 import type { Node } from "@vue-flow/core"
 
-export function createStartNode() {
+export function createStartNode(): Omit<Node, "position"> {
   return {
     id: crypto.randomUUID(),
     type: "start",
     label: "Journey Starts",
-  } satisfies Partial<Node>
+  }
 }
 
-export function createEndNode() {
+export function createEndNode(): Omit<Node, "position"> {
   return {
     id: crypto.randomUUID(),
     type: "end",
     label: "Journey Ends",
-  } satisfies Partial<Node>
+  }
 }
 
-export function createNoteNode() {
+export function createNoteNode(): Omit<Node, "position"> {
   return {
     id: crypto.randomUUID(),
     type: "note",
     label: "Write something here...",
-  } satisfies Partial<Node>
+    width: 300,
+    height: 220,
+  }
 }
 
-export function createGroupNode() {
+export function createGroupNode(): Omit<Node, "position"> {
   return {
     id: crypto.randomUUID(),
     type: "group",
     label: "Group",
     zIndex: -1002,
-  } satisfies Partial<Node>
+  }
 }
