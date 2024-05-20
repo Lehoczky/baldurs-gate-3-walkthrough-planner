@@ -30,11 +30,21 @@ export const useStorageStore = defineStore("storage", () => {
 
   const { toObject, fromObject } = useVueFlow({ id: "main" })
 
+  function flowToObject() {
+    const flowObject = toObject()
+    for (const node of flowObject.nodes) {
+      if (node.type === "note") {
+        node.data.editing = false
+      }
+    }
+    return flowObject
+  }
+
   const toast = useToast()
   function save() {
     const savedData: SavedData = {
       savedAt: new Date().toDateString(),
-      flow: toObject(),
+      flow: flowToObject(),
     }
     localStorage.setItem(STORAGE_KEY, JSON.stringify(savedData))
     hasUnsavedChanges.value = false
