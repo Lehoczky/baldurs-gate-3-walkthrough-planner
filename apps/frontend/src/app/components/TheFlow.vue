@@ -34,10 +34,7 @@
         v-if="showEmptyMessage"
         class="absolute left-1/2 top-[40%] -translate-x-1/2 -translate-y-1/2"
       />
-      <LazyGettingStartedDialog
-        v-if="showTutorial"
-        @close="showTutorial = false"
-      />
+      <LazyGettingStartedDialog v-if="showTutorial" @close="closeTutorial" />
 
       <HelpPanel class="absolute left-8 top-0" />
     </div>
@@ -189,7 +186,23 @@ onMounted(() => {
   }
 })
 
-const showTutorial = ref(showEmptyMessage.value)
+const showTutorial = ref(false)
+const skipTutorial = localStorage.getItem("wp:skip-tutorial") === "true"
+
+const unwatchEmptyMessage = watch(
+  showEmptyMessage,
+  () => (showTutorial.value = !skipTutorial && showEmptyMessage.value),
+  { immediate: true },
+)
+if (skipTutorial) {
+  unwatchEmptyMessage()
+}
+
+function closeTutorial() {
+  showTutorial.value = false
+  localStorage.setItem("wp:skip-tutorial", "true")
+  unwatchEmptyMessage()
+}
 const LazyGettingStartedDialog = defineAsyncComponent({
   loader: () => import("./GettingStartedDialog.vue"),
   delay: 0,
