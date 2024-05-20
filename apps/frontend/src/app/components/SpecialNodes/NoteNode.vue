@@ -1,11 +1,11 @@
 <template>
   <div
-    class="flex h-full overflow-hidden rounded-md bg-yellow-300 text-slate-800 shadow-lg"
+    class="relative flex h-full rounded-md bg-yellow-300 text-slate-800 shadow-lg"
   >
     <NodeResizer :min-width="120" :min-height="120" />
     <div
       aria-haspopup="true"
-      class="nowheel w-full"
+      class="nowheel w-full overflow-hidden rounded-md"
       @contextmenu="contextMenu.show($event)"
     >
       <textarea
@@ -21,6 +21,13 @@
         @dblclick="startEditing"
         v-html="renderedText"
       />
+    </div>
+    <div
+      v-if="editing"
+      class="absolute right-4 top-0 flex -translate-y-1/2 items-center gap-1 rounded-full bg-yellow-400 px-2 py-1.5 text-sm font-medium leading-none shadow"
+    >
+      <span class="i-lucide-edit-3" />
+      <span>Editing</span>
     </div>
     <ContextMenu ref="contextMenu" :model="contextMenuItems" />
   </div>
