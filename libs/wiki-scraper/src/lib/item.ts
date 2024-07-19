@@ -219,7 +219,7 @@ export async function getEquipmentsFromTableWithRarityColumnFromPage(
       elements.map((element, i) => {
         try {
           const linkElement =
-            element.querySelector<HTMLAnchorElement>("td:nth-child(1) a")
+            element.querySelector<HTMLAnchorElement>(":nth-child(1) a")
           const name = linkElement.getAttribute("title")
           const icon = linkElement.querySelector("img").src
           const relativeWikiLink = linkElement.getAttribute("href")

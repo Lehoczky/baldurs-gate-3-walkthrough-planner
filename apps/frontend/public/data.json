@@ -907,6 +907,12 @@
       "rarity": "Uncommon"
     },
     {
+      "name": "Club +1",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/Enforcer_Club_Unfaded_Icon.png/50px-Enforcer_Club_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Club_%2B1",
+      "rarity": "Uncommon"
+    },
+    {
       "name": "Club of Hill Giant Strength",
       "icon": "https://bg3.wiki/w/images/thumb/e/ea/Club_Unfaded_Icon.png/50px-Club_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Club_of_Hill_Giant_Strength",
@@ -1711,6 +1717,42 @@
       "rarity": "Common"
     },
     {
+      "name": "Pactbound Battleaxe",
+      "icon": "https://bg3.wiki/w/images/thumb/7/79/Battleaxe_PlusOne_Unfaded_Icon.png/50px-Battleaxe_PlusOne_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Pactbound_Battleaxe",
+      "rarity": "Common"
+    },
+    {
+      "name": "Pactbound Glaive",
+      "icon": "https://bg3.wiki/w/images/thumb/7/70/Glaive_PlusOne_Unfaded_Icon.png/50px-Glaive_PlusOne_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Pactbound_Glaive",
+      "rarity": "Common"
+    },
+    {
+      "name": "Pactbound Greatsword",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c2/Greatsword_PlusOne_Unfaded_Icon.png/50px-Greatsword_PlusOne_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Pactbound_Greatsword",
+      "rarity": "Common"
+    },
+    {
+      "name": "Pactbound Rapier",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d7/Rapier_PlusOne_Unfaded_Icon.png/50px-Rapier_PlusOne_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Pactbound_Rapier",
+      "rarity": "Common"
+    },
+    {
+      "name": "Pactbound Trident",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8a/Trident_PlusOne_Unfaded_Icon.png/50px-Trident_PlusOne_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Pactbound_Trident",
+      "rarity": "Common"
+    },
+    {
+      "name": "Pactbound Warhammer",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e4/Warhammer_PlusOne_Unfaded_Icon.png/50px-Warhammer_PlusOne_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Pactbound_Warhammer",
+      "rarity": "Common"
+    },
+    {
       "name": "Pickaxe",
       "icon": "https://bg3.wiki/w/images/thumb/4/44/Pickaxe_Unfaded_Icon.png/50px-Pickaxe_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Pickaxe",
@@ -1982,7 +2024,7 @@
     },
     {
       "name": "Hand Crossbow (Yurgir)",
-      "icon": "https://bg3.wiki/w/images/thumb/e/e5/Hand_Crossbow_Unfaded_Icon.png/50px-Hand_Crossbow_Unfaded_Icon.png",
+      "icon": "https://bg3.wiki/w/images/thumb/7/74/Hand_Crossbow_Yurgir_Unfaded_Icon.png/50px-Hand_Crossbow_Yurgir_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hand_Crossbow_(Yurgir)",
       "rarity": "Common"
     },
@@ -1996,6 +2038,12 @@
       "name": "Handaxe",
       "icon": "https://bg3.wiki/w/images/thumb/c/c2/Handaxe_Unfaded_Icon.png/50px-Handaxe_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Handaxe",
+      "rarity": "Common"
+    },
+    {
+      "name": "Harper Blade",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7a/Shortsword_Unfaded_Icon.png/50px-Shortsword_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Harper_Blade",
       "rarity": "Common"
     },
     {
@@ -2044,12 +2092,6 @@
       "name": "Morningstar",
       "icon": "https://bg3.wiki/w/images/thumb/3/3b/Morningstar_Unfaded_Icon.png/50px-Morningstar_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Morningstar",
-      "rarity": "Common"
-    },
-    {
-      "name": "Pactbound Battleaxe",
-      "icon": "https://bg3.wiki/w/images/thumb/7/79/Battleaxe_PlusOne_Unfaded_Icon.png/50px-Battleaxe_PlusOne_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Pactbound_Battleaxe",
       "rarity": "Common"
     },
     {
@@ -4614,9 +4656,9 @@
       "armourType": "Medium armour"
     },
     {
-      "name": "Til Death Do Us Part",
+      "name": "Till Death Do Us Part",
       "icon": "https://bg3.wiki/w/images/thumb/6/60/Partner_Ring_A_Unfaded_Icon.png/50px-Partner_Ring_A_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Til_Death_Do_Us_Part",
+      "wikiLink": "https://bg3.wiki/wiki/Till_Death_Do_Us_Part",
       "rarity": "Rare",
       "armourType": "Medium armour"
     },
@@ -5013,6 +5055,13 @@
       "armourType": "Non-Armour"
     },
     {
+      "name": "Ring of Murderous Opportunity",
+      "icon": "https://bg3.wiki/w/images/thumb/3/37/Ring_H_Silver_A_Unfaded_Icon.png/50px-Ring_H_Silver_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ring_of_Murderous_Opportunity",
+      "rarity": "Common",
+      "armourType": "Non-Armour"
+    },
+    {
       "name": "Ring of Resistance to Ants",
       "icon": "https://bg3.wiki/w/images/thumb/c/cd/Ring_A_Simple_Gold_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Resistance_to_Ants",
@@ -5051,6 +5100,13 @@
       "name": "Tourmaline Ring",
       "icon": "https://bg3.wiki/w/images/thumb/e/e3/Ring_F_Silver_A_Unfaded_Icon.png/50px-Ring_F_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tourmaline_Ring",
+      "rarity": "Common",
+      "armourType": "Non-Armour"
+    },
+    {
+      "name": "Verdelite Ring",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2c/Ring_B_Gold_A_Unfaded_Icon.png/50px-Ring_B_Gold_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Verdelite_Ring",
       "rarity": "Common",
       "armourType": "Non-Armour"
     }
@@ -5396,6 +5452,13 @@
       "name": "Smarmy Swaggerer Boots",
       "icon": "https://bg3.wiki/w/images/thumb/2/27/Item_ARM_Boots_Leather_B_Unfaded_Icon.png/50px-Item_ARM_Boots_Leather_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Smarmy_Swaggerer_Boots",
+      "rarity": "Common",
+      "armourType": "Non-Armour"
+    },
+    {
+      "name": "Stiffly-Shod Boots",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b8/Hide_Boots_Unfaded_Icon.png/50px-Hide_Boots_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Stiffly-Shod_Boots",
       "rarity": "Common",
       "armourType": "Non-Armour"
     },
@@ -5971,142 +6034,142 @@
   ],
   "arrows": [
     {
-      "name": "Arrow of Acid",
-      "icon": "https://bg3.wiki/w/images/thumb/1/12/Arrow_of_Acid_Unfaded_Icon.png/40px-Arrow_of_Acid_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Acid",
-      "rarity": "10"
-    },
-    {
-      "name": "Arrow of Fire",
-      "icon": "https://bg3.wiki/w/images/thumb/b/bb/Arrow_of_Fire_Unfaded_Icon.png/40px-Arrow_of_Fire_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Fire",
-      "rarity": "10"
-    },
-    {
-      "name": "Arrow of Ice",
-      "icon": "https://bg3.wiki/w/images/thumb/4/45/Arrow_of_Ice_Unfaded_Icon.png/40px-Arrow_of_Ice_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Ice",
-      "rarity": "10"
-    },
-    {
-      "name": "Arrow of Lightning",
-      "icon": "https://bg3.wiki/w/images/thumb/5/54/Arrow_of_Lightning_Unfaded_Icon.png/40px-Arrow_of_Lightning_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Lightning",
-      "rarity": "10"
-    },
-    {
-      "name": "Arrow of Beast Slaying",
-      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Beast_Slaying",
-      "rarity": "20"
-    },
-    {
-      "name": "Arrow of Construct Slaying",
-      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Construct_Slaying",
-      "rarity": "20"
-    },
-    {
-      "name": "Arrow of Darkness",
-      "icon": "https://bg3.wiki/w/images/thumb/b/b5/Arrow_of_Darkness_Unfaded_Icon.png/40px-Arrow_of_Darkness_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Darkness",
-      "rarity": "20"
-    },
-    {
-      "name": "Arrow of Elemental Slaying",
-      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Elemental_Slaying",
-      "rarity": "20"
-    },
-    {
-      "name": "Arrow of Fiend Slaying",
-      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Fiend_Slaying",
-      "rarity": "20"
-    },
-    {
-      "name": "Arrow of Ilmater",
-      "icon": "https://bg3.wiki/w/images/thumb/2/2d/Arrow_of_Ilmater_Unfaded_Icon.png/40px-Arrow_of_Ilmater_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Ilmater",
-      "rarity": "20"
-    },
-    {
-      "name": "Arrow of Monstrosity Slaying",
-      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Monstrosity_Slaying",
-      "rarity": "20"
-    },
-    {
-      "name": "Arrow of Roaring Thunder",
-      "icon": "https://bg3.wiki/w/images/thumb/b/bd/Arrow_of_Roaring_Thunder_Unfaded_Icon.png/40px-Arrow_of_Roaring_Thunder_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Roaring_Thunder",
-      "rarity": "20"
-    },
-    {
-      "name": "Arrow of Undead Slaying",
-      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Undead_Slaying",
-      "rarity": "20"
-    },
-    {
-      "name": "Arrow of Arcane Interference",
-      "icon": "https://bg3.wiki/w/images/thumb/9/98/Arrow_of_Arcane_Interference_Unfaded_Icon.png/40px-Arrow_of_Arcane_Interference_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Arcane_Interference",
-      "rarity": "50"
-    },
-    {
-      "name": "Arrow of Many Targets",
-      "icon": "https://bg3.wiki/w/images/thumb/5/52/Arrow_of_Many_Targets_Unfaded_Icon.png/40px-Arrow_of_Many_Targets_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Many_Targets",
-      "rarity": "50"
-    },
-    {
-      "name": "Arrow of Salving",
-      "icon": "https://bg3.wiki/w/images/thumb/7/75/Arrow_of_Salving_Unfaded_Icon.png/40px-Arrow_of_Salving_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Salving",
-      "rarity": "50"
-    },
-    {
-      "name": "Arrow of Transposition",
-      "icon": "https://bg3.wiki/w/images/thumb/a/a5/Arrow_of_Transposition_Unfaded_Icon.png/40px-Arrow_of_Transposition_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Transposition",
-      "rarity": "50"
-    },
-    {
-      "name": "Smokepowder Arrow",
-      "icon": "https://bg3.wiki/w/images/thumb/7/70/Smokepowder_Arrow_Unfaded_Icon.png/40px-Smokepowder_Arrow_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Smokepowder_Arrow",
-      "rarity": "80"
-    },
-    {
       "name": "Arrow of Aberration Slaying",
       "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Aberration_Slaying",
-      "rarity": "80"
+      "rarity": "Very Rare"
     },
     {
       "name": "Arrow of Dragon Slaying",
       "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Dragon_Slaying",
-      "rarity": "80"
+      "rarity": "Very Rare"
     },
     {
       "name": "Arrow of Humanoid Slaying",
       "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Humanoid_Slaying",
-      "rarity": "80"
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Arrow of Arcane Interference",
+      "icon": "https://bg3.wiki/w/images/thumb/9/98/Arrow_of_Arcane_Interference_Unfaded_Icon.png/40px-Arrow_of_Arcane_Interference_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Arcane_Interference",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Arrow of Many Targets",
+      "icon": "https://bg3.wiki/w/images/thumb/5/52/Arrow_of_Many_Targets_Unfaded_Icon.png/40px-Arrow_of_Many_Targets_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Many_Targets",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Arrow of Salving",
+      "icon": "https://bg3.wiki/w/images/thumb/7/75/Arrow_of_Salving_Unfaded_Icon.png/40px-Arrow_of_Salving_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Salving",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Arrow of Transposition",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a5/Arrow_of_Transposition_Unfaded_Icon.png/40px-Arrow_of_Transposition_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Transposition",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Smokepowder Arrow",
+      "icon": "https://bg3.wiki/w/images/thumb/7/70/Smokepowder_Arrow_Unfaded_Icon.png/40px-Smokepowder_Arrow_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Smokepowder_Arrow",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Arrow of Beast Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Beast_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Construct Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Construct_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Darkness",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b5/Arrow_of_Darkness_Unfaded_Icon.png/40px-Arrow_of_Darkness_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Darkness",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Elemental Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Elemental_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Fiend Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Fiend_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Ilmater",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2d/Arrow_of_Ilmater_Unfaded_Icon.png/40px-Arrow_of_Ilmater_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Ilmater",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Monstrosity Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Monstrosity_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Roaring Thunder",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bd/Arrow_of_Roaring_Thunder_Unfaded_Icon.png/40px-Arrow_of_Roaring_Thunder_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Roaring_Thunder",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Undead Slaying",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Arrow_of_Slaying_Unfaded_Icon.png/40px-Arrow_of_Slaying_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Undead_Slaying",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Arrow of Acid",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/Arrow_of_Acid_Unfaded_Icon.png/40px-Arrow_of_Acid_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Acid",
+      "rarity": "Common"
+    },
+    {
+      "name": "Arrow of Fire",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bb/Arrow_of_Fire_Unfaded_Icon.png/40px-Arrow_of_Fire_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Fire",
+      "rarity": "Common"
+    },
+    {
+      "name": "Arrow of Ice",
+      "icon": "https://bg3.wiki/w/images/thumb/4/45/Arrow_of_Ice_Unfaded_Icon.png/40px-Arrow_of_Ice_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Ice",
+      "rarity": "Common"
+    },
+    {
+      "name": "Arrow of Lightning",
+      "icon": "https://bg3.wiki/w/images/thumb/5/54/Arrow_of_Lightning_Unfaded_Icon.png/40px-Arrow_of_Lightning_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Lightning",
+      "rarity": "Common"
     },
     {
       "name": "Arrow of Piercing",
       "icon": "https://bg3.wiki/w/images/thumb/c/cd/Arrow_of_Piercing_Unfaded_Icon.png/40px-Arrow_of_Piercing_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Arrow_of_Piercing",
-      "rarity": "10"
+      "rarity": "Common"
     },
     {
       "name": "Barbed Arrow",
       "icon": "https://bg3.wiki/w/images/thumb/5/52/Arrow_of_Many_Targets_Unfaded_Icon.png/40px-Arrow_of_Many_Targets_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Barbed_Arrow",
-      "rarity": "10"
+      "rarity": "Common"
     }
   ],
   "coatings": [
@@ -6593,6 +6656,66 @@
       "icon": "https://bg3.wiki/w/images/thumb/b/bd/POT_Potion_of_Vitality_Unfaded_Icon.png/40px-POT_Potion_of_Vitality_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Potion_of_Vitality",
       "rarity": "Common"
+    },
+    {
+      "name": "Lover's Avarice",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c8/ELX_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Lover%27s_Avarice",
+      "rarity": "Common"
+    },
+    {
+      "name": "A Mother's Loathing",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cf/ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/A_Mother%27s_Loathing",
+      "rarity": "Common"
+    },
+    {
+      "name": "Wilted Dreams",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6e/POT_Wilted_Dreams_Unfaded_Icon.png/40px-POT_Wilted_Dreams_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Wilted_Dreams",
+      "rarity": "Common"
+    },
+    {
+      "name": "Missing Pets",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/ELX_Greater_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Greater_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Missing_Pets",
+      "rarity": "Common"
+    },
+    {
+      "name": "Butterflies in the Stomach",
+      "icon": "https://bg3.wiki/w/images/thumb/7/79/ELX_Supreme_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Supreme_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Butterflies_in_the_Stomach",
+      "rarity": "Common"
+    },
+    {
+      "name": "Lost Time",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6e/POT_Wilted_Dreams_Unfaded_Icon.png/40px-POT_Wilted_Dreams_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Lost_Time",
+      "rarity": "Common"
+    },
+    {
+      "name": "Broken Promises",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c8/ELX_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Broken_Promises",
+      "rarity": "Common"
+    },
+    {
+      "name": "Faltering Will",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/ELX_Greater_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Greater_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Faltering_Will",
+      "rarity": "Common"
+    },
+    {
+      "name": "Heart of Stone",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cf/ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Heart_of_Stone",
+      "rarity": "Common"
+    },
+    {
+      "name": "Insanity's Kiss",
+      "icon": "https://bg3.wiki/w/images/thumb/7/79/ELX_Supreme_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Supreme_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Insanity%27s_Kiss",
+      "rarity": "Common"
     }
   ],
   "grenades": [
@@ -6742,7 +6865,7 @@
     },
     {
       "name": "Hag's Bane",
-      "icon": "https://bg3.wiki/w/images/thumb/2/2d/GRN_Hag%27s_Bane_Unfaded.png/40px-GRN_Hag%27s_Bane_Unfaded.png",
+      "icon": "https://bg3.wiki/w/images/thumb/5/53/GRN_Hag%27s_Bane_Unfaded_Icon.png/40px-GRN_Hag%27s_Bane_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hag%27s_Bane",
       "rarity": "Common"
     },
@@ -6778,7 +6901,7 @@
     },
     {
       "name": "Volo's Jar of Moustache Wax",
-      "icon": "https://bg3.wiki/w/images/thumb/0/00/GRN_Grease_Bottle_Unfaded.png/40px-GRN_Grease_Bottle_Unfaded.png",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c2/GRN_Grease_Bottle_Unfaded_Icon.png/40px-GRN_Grease_Bottle_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Volo%27s_Jar_of_Moustache_Wax",
       "rarity": "Common"
     }
@@ -8442,7 +8565,7 @@
     },
     {
       "name": "Grasping Vine",
-      "icon": "https://bg3.wiki/w/images/thumb/6/63/Grasping_Vine_Spell_Icon.webp/40px-Grasping_Vine_Spell_Icon.webp.png",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Grasping_Vine_Icon.webp/40px-Grasping_Vine_Icon.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Grasping_Vine",
       "level": "4th level"
     },
