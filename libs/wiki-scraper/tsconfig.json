@@ -3,6 +3,7 @@
   "compilerOptions": {
     "module": "ESNext",
     "target": "ESNext",
+    "lib": ["ES2022", "DOM"],
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "strictNullChecks": false,
@@ -10,13 +11,13 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "allowSyntheticDefaultImports": true,
+    "allowSyntheticDefaultImports": true
   },
   "files": [],
   "include": [],
   "references": [
     {
-      "path": "./tsconfig.lib.json",
-    },
-  ],
+      "path": "./tsconfig.lib.json"
+    }
+  ]
 }

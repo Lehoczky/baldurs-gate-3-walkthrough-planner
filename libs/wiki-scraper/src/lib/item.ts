@@ -20,20 +20,32 @@ export async function getEasyToScrapeEquipmentsFromPage(
 ): Promise<Item[]> {
   const itemLinksSelector = `.mw-parser-output > table .bg3wiki-itemicon`
 
-  const scrapedItems = await page
-    .locator(itemLinksSelector)
-    .evaluateAll((elements) =>
-      elements.map((element) => {
-        const classes = Array.from(element.classList)
-        const linkElement = element.querySelector("a")
-        const name = linkElement.getAttribute("title")
-        const icon = linkElement.querySelector("img").src
-        const relativeWikiLink = linkElement.getAttribute("href")
-        const wikiLink = `https://bg3.wiki${relativeWikiLink}`
+  const scrapedItems = await page.locator(itemLinksSelector).evaluateAll(
+    (elements, selectorArg) =>
+      elements.map((element, i) => {
+        try {
+          const classes = Array.from(element.classList)
+          const linkElement = element.querySelector("a")
+          const name = linkElement.getAttribute("title")
+          const icon = linkElement.querySelector("img").src
+          const relativeWikiLink = linkElement.getAttribute("href")
+          const wikiLink = `https://bg3.wiki${relativeWikiLink}`
 
-        return { name, icon, wikiLink, classes }
+          return { name, icon, wikiLink, classes }
+        } catch (error) {
+          if (error instanceof Error) {
+            const url = element.baseURI
+            const selector = `${selectorArg}:nth-of-type(${i + 1})`
+            const title = `An error occurred while iterating through DOM elements: ${error.message}`
+            const hint = `To find the element that caused the error, visit \`${url}\` and type \`document.querySelector('${selector}')\` into the console.`
+            const message = `${title}\n${hint}\n`
+            throw new Error(message, { cause: error })
+          }
+          throw error
+        }
       }),
-    )
+    itemLinksSelector,
+  )
   return scrapedItems.map(toItem)
 }
 
@@ -167,17 +179,31 @@ async function scrapeWithArmourType(
   page: Page,
   { selector, armourType }: ItemWithArmourTypeScrapeCategory,
 ) {
-  const scrapedItems = await page.locator(selector).evaluateAll((elements) =>
-    elements.map((element) => {
-      const classes = Array.from(element.classList)
-      const linkElement = element.querySelector("a")
-      const name = linkElement.getAttribute("title")
-      const icon = linkElement.querySelector("img").src
-      const relativeWikiLink = linkElement.getAttribute("href")
-      const wikiLink = `https://bg3.wiki${relativeWikiLink}`
+  const scrapedItems = await page.locator(selector).evaluateAll(
+    (elements, selectorArg) =>
+      elements.map((element, i) => {
+        try {
+          const classes = Array.from(element.classList)
+          const linkElement = element.querySelector("a")
+          const name = linkElement.getAttribute("title")
+          const icon = linkElement.querySelector("img").src
+          const relativeWikiLink = linkElement.getAttribute("href")
+          const wikiLink = `https://bg3.wiki${relativeWikiLink}`
 
-      return { classes, name, icon, wikiLink }
-    }),
+          return { classes, name, icon, wikiLink }
+        } catch (error) {
+          if (error instanceof Error) {
+            const url = element.baseURI
+            const selector = `${selectorArg}:nth-of-type(${i + 1})`
+            const title = `An error occurred while iterating through DOM elements: ${error.message}`
+            const hint = `To find the element that caused the error, visit \`${url}\` and type \`document.querySelector('${selector}')\` into the console.`
+            const message = `${title}\n${hint}\n`
+            throw new Error(message, { cause: error })
+          }
+          throw error
+        }
+      }),
+    selector,
   )
   return scrapedItems.map(toItem).map((item) => ({ ...item, armourType }))
 }
@@ -188,19 +214,33 @@ export async function getEquipmentsFromTableWithRarityColumnFromPage(
   page: Page,
   itemRowSelector = `.mw-parser-output > table > tbody tr`,
 ) {
-  return await page.locator(itemRowSelector).evaluateAll((elements) =>
-    elements.map((element) => {
-      const linkElement =
-        element.querySelector<HTMLAnchorElement>("td:nth-child(1) a")
-      const name = linkElement.getAttribute("title")
-      const icon = linkElement.querySelector("img").src
-      const relativeWikiLink = linkElement.getAttribute("href")
-      const wikiLink = `https://bg3.wiki${relativeWikiLink}`
-      const rarityCell = element.querySelector("td:nth-child(2)")
-      const rarity = rarityCell.textContent.trim()
+  return await page.locator(itemRowSelector).evaluateAll(
+    (elements, selectorArg) =>
+      elements.map((element, i) => {
+        try {
+          const linkElement =
+            element.querySelector<HTMLAnchorElement>("td:nth-child(1) a")
+          const name = linkElement.getAttribute("title")
+          const icon = linkElement.querySelector("img").src
+          const relativeWikiLink = linkElement.getAttribute("href")
+          const wikiLink = `https://bg3.wiki${relativeWikiLink}`
+          const rarityCell = element.querySelector("td:nth-child(2)")
+          const rarity = rarityCell.textContent.trim()
 
-      return { name, icon, wikiLink, rarity }
-    }),
+          return { name, icon, wikiLink, rarity }
+        } catch (error) {
+          if (error instanceof Error) {
+            const url = element.baseURI
+            const selector = `${selectorArg}:nth-of-type(${i + 1})`
+            const title = `An error occurred while iterating through DOM elements: ${error.message}`
+            const hint = `To find the element that caused the error, visit \`${url}\` and type \`document.querySelector('${selector}')\` into the console.`
+            const message = `${title}\n${hint}\n`
+            throw new Error(message, { cause: error })
+          }
+          throw error
+        }
+      }),
+    itemRowSelector,
   )
 }
 
@@ -248,18 +288,30 @@ export async function getScrollsFromPage(page: Page): Promise<Scroll[]> {
 
   const promises = categories.map(({ selector, level }) =>
     page.locator(selector).evaluateAll(
-      (elements, level) =>
-        elements.map((element) => {
-          const classes = Array.from(element.classList)
-          const linkElement = element.querySelector("a")
-          const name = linkElement.getAttribute("title")
-          const icon = linkElement.querySelector("img").src
-          const relativeWikiLink = linkElement.getAttribute("href")
-          const wikiLink = `https://bg3.wiki${relativeWikiLink}`
+      (elements, { level, selectorArg }) =>
+        elements.map((element, i) => {
+          try {
+            const classes = Array.from(element.classList)
+            const linkElement = element.querySelector("a")
+            const name = linkElement.getAttribute("title")
+            const icon = linkElement.querySelector("img").src
+            const relativeWikiLink = linkElement.getAttribute("href")
+            const wikiLink = `https://bg3.wiki${relativeWikiLink}`
 
-          return { name, icon, wikiLink, classes, level }
+            return { name, icon, wikiLink, classes, level }
+          } catch (error) {
+            if (error instanceof Error) {
+              const url = element.baseURI
+              const selector = `${selectorArg}:nth-of-type(${i + 1})`
+              const title = `An error occurred while iterating through DOM elements: ${error.message}`
+              const hint = `To find the element that caused the error, visit \`${url}\` and type \`document.querySelector('${selector}')\` into the console.`
+              const message = `${title}\n${hint}\n`
+              throw new Error(message, { cause: error })
+            }
+            throw error
+          }
         }),
-      level,
+      { level, selectorArg: selector },
     ),
   )
   const scrollsByCategory = await Promise.all(promises)
