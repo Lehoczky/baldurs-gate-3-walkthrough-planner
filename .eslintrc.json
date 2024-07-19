@@ -7,26 +7,44 @@
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx", "*.vue"],
       "plugins": ["simple-import-sort"],
       "rules": {
-        // Possible Problems
         "no-constant-binary-expression": "warn",
         "no-constructor-return": "warn",
         "no-promise-executor-return": "warn",
         "no-unreachable-loop": "warn",
-
-        // Suggestions
         "complexity": ["warn", 13],
         "default-case-last": "warn",
         "dot-notation": "warn",
         "eqeqeq": ["warn", "smart"],
-        "func-style": ["warn", "declaration", { "allowArrowFunctions": true }],
+        "func-style": [
+          "warn",
+          "declaration",
+          {
+            "allowArrowFunctions": true
+          }
+        ],
         "grouped-accessor-pairs": ["warn", "getBeforeSet"],
         "max-depth": ["warn", 6],
-        "max-params": ["warn", { "max": 8 }],
+        "max-params": [
+          "warn",
+          {
+            "max": 8
+          }
+        ],
         "no-bitwise": "warn",
         "no-caller": "warn",
-        "no-console": ["warn", { "allow": ["warn", "error"] }],
+        "no-console": [
+          "warn",
+          {
+            "allow": ["warn", "error"]
+          }
+        ],
         "no-extend-native": "warn",
-        "no-implicit-coercion": ["warn", { "boolean": false }],
+        "no-implicit-coercion": [
+          "warn",
+          {
+            "boolean": false
+          }
+        ],
         "no-lonely-if": "warn",
         "no-multi-str": "warn",
         "no-negated-condition": "warn",
@@ -45,12 +63,14 @@
         "prefer-template": "warn",
         "radix": "warn",
         "require-await": "warn",
-        "yoda": ["warn", "never", { "exceptRange": true }],
-
-        // Simple import sort
+        "yoda": [
+          "warn",
+          "never",
+          {
+            "exceptRange": true
+          }
+        ],
         "simple-import-sort/imports": "warn",
-
-        // NX
         "@nx/enforce-module-boundaries": [
           "error",
           {
@@ -73,7 +93,9 @@
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/array-type": [
           "warn",
-          { "default": "array-simple" }
+          {
+            "default": "array-simple"
+          }
         ],
         "@typescript-eslint/class-literal-property-style": ["warn", "fields"],
         "@typescript-eslint/consistent-generic-constructors": [
@@ -93,11 +115,15 @@
         ],
         "@typescript-eslint/consistent-type-imports": [
           "warn",
-          { "disallowTypeAnnotations": false }
+          {
+            "disallowTypeAnnotations": false
+          }
         ],
         "@typescript-eslint/explicit-member-accessibility": [
           "warn",
-          { "accessibility": "no-public" }
+          {
+            "accessibility": "no-public"
+          }
         ],
         "@typescript-eslint/no-confusing-non-null-assertion": "warn",
         "@typescript-eslint/no-duplicate-enum-values": "warn",
