@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Handle type="source" :position="Position.Top" />
-    <Handle type="source" :position="Position.Bottom" />
-    <Handle type="source" :position="Position.Left" />
-    <Handle type="source" :position="Position.Right" />
+    <Handle id="item-handle-1" type="source" :position="Position.Top" />
+    <Handle id="item-handle-2" type="source" :position="Position.Bottom" />
+    <Handle id="item-handle-3" type="source" :position="Position.Left" />
+    <Handle id="item-handle-4" type="source" :position="Position.Right" />
     <BaseItem
       :item="data"
       aria-haspopup="true"
@@ -40,6 +40,6 @@ const contextMenuItems = ref<MenuItem[]>([
 }
 
 .vue-flow__node-item.selected {
-  @apply ring-surface-500 ring-4;
+  @apply ring-4 ring-surface-500;
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
   <div
-    class="group-node text-primary-600 relative h-full rounded-md border-4 border-current shadow-lg"
+    class="group-node relative h-full rounded-md border-4 border-current text-primary-600 shadow-lg"
   >
-    <Handle type="target" :position="Position.Top" />
-    <Handle type="source" :position="Position.Bottom" />
-    <Handle type="source" :position="Position.Left" />
-    <Handle type="source" :position="Position.Right" />
+    <Handle id="group-handle-1" type="target" :position="Position.Top" />
+    <Handle id="group-handle-2" type="source" :position="Position.Bottom" />
+    <Handle id="group-handle-3" type="source" :position="Position.Left" />
+    <Handle id="group-handle-4" type="source" :position="Position.Right" />
     <NodeResizer :min-width="240" :min-height="240" />
     <div
       aria-haspopup="true"
@@ -13,7 +13,7 @@
       @contextmenu="contextMenu.show($event)"
     >
       <div
-        class="bg-canvas absolute right-0 top-0 rounded-bl-lg border-b-2 border-l-2 border-current px-6 py-3"
+        class="absolute right-0 top-0 rounded-bl-lg border-b-2 border-l-2 border-current bg-canvas px-6 py-3"
       >
         {{ label }}
       </div>
@@ -73,7 +73,7 @@ function editGroupName(value: string | undefined) {
 }
 
 .vue-flow__node-group.selected {
-  @apply ring-primary-800 ring-4;
+  @apply ring-4 ring-primary-800;
 }
 </style>
 

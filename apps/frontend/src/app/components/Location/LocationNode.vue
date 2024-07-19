@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Handle type="source" :position="Position.Top" />
-    <Handle type="source" :position="Position.Bottom" />
-    <Handle type="source" :position="Position.Left" />
-    <Handle type="source" :position="Position.Right" />
+    <Handle id="location-handle-1" type="source" :position="Position.Top" />
+    <Handle id="location-handle-2" type="source" :position="Position.Bottom" />
+    <Handle id="location-handle-3" type="source" :position="Position.Left" />
+    <Handle id="location-handle-4" type="source" :position="Position.Right" />
     <BaseLocation
       :location="data"
       class="w-[30rem]"
@@ -41,6 +41,6 @@ const contextMenuItems = ref<MenuItem[]>([
 }
 
 .vue-flow__node-location.selected {
-  @apply ring-surface-500 ring-4;
+  @apply ring-4 ring-surface-500;
 }
 </style>
