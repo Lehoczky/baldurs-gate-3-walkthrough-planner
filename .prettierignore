@@ -1,1 +1,4 @@
-pnpm-lock.yaml 
+pnpm-lock.yaml
+
+# Generated file
+packages/planner/public/data.json

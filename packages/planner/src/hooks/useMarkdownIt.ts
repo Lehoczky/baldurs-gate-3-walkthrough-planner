@@ -1,5 +1,5 @@
 import markdownit from "markdown-it"
-import { computed,type Ref } from "vue"
+import { computed, type Ref } from "vue"
 
 let md: ReturnType<typeof markdownit>
 
