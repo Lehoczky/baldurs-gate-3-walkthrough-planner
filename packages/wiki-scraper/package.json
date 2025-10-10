@@ -1,0 +1,21 @@
+{
+  "name": "@bg3-walkthrough-planner/wiki-scraper",
+  "type": "module",
+  "scripts": {
+    "scrape": "node ./src/index.ts",
+    "lint": "eslint --max-warnings=0"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  },
+  "devDependencies": {
+    "@bg3-walkthrough-planner/types": "workspace:^",
+    "@lehoczky/eslint-config-typescript": "^2.0.11",
+    "@types/node": "catalog:",
+    "consola": "^3.4.2",
+    "es-toolkit": "catalog:",
+    "eslint": "catalog:",
+    "ora": "^9.0.0",
+    "typescript": "catalog:"
+  }
+}

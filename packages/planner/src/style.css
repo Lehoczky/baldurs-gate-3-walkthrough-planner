@@ -1,0 +1,35 @@
+@import "@vue-flow/core/dist/style.css";
+@import "@vue-flow/core/dist/theme-default.css";
+@import "@vue-flow/node-resizer/dist/style.css";
+
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+@plugin "@tailwindcss/typography";
+@plugin '@egoist/tailwindcss-icons';
+
+@utility prose-slate {
+  --tw-prose-bullets: var(--color-slate-700);
+}
+
+.vue-flow__handle {
+  background-color: var(--handle-bg, var(--color-surface-800));
+  border-color: var(--handle-border, var(--color-surface-500));
+
+  @apply size-4 shadow md:size-2;
+}
+
+.vue-flow__resize-control.line {
+  @apply border-2 border-transparent;
+}
+
+.vue-flow__resize-control.handle {
+  @apply h-2 w-2 border-transparent bg-transparent;
+}
+
+.vue-flow__edge-textbg {
+  @apply fill-surface-900;
+}
+
+.vue-flow__edge-text {
+  @apply fill-surface-100;
+}

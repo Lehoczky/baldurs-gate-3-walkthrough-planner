@@ -22,7 +22,7 @@ Feel free to open a ticket if you have ideas or found a bug.
 
 The following instructions describes how to start the project locally for development:
 
-Install the dependencies:
+Install dependencies:
 
 ```sh
 pnpm install
@@ -31,7 +31,7 @@ pnpm install
 Run the frontend application:
 
 ```sh
-npx nx run frontend:serve
+npx nx run @bg3-walkthrough-planner/planner:dev
 ```
 
 Before creating a pull request, make sure every file is formatted and there are no lint errors:
@@ -39,5 +39,5 @@ Before creating a pull request, make sure every file is formatted and there are 
 ```sh
 npx nx format:write
 
-npx nx run-many --target=lint --all=true --fix
+npx nx run-many -t lint --fix
 ```

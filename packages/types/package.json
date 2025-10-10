@@ -1,0 +1,10 @@
+{
+  "name": "@bg3-walkthrough-planner/types",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "typescript": "catalog:"
+  }
+}

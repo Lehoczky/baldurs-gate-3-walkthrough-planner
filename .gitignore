@@ -2,40 +2,22 @@
 
 # compiled output
 dist
-tmp
-/out-tsc
 dev-dist
+tmp 
 
 # dependencies
 node_modules
 
 # IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+/.idea 
 
 # IDE - VSCode
-.idea
-
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
+.idea 
 
 # System Files
 .DS_Store
 Thumbs.db
 
+# Nx:
 .nx/cache
-.nx/workspace-data
-
-**/vite.config.{js,ts,mjs,mts,cjs,cts}.timestamp*
+.nx/workspace-data 

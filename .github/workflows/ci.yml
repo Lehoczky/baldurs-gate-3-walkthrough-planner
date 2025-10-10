@@ -7,35 +7,29 @@ on:
   pull_request:
     branches:
       - master
-  workflow_dispatch:
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
-  cancel-in-progress: true
 
 jobs:
-  ci:
-    name: CI
+  main:
     runs-on: ubuntu-latest
     permissions:
       actions: read
       contents: write
     steps:
       - name: Check out Git repository ⏬
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
 
       - name: Set up Node.js 💿
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 20
-          cache: pnpm
+          node-version-file: .node-version
+          cache: "pnpm"
 
-      - name: Install dependencies 💤
+      - name: Install dependencies 📦
         run: pnpm install
 
       - name: Derive appropriate SHAs for base and head for `nx affected` commands
@@ -46,15 +40,12 @@ jobs:
       - name: Check formatting 🎨
         run: npx nx format:check
 
-      - name: Check lint errors 🧹
-        run: npx nx affected -t lint
-
-      - name: Build the site 🏗
-        run: npx nx run frontend:build:production
+      - name: Run lint, build 👷‍♀️
+        run: npx nx affected -t lint build
 
       - name: Deploy 🚀
         if: github.ref == 'refs/heads/master'
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/apps/frontend
+          publish_dir: ./packages/planner/dist

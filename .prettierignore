@@ -1,11 +1,1 @@
-# Add files here to ignore them from prettier formatting
-/dist
-/coverage
-/.nx/cache
-/tmp
-pnpm-lock.yaml
-auto-imports.d.ts
-components.d.ts
-data.json
-
-/.nx/workspace-data
+pnpm-lock.yaml 
