@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/baldurs-gate-3-walkthrough-planner/sw.js', { scope: '/baldurs-gate-3-walkthrough-planner/' })})}
