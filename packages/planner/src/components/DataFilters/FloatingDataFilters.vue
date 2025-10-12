@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { onClickOutside } from "@vueuse/core"
-import { ref } from "vue"
+import { ref, useTemplateRef } from "vue"
 
 import DataFilters from "./DataFilters.vue"
 
 const open = ref(false)
-const root = ref<HTMLElement>(null)
+const root = useTemplateRef("root")
 onClickOutside(root, () => (open.value = false))
 </script>
 

@@ -1,15 +1,4 @@
 /**
- * Produces a random number between the inclusive `lower` and `upper` bounds.
- * If only one argument is provided a number between `0` and the given number
- * is returned.
- */
-export const randomInt = (a = 1, b = 0) => {
-  const lower = Math.ceil(Math.min(a, b))
-  const upper = Math.floor(Math.max(a, b))
-  return Math.floor(lower + Math.random() * (upper - lower + 1))
-}
-
-/**
  * Opens the user's system file dialog prompting to download
  * the given data.
  *
