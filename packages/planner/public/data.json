@@ -6428,238 +6428,238 @@
   ],
   "potions": [
     {
-      "name": "Potion of Healing",
-      "icon": "https://bg3.wiki/w/images/thumb/0/04/POT_Potion_of_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Healing_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Healing",
-      "rarity": "2d4+2⁠⁠hit points"
-    },
-    {
-      "name": "Potion of Greater Healing",
-      "icon": "https://bg3.wiki/w/images/thumb/3/3e/POT_Potion_of_Greater_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Greater_Healing_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Greater_Healing",
-      "rarity": "4d4+4⁠⁠hit points"
-    },
-    {
-      "name": "Potion of Superior Healing",
-      "icon": "https://bg3.wiki/w/images/thumb/9/90/POT_Potion_of_Superior_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Superior_Healing_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Superior_Healing",
-      "rarity": "8d4+8⁠⁠hit points"
-    },
-    {
-      "name": "Potion of Supreme Healing",
-      "icon": "https://bg3.wiki/w/images/thumb/a/a6/POT_Potion_of_Supreme_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Supreme_Healing_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Supreme_Healing",
-      "rarity": "10d4+20⁠⁠hit points"
-    },
-    {
-      "name": "Antidote",
+      "name": "Duergar Antidote",
       "icon": "https://bg3.wiki/w/images/thumb/6/60/POT_Antidote_Unfaded_Icon.png/40px-POT_Antidote_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Antidote",
-      "rarity": "Removes all poisons"
-    },
-    {
-      "name": "Basilisk Oil",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d9/POT_Basilisk_Oil_Unfaded_Icon.png/40px-POT_Basilisk_Oil_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Basilisk_Oil",
-      "rarity": "Removes all petrifications"
-    },
-    {
-      "name": "Potion of Angelic Reprieve",
-      "icon": "https://bg3.wiki/w/images/thumb/5/5a/POT_Potion_of_Angelic_Reprieve_Unfaded_Icon.png/40px-POT_Potion_of_Angelic_Reprieve_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Angelic_Reprieve",
-      "rarity": "Potion of Angelic Relief"
+      "wikiLink": "https://bg3.wiki/wiki/Duergar_Antidote",
+      "rarity": "Story Item"
     },
     {
       "name": "Potion of Angelic Slumber",
       "icon": "https://bg3.wiki/w/images/thumb/6/62/POT_Potion_of_Angelic_Slumber_Unfaded_Icon.png/40px-POT_Potion_of_Angelic_Slumber_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Potion_of_Angelic_Slumber",
-      "rarity": "Potion of Angelic Slumber"
+      "rarity": "Very Rare"
     },
     {
-      "name": "Potion of Animal Speaking",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c9/POT_Potion_of_Animal_Speaking_Unfaded_Icon.png/40px-POT_Potion_of_Animal_Speaking_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Animal_Speaking",
-      "rarity": "Speak with Animals"
-    },
-    {
-      "name": "Potion of Feather Fall",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7a/POT_Potion_of_Feather_Fall_Unfaded_Icon.png/40px-POT_Potion_of_Feather_Fall_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Feather_Fall",
-      "rarity": "Feather Fall"
+      "name": "Potion of Angelic Reprieve",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5a/POT_Potion_of_Angelic_Reprieve_Unfaded_Icon.png/40px-POT_Potion_of_Angelic_Reprieve_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Angelic_Reprieve",
+      "rarity": "Rare"
     },
     {
       "name": "Potion of Flying",
       "icon": "https://bg3.wiki/w/images/thumb/6/63/POT_Potion_of_Flying_Unfaded_Icon.png/40px-POT_Potion_of_Flying_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Potion_of_Flying",
-      "rarity": "Flight"
-    },
-    {
-      "name": "Potion of Gaseous Form",
-      "icon": "https://bg3.wiki/w/images/thumb/0/0f/POT_Potion_of_Gaseous_Form_Unfaded_Icon.png/40px-POT_Potion_of_Gaseous_Form_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Gaseous_Form",
-      "rarity": "Gaseous Form"
-    },
-    {
-      "name": "Potion of Glorious Vaulting",
-      "icon": "https://bg3.wiki/w/images/thumb/3/30/POT_Potion_of_Glorious_Vaulting_Unfaded_Icon.png/40px-POT_Potion_of_Glorious_Vaulting_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Glorious_Vaulting",
-      "rarity": "Potion of Glorious Vaulting"
+      "rarity": "Rare"
     },
     {
       "name": "Potion of Invisibility",
       "icon": "https://bg3.wiki/w/images/thumb/8/89/POT_Potion_of_Invisibility_Unfaded_Icon.png/40px-POT_Potion_of_Invisibility_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Potion_of_Invisibility",
-      "rarity": "Invisible"
+      "rarity": "Rare"
     },
     {
-      "name": "Potion of Mind Reading",
-      "icon": "https://bg3.wiki/w/images/thumb/8/80/POT_Potion_of_Mind_Reading_Unfaded_Icon.png/40px-POT_Potion_of_Mind_Reading_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Mind_Reading",
-      "rarity": "Detect Thoughts"
-    },
-    {
-      "name": "Potion of Sleep",
-      "icon": "https://bg3.wiki/w/images/thumb/6/6c/POT_Potion_of_Sleep_Unfaded_Icon.png/40px-POT_Potion_of_Sleep_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Sleep",
-      "rarity": "Sleeping"
+      "name": "Potion of Supreme Healing",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a6/POT_Potion_of_Supreme_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Supreme_Healing_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Supreme_Healing",
+      "rarity": "Uncommon"
     },
     {
       "name": "Potion of Speed",
       "icon": "https://bg3.wiki/w/images/thumb/8/87/POT_Potion_of_Speed_Unfaded_Icon.png/40px-POT_Potion_of_Speed_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Potion_of_Speed",
-      "rarity": "Hastened"
+      "rarity": "Uncommon"
     },
     {
       "name": "Remedial Potion",
       "icon": "https://bg3.wiki/w/images/thumb/5/5d/POT_Remedial_Potion_Unfaded_Icon.png/40px-POT_Remedial_Potion_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Remedial_Potion",
-      "rarity": "Removes blindness, disease, poisoned, paralyzation,  Colour Spray, and  Silenced"
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Potion of Healing",
+      "icon": "https://bg3.wiki/w/images/thumb/0/04/POT_Potion_of_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Healing_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Healing",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Greater Healing",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3e/POT_Potion_of_Greater_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Greater_Healing_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Greater_Healing",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Superior Healing",
+      "icon": "https://bg3.wiki/w/images/thumb/9/90/POT_Potion_of_Superior_Healing_Unfaded_Icon.png/40px-POT_Potion_of_Superior_Healing_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Superior_Healing",
+      "rarity": "Common"
+    },
+    {
+      "name": "Antidote",
+      "icon": "https://bg3.wiki/w/images/thumb/6/60/POT_Antidote_Unfaded_Icon.png/40px-POT_Antidote_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Antidote",
+      "rarity": "Common"
+    },
+    {
+      "name": "Basilisk Oil",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d9/POT_Basilisk_Oil_Unfaded_Icon.png/40px-POT_Basilisk_Oil_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Basilisk_Oil",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Animal Speaking",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c9/POT_Potion_of_Animal_Speaking_Unfaded_Icon.png/40px-POT_Potion_of_Animal_Speaking_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Animal_Speaking",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Feather Fall",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7a/POT_Potion_of_Feather_Fall_Unfaded_Icon.png/40px-POT_Potion_of_Feather_Fall_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Feather_Fall",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Gaseous Form",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0f/POT_Potion_of_Gaseous_Form_Unfaded_Icon.png/40px-POT_Potion_of_Gaseous_Form_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Gaseous_Form",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Glorious Vaulting",
+      "icon": "https://bg3.wiki/w/images/thumb/3/30/POT_Potion_of_Glorious_Vaulting_Unfaded_Icon.png/40px-POT_Potion_of_Glorious_Vaulting_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Glorious_Vaulting",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Mind Reading",
+      "icon": "https://bg3.wiki/w/images/thumb/8/80/POT_Potion_of_Mind_Reading_Unfaded_Icon.png/40px-POT_Potion_of_Mind_Reading_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Mind_Reading",
+      "rarity": "Common"
+    },
+    {
+      "name": "Potion of Sleep",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6c/POT_Potion_of_Sleep_Unfaded_Icon.png/40px-POT_Potion_of_Sleep_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Potion_of_Sleep",
+      "rarity": "Common"
     },
     {
       "name": "A Mother's Loathing",
       "icon": "https://bg3.wiki/w/images/thumb/c/cf/ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/A_Mother%27s_Loathing",
-      "rarity": "Mother's Loathing"
+      "rarity": "Common"
     },
     {
       "name": "Boon of the Hag",
       "icon": "https://bg3.wiki/w/images/thumb/c/cf/ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boon_of_the_Hag",
-      "rarity": "Auntie Ethel's Special Brew"
+      "rarity": "Common"
     },
     {
       "name": "Broken Promises",
       "icon": "https://bg3.wiki/w/images/thumb/c/c8/ELX_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Broken_Promises",
-      "rarity": "Broken Promises"
+      "rarity": "Common"
     },
     {
       "name": "Butterflies in the Stomach",
       "icon": "https://bg3.wiki/w/images/thumb/7/79/ELX_Supreme_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Supreme_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Butterflies_in_the_Stomach",
-      "rarity": "Haemorrhaged"
+      "rarity": "Common"
     },
     {
       "name": "Faltering Will",
       "icon": "https://bg3.wiki/w/images/thumb/1/12/ELX_Greater_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Greater_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Faltering_Will",
-      "rarity": "Faltering Will"
+      "rarity": "Common"
     },
     {
       "name": "Heart of Stone",
       "icon": "https://bg3.wiki/w/images/thumb/c/cf/ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Superior_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Heart_of_Stone",
-      "rarity": "Heart of Stone"
+      "rarity": "Common"
     },
     {
       "name": "Insanity's Kiss",
       "icon": "https://bg3.wiki/w/images/thumb/7/79/ELX_Supreme_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Supreme_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Insanity%27s_Kiss",
-      "rarity": "Insanity's Kiss"
+      "rarity": "Common"
     },
     {
       "name": "Lover's Avarice",
       "icon": "https://bg3.wiki/w/images/thumb/c/c8/ELX_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Lover%27s_Avarice",
-      "rarity": "Lover's Avarice"
+      "rarity": "Common"
     },
     {
       "name": "Lost Time",
       "icon": "https://bg3.wiki/w/images/thumb/6/6e/POT_Wilted_Dreams_Unfaded_Icon.png/40px-POT_Wilted_Dreams_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Lost_Time",
-      "rarity": "Lost Time"
+      "rarity": "Common"
     },
     {
       "name": "Missing Pets",
       "icon": "https://bg3.wiki/w/images/thumb/1/12/ELX_Greater_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png/40px-ELX_Greater_Elixir_of_Arcane_Cultivation_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Missing_Pets",
-      "rarity": "Missing Pets"
+      "rarity": "Common"
     },
     {
       "name": "Wilted Dreams",
       "icon": "https://bg3.wiki/w/images/thumb/6/6e/POT_Wilted_Dreams_Unfaded_Icon.png/40px-POT_Wilted_Dreams_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Wilted_Dreams",
-      "rarity": "Wilted Dreams"
+      "rarity": "Common"
     },
     {
       "name": "Dream Mist",
       "icon": "https://bg3.wiki/w/images/thumb/4/44/DRUG_Dream_Mist_Unfaded_Icon.png/40px-DRUG_Dream_Mist_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dream_Mist",
-      "rarity": "Dream Mist Apparitions"
+      "rarity": "Common"
     },
     {
       "name": "Essence of Ether",
       "icon": "https://bg3.wiki/w/images/thumb/0/01/DRUG_Essence_of_Ether_Unfaded_Icon.png/40px-DRUG_Essence_of_Ether_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Essence_of_Ether",
-      "rarity": "Ether-Essence Slumber"
+      "rarity": "Common"
     },
     {
       "name": "Silkroot",
       "icon": "https://bg3.wiki/w/images/thumb/7/71/DRUG_Silkroot_Unfaded_Icon.png/40px-DRUG_Silkroot_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Silkroot",
-      "rarity": "Silkroot Euphoria"
+      "rarity": "Common"
     },
     {
       "name": "Terazul",
       "icon": "https://bg3.wiki/w/images/thumb/6/62/DRUG_Terazul_Unfaded_Icon.png/40px-DRUG_Terazul_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Terazul",
-      "rarity": "The Terazul Jitters"
-    },
-    {
-      "name": "Duergar Antidote",
-      "icon": "https://bg3.wiki/w/images/thumb/6/60/POT_Antidote_Unfaded_Icon.png/40px-POT_Antidote_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Duergar_Antidote",
-      "rarity": "Duergar Antidote"
+      "rarity": "Common"
     },
     {
       "name": "Elixir of Health",
       "icon": "https://bg3.wiki/w/images/thumb/f/fe/POT_Elixir_of_Health_Unfaded_Icon.png/40px-POT_Elixir_of_Health_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Health",
-      "rarity": "-"
+      "rarity": "Common"
     },
     {
       "name": "Elixir of Silvanus",
       "icon": "https://bg3.wiki/w/images/thumb/6/6a/ELX_Elixir_of_Silvanus_Unfaded_Icon.png/40px-ELX_Elixir_of_Silvanus_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Elixir_of_Silvanus",
-      "rarity": "Curative Antidote"
+      "rarity": "Common"
     },
     {
       "name": "Mysterious Elixir",
       "icon": "https://bg3.wiki/w/images/thumb/9/9c/Mysterious_Elixir_Unfaded_Icon.png/40px-Mysterious_Elixir_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Mysterious_Elixir",
-      "rarity": "Feigning Death"
+      "rarity": "Common"
     },
     {
       "name": "Potion of Everlasting Vigour",
       "icon": "https://bg3.wiki/w/images/thumb/e/e3/POT_Potion_of_Everlasting_Vigour_Unfaded_Icon.png/40px-POT_Potion_of_Everlasting_Vigour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Potion_of_Everlasting_Vigour",
-      "rarity": "-"
+      "rarity": "Common"
     },
     {
       "name": "Potion of Vitality",
       "icon": "https://bg3.wiki/w/images/thumb/b/bd/POT_Potion_of_Vitality_Unfaded_Icon.png/40px-POT_Potion_of_Vitality_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Potion_of_Vitality",
-      "rarity": "-"
+      "rarity": "Common"
     }
   ],
   "grenades": [

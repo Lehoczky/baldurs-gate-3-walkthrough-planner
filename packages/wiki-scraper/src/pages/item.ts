@@ -17,9 +17,8 @@ interface RawScrapedItem {
 
 export async function getEasyToScrapeEquipmentsFromPage(
   page: Page,
+  itemLinksSelector = `.mw-parser-output > table .bg3wiki-itemicon`,
 ): Promise<Item[]> {
-  const itemLinksSelector = `.mw-parser-output > table .bg3wiki-itemicon`
-
   const scrapedItems = await page.locator(itemLinksSelector).evaluateAll(
     (elements, selectorArg) =>
       elements.map((element, i) => {

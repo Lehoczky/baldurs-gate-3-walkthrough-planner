@@ -122,7 +122,11 @@ async function main() {
     const potions = await scrapeItemType({
       itemName: "potions",
       gotoFn: () => page.goto("/wiki/Potions"),
-      scraperFn: () => getEquipmentsFromTableWithRarityColumnFromPage(page),
+      scraperFn: () =>
+        getEasyToScrapeEquipmentsFromPage(
+          page,
+          `.mw-parser-output > table th .bg3wiki-itemicon`,
+        ),
     })
     const grenades = await scrapeItemType({
       itemName: "grenades",
