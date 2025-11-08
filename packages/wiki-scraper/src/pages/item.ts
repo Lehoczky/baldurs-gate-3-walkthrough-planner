@@ -245,8 +245,7 @@ export async function getEquipmentsFromTableWithRarityColumnFromPage(
 }
 
 export async function getElixirsFromPage(page: Page) {
-  const normalElixirs =
-    await getEquipmentsFromTableWithRarityColumnFromPage(page)
+  const normalElixirs = await getEasyToScrapeEquipmentsFromPage(page)
 
   // Yeah, I'm hardcoding it. Not worth to scrape for just this one item
   const elixirOfUniversalResistance: Item = {
