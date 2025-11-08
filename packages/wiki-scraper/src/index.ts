@@ -112,7 +112,7 @@ async function main() {
     const coatings = await scrapeItemType({
       itemName: "coatings",
       gotoFn: () => page.goto("/wiki/Coatings"),
-      scraperFn: () => getEquipmentsFromTableWithRarityColumnFromPage(page),
+      scraperFn: () => getEasyToScrapeEquipmentsFromPage(page),
     })
     const elixirs = await scrapeItemType({
       itemName: "elixirs",
