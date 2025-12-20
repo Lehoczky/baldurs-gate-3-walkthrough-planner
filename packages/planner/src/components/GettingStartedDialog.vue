@@ -45,7 +45,7 @@ function close() {
 
 <template>
   <Dialog
-    class="md:w-160 w-11/12"
+    class="w-11/12 md:w-160"
     visible
     :header="title"
     modal

@@ -21,7 +21,7 @@ const dragData = computed(() => ({
 <template>
   <BaseCompanion
     draggable="true"
-    class="has-data-dragging:bg-surface-700! data-dragging:bg-surface-700! transition-color duration-200"
+    class="transition-color duration-200 has-data-dragging:bg-surface-700! data-dragging:bg-surface-700!"
     :companion="companion"
     @dragstart="onDragStart($event, dragData)"
   />

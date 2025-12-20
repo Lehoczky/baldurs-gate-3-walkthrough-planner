@@ -45,6 +45,6 @@ const contextMenuItems = ref<MenuItem[]>([
 }
 
 .vue-flow__node-location.selected {
-  @apply ring-surface-500 ring-4;
+  @apply ring-4 ring-surface-500;
 }
 </style>

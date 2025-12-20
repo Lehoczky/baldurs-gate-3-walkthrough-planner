@@ -41,7 +41,7 @@ function editGroupName(value: string | undefined) {
 
 <template>
   <div
-    class="group-node text-primary-600 relative h-full rounded-md border-4 border-current shadow-lg"
+    class="group-node relative h-full rounded-md border-4 border-current text-primary-600 shadow-lg"
   >
     <Handle id="group-handle-1" type="target" :position="Position.Top" />
     <Handle id="group-handle-2" type="source" :position="Position.Bottom" />
@@ -54,7 +54,7 @@ function editGroupName(value: string | undefined) {
       @contextmenu="contextMenu.show($event)"
     >
       <div
-        class="bg-surface-950 absolute right-0 top-0 rounded-bl-lg border-b-2 border-l-2 border-current px-6 py-3"
+        class="absolute top-0 right-0 rounded-bl-lg border-b-2 border-l-2 border-current bg-surface-950 px-6 py-3"
       >
         {{ label }}
       </div>
@@ -76,7 +76,7 @@ function editGroupName(value: string | undefined) {
 }
 
 .vue-flow__node-group.selected {
-  @apply ring-primary-800 ring-4;
+  @apply ring-4 ring-primary-800;
 }
 </style>
 

@@ -9,7 +9,7 @@ const open = ref(false)
 
 <template>
   <div
-    class="bg-surface-900 z-20 w-72 -translate-y-full rounded-b-lg px-4 py-2.5 shadow transition-transform ease-out max-sm:hidden"
+    class="z-20 w-72 -translate-y-full rounded-b-lg bg-surface-900 px-4 py-2.5 shadow transition-transform ease-out max-sm:hidden"
     :class="{
       'translate-y-0!': open,
     }"

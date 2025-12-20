@@ -18,7 +18,7 @@ const title = computed(() => (isTextClamped.value ? props.item.name : null))
 
 <template>
   <div
-    class="bg-surface-800 flex size-[110px] cursor-move flex-col items-center justify-center rounded-md p-1 text-center text-sm leading-4 shadow-lg"
+    class="flex size-[110px] cursor-move flex-col items-center justify-center rounded-md bg-surface-800 p-1 text-center text-sm leading-4 shadow-lg"
   >
     <ItemIcon
       class="pointer-events-none mb-1.5"

@@ -18,7 +18,7 @@ defineProps({
     </div>
 
     <div
-      class="bg-surface-900 border-surface-800 flex items-center rounded-md border px-1 py-0.5 text-xs leading-none"
+      class="flex items-center rounded-md border border-surface-800 bg-surface-900 px-1 py-0.5 text-xs leading-none"
     >
       {{ shortcut }}
     </div>

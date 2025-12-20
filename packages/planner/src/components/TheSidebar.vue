@@ -24,7 +24,7 @@ const { deselectElements } = useDeselectElements()
 
 <template>
   <div
-    class="bg-surface-900 flex gap-6 overflow-auto p-4 shadow-md max-lg:justify-center max-md:flex-col lg:flex-col"
+    class="flex gap-6 overflow-auto bg-surface-900 p-4 shadow-md max-lg:justify-center max-md:flex-col lg:flex-col"
     @focusin="deselectElements()"
   >
     <DataFilters v-if="showDataFilters" />
