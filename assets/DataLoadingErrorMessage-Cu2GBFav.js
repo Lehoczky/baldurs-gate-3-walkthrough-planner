@@ -1,8 +1,14 @@
-import{B as x,x as j,R as O,y as I,z as B,A as $,C,c as m,o as r,w,p,a as g,D as a,E as l,m as d,n as b,F as D,G as T,H as E,T as N,d as A,I as f,f as L}from"./index-CGAPbiWI.js";var M=`
+import{B as S,x as j,R as O,y as x,z as B,A as I,C as $,c as m,o as r,w as v,m as i,n as p,D as a,a as g,E as d,p as C,F as D,G as T,T as E,d as N,H as b,f as A}from"./index-BhYK5nev.js";var L=`
     .p-message {
+        display: grid;
+        grid-template-rows: 1fr;
         border-radius: dt('message.border.radius');
         outline-width: dt('message.border.width');
         outline-style: solid;
+    }
+
+    .p-message-content-wrapper {
+        min-height: 0;
     }
 
     .p-message-content {
@@ -10,7 +16,6 @@ import{B as x,x as j,R as O,y as I,z as B,A as $,C,c as m,o as r,w,p,a as g,D as
         align-items: center;
         padding: dt('message.content.padding');
         gap: dt('message.content.gap');
-        height: 100%;
     }
 
     .p-message-icon {
@@ -216,36 +221,6 @@ import{B as x,x as j,R as O,y as I,z as B,A as $,C,c as m,o as r,w,p,a as g,D as
         height: dt('message.icon.size');
     }
 
-    .p-message-enter-from {
-        opacity: 0;
-    }
-
-    .p-message-enter-active {
-        transition: opacity 0.3s;
-    }
-
-    .p-message.p-message-leave-from {
-        max-height: 1000px;
-    }
-
-    .p-message.p-message-leave-to {
-        max-height: 0;
-        opacity: 0;
-        margin: 0;
-    }
-
-    .p-message-leave-active {
-        overflow: hidden;
-        transition:
-            max-height 0.45s cubic-bezier(0, 1, 0, 1),
-            opacity 0.3s,
-            margin 0.3s;
-    }
-
-    .p-message-leave-active .p-message-close-button {
-        opacity: 0;
-    }
-
     .p-message-sm .p-message-content {
         padding: dt('message.content.sm.padding');
     }
@@ -305,4 +280,37 @@ import{B as x,x as j,R as O,y as I,z as B,A as $,C,c as m,o as r,w,p,a as g,D as
     .p-message-simple .p-message-close-button:hover {
         background: transparent;
     }
-`,_={root:function(s){var n=s.props;return["p-message p-component p-message-"+n.severity,{"p-message-outlined":n.variant==="outlined","p-message-simple":n.variant==="simple","p-message-sm":n.size==="small","p-message-lg":n.size==="large"}]},content:"p-message-content",icon:"p-message-icon",text:"p-message-text",closeButton:"p-message-close-button",closeIcon:"p-message-close-icon"},K=x.extend({name:"message",style:M,classes:_}),V={name:"BaseMessage",extends:I,props:{severity:{type:String,default:"info"},closable:{type:Boolean,default:!1},life:{type:Number,default:null},icon:{type:String,default:void 0},closeIcon:{type:String,default:void 0},closeButtonProps:{type:null,default:null},size:{type:String,default:null},variant:{type:String,default:null}},style:K,provide:function(){return{$pcMessage:this,$parentInstance:this}}};function i(e){"@babel/helpers - typeof";return i=typeof Symbol=="function"&&typeof Symbol.iterator=="symbol"?function(s){return typeof s}:function(s){return s&&typeof Symbol=="function"&&s.constructor===Symbol&&s!==Symbol.prototype?"symbol":typeof s},i(e)}function h(e,s,n){return(s=F(s))in e?Object.defineProperty(e,s,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[s]=n,e}function F(e){var s=G(e,"string");return i(s)=="symbol"?s:s+""}function G(e,s){if(i(e)!="object"||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var o=n.call(e,s);if(i(o)!="object")return o;throw new TypeError("@@toPrimitive must return a primitive value.")}return(s==="string"?String:Number)(e)}var k={name:"Message",extends:V,inheritAttrs:!1,emits:["close","life-end"],timeout:null,data:function(){return{visible:!0}},mounted:function(){var s=this;this.life&&setTimeout(function(){s.visible=!1,s.$emit("life-end")},this.life)},methods:{close:function(s){this.visible=!1,this.$emit("close",s)}},computed:{closeAriaLabel:function(){return this.$primevue.config.locale.aria?this.$primevue.config.locale.aria.close:void 0},dataP:function(){return B(h(h({outlined:this.variant==="outlined",simple:this.variant==="simple"},this.severity,this.severity),this.size,this.size))}},directives:{ripple:O},components:{TimesIcon:j}};function c(e){"@babel/helpers - typeof";return c=typeof Symbol=="function"&&typeof Symbol.iterator=="symbol"?function(s){return typeof s}:function(s){return s&&typeof Symbol=="function"&&s.constructor===Symbol&&s!==Symbol.prototype?"symbol":typeof s},c(e)}function y(e,s){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var o=Object.getOwnPropertySymbols(e);s&&(o=o.filter(function(u){return Object.getOwnPropertyDescriptor(e,u).enumerable})),n.push.apply(n,o)}return n}function v(e){for(var s=1;s<arguments.length;s++){var n=arguments[s]!=null?arguments[s]:{};s%2?y(Object(n),!0).forEach(function(o){R(e,o,n[o])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):y(Object(n)).forEach(function(o){Object.defineProperty(e,o,Object.getOwnPropertyDescriptor(n,o))})}return e}function R(e,s,n){return(s=H(s))in e?Object.defineProperty(e,s,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[s]=n,e}function H(e){var s=q(e,"string");return c(s)=="symbol"?s:s+""}function q(e,s){if(c(e)!="object"||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var o=n.call(e,s);if(c(o)!="object")return o;throw new TypeError("@@toPrimitive must return a primitive value.")}return(s==="string"?String:Number)(e)}var J=["data-p"],Q=["data-p"],U=["data-p"],W=["aria-label","data-p"],X=["data-p"];function Y(e,s,n,o,u,t){var z=$("TimesIcon"),P=C("ripple");return r(),m(N,a({name:"p-message",appear:""},e.ptmi("transition")),{default:w(function(){return[p(g("div",a({class:e.cx("root"),role:"alert","aria-live":"assertive","aria-atomic":"true","data-p":t.dataP},e.ptm("root")),[e.$slots.container?l(e.$slots,"container",{key:0,closeCallback:t.close}):(r(),d("div",a({key:1,class:e.cx("content"),"data-p":t.dataP},e.ptm("content")),[l(e.$slots,"icon",{class:D(e.cx("icon"))},function(){return[(r(),m(T(e.icon?"span":null),a({class:[e.cx("icon"),e.icon],"data-p":t.dataP},e.ptm("icon")),null,16,["class","data-p"]))]}),e.$slots.default?(r(),d("div",a({key:0,class:e.cx("text"),"data-p":t.dataP},e.ptm("text")),[l(e.$slots,"default")],16,U)):b("",!0),e.closable?p((r(),d("button",a({key:1,class:e.cx("closeButton"),"aria-label":t.closeAriaLabel,type:"button",onClick:s[0]||(s[0]=function(S){return t.close(S)}),"data-p":t.dataP},v(v({},e.closeButtonProps),e.ptm("closeButton"))),[l(e.$slots,"closeicon",{},function(){return[e.closeIcon?(r(),d("i",a({key:0,class:[e.cx("closeIcon"),e.closeIcon],"data-p":t.dataP},e.ptm("closeIcon")),null,16,X)):(r(),m(z,a({key:1,class:[e.cx("closeIcon"),e.closeIcon],"data-p":t.dataP},e.ptm("closeIcon")),null,16,["class","data-p"]))]})],16,W)),[[P]]):b("",!0)],16,Q))],16,J),[[E,u.visible]])]}),_:3},16)}k.render=Y;const ee=A({__name:"DataLoadingErrorMessage",setup(e){return(s,n)=>(r(),m(L(k),{severity:"error",closable:!1},{default:w(()=>[...n[0]||(n[0]=[g("div",null,"Failed to load necessary data.",-1),g("div",{class:"text-sm"},[f(" Please open a bug ticket on "),g("a",{href:"https://github.com/Lehoczky/baldurs-gate-3-walkthrough-planner",target:"_blank",class:"underline underline-offset-2"},"Github"),f(". ")],-1)])]),_:1}))}});export{ee as default};
+
+    .p-message-enter-active {
+        animation: p-animate-message-enter 0.3s ease-out forwards;
+        overflow: hidden;
+    }
+
+    .p-message-leave-active {
+        animation: p-animate-message-leave 0.15s ease-in forwards;
+        overflow: hidden;
+    }
+
+    @keyframes p-animate-message-enter {
+        from {
+            opacity: 0;
+            grid-template-rows: 0fr;
+        }
+        to {
+            opacity: 1;
+            grid-template-rows: 1fr;
+        }
+    }
+
+    @keyframes p-animate-message-leave {
+        from {
+            opacity: 1;
+            grid-template-rows: 1fr;
+        }
+        to {
+            opacity: 0;
+            margin: 0;
+            grid-template-rows: 0fr;
+        }
+    }
+`,M={root:function(s){var n=s.props;return["p-message p-component p-message-"+n.severity,{"p-message-outlined":n.variant==="outlined","p-message-simple":n.variant==="simple","p-message-sm":n.size==="small","p-message-lg":n.size==="large"}]},contentWrapper:"p-message-content-wrapper",content:"p-message-content",icon:"p-message-icon",text:"p-message-text",closeButton:"p-message-close-button",closeIcon:"p-message-close-icon"},K=S.extend({name:"message",style:L,classes:M}),V={name:"BaseMessage",extends:x,props:{severity:{type:String,default:"info"},closable:{type:Boolean,default:!1},life:{type:Number,default:null},icon:{type:String,default:void 0},closeIcon:{type:String,default:void 0},closeButtonProps:{type:null,default:null},size:{type:String,default:null},variant:{type:String,default:null}},style:K,provide:function(){return{$pcMessage:this,$parentInstance:this}}};function c(e){"@babel/helpers - typeof";return c=typeof Symbol=="function"&&typeof Symbol.iterator=="symbol"?function(s){return typeof s}:function(s){return s&&typeof Symbol=="function"&&s.constructor===Symbol&&s!==Symbol.prototype?"symbol":typeof s},c(e)}function f(e,s,n){return(s=W(s))in e?Object.defineProperty(e,s,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[s]=n,e}function W(e){var s=F(e,"string");return c(s)=="symbol"?s:s+""}function F(e,s){if(c(e)!="object"||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var o=n.call(e,s);if(c(o)!="object")return o;throw new TypeError("@@toPrimitive must return a primitive value.")}return(s==="string"?String:Number)(e)}var w={name:"Message",extends:V,inheritAttrs:!1,emits:["close","life-end"],timeout:null,data:function(){return{visible:!0}},mounted:function(){var s=this;this.life&&setTimeout(function(){s.visible=!1,s.$emit("life-end")},this.life)},methods:{close:function(s){this.visible=!1,this.$emit("close",s)}},computed:{closeAriaLabel:function(){return this.$primevue.config.locale.aria?this.$primevue.config.locale.aria.close:void 0},dataP:function(){return B(f(f({outlined:this.variant==="outlined",simple:this.variant==="simple"},this.severity,this.severity),this.size,this.size))}},directives:{ripple:O},components:{TimesIcon:j}};function l(e){"@babel/helpers - typeof";return l=typeof Symbol=="function"&&typeof Symbol.iterator=="symbol"?function(s){return typeof s}:function(s){return s&&typeof Symbol=="function"&&s.constructor===Symbol&&s!==Symbol.prototype?"symbol":typeof s},l(e)}function h(e,s){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var o=Object.getOwnPropertySymbols(e);s&&(o=o.filter(function(u){return Object.getOwnPropertyDescriptor(e,u).enumerable})),n.push.apply(n,o)}return n}function y(e){for(var s=1;s<arguments.length;s++){var n=arguments[s]!=null?arguments[s]:{};s%2?h(Object(n),!0).forEach(function(o){G(e,o,n[o])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):h(Object(n)).forEach(function(o){Object.defineProperty(e,o,Object.getOwnPropertyDescriptor(n,o))})}return e}function G(e,s,n){return(s=R(s))in e?Object.defineProperty(e,s,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[s]=n,e}function R(e){var s=_(e,"string");return l(s)=="symbol"?s:s+""}function _(e,s){if(l(e)!="object"||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var o=n.call(e,s);if(l(o)!="object")return o;throw new TypeError("@@toPrimitive must return a primitive value.")}return(s==="string"?String:Number)(e)}var H=["data-p"],q=["data-p"],J=["data-p"],Q=["aria-label","data-p"],U=["data-p"];function X(e,s,n,o,u,t){var k=I("TimesIcon"),z=$("ripple");return r(),m(E,a({name:"p-message",appear:""},e.ptmi("transition")),{default:v(function(){return[u.visible?(r(),i("div",a({key:0,class:e.cx("root"),role:"alert","aria-live":"assertive","aria-atomic":"true","data-p":t.dataP},e.ptm("root")),[g("div",a({class:e.cx("contentWrapper")},e.ptm("contentWrapper")),[e.$slots.container?d(e.$slots,"container",{key:0,closeCallback:t.close}):(r(),i("div",a({key:1,class:e.cx("content"),"data-p":t.dataP},e.ptm("content")),[d(e.$slots,"icon",{class:D(e.cx("icon"))},function(){return[(r(),m(T(e.icon?"span":null),a({class:[e.cx("icon"),e.icon],"data-p":t.dataP},e.ptm("icon")),null,16,["class","data-p"]))]}),e.$slots.default?(r(),i("div",a({key:0,class:e.cx("text"),"data-p":t.dataP},e.ptm("text")),[d(e.$slots,"default")],16,J)):p("",!0),e.closable?C((r(),i("button",a({key:1,class:e.cx("closeButton"),"aria-label":t.closeAriaLabel,type:"button",onClick:s[0]||(s[0]=function(P){return t.close(P)}),"data-p":t.dataP},y(y({},e.closeButtonProps),e.ptm("closeButton"))),[d(e.$slots,"closeicon",{},function(){return[e.closeIcon?(r(),i("i",a({key:0,class:[e.cx("closeIcon"),e.closeIcon],"data-p":t.dataP},e.ptm("closeIcon")),null,16,U)):(r(),m(k,a({key:1,class:[e.cx("closeIcon"),e.closeIcon],"data-p":t.dataP},e.ptm("closeIcon")),null,16,["class","data-p"]))]})],16,Q)),[[z]]):p("",!0)],16,q))],16)],16,H)):p("",!0)]}),_:3},16)}w.render=X;const Z=N({__name:"DataLoadingErrorMessage",setup(e){return(s,n)=>(r(),m(A(w),{severity:"error",closable:!1},{default:v(()=>[...n[0]||(n[0]=[g("div",null,"Failed to load necessary data.",-1),g("div",{class:"text-sm"},[b(" Please open a bug ticket on "),g("a",{href:"https://github.com/Lehoczky/baldurs-gate-3-walkthrough-planner",target:"_blank",class:"underline underline-offset-2"},"Github"),b(". ")],-1)])]),_:1}))}});export{Z as default};
