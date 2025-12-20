@@ -42,7 +42,7 @@ export const companions: Companion[] = [
   },
   {
     name: "Minthara",
-    icon: "https://bg3.wiki/w/images/thumb/c/c2/Portrait_Minthara.png/180px-Portrait_Minthara.png",
+    icon: "https://bg3.wiki/w/images/thumb/8/8e/Portrait_Minthara_%28263%29.png/120px-Portrait_Minthara_%28263%29.png",
     wikiLink: "https://bg3.wiki/wiki/Minthara",
   },
   {

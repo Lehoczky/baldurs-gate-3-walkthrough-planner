@@ -1105,6 +1105,12 @@
       "rarity": "Uncommon"
     },
     {
+      "name": "Jagged Spear",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9e/Jagged_Spear_Unfaded_Icon.png/50px-Jagged_Spear_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Jagged_Spear",
+      "rarity": "Uncommon"
+    },
+    {
       "name": "Javelin +1",
       "icon": "https://bg3.wiki/w/images/thumb/f/fe/Javelin_PlusOne_Unfaded_Icon.png/50px-Javelin_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Javelin_%2B1",
@@ -1414,12 +1420,6 @@
       "name": "The Watcher's Guide",
       "icon": "https://bg3.wiki/w/images/thumb/1/10/The_Watchers_Guide_Unfaded_Icon.png/50px-The_Watchers_Guide_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Watcher%27s_Guide",
-      "rarity": "Uncommon"
-    },
-    {
-      "name": "Trepan (+1)",
-      "icon": "https://bg3.wiki/w/images/thumb/8/8c/Trepan_Unfaded_Icon.png/50px-Trepan_Unfaded_Icon.png",
-      "wikiLink": "https://bg3.wiki/wiki/Trepan_(%2B1)",
       "rarity": "Uncommon"
     },
     {
@@ -4322,6 +4322,13 @@
       "name": "Silver Necklace",
       "icon": "https://bg3.wiki/w/images/thumb/8/89/Amulet_Necklace_B_Silver_A_Unfaded_Icon.png/50px-Amulet_Necklace_B_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Silver_Necklace",
+      "rarity": "Common",
+      "armourType": "Non-Armour"
+    },
+    {
+      "name": "Brass Locket (Common)",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c7/Keepsake_Locket_A_Unfaded_Icon.png/50px-Keepsake_Locket_A_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Brass_Locket_(Common)",
       "rarity": "Common",
       "armourType": "Non-Armour"
     },
@@ -7658,7 +7665,7 @@
     },
     {
       "name": "Minthara",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c2/Portrait_Minthara.png/180px-Portrait_Minthara.png",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8e/Portrait_Minthara_%28263%29.png/120px-Portrait_Minthara_%28263%29.png",
       "wikiLink": "https://bg3.wiki/wiki/Minthara"
     },
     {
