@@ -32,6 +32,7 @@ import LocationNode from "./Location/LocationNode.vue"
 import EndNode from "./SpecialNodes/EndNode.vue"
 import GroupNode from "./SpecialNodes/GroupNode.vue"
 import StartNode from "./SpecialNodes/StartNode.vue"
+import SpellNode from "./Spells/SpellNode.vue"
 
 const {
   addEdges,
@@ -178,7 +179,7 @@ const LazyGettingStartedDialog = defineAsyncComponent({
 
 <template>
   <div class="grid">
-    <div class="bg-surface-950 relative" @drop="onDrop">
+    <div class="relative bg-surface-950" @drop="onDrop">
       <VueFlow
         @dragover="onDragOver($event)"
         @pane-context-menu="flowContextMenu.show($event)"
@@ -193,6 +194,9 @@ const LazyGettingStartedDialog = defineAsyncComponent({
         </template>
         <template #node-companion="props">
           <CompanionNode v-bind="props" />
+        </template>
+        <template #node-spell="props">
+          <SpellNode v-bind="props" />
         </template>
         <template #node-start="props">
           <StartNode v-bind="props" />
@@ -210,11 +214,11 @@ const LazyGettingStartedDialog = defineAsyncComponent({
 
       <EmptyFlow
         v-if="showEmptyMessage"
-        class="absolute left-1/2 top-[40%] -translate-x-1/2 -translate-y-1/2"
+        class="absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2"
       />
       <LazyGettingStartedDialog v-if="showTutorial" @close="closeTutorial" />
 
-      <HelpPanel class="absolute left-8 top-0" />
+      <HelpPanel class="absolute top-0 left-8" />
     </div>
 
     <FlowContextMenu ref="flowContextMenu" />

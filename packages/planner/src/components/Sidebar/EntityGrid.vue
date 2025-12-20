@@ -6,6 +6,7 @@ import { useDataStore } from "../../store/data"
 import RightSidebarCompanionGrid from "../Companion/RightSidebarCompanionGrid.vue"
 import RightSidebarItemGrid from "../Item/RightSidebarItemGrid.vue"
 import RightSidebarLocationGrid from "../Location/RightSidebarLocationGrid.vue"
+import RightSidebarSpellGrid from "../Spells/RightSidebarSpellGrid.vue"
 
 const dataStore = useDataStore()
 const { shownEntities, selectedCategoryName } = storeToRefs(dataStore)
@@ -17,6 +18,8 @@ const gridForCategory = computed(() => {
       return RightSidebarCompanionGrid
     case "locations":
       return RightSidebarLocationGrid
+    case "spells":
+      return RightSidebarSpellGrid
     default:
       return RightSidebarItemGrid
   }
