@@ -33,6 +33,15 @@ export interface Spell {
   icon: string
   wikiLink: string
   level: string
+  school:
+    | "Abjuration"
+    | "Conjuration"
+    | "Divination"
+    | "Enchantment"
+    | "Evocation"
+    | "Illusion"
+    | "Necromancy"
+    | "Transmutation"
 }
 
 export interface Boss {

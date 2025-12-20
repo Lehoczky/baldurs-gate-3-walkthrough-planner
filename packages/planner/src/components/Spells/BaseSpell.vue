@@ -16,7 +16,7 @@ const title = computed(() => (isTextClamped.value ? props.spell.name : null))
 
 <template>
   <div
-    class="flex size-[120px] cursor-move flex-col items-center justify-center rounded-md bg-surface-800 p-1 text-center text-sm leading-4 shadow-lg"
+    class="flex h-[130px] w-[120px] cursor-move flex-col items-center justify-center rounded-md bg-surface-800 p-1 text-center text-sm leading-4 shadow-lg"
   >
     <img
       class="mb-1.5 rounded-md max-sm:pointer-events-none"
@@ -37,5 +37,6 @@ const title = computed(() => (isTextClamped.value ? props.spell.name : null))
     </a>
 
     <div class="text-neutral-400">{{ spell.level }}</div>
+    <div class="text-xs text-neutral-500">{{ spell.school }}</div>
   </div>
 </template>
