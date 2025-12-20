@@ -13,7 +13,7 @@ defineProps({
 <template>
   <div
     v-once
-    class="bg-surface-800 flex size-[150px] cursor-move flex-col items-center justify-center rounded-md p-2 text-center text-sm leading-4 shadow-lg"
+    class="flex size-[150px] cursor-move flex-col items-center justify-center rounded-md bg-surface-800 p-2 text-center text-sm leading-4 shadow-lg"
   >
     <img
       class="pointer-events-none mb-2 size-[110px] rounded-md object-cover object-top max-sm:pointer-events-none"

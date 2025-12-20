@@ -13,7 +13,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["data.json", "icon.png"],
       devOptions: {
-        // enabled: true,
+        enabled: true,
       },
     }),
   ],
