@@ -12,7 +12,7 @@ import { computed, ref } from "vue"
 
 import { download, parseJsonFile } from "../utils"
 
-const STORAGE_KEY = "wp:saved-flow"
+const STORAGE_KEY = "planner:saved-flow"
 
 interface SavedData {
   savedAt: string
@@ -20,7 +20,7 @@ interface SavedData {
 }
 
 export const useStorageStore = defineStore("storage", () => {
-  const hasSave = ref(Boolean(localStorage.getItem(STORAGE_KEY)))
+  const hasSave = ref(hasNonEmptyFlowInStorage())
   const hasUnsavedChanges = ref(false)
   const title = computed(() => {
     return hasUnsavedChanges.value
@@ -28,6 +28,21 @@ export const useStorageStore = defineStore("storage", () => {
       : "Walkthrough planner | Baldur's Gate 3"
   })
   useTitle(title)
+
+  function hasNonEmptyFlowInStorage() {
+    const flowInStorage = localStorage.getItem(STORAGE_KEY)
+    if (!flowInStorage) {
+      return false
+    }
+
+    try {
+      const parsedFlow = JSON.parse(flowInStorage)
+      const nodes = parsedFlow?.flow?.nodes
+      return Array.isArray(nodes) && nodes.length
+    } catch {
+      return false
+    }
+  }
 
   const { toObject, fromObject } = useVueFlow({ id: "main" })
 

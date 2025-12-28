@@ -149,13 +149,13 @@ const showEmptyMessage = computed(() => {
 })
 
 onMounted(() => {
-  if (hasSave) {
+  if (hasSave.value) {
     load()
   }
 })
 
 const showTutorial = ref(false)
-const skipTutorial = localStorage.getItem("wp:skip-tutorial") === "true"
+const skipTutorial = localStorage.getItem("planner:skip-tutorial") === "true"
 
 const unwatchEmptyMessage = watch(
   showEmptyMessage,
@@ -168,7 +168,7 @@ if (skipTutorial) {
 
 function closeTutorial() {
   showTutorial.value = false
-  localStorage.setItem("wp:skip-tutorial", "true")
+  localStorage.setItem("planner:skip-tutorial", "true")
   unwatchEmptyMessage()
 }
 const LazyGettingStartedDialog = defineAsyncComponent({
