@@ -5,6 +5,7 @@
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit"
   },
+  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
   "css.customData": [".vscode/tailwind.json"],
   "cSpell.words": [
     "Baldur's",
