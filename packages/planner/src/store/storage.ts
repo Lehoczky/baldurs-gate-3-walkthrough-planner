@@ -10,8 +10,6 @@ import { acceptHMRUpdate, defineStore } from "pinia"
 import { useToast } from "primevue/usetoast"
 import { computed, ref } from "vue"
 
-import { download, parseJsonFile } from "../utils"
-
 const STORAGE_KEY = "planner:saved-flow"
 
 interface SavedData {
@@ -159,6 +157,39 @@ export const useStorageStore = defineStore("storage", () => {
     hasSave,
   }
 })
+
+/**
+ * Opens the user's system file dialog prompting to download
+ * the given data.
+ *
+ * @param fileName default name of the saved file. This is what will show up as file name in the user's file dialog.
+ * @param data the content of the file.
+ * @param mime [mime type](https://developer.mozilla.org/en-US/docs/Glossary/MIME_type) of the file
+ * @param bom
+ */
+function download(
+  fileName: string,
+  data: string | ArrayBuffer | ArrayBufferView | Blob,
+  mime = "text/plain",
+  bom?: string | Uint8Array,
+) {
+  const blobData = bom === undefined ? [data] : [bom, data]
+  const blob = new Blob(blobData as any, { type: mime })
+  const a = document.createElement("a")
+
+  a.download = fileName
+  a.href = URL.createObjectURL(blob)
+  a.click()
+  setTimeout(() => {
+    URL.revokeObjectURL(a.href)
+    a.remove()
+  }, 200)
+}
+
+async function parseJsonFile<T = any>(file: File) {
+  const text = await file.text()
+  return JSON.parse(text) as T
+}
 
 if (import.meta.hot) {
   import.meta.hot.accept(acceptHMRUpdate(useStorageStore, import.meta.hot))

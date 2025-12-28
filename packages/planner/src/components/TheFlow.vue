@@ -22,7 +22,6 @@ import {
 
 import { useNodeDrop } from "../hooks/useNodeDragAndDrop"
 import { useStorageStore } from "../store/storage"
-import { isEditableElement } from "../utils"
 import CompanionNode from "./Companion/CompanionNode.vue"
 import EmptyFlow from "./Flow/EmptyFlow.vue"
 import FlowContextMenu from "./Flow/FlowContextMenu.vue"
@@ -132,6 +131,24 @@ useEventListener("keydown", (event) => {
     showTutorial.value = true
   }
 })
+
+/**
+ * @see https://stackoverflow.com/a/75124481/10876366
+ */
+function isEditableElement(el: EventTarget) {
+  if (el instanceof HTMLElement && el.isContentEditable) {
+    return true
+  }
+  if (el instanceof HTMLInputElement) {
+    if (/text|email|number|password|search|tel|url/.test(el.type || "")) {
+      return !(el.disabled || el.readOnly)
+    }
+  }
+  if (el instanceof HTMLTextAreaElement) {
+    return !(el.disabled || el.readOnly)
+  }
+  return false
+}
 
 function deleteSelectedNodes() {
   removeNodes(getSelectedNodes.value)
