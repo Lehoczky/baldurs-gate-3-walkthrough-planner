@@ -5,7 +5,7 @@ import InputText from "primevue/inputtext"
 
 import { useDeselectElements } from "../../hooks/useDeselectElements"
 import { useDataStore } from "../../store/data"
-import CategorySelect from "../Sidebar/CategorySelect.vue"
+import CategorySelect from "./CategorySelect.vue"
 
 const dataStore = useDataStore()
 const { searchText, categories, selectedCategoryName } = storeToRefs(dataStore)
