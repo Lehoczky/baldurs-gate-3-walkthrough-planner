@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import type { Item } from "@bg3-walkthrough-planner/types"
+import type { Item, Rarity } from "@bg3-walkthrough-planner/types"
 import { useElementSize, useVirtualList } from "@vueuse/core"
 import { chunk } from "es-toolkit/array"
-import { computed, type PropType, toRef, useTemplateRef, watch } from "vue"
+import { storeToRefs } from "pinia"
+import Select from "primevue/select"
+import { computed, type PropType, useTemplateRef } from "vue"
 
+import { useDataStore } from "../../store/data"
 import RightSidebarItem from "./RightSidebarItem.vue"
 
 const props = defineProps({
@@ -12,8 +15,6 @@ const props = defineProps({
     required: true,
   },
 })
-
-watch(toRef(props, "entities"), () => scrollTo(0))
 
 const wrapperElement = useTemplateRef("gridWrapper")
 const { width } = useElementSize(wrapperElement)
@@ -26,13 +27,32 @@ const columns = computed(() => {
   return Math.floor(width.value / itemWidth)
 })
 
-const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
+const { list, containerProps, wrapperProps } = useVirtualList(
   computed(() => chunk(props.entities, columns.value)),
   {
     itemHeight: 118,
     overscan: 16,
   },
 )
+
+const dataStore = useDataStore()
+const { addFilter } = dataStore
+const { selectedCategoryName } = storeToRefs(dataStore)
+const rarities: Rarity[] = [
+  "Legendary",
+  "Very Rare",
+  "Rare",
+  "Common",
+  "Story Item",
+  "???",
+]
+function applyRarityFilter(rarity: Rarity | null) {
+  addFilter({
+    category: selectedCategoryName.value,
+    name: "rarity",
+    filter: rarity ? (entity: Item) => entity.rarity === rarity : null,
+  })
+}
 </script>
 
 <template>
@@ -46,5 +66,17 @@ const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
         />
       </div>
     </div>
+
+    <Teleport to="#additional-filters" defer>
+      <label>
+        <div class="mb-1 text-xl">Rarity</div>
+        <Select
+          :options="rarities"
+          fluid
+          show-clear
+          @update:model-value="applyRarityFilter($event)"
+        />
+      </label>
+    </Teleport>
   </div>
 </template>

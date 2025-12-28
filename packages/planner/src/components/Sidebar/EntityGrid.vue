@@ -27,5 +27,9 @@ const gridForCategory = computed(() => {
 </script>
 
 <template>
-  <component :is="gridForCategory" :entities="shownEntities" />
+  <component
+    :is="gridForCategory"
+    :key="selectedCategoryName"
+    :entities="shownEntities"
+  />
 </template>

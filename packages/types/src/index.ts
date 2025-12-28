@@ -11,6 +11,15 @@ export interface Item {
   rarity: string
 }
 
+export type Rarity =
+  | "Common"
+  | "Uncommon"
+  | "Rare"
+  | "Very Rare"
+  | "Legendary"
+  | "Story Item"
+  | "???"
+
 export interface ItemWithArmourType extends Item {
   armourType: string
 }

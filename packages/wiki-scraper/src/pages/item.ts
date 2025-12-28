@@ -1,6 +1,7 @@
 import type {
   Item,
   ItemWithArmourType,
+  Rarity,
   Scroll,
 } from "@bg3-walkthrough-planner/types"
 import { countBy } from "es-toolkit/array"
@@ -329,7 +330,7 @@ function toItem({ classes, ...props }: RawScrapedItem): Item {
   }
 }
 
-function rarityBasedOnClassList(classes: string[]) {
+function rarityBasedOnClassList(classes: string[]): Rarity {
   if (classes.includes("bg3wiki-itemicon-common")) {
     return "Common"
   }

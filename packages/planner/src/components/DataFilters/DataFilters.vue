@@ -31,9 +31,11 @@ const { deselectElements } = useDeselectElements()
       <InputText id="search" v-model="searchText" type="search" />
     </label>
 
-    <label>
-      <div class="mb-1 text-xl">Categories</div>
-      <CategorySelect v-model="selectedCategoryName" :options="categories" />
-    </label>
+    <div id="additional-filters" class="grid grid-cols-2 gap-4">
+      <label>
+        <div class="mb-1 text-xl">Categories</div>
+        <CategorySelect v-model="selectedCategoryName" :options="categories" />
+      </label>
+    </div>
   </div>
 </template>
