@@ -3,12 +3,12 @@ import { useEventListener } from "@vueuse/core"
 import { storeToRefs } from "pinia"
 import Toast from "primevue/toast"
 
-import FloatingDataFilters from "./components/DataFilters/FloatingDataFilters.vue"
-import TheFlow from "./components/TheFlow.vue"
-import TheSidebar from "./components/TheSidebar.vue"
-import { useBreakpoints } from "./hooks/useBreakpoints"
-import { useDataStore } from "./store/data"
-import { useStorageStore } from "./store/storage"
+import FloatingDataFilters from "@/data-filters/FloatingDataFilters.vue"
+import TheFlow from "@/flowchart/TheFlow.vue"
+import TheSidebar from "@/sidebar/TheSidebar.vue"
+import { useDataStore } from "@/store/data"
+import { useStorageStore } from "@/store/storage"
+import { useBreakpoints } from "@/ui/useBreakpoints"
 
 const dataStore = useDataStore()
 const { fetchStoreData } = dataStore
