@@ -42,6 +42,7 @@ const rarities: Rarity[] = [
   "Legendary",
   "Very Rare",
   "Rare",
+  "Uncommon",
   "Common",
   "Story Item",
   "???",
