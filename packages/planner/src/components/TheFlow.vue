@@ -45,17 +45,7 @@ const {
   onEdgesChange,
   onNodesChange,
   removeNodes,
-} = useVueFlow({
-  id: "main",
-  zoomOnDoubleClick: false,
-  defaultEdgeOptions: {
-    labelBgPadding: [8, 4],
-    markerEnd: {
-      type: MarkerType.ArrowClosed,
-    },
-  },
-  minZoom: 0.2,
-})
+} = useVueFlow()
 onConnect((params) => addEdges(params))
 
 const { onDragOver, onDrop } = useNodeDrop()
@@ -198,6 +188,14 @@ const LazyGettingStartedDialog = defineAsyncComponent({
   <div class="grid">
     <div class="relative bg-surface-950" @drop="onDrop">
       <VueFlow
+        :zoom-on-double-click="false"
+        :default-edge-options="{
+          labelBgPadding: [8, 4],
+          markerEnd: {
+            type: MarkerType.ArrowClosed,
+          },
+        }"
+        :min-zoom="0.2"
         @dragover="onDragOver($event)"
         @pane-context-menu="flowContextMenu.show($event)"
       >

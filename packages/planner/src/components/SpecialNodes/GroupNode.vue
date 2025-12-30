@@ -10,7 +10,7 @@ import { defineAsyncComponent, ref, useTemplateRef } from "vue"
 import { defineDeleteMenuItem } from "../../contextmenu"
 
 const props = defineProps<NodeProps>()
-const labelAsString = useToString(props.label)
+const labelAsString = useToString(props.data.label)
 
 const showDialog = ref(false)
 const LazyGroupLabelDialog = defineAsyncComponent({
@@ -33,7 +33,7 @@ const contextMenuItems = ref<MenuItem[]>([
 
 function editGroupName(value: string | undefined) {
   if (value !== undefined) {
-    node.label = value
+    node.data.label = value
   }
   showDialog.value = false
 }

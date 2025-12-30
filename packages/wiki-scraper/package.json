@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@bg3-walkthrough-planner/types": "workspace:^",
-    "@lehoczky/eslint-config-typescript": "^2.0.12",
+    "@lehoczky/eslint-config-typescript": "^2.0.13",
     "@types/node": "catalog:",
     "consola": "^3.4.2",
     "es-toolkit": "catalog:",

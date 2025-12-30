@@ -9,9 +9,7 @@ const emit = defineEmits<{
   (event: "close"): void
 }>()
 
-const { getSelectedEdges } = useVueFlow({
-  id: "main",
-})
+const { getSelectedEdges } = useVueFlow()
 const firstSelectedEdge = getSelectedEdges.value[0]
 const initialLabel = (firstSelectedEdge.label as string) ?? ""
 const label = ref(initialLabel)

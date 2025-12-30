@@ -42,7 +42,7 @@ export const useStorageStore = defineStore("storage", () => {
     }
   }
 
-  const { toObject, fromObject } = useVueFlow({ id: "main" })
+  const { toObject, fromObject } = useVueFlow()
 
   function flowToObject() {
     const flowObject = toObject()

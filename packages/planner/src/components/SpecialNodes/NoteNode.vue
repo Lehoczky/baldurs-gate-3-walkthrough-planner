@@ -14,8 +14,8 @@ const props = defineProps<NodeProps>()
 const { node } = useNode()
 const editing = ref()
 const textarea = useTemplateRef("textarea")
-const text = ref(props.label as string)
-const renderedText = useMarkdownIt(computed(() => node.label as string))
+const text = ref(props.data.label as string)
+const renderedText = useMarkdownIt(computed(() => node.data.label as string))
 
 function startEditing() {
   editing.value = true
@@ -24,7 +24,7 @@ function startEditing() {
 
 onClickOutside(textarea, () => {
   editing.value = false
-  node.label = text.value
+  node.data.label = text.value
 })
 
 onMounted(() => {
