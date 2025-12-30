@@ -17,7 +17,7 @@ import { useAddNodeFromContextMenu } from "./useAddNodeFromContextMenu"
 
 const storageStore = useStorageStore()
 const { hasSave } = storeToRefs(storageStore)
-const { save, load, saveToFile, loadFromFile } = storageStore
+const { save, load, deleteSave, saveToFile, loadFromFile } = storageStore
 const { removeNodes, addSelectedNodes, getNodes } = useVueFlow()
 const { saveContextMenuPosition, addCustomNode } = useAddNodeFromContextMenu()
 const contextMenuItems = ref<MenuItem[]>([
@@ -70,6 +70,12 @@ const contextMenuItems = ref<MenuItem[]>([
     icon: "i-lucide-archive-restore",
     disabled: () => !hasSave.value,
     command: () => load(),
+  },
+  {
+    label: "Delete save",
+    icon: "i-lucide-trash-2",
+    disabled: () => !hasSave.value,
+    command: () => deleteSave(),
   },
   {
     separator: true,

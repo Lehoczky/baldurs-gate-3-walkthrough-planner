@@ -55,6 +55,7 @@ export const useStorageStore = defineStore("storage", () => {
   }
 
   const toast = useToast()
+
   function save() {
     const savedData: SavedData = {
       savedAt: new Date().toDateString(),
@@ -86,7 +87,17 @@ export const useStorageStore = defineStore("storage", () => {
     }
   }
 
-  const { open, onChange } = useFileDialog({
+  function deleteSave() {
+    localStorage.removeItem(STORAGE_KEY)
+    hasSave.value = false
+    toast.add({
+      summary: `Deleted save successfully`,
+      severity: "success",
+      life: 2500,
+    })
+  }
+
+  const { open: loadFromFile, onChange } = useFileDialog({
     accept: "text/*",
     multiple: false,
   })
@@ -95,16 +106,6 @@ export const useStorageStore = defineStore("storage", () => {
     const file = files![0]
     await loadFileIntoFlow(file!)
   })
-
-  function saveToFile() {
-    const defaultFileName = "bg3 walkthrough plan.json"
-    download(defaultFileName, JSON.stringify(toObject()))
-    hasUnsavedChanges.value = false
-  }
-
-  function loadFromFile() {
-    open()
-  }
 
   async function loadFileIntoFlow(file: File) {
     try {
@@ -140,6 +141,12 @@ export const useStorageStore = defineStore("storage", () => {
     }
   }
 
+  function saveToFile() {
+    const defaultFileName = "bg3 walkthrough plan.json"
+    download(defaultFileName, JSON.stringify(toObject()))
+    hasUnsavedChanges.value = false
+  }
+
   function updateSavedState(changes: Array<NodeChange | EdgeChange>) {
     const shouldUpdateSavedState = changes.some(({ type }) => type !== "select")
     if (shouldUpdateSavedState) {
@@ -152,6 +159,7 @@ export const useStorageStore = defineStore("storage", () => {
     updateSavedState,
     save,
     load,
+    deleteSave,
     saveToFile,
     loadFromFile,
     hasSave,
