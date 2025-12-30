@@ -1,13 +1,10 @@
 <script setup lang="ts">
-import type { Item, Rarity } from "@bg3-walkthrough-planner/types"
+import type { Item } from "@bg3-walkthrough-planner/types"
 import { useElementSize, useVirtualList } from "@vueuse/core"
 import { chunk } from "es-toolkit/array"
-import { storeToRefs } from "pinia"
-import Select from "primevue/select"
 import { computed, type PropType, useTemplateRef } from "vue"
 
-import { useDataStore } from "@/store/data"
-
+import RarityFilter from "./custom-filters/RarityFilter.vue"
 import RightSidebarItem from "./RightSidebarItem.vue"
 
 const props = defineProps({
@@ -35,26 +32,6 @@ const { list, containerProps, wrapperProps } = useVirtualList(
     overscan: 16,
   },
 )
-
-const dataStore = useDataStore()
-const { addFilter } = dataStore
-const { selectedCategoryName } = storeToRefs(dataStore)
-const rarities: Rarity[] = [
-  "Legendary",
-  "Very Rare",
-  "Rare",
-  "Uncommon",
-  "Common",
-  "Story Item",
-  "???",
-]
-function applyRarityFilter(rarity: Rarity | null) {
-  addFilter({
-    category: selectedCategoryName.value,
-    name: "rarity",
-    filter: rarity ? (entity: Item) => entity.rarity === rarity : null,
-  })
-}
 </script>
 
 <template>
@@ -70,15 +47,7 @@ function applyRarityFilter(rarity: Rarity | null) {
     </div>
 
     <Teleport to="#additional-filters" defer>
-      <label>
-        <div class="mb-1 text-xl">Rarity</div>
-        <Select
-          :options="rarities"
-          fluid
-          show-clear
-          @update:model-value="applyRarityFilter($event)"
-        />
-      </label>
+      <RarityFilter />
     </Teleport>
   </div>
 </template>
