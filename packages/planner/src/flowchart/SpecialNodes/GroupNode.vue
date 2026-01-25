@@ -19,7 +19,6 @@ const LazyGroupLabelDialog = defineAsyncComponent({
 })
 
 const { id, node } = useNode()
-node.selectable = false
 const { removeNodes } = useVueFlow()
 const contextMenu = useTemplateRef("contextMenu")
 const contextMenuItems = ref<MenuItem[]>([
