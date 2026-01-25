@@ -9,7 +9,7 @@ const dataStore = useDataStore()
 const { addFilter } = dataStore
 const { selectedCategoryName } = storeToRefs(dataStore)
 
-const rarities: Rarity[] = [
+const options: Rarity[] = [
   "Legendary",
   "Very Rare",
   "Rare",
@@ -19,7 +19,7 @@ const rarities: Rarity[] = [
   "???",
 ]
 
-function applyRarityFilter(rarity: Rarity | null) {
+function applyFilter(rarity: Rarity | null) {
   addFilter({
     category: selectedCategoryName.value,
     name: "rarity",
@@ -32,10 +32,10 @@ function applyRarityFilter(rarity: Rarity | null) {
   <label>
     <div class="mb-1 text-xl">Rarity</div>
     <Select
-      :options="rarities"
+      :options="options"
       fluid
       show-clear
-      @update:model-value="applyRarityFilter($event)"
+      @update:model-value="applyFilter($event)"
     />
   </label>
 </template>
