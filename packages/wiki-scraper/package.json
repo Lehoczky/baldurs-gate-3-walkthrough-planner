@@ -6,7 +6,7 @@
     "lint": "eslint --max-warnings=0"
   },
   "dependencies": {
-    "playwright": "^1.57.0"
+    "playwright": "^1.58.0"
   },
   "devDependencies": {
     "@bg3-walkthrough-planner/types": "workspace:^",
@@ -15,7 +15,7 @@
     "consola": "^3.4.2",
     "es-toolkit": "catalog:",
     "eslint": "catalog:",
-    "ora": "^9.0.0",
+    "ora": "^9.1.0",
     "typescript": "catalog:"
   }
 }
