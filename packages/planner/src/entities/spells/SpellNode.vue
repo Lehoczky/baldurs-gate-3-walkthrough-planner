@@ -40,11 +40,11 @@ const contextMenuItems = ref<MenuItem[]>([
 <style>
 @reference "@/style.css";
 
-.vue-flow__node-item {
+.vue-flow__node-spell {
   @apply rounded-md;
 }
 
-.vue-flow__node-item.selected {
+.vue-flow__node-spell.selected {
   @apply ring-4 ring-surface-500;
 }
 </style>
