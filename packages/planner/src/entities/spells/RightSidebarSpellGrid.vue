@@ -4,6 +4,8 @@ import { useElementSize, useVirtualList } from "@vueuse/core"
 import { chunk } from "es-toolkit/array"
 import { computed, type PropType, toRef, useTemplateRef, watch } from "vue"
 
+import LevelFilter from "./custom-filters/LevelFilter.vue"
+import SchoolFilter from "./custom-filters/SchoolFilter.vue"
 import RightSidebarSpell from "./RightSidebarSpell.vue"
 
 const props = defineProps({
@@ -46,5 +48,10 @@ const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
         />
       </div>
     </div>
+
+    <Teleport to="#additional-filters" defer>
+      <LevelFilter />
+      <SchoolFilter />
+    </Teleport>
   </div>
 </template>
