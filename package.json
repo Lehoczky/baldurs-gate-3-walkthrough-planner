@@ -6,7 +6,7 @@
   "scripts": {},
   "devDependencies": {
     "@lehoczky/prettier-config": "^2.0.2",
-    "nx": "22.3.3",
+    "nx": "22.4.1",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2"
   },
