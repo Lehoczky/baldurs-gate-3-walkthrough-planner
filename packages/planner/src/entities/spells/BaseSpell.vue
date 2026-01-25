@@ -10,6 +10,10 @@ const props = defineProps({
   },
 })
 
+const schoolLink = computed(() => {
+  return `https://bg3.wiki/wiki/${props.spell.school}`
+})
+
 const isTextClamped = ref(false)
 const title = computed(() => (isTextClamped.value ? props.spell.name : null))
 </script>
@@ -37,6 +41,12 @@ const title = computed(() => (isTextClamped.value ? props.spell.name : null))
     </a>
 
     <div class="text-neutral-400">{{ spell.level }}</div>
-    <div class="text-xs text-neutral-500">{{ spell.school }}</div>
+    <a
+      :href="schoolLink"
+      target="_blank"
+      class="text-xs text-neutral-500 hover:underline"
+    >
+      {{ spell.school }}
+    </a>
   </div>
 </template>
