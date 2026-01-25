@@ -9,7 +9,7 @@ import { defineDeleteMenuItem } from "@/ui/contextmenu"
 
 defineProps<NodeProps>()
 
-const { id } = useNode()
+const { id, node } = useNode()
 const { removeNodes } = useVueFlow()
 const contextMenu = useTemplateRef("contextMenu")
 const contextMenuItems = ref<MenuItem[]>([
@@ -20,7 +20,7 @@ const contextMenuItems = ref<MenuItem[]>([
 <template>
   <div class="rounded-md bg-black px-6 py-3 text-slate-100 shadow-lg">
     <div aria-haspopup="true" @contextmenu="contextMenu.show($event)">
-      {{ label }}
+      {{ node.data.label }}
     </div>
     <Handle type="target" :position="Position.Left" />
     <ContextMenu ref="contextMenu" :model="contextMenuItems" />

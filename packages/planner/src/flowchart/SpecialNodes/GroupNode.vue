@@ -55,7 +55,7 @@ function editGroupName(value: string | undefined) {
       <div
         class="absolute top-0 right-0 rounded-bl-lg border-b-2 border-l-2 border-current bg-surface-950 px-6 py-3"
       >
-        {{ label }}
+        {{ labelAsString }}
       </div>
     </div>
     <ContextMenu ref="contextMenu" :model="contextMenuItems" />

@@ -4,7 +4,9 @@ export function createStartNode(): Omit<Node, "position"> {
   return {
     id: crypto.randomUUID(),
     type: "start",
-    label: "Journey Starts",
+    data: {
+      label: "Journey Starts",
+    },
   }
 }
 
@@ -12,7 +14,9 @@ export function createEndNode(): Omit<Node, "position"> {
   return {
     id: crypto.randomUUID(),
     type: "end",
-    label: "Journey Ends",
+    data: {
+      label: "Journey Ends",
+    },
   }
 }
 
@@ -20,10 +24,12 @@ export function createNoteNode(): Omit<Node, "position"> {
   return {
     id: crypto.randomUUID(),
     type: "note",
-    label: "Write something here...",
     width: 300,
     height: 220,
-    data: { editing: true },
+    data: {
+      label: "Write something here...",
+      editing: true,
+    },
   }
 }
 
@@ -31,7 +37,9 @@ export function createGroupNode(): Omit<Node, "position"> {
   return {
     id: crypto.randomUUID(),
     type: "group",
-    label: "Group",
     zIndex: -1002,
+    data: {
+      label: "Group",
+    },
   }
 }
