@@ -3,6 +3,7 @@ import type { Location } from "@bg3-walkthrough-planner/types"
 import { useVirtualList } from "@vueuse/core"
 import { computed, type PropType, toRef, watch } from "vue"
 
+import ActFilter from "./custom-filters/ActFilter.vue"
 import RightSidebarLocation from "./RightSidebarLocation.vue"
 
 const props = defineProps({
@@ -33,5 +34,9 @@ const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
         class="mb-2"
       />
     </div>
+
+    <Teleport to="#additional-filters" defer>
+      <ActFilter />
+    </Teleport>
   </div>
 </template>
