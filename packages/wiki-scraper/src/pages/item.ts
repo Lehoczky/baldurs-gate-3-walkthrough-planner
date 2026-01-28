@@ -4,8 +4,47 @@ import type {
   Rarity,
   Scroll,
 } from "@bg3-walkthrough-planner/types"
+import consola from "consola"
 import { countBy } from "es-toolkit/array"
+import ora from "ora"
 import type { Page } from "playwright"
+import type { Response } from "playwright"
+
+interface ScrapeItemTypeParams {
+  itemName: string
+  gotoFn: () => Promise<Response | null>
+  scraperFn: () => Promise<Item[]>
+}
+
+export async function scrapeItemType({
+  itemName,
+  gotoFn,
+  scraperFn,
+}: ScrapeItemTypeParams) {
+  const spinner = ora(`Scraping ${itemName}`).start()
+  try {
+    await gotoFn()
+
+    const items = await scraperFn()
+    const itemsCount = items.length
+    spinner.succeed(`Successfully scraped ${itemsCount} ${itemName}`)
+
+    const [itemsWithoutDuplicates, duplicates] = separateItemDuplicates(items)
+    if (duplicates.length) {
+      consola.info(generateLogMessageForDuplicateItems(duplicates))
+
+      const itemsCountWithoutDuplicates = itemsWithoutDuplicates.length
+      const duplicateSummaryMessage = `Found ${itemsCountWithoutDuplicates} ${itemName} in total`
+      consola.info(duplicateSummaryMessage)
+    }
+    consola.log("")
+
+    return sortByRarity(itemsWithoutDuplicates)
+  } catch (error) {
+    spinner.fail(`Couldn't retrieve ${itemName}`)
+    throw error
+  }
+}
 
 interface RawScrapedItem {
   name: string
@@ -322,6 +361,22 @@ export async function getScrollsFromPage(page: Page): Promise<Scroll[]> {
 }
 
 /** Utils */
+
+const rarityPriority: Record<string, number> = {
+  "???": 0,
+  Common: 0,
+  Uncommon: 1,
+  Rare: 2,
+  "Very Rare": 3,
+  Legendary: 4,
+  "Story Item": 5,
+}
+
+export function sortByRarity(items: Item[]) {
+  return [...items].sort(
+    (a, b) => rarityPriority[b.rarity] - rarityPriority[a.rarity],
+  )
+}
 
 function toItem({ classes, ...props }: RawScrapedItem): Item {
   return {

@@ -1,16 +1,14 @@
 import path from "node:path"
 
-import type { Item, SavedWikiData } from "@bg3-walkthrough-planner/types"
+import type { SavedWikiData } from "@bg3-walkthrough-planner/types"
 import { consola } from "consola"
 import ora from "ora"
-import type { Response } from "playwright"
 import { chromium } from "playwright"
 
 import { writeJsonFile } from "./fsExtra.ts"
 import { bosses } from "./pages/bosses.ts"
 import { companions } from "./pages/companions.ts"
 import {
-  generateLogMessageForDuplicateItems,
   getArmoursFromPage,
   getEasyToScrapeEquipmentsFromPage,
   getElixirsFromPage,
@@ -20,11 +18,12 @@ import {
   getHandwearFromPage,
   getHeadwearsFromPage,
   getScrollsFromPage,
-  separateItemDuplicates,
+  scrapeItemType,
 } from "./pages/item.ts"
 import { locations } from "./pages/locations.ts"
 import { scrapeSpells } from "./pages/spells.ts"
-import { sortByRarity } from "./sorter.ts"
+
+const DATA_FILE_PATH = path.join("../planner/public/data.json")
 
 async function main() {
   const spinner = ora("Opening browser page").start()
@@ -142,7 +141,6 @@ async function main() {
     const spells = await scrapeSpells(page)
     consola.success(`Successfully scraped ${spells.length} spells`)
 
-    const filePath = path.join("../planner/public/data.json")
     const scrapedData: SavedWikiData = {
       weapons: [
         ...legendaryWeapons,
@@ -171,48 +169,13 @@ async function main() {
       spells,
       bosses,
     }
-    await writeJsonFile(filePath, scrapedData)
-    consola.success(`Saved scraped items to: ${filePath}`)
+    await writeJsonFile(DATA_FILE_PATH, scrapedData)
+    consola.success(`Saved scraped items to: ${DATA_FILE_PATH}`)
   } catch (error) {
     consola.error(error)
   } finally {
     await context.close()
     await browser.close()
-  }
-}
-interface ScrapeItemTypeParams {
-  itemName: string
-  gotoFn: () => Promise<Response | null>
-  scraperFn: () => Promise<Item[]>
-}
-
-async function scrapeItemType({
-  itemName,
-  gotoFn,
-  scraperFn,
-}: ScrapeItemTypeParams) {
-  const spinner = ora(`Scraping ${itemName}`).start()
-  try {
-    await gotoFn()
-
-    const items = await scraperFn()
-    const itemsCount = items.length
-    spinner.succeed(`Successfully scraped ${itemsCount} ${itemName}`)
-
-    const [itemsWithoutDuplicates, duplicates] = separateItemDuplicates(items)
-    if (duplicates.length) {
-      consola.info(generateLogMessageForDuplicateItems(duplicates))
-
-      const itemsCountWithoutDuplicates = itemsWithoutDuplicates.length
-      const duplicateSummaryMessage = `Found ${itemsCountWithoutDuplicates} ${itemName} in total`
-      consola.info(duplicateSummaryMessage)
-    }
-    consola.log("")
-
-    return sortByRarity(itemsWithoutDuplicates)
-  } catch (error) {
-    spinner.fail(`Couldn't retrieve ${itemName}`)
-    throw error
   }
 }
 
