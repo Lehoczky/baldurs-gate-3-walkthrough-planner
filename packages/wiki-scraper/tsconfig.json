@@ -4,6 +4,7 @@
     "moduleResolution": "nodenext",
     "moduleDetection": "force",
     "module": "nodenext",
+    "strict": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "erasableSyntaxOnly": true,

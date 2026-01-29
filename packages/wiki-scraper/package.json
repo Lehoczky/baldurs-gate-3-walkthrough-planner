@@ -6,16 +6,15 @@
     "lint": "eslint --max-warnings=0"
   },
   "dependencies": {
+    "@bg3-walkthrough-planner/types": "workspace:^",
+    "@clack/prompts": "1.0.0",
+    "es-toolkit": "catalog:",
     "playwright": "^1.58.0"
   },
   "devDependencies": {
-    "@bg3-walkthrough-planner/types": "workspace:^",
     "@lehoczky/eslint-config-typescript": "^2.0.13",
     "@types/node": "catalog:",
-    "consola": "^3.4.2",
-    "es-toolkit": "catalog:",
     "eslint": "catalog:",
-    "ora": "^9.1.0",
     "typescript": "catalog:"
   }
 }

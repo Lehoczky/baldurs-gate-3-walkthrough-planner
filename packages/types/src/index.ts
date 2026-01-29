@@ -1,86 +1,101 @@
-export interface Companion {
-  name: string
-  icon: string
-  wikiLink: string
-}
+import { z } from "zod"
 
-export interface Item {
-  name: string
-  icon: string
-  wikiLink: string
-  rarity: string
-}
+export const companionSchema = z.strictObject({
+  name: z.string(),
+  icon: z.url(),
+  wikiLink: z.url(),
+})
+export type Companion = z.infer<typeof companionSchema>
 
-export type Rarity =
-  | "Common"
-  | "Uncommon"
-  | "Rare"
-  | "Very Rare"
-  | "Legendary"
-  | "Story Item"
-  | "???"
+export const itemSchema = z.strictObject({
+  name: z.string(),
+  icon: z.url(),
+  wikiLink: z.url(),
+  rarity: z.string(),
+})
+export type Item = z.infer<typeof itemSchema>
 
-export interface ItemWithArmourType extends Item {
-  armourType: string
-}
+export const raritySchema = z.enum([
+  "Common",
+  "Uncommon",
+  "Rare",
+  "Very Rare",
+  "Legendary",
+  "Story Item",
+  "???",
+])
+export type Rarity = z.infer<typeof raritySchema>
 
-export interface Scroll extends Item {
-  level: string
-}
+export const itemWithArmourTypeSchema = z.strictObject({
+  ...itemSchema.shape,
+  armourType: z.string(),
+})
+export type ItemWithArmourType = z.infer<typeof itemWithArmourTypeSchema>
 
-export interface Location {
-  name: string
-  description: string
-  act: string
-  area: string
-  icon: string
-  wikiLink: string
-}
+export const scrollSchema = z.strictObject({
+  ...itemSchema.shape,
+  level: z.string(),
+})
+export type Scroll = z.infer<typeof scrollSchema>
 
-export interface Spell {
-  name: string
-  icon: string
-  wikiLink: string
-  level: string
-  school:
-    | "Abjuration"
-    | "Conjuration"
-    | "Divination"
-    | "Enchantment"
-    | "Evocation"
-    | "Illusion"
-    | "Necromancy"
-    | "Transmutation"
-}
+export const locationSchema = z.strictObject({
+  name: z.string(),
+  description: z.string(),
+  act: z.string(),
+  area: z.string(),
+  icon: z.url(),
+  wikiLink: z.url(),
+})
+export type Location = z.infer<typeof locationSchema>
 
-export interface Boss {
-  name: string
-  icon: string
-  wikiLink: string
-}
+export const spellSchema = z.strictObject({
+  name: z.string(),
+  icon: z.url(),
+  wikiLink: z.url(),
+  level: z.string(),
+  school: z.enum([
+    "Abjuration",
+    "Conjuration",
+    "Divination",
+    "Enchantment",
+    "Evocation",
+    "Illusion",
+    "Necromancy",
+    "Transmutation",
+  ]),
+})
+export type Spell = z.infer<typeof spellSchema>
 
-export interface SavedWikiData {
-  weapons: Item[]
-  clothes: Item[]
-  armours: Item[]
-  shields: Item[]
-  headwears: Item[]
-  cloaks: Item[]
-  amulets: Item[]
-  rings: Item[]
-  footwears: Item[]
-  handwears: Item[]
-  arrows: Item[]
-  coatings: Item[]
-  elixirs: Item[]
-  potions: Item[]
-  grenades: Item[]
-  scrolls: Item[]
-  companions: Companion[]
-  locations: Location[]
-  spells: Spell[]
-  bosses: Boss[]
-}
+export const bossSchema = z.strictObject({
+  name: z.string(),
+  icon: z.url(),
+  wikiLink: z.url(),
+})
+export type Boss = z.infer<typeof bossSchema>
+
+export const savedWikiDataSchema = z.strictObject({
+  weapons: z.array(itemSchema).default([]),
+  clothes: z.array(itemSchema).default([]),
+  armours: z.array(itemSchema).default([]),
+  shields: z.array(itemSchema).default([]),
+  headwears: z.array(itemSchema).default([]),
+  cloaks: z.array(itemSchema).default([]),
+  amulets: z.array(itemSchema).default([]),
+  rings: z.array(itemSchema).default([]),
+  footwears: z.array(itemSchema).default([]),
+  handwears: z.array(itemSchema).default([]),
+  arrows: z.array(itemSchema).default([]),
+  coatings: z.array(itemSchema).default([]),
+  elixirs: z.array(itemSchema).default([]),
+  potions: z.array(itemSchema).default([]),
+  grenades: z.array(itemSchema).default([]),
+  scrolls: z.array(scrollSchema).default([]),
+  companions: z.array(companionSchema).default([]),
+  locations: z.array(locationSchema).default([]),
+  spells: z.array(spellSchema).default([]),
+  bosses: z.array(bossSchema).default([]),
+})
+export type SavedWikiData = z.infer<typeof savedWikiDataSchema>
 
 export interface Category {
   name: keyof SavedWikiData
