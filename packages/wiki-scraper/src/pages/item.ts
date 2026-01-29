@@ -10,17 +10,17 @@ import ora from "ora"
 import type { Page } from "playwright"
 import type { Response } from "playwright"
 
-interface ScrapeItemTypeParams {
+interface ScrapeItemTypeParams<T extends Item> {
   itemName: string
   gotoFn: () => Promise<Response | null>
-  scraperFn: () => Promise<Item[]>
+  scraperFn: () => Promise<T[]>
 }
 
-export async function scrapeItemType({
+export async function scrapeItemType<T extends Item>({
   itemName,
   gotoFn,
   scraperFn,
-}: ScrapeItemTypeParams) {
+}: ScrapeItemTypeParams<T>): Promise<T[]> {
   const spinner = ora(`Scraping ${itemName}`).start()
   try {
     await gotoFn()
@@ -88,10 +88,10 @@ export async function getEasyToScrapeEquipmentsFromPage(
   return scrapedItems.map(toItem)
 }
 
-export function separateItemDuplicates(items: Item[]): [Item[], Item[]] {
-  const filteredItems: Item[] = []
+export function separateItemDuplicates<T extends Item>(items: T[]): [T[], T[]] {
+  const filteredItems: T[] = []
   const usedWikiLinks: string[] = []
-  const duplicates: Item[] = []
+  const duplicates: T[] = []
 
   for (const cloth of items) {
     if (usedWikiLinks.includes(cloth.wikiLink)) {
@@ -372,7 +372,7 @@ const rarityPriority: Record<string, number> = {
   "Story Item": 5,
 }
 
-export function sortByRarity(items: Item[]) {
+export function sortByRarity<T extends Item>(items: T[]): T[] {
   return [...items].sort(
     (a, b) => rarityPriority[b.rarity] - rarityPriority[a.rarity],
   )
