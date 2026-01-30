@@ -2204,638 +2204,547 @@
       "name": "Helldusk Armour",
       "icon": "https://bg3.wiki/w/images/thumb/a/ae/Helldusk_Armour_Unfaded_Icon.png/50px-Helldusk_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Helldusk_Armour",
-      "rarity": "Legendary",
-      "armourType": "Heavy armour"
+      "rarity": "Legendary"
     },
     {
       "name": "Armour of Landfall",
       "icon": "https://bg3.wiki/w/images/thumb/b/b3/Armour_of_Landfall_Unfaded_Icon.png/50px-Armour_of_Landfall_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Armour_of_Landfall",
-      "rarity": "Very Rare",
-      "armourType": "Light armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Armour of Moonbasking",
       "icon": "https://bg3.wiki/w/images/thumb/b/b3/Armour_of_Landfall_Unfaded_Icon.png/50px-Armour_of_Landfall_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Armour_of_Moonbasking",
-      "rarity": "Very Rare",
-      "armourType": "Light armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Armour of the Sporekeeper",
       "icon": "https://bg3.wiki/w/images/thumb/b/b3/Armour_of_Landfall_Unfaded_Icon.png/50px-Armour_of_Landfall_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Armour_of_the_Sporekeeper",
-      "rarity": "Very Rare",
-      "armourType": "Light armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Bhaalist Armour",
       "icon": "https://bg3.wiki/w/images/thumb/0/00/Bhaalist_Armour_Unfaded_Icon.png/50px-Bhaalist_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bhaalist_Armour",
-      "rarity": "Very Rare",
-      "armourType": "Light armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Elegant Studded Leather",
       "icon": "https://bg3.wiki/w/images/thumb/c/c7/Elegant_Studded_Leather_Unfaded_Icon.png/50px-Elegant_Studded_Leather_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Elegant_Studded_Leather",
-      "rarity": "Very Rare",
-      "armourType": "Light armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Adamantine Scale Mail",
       "icon": "https://bg3.wiki/w/images/thumb/d/dd/Adamantine_Scale_Mail_Unfaded_Icon.png/50px-Adamantine_Scale_Mail_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Adamantine_Scale_Mail",
-      "rarity": "Very Rare",
-      "armourType": "Medium armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Armour of Agility",
       "icon": "https://bg3.wiki/w/images/thumb/7/7f/Armour_of_Agility_Unfaded_Icon.png/50px-Armour_of_Agility_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Armour_of_Agility",
-      "rarity": "Very Rare",
-      "armourType": "Medium armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Dark Justiciar Half-Plate (Very Rare)",
       "icon": "https://bg3.wiki/w/images/thumb/9/98/Dark_Justiciar_Mail_Unfaded_Icon.png/50px-Dark_Justiciar_Mail_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Half-Plate_(Very_Rare)",
-      "rarity": "Very Rare",
-      "armourType": "Medium armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Flame Enamelled Armour",
       "icon": "https://bg3.wiki/w/images/thumb/3/3c/Half_Plate_Armour_Flaming_Fist_Unfaded_Icon.png/50px-Half_Plate_Armour_Flaming_Fist_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Flame_Enamelled_Armour",
-      "rarity": "Very Rare",
-      "armourType": "Medium armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Sharpened Snare Cuirass",
       "icon": "https://bg3.wiki/w/images/thumb/3/30/Hide_Armour_PlusTwo_Unfaded_Icon.png/50px-Hide_Armour_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Sharpened_Snare_Cuirass",
-      "rarity": "Very Rare",
-      "armourType": "Medium armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Adamantine Splint Armour",
       "icon": "https://bg3.wiki/w/images/thumb/2/20/Adamantine_Splint_Mail_Unfaded_Icon.png/50px-Adamantine_Splint_Mail_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Adamantine_Splint_Armour",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Armour of Persistence",
       "icon": "https://bg3.wiki/w/images/thumb/6/61/Armour_of_Persistence_Unfaded_Icon.png/50px-Armour_of_Persistence_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Armour_of_Persistence",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Blackguard's Plate",
       "icon": "https://bg3.wiki/w/images/thumb/a/a6/Plate_Armour_PlusTwo_Unfaded_Icon.png/50px-Plate_Armour_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Blackguard%27s_Plate",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Emblazoned Plate of the Marshal",
       "icon": "https://bg3.wiki/w/images/thumb/0/0e/Emblazoned_Plate_of_the_Marshal_Unfaded_Icon.png/50px-Emblazoned_Plate_of_the_Marshal_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Emblazoned_Plate_of_the_Marshal",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Reaper's Embrace",
       "icon": "https://bg3.wiki/w/images/thumb/c/c9/Reaper%27s_Embrace_Unfaded_Icon.png/50px-Reaper%27s_Embrace_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Reaper%27s_Embrace",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Drow Studded Leather Armour",
       "icon": "https://bg3.wiki/w/images/thumb/1/1f/Drow_Studded_Leather_Armour_Unfaded_Icon.png/50px-Drow_Studded_Leather_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Drow_Studded_Leather_Armour",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Leather Armour +2",
       "icon": "https://bg3.wiki/w/images/thumb/2/23/Leather_Armour_PlusTwo_Unfaded_Icon.png/50px-Leather_Armour_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Leather_Armour_%2B2",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Padded Armour +2",
       "icon": "https://bg3.wiki/w/images/thumb/6/6f/Padded_Armour_PlusTwo_Unfaded_Icon.png/50px-Padded_Armour_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Padded_Armour_%2B2",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Penumbral Armour",
       "icon": "https://bg3.wiki/w/images/thumb/2/2d/Penumbral_Armour_Unfaded_Icon.png/50px-Penumbral_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Penumbral_Armour",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Shadeclinger Armour",
       "icon": "https://bg3.wiki/w/images/thumb/c/c6/Scarlet_Leather_Armour_Unfaded_Icon.png/50px-Scarlet_Leather_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shadeclinger_Armour",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Spidersilk Armour",
       "icon": "https://bg3.wiki/w/images/thumb/d/da/Spidersilk_Armour_Unfaded_Icon.png/50px-Spidersilk_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Spidersilk_Armour",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Studded Leather Armour +2",
       "icon": "https://bg3.wiki/w/images/thumb/6/65/Studded_Leather_Armour_PlusTwo_Unfaded_Icon.png/50px-Studded_Leather_Armour_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Studded_Leather_Armour_%2B2",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Barkskin Armour",
       "icon": "https://bg3.wiki/w/images/thumb/7/73/Hide_Armour_PlusOne_Unfaded_Icon.png/50px-Hide_Armour_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Barkskin_Armour",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Breastplate +2",
       "icon": "https://bg3.wiki/w/images/thumb/1/19/Breastplate_PlusTwo_Unfaded_Icon.png/50px-Breastplate_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Breastplate_%2B2",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Chain Shirt +2",
       "icon": "https://bg3.wiki/w/images/thumb/8/8b/Chain_Shirt_PlusTwo_Unfaded_Icon.png/50px-Chain_Shirt_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Chain_Shirt_%2B2",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Dark Justiciar Half-Plate (Rare)",
       "icon": "https://bg3.wiki/w/images/thumb/1/16/Dark_Justiciar_Half-Plate_Unfaded_Icon.png/50px-Dark_Justiciar_Half-Plate_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Half-Plate_(Rare)",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Elven Chain",
       "icon": "https://bg3.wiki/w/images/thumb/e/e6/Elven_Chain_Unfaded_Icon.png/50px-Elven_Chain_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Elven_Chain",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Half Plate Armour +2",
       "icon": "https://bg3.wiki/w/images/thumb/c/ca/Half_Plate_Armour_PlusTwo_Unfaded_Icon.png/50px-Half_Plate_Armour_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Half_Plate_Armour_%2B2",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Hide Armour +2",
       "icon": "https://bg3.wiki/w/images/thumb/3/30/Hide_Armour_PlusTwo_Unfaded_Icon.png/50px-Hide_Armour_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hide_Armour_%2B2",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Psionic Ward Armour",
       "icon": "https://bg3.wiki/w/images/thumb/f/fe/Psionic_Ward_Armour_Unfaded_Icon.png/50px-Psionic_Ward_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Psionic_Ward_Armour",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Scale Mail +2",
       "icon": "https://bg3.wiki/w/images/thumb/a/a0/Scale_Mail_PlusTwo_Unfaded_Icon.png/50px-Scale_Mail_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scale_Mail_%2B2",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "The Jolty Vest",
       "icon": "https://bg3.wiki/w/images/thumb/d/d7/The_Jolty_Vest_Unfaded_Icon.png/50px-The_Jolty_Vest_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Jolty_Vest",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Unwanted Masterwork Scalemail",
       "icon": "https://bg3.wiki/w/images/thumb/4/45/Unwanted_Masterwork_Scalemail_Unfaded_Icon.png/50px-Unwanted_Masterwork_Scalemail_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Unwanted_Masterwork_Scalemail",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Yuan-Ti Scale Mail",
       "icon": "https://bg3.wiki/w/images/thumb/a/a0/Scale_Mail_PlusTwo_Unfaded_Icon.png/50px-Scale_Mail_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Yuan-Ti_Scale_Mail",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Armour of Devotion",
       "icon": "https://bg3.wiki/w/images/thumb/8/82/Armour_of_Devotion_Unfaded_Icon.png/50px-Armour_of_Devotion_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Armour_of_Devotion",
-      "rarity": "Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Rare"
     },
     {
       "name": "Cerebral Citadel Armour",
       "icon": "https://bg3.wiki/w/images/thumb/3/3c/Cerebral_Citadel_Armour_Unfaded_Icon.png/50px-Cerebral_Citadel_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Cerebral_Citadel_Armour",
-      "rarity": "Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Rare"
     },
     {
       "name": "Chain Mail +2",
       "icon": "https://bg3.wiki/w/images/thumb/8/8b/Chain_Mail_PlusTwo_Unfaded_Icon.png/50px-Chain_Mail_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Chain_Mail_%2B2",
-      "rarity": "Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Rare"
     },
     {
       "name": "Dwarven Splintmail",
       "icon": "https://bg3.wiki/w/images/thumb/8/85/Splint_Mail_PlusOne_Unfaded_Icon.png/50px-Splint_Mail_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dwarven_Splintmail",
-      "rarity": "Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Rare"
     },
     {
       "name": "Flawed Helldusk Armour",
       "icon": "https://bg3.wiki/w/images/thumb/2/24/Flawed_Helldusk_Armour_Unfaded_Icon.png/50px-Flawed_Helldusk_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Flawed_Helldusk_Armour",
-      "rarity": "Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Rare"
     },
     {
       "name": "Plate Armour +2",
       "icon": "https://bg3.wiki/w/images/thumb/a/a6/Plate_Armour_PlusTwo_Unfaded_Icon.png/50px-Plate_Armour_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Plate_Armour_%2B2",
-      "rarity": "Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Rare"
     },
     {
       "name": "Ring Mail Armour +2",
       "icon": "https://bg3.wiki/w/images/thumb/1/17/Ring_Mail_Armour_PlusTwo_Unfaded_Icon.png/50px-Ring_Mail_Armour_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_Mail_Armour_%2B2",
-      "rarity": "Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Rare"
     },
     {
       "name": "Rippling Force Mail",
       "icon": "https://bg3.wiki/w/images/thumb/f/fa/Rippling_Force_Mail_Unfaded_Icon.png/50px-Rippling_Force_Mail_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Rippling_Force_Mail",
-      "rarity": "Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Rare"
     },
     {
       "name": "Splint Armour +2",
       "icon": "https://bg3.wiki/w/images/thumb/d/d8/Splint_Armour_PlusTwo_Unfaded_Icon.png/50px-Splint_Armour_PlusTwo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Splint_Armour_%2B2",
-      "rarity": "Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Rare"
     },
     {
       "name": "Blazer of Benevolence",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Blazer_of_Benevolence_Unfaded_Icon.png/50px-Blazer_of_Benevolence_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Blazer_of_Benevolence",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Leather Armour +1",
       "icon": "https://bg3.wiki/w/images/thumb/d/d2/Leather_Armour_PlusOne_Unfaded_Icon.png/50px-Leather_Armour_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Leather_Armour_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Padded Armour +1",
       "icon": "https://bg3.wiki/w/images/thumb/7/77/Padded_Armour_PlusOne_B_Unfaded_Icon.png/50px-Padded_Armour_PlusOne_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Padded_Armour_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Scarlet Leather Armour",
       "icon": "https://bg3.wiki/w/images/thumb/c/c6/Scarlet_Leather_Armour_Unfaded_Icon.png/50px-Scarlet_Leather_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scarlet_Leather_Armour",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Studded Leather Armour +1",
       "icon": "https://bg3.wiki/w/images/thumb/9/9a/Studded_Leather_Armour_%2B1_Unfaded_Icon.png/50px-Studded_Leather_Armour_%2B1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Studded_Leather_Armour_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Breastplate +1",
       "icon": "https://bg3.wiki/w/images/thumb/0/06/Breastplate_PlusOne_Unfaded_Icon.png/50px-Breastplate_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Breastplate_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Chain Shirt +1",
       "icon": "https://bg3.wiki/w/images/thumb/1/15/Chain_Shirt_PlusOne_Unfaded_Icon.png/50px-Chain_Shirt_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Chain_Shirt_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Dark Justiciar Mail",
       "icon": "https://bg3.wiki/w/images/thumb/9/98/Dark_Justiciar_Mail_Unfaded_Icon.png/50px-Dark_Justiciar_Mail_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Mail",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Half Plate Armour +1",
       "icon": "https://bg3.wiki/w/images/thumb/5/57/Half_Plate_PlusOne_Unfaded_Icon.png/50px-Half_Plate_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Half_Plate_Armour_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Hedge Wanderer Armour",
       "icon": "https://bg3.wiki/w/images/thumb/7/73/Hide_Armour_PlusOne_Unfaded_Icon.png/50px-Hide_Armour_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hedge_Wanderer_Armour",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Hide Armour +1",
       "icon": "https://bg3.wiki/w/images/thumb/7/73/Hide_Armour_PlusOne_Unfaded_Icon.png/50px-Hide_Armour_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hide_Armour_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Luminous Armour",
       "icon": "https://bg3.wiki/w/images/thumb/6/6b/Luminous_Armour_Unfaded_Icon.png/50px-Luminous_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Luminous_Armour",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Scale Mail +1",
       "icon": "https://bg3.wiki/w/images/thumb/c/c0/Scale_Mail_B_PlusOne_Unfaded_Icon.png/50px-Scale_Mail_B_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scale_Mail_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Slippery Chain Shirt",
       "icon": "https://bg3.wiki/w/images/thumb/1/15/Chain_Shirt_PlusOne_Unfaded_Icon.png/50px-Chain_Shirt_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Slippery_Chain_Shirt",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "The Oak Father's Embrace",
       "icon": "https://bg3.wiki/w/images/thumb/7/73/Hide_Armour_PlusOne_Unfaded_Icon.png/50px-Hide_Armour_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Oak_Father%27s_Embrace",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Chain Mail +1",
       "icon": "https://bg3.wiki/w/images/thumb/a/ac/Chain_Mail_PlusOne_Unfaded_Icon.png/50px-Chain_Mail_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Chain_Mail_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Heavy armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Plate Armour +1",
       "icon": "https://bg3.wiki/w/images/thumb/5/54/Plate_Armour_PlusOne_Unfaded_Icon.png/50px-Plate_Armour_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Plate_Armour_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Heavy armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Protective Plate",
       "icon": "https://bg3.wiki/w/images/thumb/e/eb/Plate_Armour_Unfaded_Icon.png/50px-Plate_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Protective_Plate",
-      "rarity": "Uncommon",
-      "armourType": "Heavy armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring Mail Armour +1",
       "icon": "https://bg3.wiki/w/images/thumb/5/5a/Ring_Mail_Armour_PlusOne_Unfaded_Icon.png/50px-Ring_Mail_Armour_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_Mail_Armour_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Heavy armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Splint Armour +1",
       "icon": "https://bg3.wiki/w/images/thumb/8/85/Splint_Mail_PlusOne_Unfaded_Icon.png/50px-Splint_Mail_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Splint_Armour_%2B1",
-      "rarity": "Uncommon",
-      "armourType": "Heavy armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Bandit's Armour",
       "icon": "https://bg3.wiki/w/images/thumb/e/e0/Bandit%27s_Armour_Unfaded_Icon.png/50px-Bandit%27s_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bandit%27s_Armour",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Broken Padded Armour",
       "icon": "https://bg3.wiki/w/images/thumb/2/20/Broken_Padded_Armour_Unfaded_Icon.png/50px-Broken_Padded_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Broken_Padded_Armour",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Druid Leather Armour",
       "icon": "https://bg3.wiki/w/images/thumb/9/9e/Druid_Leather_Armour_Unfaded_Icon.png/50px-Druid_Leather_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Druid_Leather_Armour",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Faded Drow Leather Armour",
       "icon": "https://bg3.wiki/w/images/thumb/7/70/Faded_Drow_Studded_Leather_Armour_Unfaded_Icon.png/50px-Faded_Drow_Studded_Leather_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Faded_Drow_Leather_Armour",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Leather Armour",
       "icon": "https://bg3.wiki/w/images/thumb/4/4a/Leather_Armour_3_Unfaded_Icon.png/50px-Leather_Armour_3_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Leather_Armour",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Padded Armour",
       "icon": "https://bg3.wiki/w/images/thumb/9/98/Padded_Armour_3_Unfaded_Icon.png/50px-Padded_Armour_3_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Padded_Armour",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Selûnite Robe",
       "icon": "https://bg3.wiki/w/images/thumb/9/9e/Selunite_Robe_Unfaded_Icon.png/50px-Selunite_Robe_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Sel%C3%BBnite_Robe",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Simple Jerkin",
       "icon": "https://bg3.wiki/w/images/thumb/3/3f/Simple_Jerkin_Unfaded_Icon.png/50px-Simple_Jerkin_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Simple_Jerkin",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Studded Leather Armour",
       "icon": "https://bg3.wiki/w/images/thumb/7/78/Studded_Leather_Unfaded_Icon.png/50px-Studded_Leather_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Studded_Leather_Armour",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "+1 Breastplate",
       "icon": "https://bg3.wiki/w/images/thumb/0/0a/%2B1_Breastplate_Unfaded_Icon.png/50px-%2B1_Breastplate_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/%2B1_Breastplate",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Breastplate",
       "icon": "https://bg3.wiki/w/images/thumb/0/0a/%2B1_Breastplate_Unfaded_Icon.png/50px-%2B1_Breastplate_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Breastplate",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Chain Shirt",
       "icon": "https://bg3.wiki/w/images/thumb/1/13/Chain_Shirt_3_Unfaded_Icon.png/50px-Chain_Shirt_3_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Chain_Shirt",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Damaged Dark Justiciar Armour",
       "icon": "https://bg3.wiki/w/images/thumb/9/98/Dark_Justiciar_Mail_Unfaded_Icon.png/50px-Dark_Justiciar_Mail_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Damaged_Dark_Justiciar_Armour",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Damaged Scale Mail",
       "icon": "https://bg3.wiki/w/images/thumb/6/68/Damaged_Scale_Mail_Unfaded_Icon.png/50px-Damaged_Scale_Mail_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Damaged_Scale_Mail",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Dreamwalker Plate",
       "icon": "https://bg3.wiki/w/images/thumb/1/17/Dreamwalker_Plate_Unfaded_Icon.png/50px-Dreamwalker_Plate_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dreamwalker_Plate",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Githyanki Half Plate",
       "icon": "https://bg3.wiki/w/images/thumb/e/e6/Githyanki_Half_Plate_Unfaded_Icon.png/50px-Githyanki_Half_Plate_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Githyanki_Half_Plate",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Half Plate Armour",
       "icon": "https://bg3.wiki/w/images/thumb/c/cb/Half_Plate_Unfaded_Icon.png/50px-Half_Plate_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Half_Plate_Armour",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Hide Armour",
       "icon": "https://bg3.wiki/w/images/thumb/1/11/Hide_Armour_Unfaded_Icon.png/50px-Hide_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hide_Armour",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Scale Mail",
       "icon": "https://bg3.wiki/w/images/thumb/4/4b/Scale_Mail_Unfaded_Icon.png/50px-Scale_Mail_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scale_Mail",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Scale Mail of Devotion",
       "icon": "https://bg3.wiki/w/images/thumb/5/5c/Scale_Mail_of_Devotion_Unfaded_Icon.png/50px-Scale_Mail_of_Devotion_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scale_Mail_of_Devotion",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Scale Mail of the Ancients",
       "icon": "https://bg3.wiki/w/images/thumb/1/11/Scale_Mail_of_the_Ancients_Unfaded_Icon.png/50px-Scale_Mail_of_the_Ancients_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scale_Mail_of_the_Ancients",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Scale Mail of the Crown",
       "icon": "https://bg3.wiki/w/images/thumb/1/15/Scale_Mail_of_the_Crown_Unfaded_Icon.png/50px-Scale_Mail_of_the_Crown_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scale_Mail_of_the_Crown",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Scale Mail of Vengeance",
       "icon": "https://bg3.wiki/w/images/thumb/3/3a/Scale_Mail_of_Vengeance_Unfaded_Icon.png/50px-Scale_Mail_of_Vengeance_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scale_Mail_of_Vengeance",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Chain Mail",
       "icon": "https://bg3.wiki/w/images/thumb/e/e6/Chain_Mail_2_Unfaded_Icon.png/50px-Chain_Mail_2_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Chain_Mail",
-      "rarity": "Common",
-      "armourType": "Heavy armour"
+      "rarity": "Common"
     },
     {
       "name": "Plate Armour",
       "icon": "https://bg3.wiki/w/images/thumb/e/eb/Plate_Armour_Unfaded_Icon.png/50px-Plate_Armour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Plate_Armour",
-      "rarity": "Common",
-      "armourType": "Heavy armour"
+      "rarity": "Common"
     },
     {
       "name": "Ring Mail Armour",
       "icon": "https://bg3.wiki/w/images/thumb/d/d0/Ring_Mail_Unfaded_Icon.png/50px-Ring_Mail_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_Mail_Armour",
-      "rarity": "Common",
-      "armourType": "Heavy armour"
+      "rarity": "Common"
     },
     {
       "name": "Splint Armour",
       "icon": "https://bg3.wiki/w/images/thumb/f/fe/Splint_Mail_Unfaded_Icon.png/50px-Splint_Mail_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Splint_Armour",
-      "rarity": "Common",
-      "armourType": "Heavy armour"
+      "rarity": "Common"
     }
   ],
   "shields": [
@@ -2843,246 +2752,211 @@
       "name": "Viconia's Walking Fortress",
       "icon": "https://bg3.wiki/w/images/thumb/1/19/Viconia%27s_Walking_Fortress_Unfaded_Icon.png/50px-Viconia%27s_Walking_Fortress_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Viconia%27s_Walking_Fortress",
-      "rarity": "Legendary",
-      "armourType": "Non-Armour"
+      "rarity": "Legendary"
     },
     {
       "name": "Abdel's Trusted Shield",
       "icon": "https://bg3.wiki/w/images/thumb/8/84/Abdel%27s_Trusted_Shield_Unfaded_Icon.png/50px-Abdel%27s_Trusted_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Abdel%27s_Trusted_Shield",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Shield of Devotion",
       "icon": "https://bg3.wiki/w/images/thumb/8/8d/Shield_of_Devotion_Unfaded_Icon.png/50px-Shield_of_Devotion_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shield_of_Devotion",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Shield of the Undevout",
       "icon": "https://bg3.wiki/w/images/thumb/4/4d/Shield_of_the_Undevout_Unfaded_Icon.png/50px-Shield_of_the_Undevout_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shield_of_the_Undevout",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Swires' Sledboard",
       "icon": "https://bg3.wiki/w/images/thumb/2/25/Swires_sledboard_Unfaded_Icon.png/50px-Swires_sledboard_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Swires%27_Sledboard",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Absolute's Protector",
       "icon": "https://bg3.wiki/w/images/thumb/7/79/Safeguard_Shield_Unfaded_Icon.png/50px-Safeguard_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Absolute%27s_Protector",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Adamantine Shield",
       "icon": "https://bg3.wiki/w/images/thumb/f/f1/Adamantine_Shield_Unfaded_Icon.png/50px-Adamantine_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Adamantine_Shield",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Iron-Banded Shield +1",
       "icon": "https://bg3.wiki/w/images/thumb/e/ec/Iron-Banded_Shield_PlusOne_Unfaded_Icon.png/50px-Iron-Banded_Shield_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Iron-Banded_Shield_%2B1",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Justiciar's Greatshield",
       "icon": "https://bg3.wiki/w/images/thumb/e/ec/Iron-Banded_Shield_PlusOne_Unfaded_Icon.png/50px-Iron-Banded_Shield_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Justiciar%27s_Greatshield",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Ketheric's Shield",
       "icon": "https://bg3.wiki/w/images/thumb/d/d0/Ketheric%27s_Shield_Unfaded_Icon.png/50px-Ketheric%27s_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ketheric%27s_Shield",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Sentinel Shield",
       "icon": "https://bg3.wiki/w/images/thumb/8/84/Abdel%27s_Trusted_Shield_Unfaded_Icon.png/50px-Abdel%27s_Trusted_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Sentinel_Shield",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Shield +1",
       "icon": "https://bg3.wiki/w/images/thumb/7/79/Safeguard_Shield_Unfaded_Icon.png/50px-Safeguard_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shield_%2B1",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Shield of Scorching Reprisal",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Metal_Shield_Flaming_Fist_Unfaded_Icon.png/50px-Metal_Shield_Flaming_Fist_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shield_of_Scorching_Reprisal",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Shield of Shielding",
       "icon": "https://bg3.wiki/w/images/thumb/3/33/Shield_of_Shielding_Unfaded_Icon.png/50px-Shield_of_Shielding_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shield_of_Shielding",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Studded Shield +1",
       "icon": "https://bg3.wiki/w/images/thumb/a/aa/Item_WPN_HUM_Shield_C_1_Unfaded_Icon.png/50px-Item_WPN_HUM_Shield_C_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Studded_Shield_%2B1",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Absolute's Warboard",
       "icon": "https://bg3.wiki/w/images/thumb/5/58/Absolute%27s_Warboard_Unfaded_Icon.png/50px-Absolute%27s_Warboard_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Absolute%27s_Warboard",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Gloomstrand Shield",
       "icon": "https://bg3.wiki/w/images/thumb/7/79/Safeguard_Shield_Unfaded_Icon.png/50px-Safeguard_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloomstrand_Shield",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Glowing Shield",
       "icon": "https://bg3.wiki/w/images/thumb/7/78/Glowing_Shield_Unfaded_Icon.png/50px-Glowing_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Glowing_Shield",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ironvine Shield",
       "icon": "https://bg3.wiki/w/images/thumb/6/60/Wood_Woad_Shield_Unfaded_Icon.png/50px-Wood_Woad_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ironvine_Shield",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Safeguard Shield",
       "icon": "https://bg3.wiki/w/images/thumb/7/79/Safeguard_Shield_Unfaded_Icon.png/50px-Safeguard_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Safeguard_Shield",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "The Real Sparky Sparkswall",
       "icon": "https://bg3.wiki/w/images/thumb/5/5b/The_Real_Sparky_Sparkswall_Unfaded_Icon.png/50px-The_Real_Sparky_Sparkswall_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Real_Sparky_Sparkswall",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Watcher's Shield",
       "icon": "https://bg3.wiki/w/images/thumb/e/ec/Iron-Banded_Shield_PlusOne_Unfaded_Icon.png/50px-Iron-Banded_Shield_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Watcher%27s_Shield",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Wood Woad Shield",
       "icon": "https://bg3.wiki/w/images/thumb/6/60/Wood_Woad_Shield_Unfaded_Icon.png/50px-Wood_Woad_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Wood_Woad_Shield",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Broken Shield",
       "icon": "https://bg3.wiki/w/images/thumb/b/b9/Broken_Shield_Unfaded_Icon.png/50px-Broken_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Broken_Shield",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Fossilised Shell",
       "icon": "https://bg3.wiki/w/images/thumb/7/76/Fossilised_Shell_Unfaded_Icon.png/50px-Fossilised_Shell_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Fossilised_Shell",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Iron-Banded Shield",
       "icon": "https://bg3.wiki/w/images/thumb/e/ec/Iron-Banded_Shield_PlusOne_Unfaded_Icon.png/50px-Iron-Banded_Shield_PlusOne_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Iron-Banded_Shield",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Metal Shield",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Metal_Shield_Flaming_Fist_Unfaded_Icon.png/50px-Metal_Shield_Flaming_Fist_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Metal_Shield",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Organic Shield",
       "icon": "https://bg3.wiki/w/images/thumb/6/60/Wood_Woad_Shield_Unfaded_Icon.png/50px-Wood_Woad_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Organic_Shield",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Rusty Studded Shield",
       "icon": "https://bg3.wiki/w/images/thumb/6/6d/Rusty_Studded_Shield_Unfaded_Icon.png/50px-Rusty_Studded_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Rusty_Studded_Shield",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Scrapwood Shield",
       "icon": "https://bg3.wiki/w/images/thumb/3/3d/Scrapwood_Shield_Unfaded_Icon.png/50px-Scrapwood_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scrapwood_Shield",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Shield (item)",
       "icon": "https://bg3.wiki/w/images/thumb/a/ac/Item_WPN_HUM_Shield_D_0_Unfaded_Icon.png/50px-Item_WPN_HUM_Shield_D_0_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shield_(item)",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Spiked Shield",
       "icon": "https://bg3.wiki/w/images/thumb/2/27/Spiked_Shield_Unfaded_Icon.png/50px-Spiked_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Spiked_Shield",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Studded Shield",
       "icon": "https://bg3.wiki/w/images/thumb/d/d3/Studded_Shield_Unfaded_Icon.png/50px-Studded_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Studded_Shield",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Training Shield",
       "icon": "https://bg3.wiki/w/images/thumb/b/b2/Training_Shield_Unfaded_Icon.png/50px-Training_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Training_Shield",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Wooden Shield",
       "icon": "https://bg3.wiki/w/images/thumb/c/c7/Wooden_Shield_Unfaded_Icon.png/50px-Wooden_Shield_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Wooden_Shield",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     }
   ],
   "headwears": [
@@ -3090,659 +2964,565 @@
       "name": "Mask of the Shapeshifter",
       "icon": "https://bg3.wiki/w/images/thumb/0/05/Mask_of_the_Shapeshifter_Unfaded_Icon.png/50px-Mask_of_the_Shapeshifter_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Mask_of_the_Shapeshifter",
-      "rarity": "Legendary",
-      "armourType": "Non-Armour"
+      "rarity": "Legendary"
     },
     {
       "name": "Helm of Balduran",
       "icon": "https://bg3.wiki/w/images/thumb/9/94/Helm_of_Balduran_Unfaded_Icon.png/50px-Helm_of_Balduran_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Helm_of_Balduran",
-      "rarity": "Legendary",
-      "armourType": "Medium armour"
+      "rarity": "Legendary"
     },
     {
       "name": "Assassin of Bhaal Cowl",
       "icon": "https://bg3.wiki/w/images/thumb/8/81/Assassin_of_Bhaal_Cowl_Unfaded_Icon.png/50px-Assassin_of_Bhaal_Cowl_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Assassin_of_Bhaal_Cowl",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Birthright",
       "icon": "https://bg3.wiki/w/images/thumb/e/e3/Birthright_Unfaded_Icon.png/50px-Birthright_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Birthright",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Bonespike Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/6/64/Bonespike_Helmet_Unfaded_Icon.png/50px-Bonespike_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bonespike_Helmet",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Circlet of Hunting",
       "icon": "https://bg3.wiki/w/images/thumb/9/92/Circlet_of_Blasting_Unfaded_Icon.png/50px-Circlet_of_Blasting_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Circlet_of_Hunting",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Helldusk Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/4/4d/Helldusk_Helmet_Unfaded_Icon.png/50px-Helldusk_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Helldusk_Helmet",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Hood of the Weave",
       "icon": "https://bg3.wiki/w/images/thumb/8/8b/Hood_of_the_Weave_Unfaded_Icon.png/50px-Hood_of_the_Weave_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hood_of_the_Weave",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Horns of the Berserker",
       "icon": "https://bg3.wiki/w/images/thumb/b/bb/Horns_of_the_Berserker_Unfaded_Icon.png/50px-Horns_of_the_Berserker_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Horns_of_the_Berserker",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Jannath's Hat",
       "icon": "https://bg3.wiki/w/images/thumb/0/00/Jannath%27s_Hat_Unfaded_Icon.png/50px-Jannath%27s_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Jannath%27s_Hat",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Mask of Soul Perception",
       "icon": "https://bg3.wiki/w/images/thumb/3/33/Mask_of_Soul_Perception_Unfaded_Icon.png/50px-Mask_of_Soul_Perception_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Mask_of_Soul_Perception",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Pyroquickness Hat",
       "icon": "https://bg3.wiki/w/images/thumb/5/5b/Pyroquickness_Hat_Unfaded_Icon.png/50px-Pyroquickness_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Pyroquickness_Hat",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Shapeshifter Hat",
       "icon": "https://bg3.wiki/w/images/thumb/4/49/Shapeshifter_Hat_Unfaded_Icon.png/50px-Shapeshifter_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shapeshifter_Hat",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Helmet of Grit",
       "icon": "https://bg3.wiki/w/images/thumb/8/8d/Helmet_of_Grit_Unfaded_Icon.png/50px-Helmet_of_Grit_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Helmet_of_Grit",
-      "rarity": "Very Rare",
-      "armourType": "Light armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Dark Justiciar Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/8/8c/Dark_Justiciar_Helmet_Unfaded_Icon.png/50px-Dark_Justiciar_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Helmet",
-      "rarity": "Very Rare",
-      "armourType": "Medium armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Sarevok's Horned Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/8/80/Sarevok%27s_Horned_Helmet_Unfaded_Icon.png/50px-Sarevok%27s_Horned_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Sarevok%27s_Horned_Helmet",
-      "rarity": "Very Rare",
-      "armourType": "Medium armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Grymskull Helm",
       "icon": "https://bg3.wiki/w/images/thumb/1/14/Grymskull_Helm_Unfaded_Icon.png/50px-Grymskull_Helm_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Grymskull_Helm",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Cap of Wrath",
       "icon": "https://bg3.wiki/w/images/thumb/f/f7/Cap_of_Wrath_Unfaded_Icon.png/50px-Cap_of_Wrath_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Cap_of_Wrath",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Circle of Bones",
       "icon": "https://bg3.wiki/w/images/thumb/8/86/Circle_of_Bones_Unfaded_Icon.png/50px-Circle_of_Bones_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Circle_of_Bones",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Circlet of Blasting",
       "icon": "https://bg3.wiki/w/images/thumb/9/92/Circlet_of_Blasting_Unfaded_Icon.png/50px-Circlet_of_Blasting_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Circlet_of_Blasting",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Circlet of Mental Anguish",
       "icon": "https://bg3.wiki/w/images/thumb/d/df/Circlet_of_Mental_Anguish_Unfaded_Icon.png/50px-Circlet_of_Mental_Anguish_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Circlet_of_Mental_Anguish",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Circlet of Psionic Revenge",
       "icon": "https://bg3.wiki/w/images/thumb/8/85/Circlet_of_Psionic_Revenge_Unfaded_Icon.png/50px-Circlet_of_Psionic_Revenge_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Circlet_of_Psionic_Revenge",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Diadem of Arcane Synergy",
       "icon": "https://bg3.wiki/w/images/thumb/1/1d/Diadem_of_Arcane_Synergy_Unfaded_Icon.png/50px-Diadem_of_Arcane_Synergy_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Diadem_of_Arcane_Synergy",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Fistbreaker Helm",
       "icon": "https://bg3.wiki/w/images/thumb/5/5e/Fistbreaker_Helm_Unfaded_Icon.png/50px-Fistbreaker_Helm_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Fistbreaker_Helm",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Gibus of the Worshipful Servant",
       "icon": "https://bg3.wiki/w/images/thumb/1/19/Gibus_of_the_Worshipful_Servant_Unfaded_Icon.png/50px-Gibus_of_the_Worshipful_Servant_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gibus_of_the_Worshipful_Servant",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Haste Helm",
       "icon": "https://bg3.wiki/w/images/thumb/8/8c/Haste_Helm_Unfaded_Icon.png/50px-Haste_Helm_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Haste_Helm",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Hat of the Sharp Caster",
       "icon": "https://bg3.wiki/w/images/thumb/8/8b/Hat_of_the_Sharp_Caster_Unfaded_Icon.png/50px-Hat_of_the_Sharp_Caster_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hat_of_the_Sharp_Caster",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Hat of Uninhibited Kushigo",
       "icon": "https://bg3.wiki/w/images/thumb/4/4d/Hat_of_Uninhibited_Kushigo_Unfaded_Icon.png/50px-Hat_of_Uninhibited_Kushigo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hat_of_Uninhibited_Kushigo",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Scabby Pugilist Circlet",
       "icon": "https://bg3.wiki/w/images/thumb/c/c9/Scabby_Pugilist_Circlet_Unfaded_Icon.png/50px-Scabby_Pugilist_Circlet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scabby_Pugilist_Circlet",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "The Pointy Hat",
       "icon": "https://bg3.wiki/w/images/thumb/8/80/The_Pointy_Hat_Unfaded_Icon.png/50px-The_Pointy_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Pointy_Hat",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Shadow of Menzoberranzan",
       "icon": "https://bg3.wiki/w/images/thumb/b/b4/Frayed_Drow_Hood_Unfaded_Icon.png/50px-Frayed_Drow_Hood_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shadow_of_Menzoberranzan",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Flawed Helldusk Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/4/45/Flawed_Helldusk_Helmet_Unfaded_Icon.png/50px-Flawed_Helldusk_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Flawed_Helldusk_Helmet",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Steelwatcher Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/8/88/Steelwatcher_Helmet_Unfaded_Icon.png/50px-Steelwatcher_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Steelwatcher_Helmet",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Browbeaten Circlet",
       "icon": "https://bg3.wiki/w/images/thumb/6/64/Browbeaten_Circlet_Unfaded_Icon.png/50px-Browbeaten_Circlet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Browbeaten_Circlet",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Cap of Curing",
       "icon": "https://bg3.wiki/w/images/thumb/6/67/Cap_of_Curing_Unfaded_Icon.png/50px-Cap_of_Curing_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Cap_of_Curing",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Coldbrim Hat",
       "icon": "https://bg3.wiki/w/images/thumb/6/66/Wizard_Hat_Unfaded_Icon.png/50px-Wizard_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Coldbrim_Hat",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Hat of Fire Acuity",
       "icon": "https://bg3.wiki/w/images/thumb/6/66/Wizard_Hat_Unfaded_Icon.png/50px-Wizard_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hat_of_Fire_Acuity",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Hat of Storm Scion's Power",
       "icon": "https://bg3.wiki/w/images/thumb/6/66/Wizard_Hat_Unfaded_Icon.png/50px-Wizard_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hat_of_Storm_Scion%27s_Power",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Infernal Mask",
       "icon": "https://bg3.wiki/w/images/thumb/a/a0/Item_ARM_Helmet_Metal_B_Unfaded_Icon.png/50px-Item_ARM_Helmet_Metal_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Infernal_Mask",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Key of the Ancients",
       "icon": "https://bg3.wiki/w/images/thumb/b/b5/Key_of_the_Ancients_Unfaded_Icon.png/50px-Key_of_the_Ancients_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Key_of_the_Ancients",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Marksmanship Hat",
       "icon": "https://bg3.wiki/w/images/thumb/a/aa/Marksmanship_Hat_Unfaded_Icon.png/50px-Marksmanship_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Marksmanship_Hat",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "The Lifebringer",
       "icon": "https://bg3.wiki/w/images/thumb/a/ae/The_Lifebringer_Unfaded_Icon.png/50px-The_Lifebringer_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Lifebringer",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "The Shadespell Circlet",
       "icon": "https://bg3.wiki/w/images/thumb/a/a2/The_Shadespell_Circlet_Unfaded_Icon.png/50px-The_Shadespell_Circlet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Shadespell_Circlet",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Wapira's Crown",
       "icon": "https://bg3.wiki/w/images/thumb/f/f3/Wapiras_Crown_Unfaded_Icon.png/50px-Wapiras_Crown_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Wapira%27s_Crown",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Warped Headband of Intellect",
       "icon": "https://bg3.wiki/w/images/thumb/0/09/Warped_Headband_of_Intellect_Unfaded_Icon.png/50px-Warped_Headband_of_Intellect_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Warped_Headband_of_Intellect",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Covert Cowl",
       "icon": "https://bg3.wiki/w/images/thumb/b/b4/Frayed_Drow_Hood_Unfaded_Icon.png/50px-Frayed_Drow_Hood_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Covert_Cowl",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Dark Justiciar Mask",
       "icon": "https://bg3.wiki/w/images/thumb/3/3d/Dark_Justiciar_Mask_Unfaded_Icon.png/50px-Dark_Justiciar_Mask_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Mask",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Helmet of Arcane Acuity",
       "icon": "https://bg3.wiki/w/images/thumb/a/a0/Helmet_of_Arcane_Acuity_Unfaded_Icon.png/50px-Helmet_of_Arcane_Acuity_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Helmet_of_Arcane_Acuity",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Helmet of Autonomy",
       "icon": "https://bg3.wiki/w/images/thumb/1/10/Helmet_of_Autonomy_Unfaded_Icon.png/50px-Helmet_of_Autonomy_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Helmet_of_Autonomy",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Dark Justiciar Helm",
       "icon": "https://bg3.wiki/w/images/thumb/2/2a/Dark_Justiciar_Helm_Unfaded_Icon.png/50px-Dark_Justiciar_Helm_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Helm",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Helmet of Smiting",
       "icon": "https://bg3.wiki/w/images/thumb/9/93/Metal_Helmet_Magical_Unfaded_Icon.png/50px-Metal_Helmet_Magical_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Helmet_of_Smiting",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Holy Lance Helm",
       "icon": "https://bg3.wiki/w/images/thumb/7/7f/Holy_Lance_Helm_Unfaded_Icon.png/50px-Holy_Lance_Helm_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Holy_Lance_Helm",
-      "rarity": "Uncommon",
-      "armourType": "Medium armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Bicorne of the Sea Beast",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Bicorne_of_the_Sea_Beast_Unfaded_Icon.png/50px-Bicorne_of_the_Sea_Beast_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bicorne_of_the_Sea_Beast",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Brimmed Hat",
       "icon": "https://bg3.wiki/w/images/thumb/c/ca/Brimmed_Hat_Unfaded_Icon.png/50px-Brimmed_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Brimmed_Hat",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Bycocket",
       "icon": "https://bg3.wiki/w/images/thumb/4/4f/Generated_ARM_Hat_Wizard_C_Unfaded_Icon.png/50px-Generated_ARM_Hat_Wizard_C_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bycocket",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Cap and Bells",
       "icon": "https://bg3.wiki/w/images/thumb/f/f1/Cap_and_Bells_Unfaded_Icon.png/50px-Cap_and_Bells_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Cap_and_Bells",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Circlet",
       "icon": "https://bg3.wiki/w/images/thumb/2/21/Circlet_Unfaded_Icon.png/50px-Circlet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Circlet",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Devilfoil Mask",
       "icon": "https://bg3.wiki/w/images/thumb/0/03/Devilfoil_Mask_Unfaded_Icon.png/50px-Devilfoil_Mask_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Devilfoil_Mask",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Embroidered Bycocket",
       "icon": "https://bg3.wiki/w/images/thumb/2/25/Embroidered_Bycocket_Unfaded_Icon.png/50px-Embroidered_Bycocket_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Embroidered_Bycocket",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Embroidered Hat",
       "icon": "https://bg3.wiki/w/images/thumb/5/5d/Generated_ARM_Hat_Wizard_E_Unfaded_Icon.png/50px-Generated_ARM_Hat_Wizard_E_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Embroidered_Hat",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Frumpy Hat",
       "icon": "https://bg3.wiki/w/images/thumb/5/58/Frumpy_Hat_Unfaded_Icon.png/50px-Frumpy_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Frumpy_Hat",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Hat of Eminent Giggles",
       "icon": "https://bg3.wiki/w/images/thumb/5/54/Item_ARM_Hat_Circushat_Unfaded_Icon.png/50px-Item_ARM_Hat_Circushat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hat_of_Eminent_Giggles",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Ignoble Hat",
       "icon": "https://bg3.wiki/w/images/thumb/3/3b/Ignoble_Hat_Unfaded_Icon.png/50px-Ignoble_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ignoble_Hat",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Old Floppy Hat",
       "icon": "https://bg3.wiki/w/images/thumb/3/3b/Old_Floppy_Hat_Unfaded_Icon.png/50px-Old_Floppy_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Old_Floppy_Hat",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Rufflesome Blaggart Hat",
       "icon": "https://bg3.wiki/w/images/thumb/9/9a/Rufflesome_Blaggart_Hat_Unfaded_Icon.png/50px-Rufflesome_Blaggart_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Rufflesome_Blaggart_Hat",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Snakeskin Hat",
       "icon": "https://bg3.wiki/w/images/thumb/1/1c/Generated_ARM_Hat_Wizard_H_Unfaded_Icon.png/50px-Generated_ARM_Hat_Wizard_H_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Snakeskin_Hat",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Whispering Mask",
       "icon": "https://bg3.wiki/w/images/thumb/d/d5/Whispering_Mask_Unfaded_Icon.png/50px-Whispering_Mask_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Whispering_Mask",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Wide-Brimmed Hat",
       "icon": "https://bg3.wiki/w/images/thumb/1/13/Wide-Brimmed_Hat_Unfaded_Icon.png/50px-Wide-Brimmed_Hat_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Wide-Brimmed_Hat",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Wizard Hat",
       "icon": "https://bg3.wiki/w/images/thumb/8/82/Generated_ARM_Hat_Wizard_A_Unfaded_Icon.png/50px-Generated_ARM_Hat_Wizard_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Wizard_Hat",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Angelic Plume Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/8/86/Item_ARM_Helmet_Leather_E_Icon.png/50px-Item_ARM_Helmet_Leather_E_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Angelic_Plume_Helmet",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Frayed Drow Hood",
       "icon": "https://bg3.wiki/w/images/thumb/b/b4/Frayed_Drow_Hood_Unfaded_Icon.png/50px-Frayed_Drow_Hood_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Frayed_Drow_Hood",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Leather Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/0/08/Leather_Helmet_Unfaded_Icon.png/50px-Leather_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Leather_Helmet",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Leatherstring Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/0/08/Leather_Helmet_Unfaded_Icon.png/50px-Leather_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Leatherstring_Helmet",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Red Carmine Mask",
       "icon": "https://bg3.wiki/w/images/thumb/b/bb/Item_ARM_Helmet_Leather_B_Unfaded_Icon.png/50px-Item_ARM_Helmet_Leather_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Red_Carmine_Mask",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Rich Arcanist Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/a/a0/Helmet_of_Arcane_Acuity_Unfaded_Icon.png/50px-Helmet_of_Arcane_Acuity_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Rich_Arcanist_Helmet",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Scorpion Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/0/08/Leather_Helmet_Unfaded_Icon.png/50px-Leather_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scorpion_Helmet",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Adjustable Steel Helm",
       "icon": "https://bg3.wiki/w/images/thumb/b/b1/Metal_Helmet_B_2_Unfaded_Icon.png/50px-Metal_Helmet_B_2_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Adjustable_Steel_Helm",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Blackplume Helm",
       "icon": "https://bg3.wiki/w/images/thumb/5/57/Blackplume_Helm_Unfaded_Icon.png/50px-Blackplume_Helm_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Blackplume_Helm",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Blaze Portyr's Ceremonial Flaming Fist Helm",
       "icon": "https://bg3.wiki/w/images/thumb/4/43/Flaming_Fist_Helmet_Unfaded_Icon.png/50px-Flaming_Fist_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Blaze_Portyr%27s_Ceremonial_Flaming_Fist_Helm",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Cracked Helm of Shar",
       "icon": "https://bg3.wiki/w/images/thumb/e/e1/Cracked_Helm_of_Shar_Unfaded_Icon.png/50px-Cracked_Helm_of_Shar_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Cracked_Helm_of_Shar",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Fierce Golden Helm",
       "icon": "https://bg3.wiki/w/images/thumb/a/ad/Metal_Helmet_Unfaded_Icon.png/50px-Metal_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Fierce_Golden_Helm",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Flaming Fist Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/3/3c/Flaming_Fist_Helmet_A_Unfaded_Icon.png/50px-Flaming_Fist_Helmet_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Flaming_Fist_Helmet",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Formidable Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/7/71/Item_ARM_Helmet_Metal_J_Unfaded_Icon.png/50px-Item_ARM_Helmet_Metal_J_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Formidable_Helmet",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Goldgloss Heraldic Helm",
       "icon": "https://bg3.wiki/w/images/thumb/5/5a/Metal_Helmet_1_Unfaded_Icon.png/50px-Metal_Helmet_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Goldgloss_Heraldic_Helm",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/a/ad/Metal_Helmet_Unfaded_Icon.png/50px-Metal_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Helmet",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Justiciar Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/d/d9/Justiciar_Helmet_Unfaded_Icon.png/50px-Justiciar_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Justiciar_Helmet",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Opulent Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/0/03/Item_ARM_Helmet_Metal_H_Unfaded.webp/50px-Item_ARM_Helmet_Metal_H_Unfaded.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Opulent_Helmet",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Regal Helm",
       "icon": "https://bg3.wiki/w/images/thumb/5/5b/Metal_Helmet_F_Unfaded_Icon.png/50px-Metal_Helmet_F_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Regal_Helm",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Reinforced Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/7/71/Item_ARM_Helmet_Metal_J_Unfaded_Icon.png/50px-Item_ARM_Helmet_Metal_J_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Reinforced_Helmet",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Scalpspike Helm",
       "icon": "https://bg3.wiki/w/images/thumb/3/37/Item_ARM_Helmet_Metal_A_Unfaded_Icon.png/50px-Item_ARM_Helmet_Metal_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Scalpspike_Helm",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Shar Headwear",
       "icon": "https://bg3.wiki/w/images/thumb/6/6e/Item_ARM_Shar_Crown_A_Unfaded_Icon.png/50px-Item_ARM_Shar_Crown_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shar_Headwear",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Triumphal Helm",
       "icon": "https://bg3.wiki/w/images/thumb/a/ad/Metal_Helmet_Unfaded_Icon.png/50px-Metal_Helmet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Triumphal_Helm",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Watch's Helmet",
       "icon": "https://bg3.wiki/w/images/thumb/d/dd/Item_ARM_Helmet_BG_Watch_Metal_B_Unfaded_Icon.png/50px-Item_ARM_Helmet_BG_Watch_Metal_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Watch%27s_Helmet",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     },
     {
       "name": "Well Crated Helm",
       "icon": "https://bg3.wiki/w/images/thumb/a/a0/Item_ARM_Helmet_Metal_B_Unfaded_Icon.png/50px-Item_ARM_Helmet_Metal_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Well_Crated_Helm",
-      "rarity": "Common",
-      "armourType": "Medium armour"
+      "rarity": "Common"
     }
   ],
   "cloaks": [
@@ -3860,498 +3640,427 @@
       "name": "Amulet of Greater Health",
       "icon": "https://bg3.wiki/w/images/thumb/d/d3/Amulet_of_Greater_Health_Unfaded_Icon.png/50px-Amulet_of_Greater_Health_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_Greater_Health",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Amulet of the Devout",
       "icon": "https://bg3.wiki/w/images/thumb/4/45/Amulet_of_the_devout_Unfaded_Icon.png/50px-Amulet_of_the_devout_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_the_Devout",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Amulet of Windrider",
       "icon": "https://bg3.wiki/w/images/thumb/1/13/Amulet_Necklace_D_Gold_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_D_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_Windrider",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Corvid Token",
       "icon": "https://bg3.wiki/w/images/thumb/6/66/Amulet_Necklace_F_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_F_Bronze_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Corvid_Token",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Fey Semblance Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/f/ff/Amulet_Necklace_C_Gold_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_C_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Fey_Semblance_Amulet",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Khalid's Gift",
       "icon": "https://bg3.wiki/w/images/thumb/5/5a/Amulet_Necklace_A_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_A_Bronze_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Khalid%27s_Gift",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Sentient Amulet (Very Rare)",
       "icon": "https://bg3.wiki/w/images/thumb/0/02/Sentient_Amulet_Unfaded_Icon.png/50px-Sentient_Amulet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Sentient_Amulet_(Very_Rare)",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Spellcrux Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/b/b6/Amulet_Necklace_D_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_D_Bronze_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Spellcrux_Amulet",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "The Spectator Eyes",
       "icon": "https://bg3.wiki/w/images/thumb/5/5a/Amulet_Necklace_A_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_A_Bronze_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Spectator_Eyes",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Tressym Collar",
       "icon": "https://bg3.wiki/w/images/thumb/5/5a/Amulet_Necklace_A_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_A_Bronze_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tressym_Collar",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Unflinching Protector Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/c/c7/Keepsake_Locket_A_Unfaded_Icon.png/50px-Keepsake_Locket_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Unflinching_Protector_Amulet",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Amulet of Branding",
       "icon": "https://bg3.wiki/w/images/thumb/5/5e/Amulet_Necklace_D_Silver_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_D_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_Branding",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Amulet of Restoration",
       "icon": "https://bg3.wiki/w/images/thumb/b/b9/Amulet_Necklace_F_Silver_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_F_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_Restoration",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Amulet of the Drunkard",
       "icon": "https://bg3.wiki/w/images/thumb/5/51/Amulet_Necklace_A_Silver_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_A_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_the_Drunkard",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Amulet of the Harpers",
       "icon": "https://bg3.wiki/w/images/thumb/b/b9/Amulet_Necklace_F_Silver_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_F_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_the_Harpers",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Champion's Chain",
       "icon": "https://bg3.wiki/w/images/thumb/6/61/Champions_Chain_Unfaded_Icon.png/50px-Champions_Chain_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Champion%27s_Chain",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Chancer's Carcanet",
       "icon": "https://bg3.wiki/w/images/thumb/a/ae/Amulet_Necklace_B_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_B_Bronze_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Chancer%27s_Carcanet",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Envoy's Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/c/c9/Envoys_Amulet_Unfaded_Icon.png/50px-Envoys_Amulet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Envoy%27s_Amulet",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Periapt of Wound Closure",
       "icon": "https://bg3.wiki/w/images/thumb/6/60/Periapt_of_Wound_Closure_Unfaded_Icon.png/50px-Periapt_of_Wound_Closure_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Periapt_of_Wound_Closure",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Sentient Amulet (Rare)",
       "icon": "https://bg3.wiki/w/images/thumb/0/02/Sentient_Amulet_Unfaded_Icon.png/50px-Sentient_Amulet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Sentient_Amulet_(Rare)",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Spell Savant Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/f/fd/Amulet_Necklace_B_Gold_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_B_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Spell_Savant_Amulet",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Strange Tendril Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/f/fd/Amulet_Necklace_B_Gold_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_B_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Strange_Tendril_Amulet",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Surgeon's Subjugation Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/5/51/Amulet_Necklace_A_Silver_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_A_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Surgeon%27s_Subjugation_Amulet",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "The Amulet of Lost Voices",
       "icon": "https://bg3.wiki/w/images/thumb/7/76/Amulet_of_Lost_Voices_Unfaded_Icon.png/50px-Amulet_of_Lost_Voices_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Amulet_of_Lost_Voices",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Uncovered Mysteries",
       "icon": "https://bg3.wiki/w/images/thumb/3/33/Amulet_Necklace_B_Silver_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_B_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Uncovered_Mysteries",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Aberration Hunters' Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/6/63/Aberration_Hunters%27_Amulet_Unfaded_Icon.png/50px-Aberration_Hunters%27_Amulet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Aberration_Hunters%27_Amulet",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Absolute Confidence Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/b/b6/Amulet_Necklace_D_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_D_Bronze_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Absolute_Confidence_Amulet",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Absolute's Talisman",
       "icon": "https://bg3.wiki/w/images/thumb/d/d6/Absolute%27s_Talisman_Unfaded_Icon.png/50px-Absolute%27s_Talisman_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Absolute%27s_Talisman",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Amulet of Elemental Torment",
       "icon": "https://bg3.wiki/w/images/thumb/a/ae/Amulet_Necklace_B_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_B_Bronze_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_Elemental_Torment",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Amulet of Misty Step",
       "icon": "https://bg3.wiki/w/images/thumb/3/33/Amulet_Necklace_B_Silver_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_B_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_Misty_Step",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Amulet of Selûne's Chosen",
       "icon": "https://bg3.wiki/w/images/thumb/3/34/Amulet_Necklace_E_Pearl_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_E_Pearl_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_Sel%C3%BBne%27s_Chosen",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Amulet of Silvanus",
       "icon": "https://bg3.wiki/w/images/thumb/b/b6/Amulet_Necklace_D_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_D_Bronze_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_Silvanus",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Amulet of the Unworthy",
       "icon": "https://bg3.wiki/w/images/thumb/2/20/Keepsake_Locket_A_Glowing_Unfaded_Icon.png/50px-Keepsake_Locket_A_Glowing_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_the_Unworthy",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Beastmaster's Chain",
       "icon": "https://bg3.wiki/w/images/thumb/b/b6/Amulet_Necklace_D_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_D_Bronze_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Beastmaster%27s_Chain",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Broodmother's Revenge",
       "icon": "https://bg3.wiki/w/images/thumb/6/66/Amulet_Necklace_F_Bronze_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_F_Bronze_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Broodmother%27s_Revenge",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Fireheart",
       "icon": "https://bg3.wiki/w/images/thumb/0/02/Amulet_Necklace_F_Gold_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_F_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Fireheart",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Frost Prince",
       "icon": "https://bg3.wiki/w/images/thumb/3/33/Amulet_Necklace_B_Silver_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_B_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Frost_Prince",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Hammergrim Mist Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/2/2f/Amulet_Necklace_A_Gold_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_A_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hammergrim_Mist_Amulet",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Kill Collar",
       "icon": "https://bg3.wiki/w/images/thumb/4/4f/Dog_Collar_A_Unfaded_Icon.png/50px-Dog_Collar_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Kill_Collar",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Komira's Locket",
       "icon": "https://bg3.wiki/w/images/thumb/2/20/Keepsake_Locket_A_Glowing_Unfaded_Icon.png/50px-Keepsake_Locket_A_Glowing_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Komira%27s_Locket",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Moondrop Pendant",
       "icon": "https://bg3.wiki/w/images/thumb/9/98/Moondrop_Pendant_Unfaded_Icon.png/50px-Moondrop_Pendant_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Moondrop_Pendant",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Necklace of Elemental Augmentation",
       "icon": "https://bg3.wiki/w/images/thumb/0/02/Amulet_Necklace_F_Gold_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_F_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Necklace_of_Elemental_Augmentation",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Pearl of Power Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/6/6c/Pearl_of_Power_Amulet_Unfaded_Icon.png/50px-Pearl_of_Power_Amulet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Pearl_of_Power_Amulet",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Psychic Spark",
       "icon": "https://bg3.wiki/w/images/thumb/3/33/Amulet_Necklace_B_Silver_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_B_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Psychic_Spark",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Shar's Temptation",
       "icon": "https://bg3.wiki/w/images/thumb/8/85/Amulet_Necklace_E_Pearl_C_Unfaded_Icon.png/50px-Amulet_Necklace_E_Pearl_C_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shar%27s_Temptation",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Silver Pendant",
       "icon": "https://bg3.wiki/w/images/thumb/f/f8/Silver_Pendant_Unfaded_Icon.png/50px-Silver_Pendant_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Silver_Pendant",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Spineshudder Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/2/28/Amulet_Necklace_C_Silver_A_1_Unfaded_Icon.png/50px-Amulet_Necklace_C_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Spineshudder_Amulet",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Tarnished Charm",
       "icon": "https://bg3.wiki/w/images/thumb/a/a3/Tarnished_Charm_Unfaded_Icon.png/50px-Tarnished_Charm_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tarnished_Charm",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "The Blast Pendant",
       "icon": "https://bg3.wiki/w/images/thumb/4/48/The_Blast_Pendant_Unfaded_Icon.png/50px-The_Blast_Pendant_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Blast_Pendant",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "The Ever-Seeing Eye",
       "icon": "https://bg3.wiki/w/images/thumb/c/cf/The_Ever-Seeing_Eye_Unfaded_Icon.png/50px-The_Ever-Seeing_Eye_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Ever-Seeing_Eye",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Amulet of the Absolute",
       "icon": "https://bg3.wiki/w/images/thumb/d/d6/Absolute%27s_Talisman_Unfaded_Icon.png/50px-Absolute%27s_Talisman_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amulet_of_the_Absolute",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Barnabus' Collar",
       "icon": "https://bg3.wiki/w/images/thumb/2/26/Amulet_Necklace_A_Silver_A_Unfaded_Icon.png/50px-Amulet_Necklace_A_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Barnabus%27_Collar",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Bronze Necklace",
       "icon": "https://bg3.wiki/w/images/thumb/0/07/Amulet_Necklace_B_Bronze_A_Unfaded_Icon.png/50px-Amulet_Necklace_B_Bronze_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bronze_Necklace",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Bronze Pendant",
       "icon": "https://bg3.wiki/w/images/thumb/6/6d/Amulet_Necklace_D_Bronze_A_Unfaded_Icon.png/50px-Amulet_Necklace_D_Bronze_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bronze_Pendant",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Burnished Necklace",
       "icon": "https://bg3.wiki/w/images/thumb/1/1f/Amulet_Necklace_C_Bronze_A_Unfaded_Icon.png/50px-Amulet_Necklace_C_Bronze_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Burnished_Necklace",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Destroyed Kill Collar",
       "icon": "https://bg3.wiki/w/images/thumb/4/4f/Dog_Collar_A_Unfaded_Icon.png/50px-Dog_Collar_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Destroyed_Kill_Collar",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Dog Collar",
       "icon": "https://bg3.wiki/w/images/thumb/a/af/Dog_Collar_Unfaded_Icon.png/50px-Dog_Collar_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dog_Collar",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Gold Necklace",
       "icon": "https://bg3.wiki/w/images/thumb/0/0b/Amulet_Necklace_B_Gold_A_Unfaded_Icon.png/50px-Amulet_Necklace_B_Gold_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gold_Necklace",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Gold Pendant",
       "icon": "https://bg3.wiki/w/images/thumb/2/2b/Amulet_Necklace_A_Gold_A_Unfaded_Icon.png/50px-Amulet_Necklace_A_Gold_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gold_Pendant",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Gordis' Dog Collar",
       "icon": "https://bg3.wiki/w/images/thumb/4/4f/Dog_Collar_A_Unfaded_Icon.png/50px-Dog_Collar_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gordis%27_Dog_Collar",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Pearl Necklace",
       "icon": "https://bg3.wiki/w/images/thumb/c/cd/Amulet_Necklace_E_Pearl_A_Unfaded_Icon.png/50px-Amulet_Necklace_E_Pearl_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Pearl_Necklace",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Polished Necklace",
       "icon": "https://bg3.wiki/w/images/thumb/5/57/Amulet_Necklace_F_Gold_A_Unfaded_Icon.png/50px-Amulet_Necklace_F_Gold_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Polished_Necklace",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Rocky's Dog Collar",
       "icon": "https://bg3.wiki/w/images/thumb/4/4f/Dog_Collar_A_Unfaded_Icon.png/50px-Dog_Collar_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Rocky%27s_Dog_Collar",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Selûnite Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/7/7c/Selunite_Amulet_Unfaded_Icon.png/50px-Selunite_Amulet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Sel%C3%BBnite_Amulet",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Silver Amulet",
       "icon": "https://bg3.wiki/w/images/thumb/2/26/Amulet_Necklace_A_Silver_A_Unfaded_Icon.png/50px-Amulet_Necklace_A_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Silver_Amulet",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Silver Locket",
       "icon": "https://bg3.wiki/w/images/thumb/2/26/Amulet_Necklace_A_Silver_A_Unfaded_Icon.png/50px-Amulet_Necklace_A_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Silver_Locket",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Silver Necklace",
       "icon": "https://bg3.wiki/w/images/thumb/8/89/Amulet_Necklace_B_Silver_A_Unfaded_Icon.png/50px-Amulet_Necklace_B_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Silver_Necklace",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Brass Locket (Common)",
       "icon": "https://bg3.wiki/w/images/thumb/c/c7/Keepsake_Locket_A_Unfaded_Icon.png/50px-Keepsake_Locket_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Brass_Locket_(Common)",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Tarnished Locket",
       "icon": "https://bg3.wiki/w/images/thumb/c/c7/Keepsake_Locket_A_Unfaded_Icon.png/50px-Keepsake_Locket_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tarnished_Locket",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Tarnished Pendant",
       "icon": "https://bg3.wiki/w/images/thumb/2/2c/Amulet_Necklace_A_Bronze_A_Unfaded_Icon.png/50px-Amulet_Necklace_A_Bronze_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tarnished_Pendant",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Zina's Dog Collar",
       "icon": "https://bg3.wiki/w/images/thumb/4/4f/Dog_Collar_A_Unfaded_Icon.png/50px-Dog_Collar_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Zina%27s_Dog_Collar",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     }
   ],
   "rings": [
@@ -4359,603 +4068,517 @@
       "name": "Burnished Ring",
       "icon": "https://bg3.wiki/w/images/thumb/6/61/Ring_A_Gem_A_Gold_1_Unfaded_Icon.png/50px-Ring_A_Gem_A_Gold_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Burnished_Ring",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Crypt Lord Ring",
       "icon": "https://bg3.wiki/w/images/thumb/5/5f/Ring_I_Gold_A_1_Unfaded_Icon.png/50px-Ring_I_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Crypt_Lord_Ring",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Killer's Sweetheart",
       "icon": "https://bg3.wiki/w/images/thumb/5/5f/Ring_I_Gold_A_1_Unfaded_Icon.png/50px-Ring_I_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Killer%27s_Sweetheart",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Orphic Ring",
       "icon": "https://bg3.wiki/w/images/thumb/4/42/Ring_B_Gem_B_Gold_1_Unfaded_Icon.png/50px-Ring_B_Gem_B_Gold_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Orphic_Ring",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Ring of Evasion",
       "icon": "https://bg3.wiki/w/images/thumb/0/03/Ring_of_Evasion_Unfaded_Icon.png/50px-Ring_of_Evasion_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Evasion",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Ring of Feywild Sparks",
       "icon": "https://bg3.wiki/w/images/thumb/2/2b/Ring_H_Gold_A_1_Unfaded_Icon.png/50px-Ring_H_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Feywild_Sparks",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Ring of Regeneration",
       "icon": "https://bg3.wiki/w/images/thumb/e/e2/Ring_of_Regeneration_Unfaded_Icon.png/50px-Ring_of_Regeneration_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Regeneration",
-      "rarity": "Very Rare",
-      "armourType": "Heavy armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "After Death Do Us Part",
       "icon": "https://bg3.wiki/w/images/thumb/3/3c/Partner_Ring_B_Unfaded_Icon.png/50px-Partner_Ring_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/After_Death_Do_Us_Part",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Band of the Mystic Scoundrel",
       "icon": "https://bg3.wiki/w/images/thumb/5/51/Ring_E_Gold_A_1_Unfaded_Icon.png/50px-Ring_E_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Band_of_the_Mystic_Scoundrel",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Fetish of Callarduran Smoothhands",
       "icon": "https://bg3.wiki/w/images/thumb/8/83/Fetish_of_Callarduran_Smoothhands_Unfaded_Icon.png/50px-Fetish_of_Callarduran_Smoothhands_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Fetish_of_Callarduran_Smoothhands",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Keepsake Ring",
       "icon": "https://bg3.wiki/w/images/thumb/6/61/Ring_A_Gem_A_Gold_1_Unfaded_Icon.png/50px-Ring_A_Gem_A_Gold_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Keepsake_Ring",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Ring of Arcane Synergy",
       "icon": "https://bg3.wiki/w/images/thumb/5/5f/Ring_B_Silver_A_1_Unfaded_Icon.png/50px-Ring_B_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Arcane_Synergy",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Ring of Blink",
       "icon": "https://bg3.wiki/w/images/thumb/6/61/Ring_A_Gem_A_Gold_1_Unfaded_Icon.png/50px-Ring_A_Gem_A_Gold_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Blink",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Ring of Exalted Marrow",
       "icon": "https://bg3.wiki/w/images/thumb/f/fb/Ring_of_Exalted_Marrow_Unfaded_Icon.png/50px-Ring_of_Exalted_Marrow_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Exalted_Marrow",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Ring of Free Action",
       "icon": "https://bg3.wiki/w/images/thumb/d/df/Ring_of_Free_Action_Unfaded_Icon.png/50px-Ring_of_Free_Action_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Free_Action",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Ring of Mind-Shielding",
       "icon": "https://bg3.wiki/w/images/thumb/8/85/Ring_G_Silver_A_1_Unfaded_Icon.png/50px-Ring_G_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Mind-Shielding",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Ring of Poison Resistance",
       "icon": "https://bg3.wiki/w/images/thumb/1/13/Ring_G_1_Unfaded_Icon.png/50px-Ring_G_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Poison_Resistance",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Ring of Protection",
       "icon": "https://bg3.wiki/w/images/thumb/1/10/Ring_of_Protection_Unfaded_Icon.png/50px-Ring_of_Protection_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Protection",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Ring of Truthfulness",
       "icon": "https://bg3.wiki/w/images/thumb/b/b7/Ring_C_Gold_A_1_Unfaded_Icon.png/50px-Ring_C_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Truthfulness",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Ring of Twilight",
       "icon": "https://bg3.wiki/w/images/thumb/c/c8/Ring_I_Silver_A_1_Unfaded_Icon.png/50px-Ring_I_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Twilight",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Risky Ring",
       "icon": "https://bg3.wiki/w/images/thumb/5/51/Ring_E_Gold_A_1_Unfaded_Icon.png/50px-Ring_E_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Risky_Ring",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Shifting Corpus Ring",
       "icon": "https://bg3.wiki/w/images/thumb/d/d1/Ring_A_Simple_Gold_1_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shifting_Corpus_Ring",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Till Death Do Us Part",
       "icon": "https://bg3.wiki/w/images/thumb/6/60/Partner_Ring_A_Unfaded_Icon.png/50px-Partner_Ring_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Till_Death_Do_Us_Part",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "True Love's Caress",
       "icon": "https://bg3.wiki/w/images/thumb/1/14/Ring_B_1_Unfaded_Icon.png/50px-Ring_B_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/True_Love%27s_Caress",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "True Love's Embrace",
       "icon": "https://bg3.wiki/w/images/thumb/1/14/Ring_B_1_Unfaded_Icon.png/50px-Ring_B_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/True_Love%27s_Embrace",
-      "rarity": "Rare",
-      "armourType": "Medium armour"
+      "rarity": "Rare"
     },
     {
       "name": "Bracing Band",
       "icon": "https://bg3.wiki/w/images/thumb/a/ac/Ring_E_Silver_A_1_Unfaded_Icon.png/50px-Ring_E_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bracing_Band",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Callous Glow Ring",
       "icon": "https://bg3.wiki/w/images/thumb/5/51/Ring_E_Gold_A_1_Unfaded_Icon.png/50px-Ring_E_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Callous_Glow_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Caustic Band",
       "icon": "https://bg3.wiki/w/images/thumb/f/fb/Ring_F_Silver_A_1_Unfaded_Icon.png/50px-Ring_F_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Caustic_Band",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Coruscation Ring",
       "icon": "https://bg3.wiki/w/images/thumb/d/d1/Ring_A_Simple_Gold_1_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Coruscation_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Crusher's Ring",
       "icon": "https://bg3.wiki/w/images/thumb/1/1f/Crushers_Ring_Unfaded_Icon.png/50px-Crushers_Ring_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Crusher%27s_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Djinni Ring",
       "icon": "https://bg3.wiki/w/images/thumb/d/dd/Ring_D_1_Unfaded_Icon.png/50px-Ring_D_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Djinni_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Eversight Ring",
       "icon": "https://bg3.wiki/w/images/thumb/c/c8/Ring_I_Silver_A_1_Unfaded_Icon.png/50px-Ring_I_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Eversight_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Explorer's Ring",
       "icon": "https://bg3.wiki/w/images/thumb/8/81/Explorers_Ring_Unfaded_Icon.png/50px-Explorers_Ring_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Explorer%27s_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Family Ring",
       "icon": "https://bg3.wiki/w/images/thumb/6/61/Ring_A_Gem_A_Gold_1_Unfaded_Icon.png/50px-Ring_A_Gem_A_Gold_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Family_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Firzu's Ring of Trading",
       "icon": "https://bg3.wiki/w/images/thumb/7/7e/Ring_I_Unfaded_Icon.png/50px-Ring_I_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Firzu%27s_Ring_of_Trading",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Guild Ring",
       "icon": "https://bg3.wiki/w/images/thumb/8/82/Guild_Ring_Unfaded_Icon.png/50px-Guild_Ring_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Guild_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Mage's Friend",
       "icon": "https://bg3.wiki/w/images/thumb/5/5a/Ring_C_Silver_A_Unfaded_Icon.png/50px-Ring_C_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Mage%27s_Friend",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Poisoner's Ring",
       "icon": "https://bg3.wiki/w/images/thumb/9/96/Ring_G_Gold_A_1_Unfaded_Icon.png/50px-Ring_G_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Poisoner%27s_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring of Absolute Force",
       "icon": "https://bg3.wiki/w/images/thumb/a/a3/Ring_of_Absolute_Force_Unfaded_Icon.png/50px-Ring_of_Absolute_Force_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Absolute_Force",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring of Colour Spray",
       "icon": "https://bg3.wiki/w/images/thumb/f/f4/Ring_D_Unfaded_Icon.png/50px-Ring_D_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Colour_Spray",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring of Elemental Infusion",
       "icon": "https://bg3.wiki/w/images/thumb/2/2b/Ring_H_Gold_A_1_Unfaded_Icon.png/50px-Ring_H_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Elemental_Infusion",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring of Flinging",
       "icon": "https://bg3.wiki/w/images/thumb/5/5a/Ring_C_Silver_A_Unfaded_Icon.png/50px-Ring_C_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Flinging",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring of Geniality",
       "icon": "https://bg3.wiki/w/images/thumb/5/58/Ring_H_Silver_A_1_Unfaded_Icon.png/50px-Ring_H_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Geniality",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring of Jumping",
       "icon": "https://bg3.wiki/w/images/thumb/3/37/Ring_of_Jumping_Unfaded_Icon.png/50px-Ring_of_Jumping_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Jumping",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring of Mental Inhibition",
       "icon": "https://bg3.wiki/w/images/thumb/1/14/Ring_B_1_Unfaded_Icon.png/50px-Ring_B_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Mental_Inhibition",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring of Salving",
       "icon": "https://bg3.wiki/w/images/thumb/e/e9/Ring_D_Silver_A_1_Unfaded_Icon.png/50px-Ring_D_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Salving",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring of Self Immolation",
       "icon": "https://bg3.wiki/w/images/thumb/5/5a/Ring_C_Silver_A_Unfaded_Icon.png/50px-Ring_C_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Self_Immolation",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring of Shadows",
       "icon": "https://bg3.wiki/w/images/thumb/5/5f/Ring_I_Gold_A_1_Unfaded_Icon.png/50px-Ring_I_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Shadows",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ring of Spiteful Thunder",
       "icon": "https://bg3.wiki/w/images/thumb/b/bf/Ring_D_Gold_A_1_Unfaded_Icon.png/50px-Ring_D_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Spiteful_Thunder",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Seemingly Gleaming Ring",
       "icon": "https://bg3.wiki/w/images/thumb/f/f2/Ring_H_1_Unfaded_Icon.png/50px-Ring_H_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Seemingly_Gleaming_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Shadow Blade Ring",
       "icon": "https://bg3.wiki/w/images/thumb/d/dd/Ring_D_1_Unfaded_Icon.png/50px-Ring_D_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shadow_Blade_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Shadow-Cloaked Ring",
       "icon": "https://bg3.wiki/w/images/thumb/4/42/Ring_B_Gem_B_Gold_1_Unfaded_Icon.png/50px-Ring_B_Gem_B_Gold_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shadow-Cloaked_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Shapeshifter's Boon Ring",
       "icon": "https://bg3.wiki/w/images/thumb/8/8c/Ring_B_Gold_A_1_Unfaded_Icon.png/50px-Ring_B_Gold_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Shapeshifter%27s_Boon_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Smuggler's Ring",
       "icon": "https://bg3.wiki/w/images/thumb/c/ce/Ring_I_1_Unfaded_Icon.png/50px-Ring_I_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Smuggler%27s_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Snowburst Ring",
       "icon": "https://bg3.wiki/w/images/thumb/6/61/Ring_A_Gem_A_Gold_1_Unfaded_Icon.png/50px-Ring_A_Gem_A_Gold_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Snowburst_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Spurred Band",
       "icon": "https://bg3.wiki/w/images/thumb/b/b9/Spurred_Band_Unfaded_Icon.png/50px-Spurred_Band_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Spurred_Band",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Strange Conduit Ring",
       "icon": "https://bg3.wiki/w/images/thumb/f/fb/Ring_F_Silver_A_1_Unfaded_Icon.png/50px-Ring_F_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Strange_Conduit_Ring",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Sunwalker's Gift",
       "icon": "https://bg3.wiki/w/images/thumb/5/58/Ring_H_Silver_A_1_Unfaded_Icon.png/50px-Ring_H_Silver_A_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Sunwalker%27s_Gift",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "The Sparkswall",
       "icon": "https://bg3.wiki/w/images/thumb/e/e2/The_Sparkswall_Unfaded_Icon.png/50px-The_Sparkswall_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Sparkswall",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "The Whispering Promise",
       "icon": "https://bg3.wiki/w/images/thumb/5/55/Ring_F_1_Unfaded_Icon.png/50px-Ring_F_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Whispering_Promise",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "'Magic' Ring",
       "icon": "https://bg3.wiki/w/images/thumb/c/cd/Ring_A_Simple_Gold_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/%27Magic%27_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Amethyst Ring",
       "icon": "https://bg3.wiki/w/images/thumb/c/c6/Ring_D_Silver_A_Unfaded_Icon.png/50px-Ring_D_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Amethyst_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Bloody Signet Ring",
       "icon": "https://bg3.wiki/w/images/thumb/2/2e/Ring_B_Gem_A_Gold_Unfaded_Icon.png/50px-Ring_B_Gem_A_Gold_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bloody_Signet_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Bronze Ring",
       "icon": "https://bg3.wiki/w/images/thumb/f/f4/Ring_D_Unfaded_Icon.png/50px-Ring_D_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bronze_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Carnelian Ring",
       "icon": "https://bg3.wiki/w/images/thumb/4/4f/Ring_C_Unfaded_Icon.png/50px-Ring_C_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Carnelian_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Copper Band",
       "icon": "https://bg3.wiki/w/images/thumb/d/df/Ring_G_Unfaded_Icon.png/50px-Ring_G_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Copper_Band",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Copper Ring",
       "icon": "https://bg3.wiki/w/images/thumb/9/98/Ring_E_Unfaded_Icon.png/50px-Ring_E_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Copper_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Dark Ring",
       "icon": "https://bg3.wiki/w/images/thumb/7/7e/Ring_I_Unfaded_Icon.png/50px-Ring_I_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Emerald Ring",
       "icon": "https://bg3.wiki/w/images/thumb/6/6b/Ring_B_Unfaded_Icon.png/50px-Ring_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Emerald_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Garnet Ring",
       "icon": "https://bg3.wiki/w/images/thumb/f/f8/Ring_H_Unfaded_Icon.png/50px-Ring_H_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Garnet_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Gold Band",
       "icon": "https://bg3.wiki/w/images/thumb/3/38/Ring_G_Gold_A_Unfaded_Icon.png/50px-Ring_G_Gold_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gold_Band",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Gold Ring",
       "icon": "https://bg3.wiki/w/images/thumb/0/05/Ring_A_Gem_A_Gold_Unfaded_Icon.png/50px-Ring_A_Gem_A_Gold_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gold_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Onyx Ring",
       "icon": "https://bg3.wiki/w/images/thumb/b/b8/Ring_I_Silver_A_Unfaded_Icon.png/50px-Ring_I_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Onyx_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Peridot Ring",
       "icon": "https://bg3.wiki/w/images/thumb/2/2b/Ring_B_Silver_A_Unfaded_Icon.png/50px-Ring_B_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Peridot_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Polished Ring",
       "icon": "https://bg3.wiki/w/images/thumb/0/06/Ring_E_Silver_A_Unfaded_Icon.png/50px-Ring_E_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Polished_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Ring of Being Really Invisible",
       "icon": "https://bg3.wiki/w/images/thumb/c/cd/Ring_A_Simple_Gold_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Being_Really_Invisible",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Ring of Infinite Wishes",
       "icon": "https://bg3.wiki/w/images/thumb/c/cd/Ring_A_Simple_Gold_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Infinite_Wishes",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Ring of Murderous Opportunity",
       "icon": "https://bg3.wiki/w/images/thumb/3/37/Ring_H_Silver_A_Unfaded_Icon.png/50px-Ring_H_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Murderous_Opportunity",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Ring of Resistance to Ants",
       "icon": "https://bg3.wiki/w/images/thumb/c/cd/Ring_A_Simple_Gold_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_Resistance_to_Ants",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Ring of the Lekinesus",
       "icon": "https://bg3.wiki/w/images/thumb/c/cd/Ring_A_Simple_Gold_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ring_of_the_Lekinesus",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Ruby Ring",
       "icon": "https://bg3.wiki/w/images/thumb/5/5a/Ring_C_Silver_A_Unfaded_Icon.png/50px-Ring_C_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ruby_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Silver Band",
       "icon": "https://bg3.wiki/w/images/thumb/1/1f/Ring_G_Silver_A_Unfaded_Icon.png/50px-Ring_G_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Silver_Band",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Tarnished Ring",
       "icon": "https://bg3.wiki/w/images/thumb/c/cd/Ring_A_Simple_Gold_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tarnished_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Tarnished Wedding Ring",
       "icon": "https://bg3.wiki/w/images/thumb/6/6b/Ring_B_Unfaded_Icon.png/50px-Ring_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tarnished_Wedding_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Tourmaline Ring",
       "icon": "https://bg3.wiki/w/images/thumb/e/e3/Ring_F_Silver_A_Unfaded_Icon.png/50px-Ring_F_Silver_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tourmaline_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Verdelite Ring",
       "icon": "https://bg3.wiki/w/images/thumb/2/2c/Ring_B_Gold_A_Unfaded_Icon.png/50px-Ring_B_Gold_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Verdelite_Ring",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     }
   ],
   "footwears": [
@@ -4963,442 +4586,379 @@
       "name": "Disintegrating Night Walkers",
       "icon": "https://bg3.wiki/w/images/thumb/4/42/Disintegrating_Nightwalkers_Unfaded_Icon.png/50px-Disintegrating_Nightwalkers_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Disintegrating_Night_Walkers",
-      "rarity": "Story Item",
-      "armourType": "Non-Armour"
+      "rarity": "Story Item"
     },
     {
       "name": "Bonespike Boots",
       "icon": "https://bg3.wiki/w/images/thumb/0/0b/Bonespike_Boots_Unfaded_Icon.png/50px-Bonespike_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bonespike_Boots",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Helldusk Boots",
       "icon": "https://bg3.wiki/w/images/thumb/4/49/Helldusk_Boots_Unfaded_Icon.png/50px-Helldusk_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Helldusk_Boots",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Boots of Persistence",
       "icon": "https://bg3.wiki/w/images/thumb/c/c8/Boots_of_Persistence_Unfaded_Icon.png/50px-Boots_of_Persistence_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Persistence",
-      "rarity": "Very Rare",
-      "armourType": "Light armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Boots of Psionic Movement",
       "icon": "https://bg3.wiki/w/images/thumb/3/36/Boots_Metal_Githyanki_B_Magic_Unfaded_Icon.png/50px-Boots_Metal_Githyanki_B_Magic_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Psionic_Movement",
-      "rarity": "Very Rare",
-      "armourType": "Light armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Acrobat Shoes",
       "icon": "https://bg3.wiki/w/images/thumb/5/56/Acrobat_Shoes_Unfaded_Icon.png/50px-Acrobat_Shoes_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Acrobat_Shoes",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Boots of Apparent Death",
       "icon": "https://bg3.wiki/w/images/thumb/f/f8/Shoes_A_Unfaded_Icon.png/50px-Shoes_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Apparent_Death",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Boots of Arcane Bolstering",
       "icon": "https://bg3.wiki/w/images/thumb/5/5e/Boots_of_Arcane_Bolstering_Unfaded_Icon.png/50px-Boots_of_Arcane_Bolstering_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Arcane_Bolstering",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Boots of Brilliance",
       "icon": "https://bg3.wiki/w/images/thumb/8/89/Boots_of_Brilliance_Unfaded_Icon.png/50px-Boots_of_Brilliance_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Brilliance",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Boots of Genial Striding",
       "icon": "https://bg3.wiki/w/images/thumb/f/f3/Boots_of_Genial_Striding_Unfaded_Icon.png/50px-Boots_of_Genial_Striding_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Genial_Striding",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Boots of Speed",
       "icon": "https://bg3.wiki/w/images/thumb/3/33/Boots_of_Speed_Unfaded_Icon.png/50px-Boots_of_Speed_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Speed",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Boots of Uninhibited Kushigo",
       "icon": "https://bg3.wiki/w/images/thumb/1/1e/Boots_of_Uninhibited_Kushigo_Unfaded_Icon.png/50px-Boots_of_Uninhibited_Kushigo_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Uninhibited_Kushigo",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Evasive Shoes",
       "icon": "https://bg3.wiki/w/images/thumb/b/be/Shoes_G_Magic_Unfaded_Icon.png/50px-Shoes_G_Magic_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Evasive_Shoes",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Linebreaker Boots",
       "icon": "https://bg3.wiki/w/images/thumb/f/f2/Linebreaker_Boots_Unfaded_Icon.png/50px-Linebreaker_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Linebreaker_Boots",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Slinging Shoes",
       "icon": "https://bg3.wiki/w/images/thumb/3/34/Slinging_Shoes_Unfaded_Icon.png/50px-Slinging_Shoes_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Slinging_Shoes",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Spaceshunt Boots",
       "icon": "https://bg3.wiki/w/images/thumb/4/42/Spaceshunt_Boots_Unfaded_Icon.png/50px-Spaceshunt_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Spaceshunt_Boots",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Springstep Boots",
       "icon": "https://bg3.wiki/w/images/thumb/a/a6/Springstep_Boots_Unfaded_Icon.png/50px-Springstep_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Springstep_Boots",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Swiresy Shoes",
       "icon": "https://bg3.wiki/w/images/thumb/a/a9/Shoes_D_Unfaded_Icon.png/50px-Shoes_D_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Swiresy_Shoes",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "The Watersparkers",
       "icon": "https://bg3.wiki/w/images/thumb/1/10/The_Watersparkers_Unfaded_Icon.png/50px-The_Watersparkers_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Watersparkers",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Blackguard's Greaves",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Boots_Metal_1_Unfaded_Icon.png/50px-Boots_Metal_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Blackguard%27s_Greaves",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Dark Justiciar Boots",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Boots_Metal_1_Unfaded_Icon.png/50px-Boots_Metal_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Boots",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "The Speedy Lightfeet",
       "icon": "https://bg3.wiki/w/images/thumb/1/1a/The_Speedy_Lightfeet_Unfaded_Icon.png/50px-The_Speedy_Lightfeet_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Speedy_Lightfeet",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Unwanted Masterwork Greaves",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Boots_Metal_1_Unfaded_Icon.png/50px-Boots_Metal_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Unwanted_Masterwork_Greaves",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Vital Conduit Boots",
       "icon": "https://bg3.wiki/w/images/thumb/1/1f/Boots_Metal_Githyanki_Magic_Unfaded_Icon.png/50px-Boots_Metal_Githyanki_Magic_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Vital_Conduit_Boots",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Boots of Aid and Comfort",
       "icon": "https://bg3.wiki/w/images/thumb/3/30/Boots_of_Aid_and_Comfort_Unfaded_Icon.png/50px-Boots_of_Aid_and_Comfort_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Aid_and_Comfort",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Boots of Stormy Clamour",
       "icon": "https://bg3.wiki/w/images/thumb/f/fe/Boots_of_Stormy_Clamour_Unfaded_Icon.png/50px-Boots_of_Stormy_Clamour_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Stormy_Clamour",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Boots of Very Fast Blinking",
       "icon": "https://bg3.wiki/w/images/thumb/e/e4/Shoes_Bard_Unfaded_Icon.png/50px-Shoes_Bard_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Very_Fast_Blinking",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Cinder Shoes",
       "icon": "https://bg3.wiki/w/images/thumb/4/4a/Boots_Leather_1_Unfaded_Icon.png/50px-Boots_Leather_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Cinder_Shoes",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Hoarfrost Boots",
       "icon": "https://bg3.wiki/w/images/thumb/7/7c/Hoarfrost_Boots_Unfaded_Icon.png/50px-Hoarfrost_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hoarfrost_Boots",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Mystra's Grace",
       "icon": "https://bg3.wiki/w/images/thumb/4/4a/Boots_Leather_1_Unfaded_Icon.png/50px-Boots_Leather_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Mystra%27s_Grace",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Spiderstep Boots",
       "icon": "https://bg3.wiki/w/images/thumb/b/b5/Spiderstep_Boots_Unfaded_Icon.png/50px-Spiderstep_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Spiderstep_Boots",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Tyrannical Jackboots",
       "icon": "https://bg3.wiki/w/images/thumb/1/11/Tyrannical_Jackboots_Unfaded_Icon.png/50px-Tyrannical_Jackboots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tyrannical_Jackboots",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Varsh Ko'kuu's Boots",
       "icon": "https://bg3.wiki/w/images/thumb/f/f8/Shoes_A_Unfaded_Icon.png/50px-Shoes_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Varsh_Ko%27kuu%27s_Boots",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Boots of Elemental Momentum",
       "icon": "https://bg3.wiki/w/images/thumb/f/f8/Boots_of_Elemental_Momentum_Unfaded_Icon.png/50px-Boots_of_Elemental_Momentum_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Elemental_Momentum",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Boots of Striding",
       "icon": "https://bg3.wiki/w/images/thumb/f/fb/Boots_Metal_F_Unfaded_Icon.png/50px-Boots_Metal_F_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Boots_of_Striding",
-      "rarity": "Uncommon",
-      "armourType": "Light armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Appreciably-Cared-For Boots",
       "icon": "https://bg3.wiki/w/images/thumb/c/c4/Boots_Leather_A_Unfaded_Icon.png/50px-Boots_Leather_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Appreciably-Cared-For_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Cleverly Cobbled Boots",
       "icon": "https://bg3.wiki/w/images/thumb/a/a9/Shoes_D_Unfaded_Icon.png/50px-Shoes_D_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Cleverly_Cobbled_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Drow Leather Boots",
       "icon": "https://bg3.wiki/w/images/thumb/9/95/Drow_Leather_Boots_Unfaded_Icon.png/50px-Drow_Leather_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Drow_Leather_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Firm-Soled Boots",
       "icon": "https://bg3.wiki/w/images/thumb/c/c8/Item_ARM_Boots_Leather_D_Unfaded_Icon.png/50px-Item_ARM_Boots_Leather_D_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Firm-Soled_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Grovetender Boots",
       "icon": "https://bg3.wiki/w/images/thumb/7/7a/Grovetender_Boots_Unfaded_Icon.png/50px-Grovetender_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Grovetender_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Hardily Constructed Boots",
       "icon": "https://bg3.wiki/w/images/thumb/f/f8/Shoes_A_Unfaded_Icon.png/50px-Shoes_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hardily_Constructed_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Heavy Boots",
       "icon": "https://bg3.wiki/w/images/thumb/e/e5/Heavy_Boots_Unfaded_Icon.png/50px-Heavy_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Heavy_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Humbly Cobbled Shoes",
       "icon": "https://bg3.wiki/w/images/thumb/4/43/Shoes_G_Unfaded_Icon.png/50px-Shoes_G_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Humbly_Cobbled_Shoes",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Jaheira’s Boots",
       "icon": "https://bg3.wiki/w/images/thumb/c/c8/Item_ARM_Boots_Leather_D_Unfaded_Icon.png/50px-Item_ARM_Boots_Leather_D_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Jaheira%E2%80%99s_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Karlach's Boots",
       "icon": "https://bg3.wiki/w/images/thumb/4/4c/Boots_Leather_2_Unfaded_Icon.png/50px-Boots_Leather_2_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Karlach%27s_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Leather Boots",
       "icon": "https://bg3.wiki/w/images/thumb/8/8d/Boots_Leather_Unfaded_Icon.png/50px-Boots_Leather_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Leather_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Leather Boots (Barbarian)",
       "icon": "https://bg3.wiki/w/images/thumb/5/5d/Shoes_Barbarian_Unfaded_Icon.png/50px-Shoes_Barbarian_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Leather_Boots_(Barbarian)",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Lonely Left Boot of Elvenkind",
       "icon": "https://bg3.wiki/w/images/thumb/9/9c/Shoes_E_Unfaded_Icon.png/50px-Shoes_E_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Lonely_Left_Boot_of_Elvenkind",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Monastic Boots",
       "icon": "https://bg3.wiki/w/images/thumb/6/6c/Boots_Monk_Unfaded_Icon.png/50px-Boots_Monk_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Monastic_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Plain Boots",
       "icon": "https://bg3.wiki/w/images/thumb/4/4c/Boots_Leather_2_Unfaded_Icon.png/50px-Boots_Leather_2_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Plain_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Quite Fashionable Boots",
       "icon": "https://bg3.wiki/w/images/thumb/7/7d/Shoes_H_Unfaded_Icon.png/50px-Shoes_H_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Quite_Fashionable_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Simple Boots",
       "icon": "https://bg3.wiki/w/images/thumb/0/0a/Shoes_Unfaded_Icon.png/50px-Shoes_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Simple_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Smarmy Swaggerer Boots",
       "icon": "https://bg3.wiki/w/images/thumb/2/27/Item_ARM_Boots_Leather_B_Unfaded_Icon.png/50px-Item_ARM_Boots_Leather_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Smarmy_Swaggerer_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Soft and Comfortable Shoes",
       "icon": "https://bg3.wiki/w/images/thumb/9/9c/Shoes_E_Unfaded_Icon.png/50px-Shoes_E_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Soft_and_Comfortable_Shoes",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Stiffly-Shod Boots",
       "icon": "https://bg3.wiki/w/images/thumb/b/b8/Hide_Boots_Unfaded_Icon.png/50px-Hide_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Stiffly-Shod_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Thin-Soled Shoes",
       "icon": "https://bg3.wiki/w/images/thumb/b/be/Shoes_C_Unfaded_Icon.png/50px-Shoes_C_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Thin-Soled_Shoes",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Tidy Slender Boots",
       "icon": "https://bg3.wiki/w/images/thumb/7/72/Tidy_Slender_Boots_Unfaded_Icon.png/50px-Tidy_Slender_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tidy_Slender_Boots",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Tough Shoes",
       "icon": "https://bg3.wiki/w/images/thumb/0/0a/Shoes_Unfaded_Icon.png/50px-Shoes_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tough_Shoes",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Tough-Soled Shoes",
       "icon": "https://bg3.wiki/w/images/thumb/7/73/Shoes_F_Unfaded_Icon.png/50px-Shoes_F_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Tough-Soled_Shoes",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Dreamsome Boots",
       "icon": "https://bg3.wiki/w/images/thumb/0/08/Boots_Metal_Unfaded_Icon.png/50px-Boots_Metal_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dreamsome_Boots",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Githyanki Boots",
       "icon": "https://bg3.wiki/w/images/thumb/9/9f/Githyanki_Boots_Unfaded_Icon.png/50px-Githyanki_Boots_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Githyanki_Boots",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Metallic Boots",
       "icon": "https://bg3.wiki/w/images/thumb/0/08/Boots_Metal_Unfaded_Icon.png/50px-Boots_Metal_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Metallic_Boots",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     },
     {
       "name": "Oathbreaker Knight Boots",
       "icon": "https://bg3.wiki/w/images/thumb/f/fb/Boots_Metal_F_Unfaded_Icon.png/50px-Boots_Metal_F_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Oathbreaker_Knight_Boots",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     }
   ],
   "handwears": [
@@ -5406,533 +4966,457 @@
       "name": "Gloves of Soul Catching",
       "icon": "https://bg3.wiki/w/images/thumb/1/11/Gloves_of_Soul_Catching_Unfaded_Icon.png/50px-Gloves_of_Soul_Catching_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Soul_Catching",
-      "rarity": "Legendary",
-      "armourType": "Non-Armour"
+      "rarity": "Legendary"
     },
     {
       "name": "Abyss Beckoners",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Gloves_Leather_F_Unfaded_Icon.png/50px-Gloves_Leather_F_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Abyss_Beckoners",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Bhaalist Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/c/c1/Gloves_Leather_G_Unfaded_Icon.png/50px-Gloves_Leather_G_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bhaalist_Gloves",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Bonespike Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/1/11/Gloves_Barbarian_Magic_B_Unfaded_Icon.png/50px-Gloves_Barbarian_Magic_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bonespike_Gloves",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Gauntlet of the Tyrant",
       "icon": "https://bg3.wiki/w/images/thumb/e/e7/Gauntlet_of_the_Tyrant_Unfaded_Icon.png/50px-Gauntlet_of_the_Tyrant_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gauntlet_of_the_Tyrant",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Gauntlets of Hill Giant Strength",
       "icon": "https://bg3.wiki/w/images/thumb/8/80/Gauntlets_of_Hill_Giant_Strength_Unfaded_Icon.png/50px-Gauntlets_of_Hill_Giant_Strength_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gauntlets_of_Hill_Giant_Strength",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Gemini Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/9/96/Gemini_Gloves_Unfaded_Icon.png/50px-Gemini_Gloves_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gemini_Gloves",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Gloves of Dexterity",
       "icon": "https://bg3.wiki/w/images/thumb/6/64/Gloves_Leather_2_Unfaded_Icon.png/50px-Gloves_Leather_2_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Dexterity",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Helldusk Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/1/14/Helldusk_Gloves_Unfaded_Icon.png/50px-Helldusk_Gloves_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Helldusk_Gloves",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Hr'a'cknir Bracers",
       "icon": "https://bg3.wiki/w/images/thumb/7/74/Hr%27a%27cknir_Bracers_Unfaded_Icon.png/50px-Hr%27a%27cknir_Bracers_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hr%27a%27cknir_Bracers",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Quickspell Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/8/82/Gloves_Leather_D_Unfaded_Icon.png/50px-Gloves_Leather_D_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Quickspell_Gloves",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Spellmight Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/8/82/Gloves_Leather_D_Unfaded_Icon.png/50px-Gloves_Leather_D_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Spellmight_Gloves",
-      "rarity": "Very Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Gauntlets of the Warmaster",
       "icon": "https://bg3.wiki/w/images/thumb/f/f1/Gloves_of_Metal_E_Unfaded_Icon.png/50px-Gloves_of_Metal_E_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gauntlets_of_the_Warmaster",
-      "rarity": "Very Rare",
-      "armourType": "Light armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Legacy of the Masters",
       "icon": "https://bg3.wiki/w/images/thumb/1/16/Gloves_Metal_C_Unfaded_Icon.png/50px-Gloves_Metal_C_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Legacy_of_the_Masters",
-      "rarity": "Very Rare",
-      "armourType": "Light armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "The Reviving Hands",
       "icon": "https://bg3.wiki/w/images/thumb/0/05/Gloves_Metal_D_Unfaded_Icon.png/50px-Gloves_Metal_D_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Reviving_Hands",
-      "rarity": "Very Rare",
-      "armourType": "Light armour"
+      "rarity": "Very Rare"
     },
     {
       "name": "Bracers of Defence",
       "icon": "https://bg3.wiki/w/images/thumb/a/a2/Bracers_of_Defence_Unfaded_Icon.png/50px-Bracers_of_Defence_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Bracers_of_Defence",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Cerebral Citadel Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/3/35/Gloves_Metal_H_Unfaded_Icon.png/50px-Gloves_Metal_H_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Cerebral_Citadel_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Cindersnap Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/6/67/Gloves_Leather_E_Unfaded_Icon.png/50px-Gloves_Leather_E_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Cindersnap_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Craterflesh Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/1/16/Gloves_Metal_C_Unfaded_Icon.png/50px-Gloves_Metal_C_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Craterflesh_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Daredevil Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/8/82/Gloves_Leather_D_Unfaded_Icon.png/50px-Gloves_Leather_D_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Daredevil_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Dark Displacement Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/2/20/Gloves_Leather_H_Unfaded_Icon.png/50px-Gloves_Leather_H_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Displacement_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Dark Justiciar Gauntlets (Rare)",
       "icon": "https://bg3.wiki/w/images/thumb/f/ff/Dark_Justiciar_Gauntlets_Unfaded_Icon.png/50px-Dark_Justiciar_Gauntlets_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Gauntlets_(Rare)",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Flawed Helldusk Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/7/72/Flawed_Helldusk_Gloves_Unfaded_Icon.png/50px-Flawed_Helldusk_Gloves_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Flawed_Helldusk_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Gloves of Battlemage's Power",
       "icon": "https://bg3.wiki/w/images/thumb/8/8f/Gloves_Metal_I_Unfaded_Icon.png/50px-Gloves_Metal_I_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Battlemage%27s_Power",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Gloves of Cinder and Sizzle",
       "icon": "https://bg3.wiki/w/images/thumb/b/b7/Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png/50px-Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Cinder_and_Sizzle",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Gloves of Crushing",
       "icon": "https://bg3.wiki/w/images/thumb/8/84/Gloves_Monk_Unfaded_Icon.png/50px-Gloves_Monk_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Crushing",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Gloves of Missile Snaring",
       "icon": "https://bg3.wiki/w/images/thumb/0/0e/Gloves_of_Missile_Snaring_Unfaded_Icon.png/50px-Gloves_of_Missile_Snaring_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Missile_Snaring",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Gloves of the Automaton",
       "icon": "https://bg3.wiki/w/images/thumb/9/90/Gloves_Metal_1_Unfaded_Icon.png/50px-Gloves_Metal_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_the_Automaton",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Gloves of the Balanced Hands",
       "icon": "https://bg3.wiki/w/images/thumb/2/20/Gloves_Leather_H_Unfaded_Icon.png/50px-Gloves_Leather_H_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_the_Balanced_Hands",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Gloves of The Duellist",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Gloves_Leather_F_Unfaded_Icon.png/50px-Gloves_Leather_F_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_The_Duellist",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Gloves of Uninhibited Kushigo",
       "icon": "https://bg3.wiki/w/images/thumb/b/b7/Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png/50px-Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Uninhibited_Kushigo",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Jhannyl's Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/f/f6/Gloves_Leather_3_Unfaded_Icon.png/50px-Gloves_Leather_3_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Jhannyl%27s_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Martial Exertion Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Gloves_Leather_F_Unfaded_Icon.png/50px-Gloves_Leather_F_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Martial_Exertion_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Nimblefinger Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/c/c1/Gloves_Leather_G_Unfaded_Icon.png/50px-Gloves_Leather_G_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Nimblefinger_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Poisoner's Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/6/67/Gloves_Leather_E_Unfaded_Icon.png/50px-Gloves_Leather_E_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Poisoner%27s_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Raven Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/6/67/Gloves_Leather_E_Unfaded_Icon.png/50px-Gloves_Leather_E_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Raven_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Seraphic Pugilist Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/7/79/Seraphic_Pugilist_Gloves_Unfaded_Icon.png/50px-Seraphic_Pugilist_Gloves_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Seraphic_Pugilist_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Servitor of the Black Hand Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/b/b7/Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png/50px-Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Servitor_of_the_Black_Hand_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Snow-Dusted Monastery Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/b/b7/Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png/50px-Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Snow-Dusted_Monastery_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Spellseeking Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/6/66/Spellseeking_Gloves_Unfaded_Icon.png/50px-Spellseeking_Gloves_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Spellseeking_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Stalker Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Gloves_Leather_F_Unfaded_Icon.png/50px-Gloves_Leather_F_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Stalker_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Swordmaster Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/c/c1/Gloves_Leather_G_Unfaded_Icon.png/50px-Gloves_Leather_G_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Swordmaster_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "The Sparkle Hands",
       "icon": "https://bg3.wiki/w/images/thumb/3/3c/The_Sparkle_Hands_Unfaded_Icon.png/50px-The_Sparkle_Hands_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/The_Sparkle_Hands",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Thunderpalm Strikers",
       "icon": "https://bg3.wiki/w/images/thumb/b/b7/Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png/50px-Gloves_of_Cinder_and_Sizzle_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Thunderpalm_Strikers",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Winkling Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/6/64/Gloves_Leather_2_Unfaded_Icon.png/50px-Gloves_Leather_2_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Winkling_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Wondrous Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/6/67/Gloves_Leather_E_Unfaded_Icon.png/50px-Gloves_Leather_E_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Wondrous_Gloves",
-      "rarity": "Rare",
-      "armourType": "Non-Armour"
+      "rarity": "Rare"
     },
     {
       "name": "Blackguard's Gauntlets",
       "icon": "https://bg3.wiki/w/images/thumb/f/f1/Gloves_of_Metal_E_Unfaded_Icon.png/50px-Gloves_of_Metal_E_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Blackguard%27s_Gauntlets",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Gauntlets of Surging Accuracy",
       "icon": "https://bg3.wiki/w/images/thumb/c/cd/Gloves_Scalemail_A_Unfaded_Icon.png/50px-Gloves_Scalemail_A_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gauntlets_of_Surging_Accuracy",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Unwanted Masterwork Gauntlets",
       "icon": "https://bg3.wiki/w/images/thumb/2/23/Unwanted_Masterwork_Gauntlets_Unfaded_Icon.png/50px-Unwanted_Masterwork_Gauntlets_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Unwanted_Masterwork_Gauntlets",
-      "rarity": "Rare",
-      "armourType": "Light armour"
+      "rarity": "Rare"
     },
     {
       "name": "Braindrain Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/2/20/Gloves_Leather_H_Unfaded_Icon.png/50px-Gloves_Leather_H_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Braindrain_Gloves",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Dark Justiciar Gauntlets (Uncommon)",
       "icon": "https://bg3.wiki/w/images/thumb/f/ff/Dark_Justiciar_Gauntlets_Unfaded_Icon.png/50px-Dark_Justiciar_Gauntlets_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Justiciar_Gauntlets_(Uncommon)",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Fleetfingers",
       "icon": "https://bg3.wiki/w/images/thumb/b/b0/Fleetfingers_Unfaded_Icon.png/50px-Fleetfingers_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Fleetfingers",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Gloves of Archery",
       "icon": "https://bg3.wiki/w/images/thumb/f/f8/Gloves_of_Archery_Unfaded_Icon.png/50px-Gloves_of_Archery_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Archery",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Gloves of Baneful Striking",
       "icon": "https://bg3.wiki/w/images/thumb/d/dd/Gloves_Leather_B_Unfaded_Icon.png/50px-Gloves_Leather_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Baneful_Striking",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Gloves of Belligerent Skies",
       "icon": "https://bg3.wiki/w/images/thumb/d/d0/Gloves_of_Belligerent_Skies_Unfaded_Icon.png/50px-Gloves_of_Belligerent_Skies_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Belligerent_Skies",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Gloves of Hail of Thorns",
       "icon": "https://bg3.wiki/w/images/thumb/c/cb/Gloves_Leather_1_Unfaded_Icon.png/50px-Gloves_Leather_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Hail_of_Thorns",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Gloves of Heroism",
       "icon": "https://bg3.wiki/w/images/thumb/9/90/Gloves_Metal_1_Unfaded_Icon.png/50px-Gloves_Metal_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Heroism",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Gloves of Power",
       "icon": "https://bg3.wiki/w/images/thumb/c/cb/Gloves_Leather_1_Unfaded_Icon.png/50px-Gloves_Leather_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Power",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Gloves of the Growling Underdog",
       "icon": "https://bg3.wiki/w/images/thumb/f/f1/Gloves_of_Metal_E_Unfaded_Icon.png/50px-Gloves_of_Metal_E_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_the_Growling_Underdog",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Gloves of Thievery",
       "icon": "https://bg3.wiki/w/images/thumb/4/41/Gloves_of_Thievery_Unfaded_Icon.png/50px-Gloves_of_Thievery_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_of_Thievery",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Hellrider's Pride",
       "icon": "https://bg3.wiki/w/images/thumb/9/90/Gloves_Metal_1_Unfaded_Icon.png/50px-Gloves_Metal_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Hellrider%27s_Pride",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Herbalist's Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/c/cb/Gloves_Leather_1_Unfaded_Icon.png/50px-Gloves_Leather_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Herbalist%27s_Gloves",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Ichorous Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/6/64/Gloves_Leather_2_Unfaded_Icon.png/50px-Gloves_Leather_2_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Ichorous_Gloves",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Knock Knuckle Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/6/64/Gloves_Leather_2_Unfaded_Icon.png/50px-Gloves_Leather_2_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Knock_Knuckle_Gloves",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Luminous Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/0/05/Gloves_Metal_D_Unfaded_Icon.png/50px-Gloves_Metal_D_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Luminous_Gloves",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Reason's Grasp",
       "icon": "https://bg3.wiki/w/images/thumb/0/0f/Reasons_Grasp_Unfaded_Icon.png/50px-Reasons_Grasp_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Reason%27s_Grasp",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Thermoarcanic Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/c/c1/Gloves_Leather_G_Unfaded_Icon.png/50px-Gloves_Leather_G_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Thermoarcanic_Gloves",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Unlucky Thief's Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/8/84/Gloves_Monk_Unfaded_Icon.png/50px-Gloves_Monk_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Unlucky_Thief%27s_Gloves",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Winter's Clutches",
       "icon": "https://bg3.wiki/w/images/thumb/9/9b/Gloves_Leather_F_Unfaded_Icon.png/50px-Gloves_Leather_F_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Winter%27s_Clutches",
-      "rarity": "Uncommon",
-      "armourType": "Non-Armour"
+      "rarity": "Uncommon"
     },
     {
       "name": "Drow Leather Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/f/f8/Gloves_Leather_Drow_Unfaded_Icon.png/50px-Gloves_Leather_Drow_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Drow_Leather_Gloves",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Druidic Bracers",
       "icon": "https://bg3.wiki/w/images/thumb/a/ae/Gloves_Leather_Druid_B_Unfaded_Icon.png/50px-Gloves_Leather_Druid_B_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Druidic_Bracers",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Gloves (Equipment)",
       "icon": "https://bg3.wiki/w/images/thumb/8/84/Gloves_Monk_Unfaded_Icon.png/50px-Gloves_Monk_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Gloves_(Equipment)",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Leather Bracers",
       "icon": "https://bg3.wiki/w/images/thumb/1/1a/Bracers_Barbarian_Unfaded_Icon.png/50px-Bracers_Barbarian_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Leather_Bracers",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Leather Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/f/f6/Gloves_Leather_3_Unfaded_Icon.png/50px-Gloves_Leather_3_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Leather_Gloves",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Nettie's Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/f/f6/Gloves_Leather_3_Unfaded_Icon.png/50px-Gloves_Leather_3_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Nettie%27s_Gloves",
-      "rarity": "Common",
-      "armourType": "Non-Armour"
+      "rarity": "Common"
     },
     {
       "name": "Metallic Gloves",
       "icon": "https://bg3.wiki/w/images/thumb/5/5c/Gloves_Metal_Unfaded_Icon.png/50px-Gloves_Metal_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Metallic_Gloves",
-      "rarity": "Common",
-      "armourType": "Light armour"
+      "rarity": "Common"
     }
   ],
   "arrows": [
