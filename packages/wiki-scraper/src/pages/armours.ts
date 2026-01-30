@@ -31,7 +31,8 @@ async function getItemsOnPage(page: Page): Promise<Item[]> {
         const linkElement = element.querySelector("a")
         const name = linkElement!.getAttribute("title")!
         const icon = linkElement!.querySelector("img")!.src
-        const wikiLink = linkElement!.getAttribute("href")!
+        const relativeWikiLink = linkElement!.getAttribute("href")
+        const wikiLink = `https://bg3.wiki${relativeWikiLink}`
 
         return { name, icon, wikiLink, classes }
       })

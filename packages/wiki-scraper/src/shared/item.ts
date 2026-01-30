@@ -18,18 +18,17 @@ const rarityPriority: Record<string, number> = {
   "Story Item": 5,
 }
 
-export function uniqueItems<T extends RawScrapedItem>(items: T[]): T[] {
+export function uniqueItems<T extends { wikiLink: string }>(items: T[]): T[] {
   return uniqBy(items, (item) => item.wikiLink)
 }
 
-export function sortByRarity<T extends Item>(a: T, b: T): number {
+export function sortByRarity<T extends { rarity: string }>(a: T, b: T): number {
   return rarityPriority[b.rarity] - rarityPriority[a.rarity]
 }
 
-export function toItem({ classes, wikiLink, ...props }: RawScrapedItem): Item {
+export function toItem({ classes, ...props }: RawScrapedItem): Item {
   return {
     ...props,
-    wikiLink: `https://bg3.wiki${wikiLink}`,
     rarity: rarityBasedOnClassList(classes),
   }
 }
