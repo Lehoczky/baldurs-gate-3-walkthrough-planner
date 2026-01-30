@@ -3,16 +3,16 @@
 # compiled output
 dist
 dev-dist
-tmp 
+tmp
 
 # dependencies
 node_modules
 
 # IDEs and editors
-/.idea 
+/.idea
 
 # IDE - VSCode
-.idea 
+.idea
 
 # System Files
 .DS_Store
@@ -20,4 +20,7 @@ Thumbs.db
 
 # Nx:
 .nx/cache
-.nx/workspace-data 
+.nx/workspace-data
+
+# misc
+todo.md
