@@ -3,9 +3,9 @@ import { log } from "@clack/prompts"
 import type { Page } from "playwright"
 
 import {
+  classesToRarity,
   type RawScrapedItem,
   sortByRarity,
-  classesToRarity,
   uniqueItems,
 } from "../shared/item.ts"
 
