@@ -24,7 +24,7 @@ export async function getArmours(page: Page): Promise<Item[]> {
 
 async function getItemsOnPage(page: Page): Promise<Item[]> {
   const rawItems: RawScrapedItem[] = await page.$$eval(
-    `.mw-parser-output > table:nth-of-type(n+1):nth-of-type(-n+4) td:first-of-type .bg3wiki-itemicon`,
+    `.mw-parser-output > .wikitable:nth-of-type(n+1):nth-of-type(-n+4) td:first-of-type .bg3wiki-itemicon`,
     (elements) => {
       return elements.map((element) => {
         const classes = [...element.classList]

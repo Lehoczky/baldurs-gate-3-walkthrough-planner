@@ -24,7 +24,7 @@ export async function getCoatings(page: Page): Promise<Item[]> {
 
 async function getItemsOnPage(page: Page): Promise<Item[]> {
   const rawItems: RawScrapedItem[] = await page.$$eval(
-    `.mw-parser-output > table th:first-of-type .bg3wiki-itemicon`,
+    `.mw-parser-output > .wikitable th:first-of-type .bg3wiki-itemicon`,
     (elements) => {
       return elements.map((element) => {
         const classes = [...element.classList]

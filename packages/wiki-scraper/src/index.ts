@@ -11,6 +11,7 @@ import { getCoatings } from "./pages/coatings.ts"
 import { getCompanions } from "./pages/companions.ts"
 import { getElixirs } from "./pages/elixirs.ts"
 import { getFootwears } from "./pages/footwears.ts"
+import { getGrenades } from "./pages/grenades.ts"
 import { getHandwears } from "./pages/handwears.ts"
 import { getHeadwears } from "./pages/headwears.ts"
 import { getLocations } from "./pages/locations.ts"
@@ -37,7 +38,7 @@ try {
   if (shouldScrape("companions")) savedData.companions = getCompanions()
   if (shouldScrape("elixirs")) savedData.elixirs = await getElixirs(page)
   if (shouldScrape("footwears")) savedData.footwears = await getFootwears(page)
-  // if (shouldScrape("grenades")) savedData.grenades = await getArmours(page)
+  if (shouldScrape("grenades")) savedData.grenades = await getGrenades(page)
   if (shouldScrape("handwears")) savedData.handwears = await getHandwears(page)
   if (shouldScrape("headwears")) savedData.headwears = await getHeadwears(page)
   if (shouldScrape("locations")) savedData.locations = getLocations()

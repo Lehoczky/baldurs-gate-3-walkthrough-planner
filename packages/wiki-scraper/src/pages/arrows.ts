@@ -19,7 +19,7 @@ export async function getArrows(page: Page): Promise<Item[]> {
 
 async function getItemsOnPage(page: Page): Promise<Item[]> {
   const rawItems: Item[] = await page.$$eval(
-    `.mw-parser-output > table > tbody tr`,
+    `.mw-parser-output > .wikitable > tbody tr`,
     (elements) => {
       return elements.map((element) => {
         const linkElement =
