@@ -17,6 +17,7 @@ import { getHeadwears } from "./pages/headwears.ts"
 import { getLocations } from "./pages/locations.ts"
 import { getPotions } from "./pages/potions.ts"
 import { getRings } from "./pages/rings.ts"
+import { getScrolls } from "./pages/scrolls.ts"
 import { getShields } from "./pages/shields.ts"
 import { getSpells } from "./pages/spells.ts"
 import { getWeapons } from "./pages/weapons.ts"
@@ -45,7 +46,7 @@ try {
   if (shouldScrape("locations")) savedData.locations = getLocations()
   if (shouldScrape("potions")) savedData.potions = await getPotions(page)
   if (shouldScrape("rings")) savedData.rings = await getRings(page)
-  // if (shouldScrape("scrolls")) savedData.scrolls = await getArmours(page)
+  if (shouldScrape("scrolls")) savedData.scrolls = await getScrolls(page)
   if (shouldScrape("shields")) savedData.shields = await getShields(page)
   if (shouldScrape("spells")) savedData.spells = await getSpells(page)
   if (shouldScrape("weapons")) savedData.weapons = await getWeapons(page)

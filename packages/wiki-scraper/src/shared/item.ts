@@ -1,4 +1,4 @@
-import type { Item, Rarity } from "@bg3-walkthrough-planner/types"
+import type { Rarity } from "@bg3-walkthrough-planner/types"
 import { uniqBy } from "es-toolkit/array"
 
 export interface RawScrapedItem {
@@ -26,7 +26,10 @@ export function sortByRarity<T extends { rarity: string }>(a: T, b: T): number {
   return rarityPriority[b.rarity] - rarityPriority[a.rarity]
 }
 
-export function toItem({ classes, ...props }: RawScrapedItem): Item {
+export function classesToRarity<T extends { classes: string[] }>({
+  classes,
+  ...props
+}: T): Omit<T, "classes"> & { rarity: Rarity } {
   return {
     ...props,
     rarity: rarityBasedOnClassList(classes),

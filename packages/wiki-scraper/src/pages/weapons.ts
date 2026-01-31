@@ -5,7 +5,7 @@ import type { Page } from "playwright"
 import {
   type RawScrapedItem,
   sortByRarity,
-  toItem,
+  classesToRarity,
   uniqueItems,
 } from "../shared/item.ts"
 
@@ -50,5 +50,5 @@ async function getItemsOnPage(page: Page): Promise<Item[]> {
     },
   )
 
-  return uniqueItems(rawItems).map(toItem)
+  return uniqueItems(rawItems).map(classesToRarity)
 }

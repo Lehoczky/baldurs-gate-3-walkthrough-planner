@@ -3,9 +3,9 @@ import { log } from "@clack/prompts"
 import type { Page } from "playwright"
 
 import {
+  classesToRarity,
   type RawScrapedItem,
   sortByRarity,
-  toItem,
   uniqueItems,
 } from "../shared/item.ts"
 
@@ -39,5 +39,5 @@ async function getItemsOnPage(page: Page): Promise<Item[]> {
     },
   )
 
-  return uniqueItems(rawItems).map(toItem)
+  return uniqueItems(rawItems).map(classesToRarity)
 }
