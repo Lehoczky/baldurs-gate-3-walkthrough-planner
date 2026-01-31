@@ -15,7 +15,7 @@ defineProps({
     class="flex h-[152px] cursor-move gap-2.5 rounded-md bg-surface-800 p-2 py-4 shadow-lg"
   >
     <img
-      class="after:i-lucide-image-off pointer-events-none relative shrink-0 rounded-md before:absolute before:inset-0 before:bg-surface-300 after:absolute after:top-1/2 after:left-1/2 after:h-8 after:w-8 after:-translate-x-1/2 after:-translate-y-1/2 max-sm:pointer-events-none"
+      class="pointer-events-none relative shrink-0 rounded-md before:absolute before:inset-0 before:bg-surface-300 after:absolute after:top-1/2 after:left-1/2 after:i-lucide-image-off after:h-8 after:w-8 after:-translate-x-1/2 after:-translate-y-1/2 max-sm:pointer-events-none"
       :src="location.icon"
       width="210"
       height="118px"
