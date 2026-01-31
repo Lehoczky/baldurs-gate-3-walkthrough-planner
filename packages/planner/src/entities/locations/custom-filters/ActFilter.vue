@@ -7,13 +7,17 @@ import { useDataStore } from "@/store/data"
 const dataStore = useDataStore()
 const { addFilter } = dataStore
 
-const options: Array<Location["act"]> = ["Act One", "Act Two", "Act Three"]
+const options: Array<Location["act"]["name"]> = [
+  "Act One",
+  "Act Two",
+  "Act Three",
+]
 
 function applyFilter(act: string | null) {
   addFilter({
     category: "locations",
     name: "act",
-    filter: act ? (location: Location) => location.act === act : null,
+    filter: act ? (location: Location) => location.act.name === act : null,
   })
 }
 </script>
