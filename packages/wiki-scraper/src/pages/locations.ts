@@ -122,7 +122,7 @@ export function getLocations(): Location[] {
       description: "An isolated wizard tower protected by Arcane Cannons",
       icon: "https://bg3.wiki/w/images/thumb/7/7c/Arcane_Tower.jpg/375px-Arcane_Tower.jpg",
       act: "Act One",
-      area: "Under-world",
+      area: "Underdark",
       wikiLink: "https://bg3.wiki/wiki/Arcane_Tower",
     },
     {
@@ -130,7 +130,7 @@ export function getLocations(): Location[] {
       description: "Home of the myconids, lead by Sovereign Spaw",
       icon: "https://bg3.wiki/w/images/thumb/f/fd/Ebonlake_Grotto_Overview.jpg/475px-Ebonlake_Grotto_Overview.jpg",
       act: "Act One",
-      area: "Under-world",
+      area: "Underdark",
       wikiLink: "https://bg3.wiki/wiki/Ebonlake_Grotto",
     },
     {
@@ -138,7 +138,7 @@ export function getLocations(): Location[] {
       description: "An abandoned village on a beach beside the Ebonlake",
       icon: "https://bg3.wiki/w/images/thumb/7/70/Decrepit_Village_2.jpg/417px-Decrepit_Village_2.jpg",
       act: "Act One",
-      area: "Under-world",
+      area: "Underdark",
       wikiLink: "https://bg3.wiki/wiki/Decrepit_Village",
     },
     {
@@ -146,7 +146,7 @@ export function getLocations(): Location[] {
       description: "A cavernous hollow growing a large Sussur tree",
       icon: "https://bg3.wiki/w/images/thumb/6/68/Dread_Hollow.jpg/393px-Dread_Hollow.jpg",
       act: "Act One",
-      area: "Under-world",
+      area: "Underdark",
       wikiLink: "https://bg3.wiki/wiki/Dread_Hollow",
     },
     {
@@ -154,7 +154,7 @@ export function getLocations(): Location[] {
       description: "A hidden cove, home to followers of BOOOAL",
       icon: "https://bg3.wiki/w/images/thumb/c/c8/The_Festering_Cove.jpg/375px-The_Festering_Cove.jpg",
       act: "Act One",
-      area: "Under-world",
+      area: "Underdark",
       wikiLink: "https://bg3.wiki/wiki/The_Festering_Cove",
     },
     {
@@ -163,7 +163,7 @@ export function getLocations(): Location[] {
         "An abandoned outpost which previously housed followers of Selûne",
       icon: "https://bg3.wiki/w/images/thumb/9/9e/Selunite_Outpost_Front.jpg/426px-Selunite_Outpost_Front.jpg",
       act: "Act One",
-      area: "Under-world",
+      area: "Underdark",
       wikiLink: "https://bg3.wiki/wiki/Sel%C3%BBnite_Outpost",
     },
     {
@@ -171,7 +171,7 @@ export function getLocations(): Location[] {
       description: "A lone storehouse with an elevator leading to the surface",
       icon: "https://bg3.wiki/w/images/thumb/2/25/Storehouse_South.png/400px-Storehouse_South.png",
       act: "Act One",
-      area: "Under-world",
+      area: "Underdark",
       wikiLink: "https://bg3.wiki/wiki/Storehouse",
     },
     {
@@ -180,7 +180,7 @@ export function getLocations(): Location[] {
         "The legendary Grymforge, built by Sharran worshippers in times past",
       icon: "https://bg3.wiki/w/images/thumb/4/41/Grymforge.jpg/375px-Grymforge.jpg",
       act: "Act One",
-      area: "Under-world",
+      area: "Underdark",
       wikiLink: "https://bg3.wiki/wiki/Grymforge",
     },
     {
@@ -624,4 +624,54 @@ export function getLocations(): Location[] {
       wikiLink: "https://bg3.wiki/wiki/House_of_Hope",
     },
   ]
+    .map((location) => ({
+      ...location,
+      act: {
+        name: location.act,
+        link: getActLink(location.act),
+      },
+    }))
+    .map((location) => ({
+      ...location,
+      area: {
+        name: location.area,
+        link: getAreaLink(location.area),
+      },
+    }))
+}
+
+function getActLink(actName: string): string {
+  switch (actName) {
+    case "Act One":
+      return "https://bg3.wiki/wiki/Act_One"
+    case "Act Two":
+      return "https://bg3.wiki/wiki/Act_Two"
+    case "Act Three":
+      return "https://bg3.wiki/wiki/Act_Three"
+    default:
+      throw new Error(`Unrecognized act: ${actName}`)
+  }
+}
+
+function getAreaLink(areaName: string): string {
+  switch (areaName) {
+    case "Wilderness":
+      return "https://bg3.wiki/wiki/Wilderness"
+    case "Rosymorn Monastery Trail":
+      return "https://bg3.wiki/wiki/Rosymorn_Monastery_Trail"
+    case "Underdark":
+      return "https://bg3.wiki/wiki/Underdark"
+    case "Grymforge":
+      return "https://bg3.wiki/wiki/Grymforge"
+    case "Shadow-Cursed Lands":
+      return "https://bg3.wiki/wiki/Shadow-Cursed_Lands"
+    case "Rivington":
+      return "https://bg3.wiki/wiki/Rivington"
+    case "Lower City":
+      return "https://bg3.wiki/wiki/Lower_City"
+    case "Upper City":
+      return "https://bg3.wiki/wiki/Upper_City"
+    default:
+      return ""
+  }
 }

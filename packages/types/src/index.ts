@@ -41,8 +41,14 @@ export type Scroll = z.infer<typeof scrollSchema>
 export const locationSchema = z.strictObject({
   name: z.string(),
   description: z.string(),
-  act: z.string(),
-  area: z.string(),
+  act: z.strictObject({
+    name: z.string(),
+    link: z.url(),
+  }),
+  area: z.strictObject({
+    name: z.string(),
+    link: z.url(),
+  }),
   icon: z.url(),
   wikiLink: z.url(),
 })
