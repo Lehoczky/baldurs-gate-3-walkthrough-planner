@@ -12,6 +12,7 @@ import { getCompanions } from "./pages/companions.ts"
 import { getElixirs } from "./pages/elixirs.ts"
 import { getLocations } from "./pages/locations.ts"
 import { getPotions } from "./pages/potions.ts"
+import { getSpells } from "./pages/spells.ts"
 import { getWeapons } from "./pages/weapons.ts"
 import { getSavedData, saveData } from "./saved-data.ts"
 
@@ -40,7 +41,7 @@ try {
   // if (shouldScrape("rings")) savedData.rings = await getArmours(page)
   // if (shouldScrape("scrolls")) savedData.scrolls = await getArmours(page)
   // if (shouldScrape("shields")) savedData.shields = await getArmours(page)
-  // if (shouldScrape("spells")) savedData.spells = await getArmours(page)
+  if (shouldScrape("spells")) savedData.spells = await getSpells(page)
   if (shouldScrape("weapons")) savedData.weapons = await getWeapons(page)
 } finally {
   browser.close()

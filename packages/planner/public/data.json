@@ -7743,242 +7743,634 @@
   ],
   "spells": [
     {
-      "name": "Bone Chill",
-      "icon": "https://bg3.wiki/w/images/thumb/0/03/Bone_Chill_Icon.webp/40px-Bone_Chill_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Bone_Chill",
+      "name": "Blade Ward",
+      "icon": "https://bg3.wiki/w/images/thumb/0/04/Blade_Ward_Icon.webp/40px-Blade_Ward_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blade_Ward",
       "level": "Cantrip",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Bursting Sinew",
-      "icon": "https://bg3.wiki/w/images/thumb/0/0f/Bursting_Sinew_Icon.webp/40px-Bursting_Sinew_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Bursting_Sinew",
+      "name": "Resistance (Cantrip)",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a1/Resistance_Cantrip_Icon.webp/40px-Resistance_Cantrip_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Resistance_(Cantrip)",
       "level": "Cantrip",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Toll the Dead",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c0/Toll_the_Dead_Icon.webp/40px-Toll_the_Dead_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Toll_the_Dead",
-      "level": "Cantrip",
-      "school": "Necromancy"
-    },
-    {
-      "name": "False Life",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f2/False_Life_Icon.webp/40px-False_Life_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/False_Life",
+      "name": "Armour of Agathys",
+      "icon": "https://bg3.wiki/w/images/thumb/7/77/Armour_of_Agathys_Icon.webp/40px-Armour_of_Agathys_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Armour_of_Agathys",
       "level": "1st level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Inflict Wounds",
-      "icon": "https://bg3.wiki/w/images/thumb/3/3d/Inflict_Wounds_Icon.webp/40px-Inflict_Wounds_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Inflict_Wounds",
+      "name": "Mage Armour",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0d/Mage_Armour_Icon.webp/40px-Mage_Armour_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mage_Armour",
       "level": "1st level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Ray of Sickness",
-      "icon": "https://bg3.wiki/w/images/thumb/7/74/Ray_of_Sickness_Icon.webp/40px-Ray_of_Sickness_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Ray_of_Sickness",
+      "name": "Protection from Evil and Good",
+      "icon": "https://bg3.wiki/w/images/thumb/3/35/Protection_from_Evil_and_Good_Icon.webp/40px-Protection_from_Evil_and_Good_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Protection_from_Evil_and_Good",
       "level": "1st level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Blindness",
-      "icon": "https://bg3.wiki/w/images/thumb/5/5a/Blindness_Icon.webp/40px-Blindness_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Blindness",
+      "name": "Sanctuary",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c1/Sanctuary_Icon.webp/40px-Sanctuary_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Sanctuary",
+      "level": "1st level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Shield (spell)",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cf/Shield_spell_Icon.webp/40px-Shield_spell_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Shield_(spell)",
+      "level": "1st level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Shield of Faith",
+      "icon": "https://bg3.wiki/w/images/thumb/8/83/Shield_of_Faith_Icon.webp/40px-Shield_of_Faith_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Shield_of_Faith",
+      "level": "1st level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Aid",
+      "icon": "https://bg3.wiki/w/images/thumb/5/50/Aid_Icon.webp/40px-Aid_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Aid",
       "level": "2nd level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Ray of Enfeeblement",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7b/Ray_of_Enfeeblement_Icon.webp/40px-Ray_of_Enfeeblement_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Ray_of_Enfeeblement",
+      "name": "Arcane Lock",
+      "icon": "https://bg3.wiki/w/images/thumb/7/79/Arcane_Lock_Icon.webp/40px-Arcane_Lock_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arcane_Lock",
       "level": "2nd level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Animate Dead",
-      "icon": "https://bg3.wiki/w/images/thumb/2/2f/Animate_Dead_Icon.webp/40px-Animate_Dead_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Animate_Dead",
+      "name": "Lesser Restoration",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e4/Lesser_Restoration_Icon.webp/40px-Lesser_Restoration_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Lesser_Restoration",
+      "level": "2nd level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Pass Without Trace",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2b/Pass_Without_Trace_Icon.webp/40px-Pass_Without_Trace_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Pass_Without_Trace",
+      "level": "2nd level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Protection from Poison",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3b/Protection_from_Poison_Icon.webp/40px-Protection_from_Poison_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Protection_from_Poison",
+      "level": "2nd level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Warding Bond",
+      "icon": "https://bg3.wiki/w/images/thumb/e/ea/Warding_Bond_Icon.webp/40px-Warding_Bond_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Warding_Bond",
+      "level": "2nd level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Beacon of Hope",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5d/Beacon_of_Hope_Icon.webp/40px-Beacon_of_Hope_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Beacon_of_Hope",
       "level": "3rd level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Bestow Curse",
-      "icon": "https://bg3.wiki/w/images/thumb/0/00/Bestow_Curse_Icon.webp/40px-Bestow_Curse_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Bestow_Curse",
+      "name": "Counterspell",
+      "icon": "https://bg3.wiki/w/images/thumb/5/50/Counterspell_Icon.webp/40px-Counterspell_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Counterspell",
       "level": "3rd level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Feign Death",
-      "icon": "https://bg3.wiki/w/images/thumb/f/fe/Feign_Death_Icon.webp/40px-Feign_Death_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Feign_Death",
+      "name": "Glyph of Warding",
+      "icon": "https://bg3.wiki/w/images/thumb/8/88/Glyph_of_Warding_Icon.webp/40px-Glyph_of_Warding_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Glyph_of_Warding",
       "level": "3rd level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Revivify",
-      "icon": "https://bg3.wiki/w/images/thumb/5/59/Revivify_Icon.webp/40px-Revivify_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Revivify",
+      "name": "Protection from Energy",
+      "icon": "https://bg3.wiki/w/images/thumb/1/15/Protection_from_Energy_Icon.webp/40px-Protection_from_Energy_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Protection_from_Energy",
       "level": "3rd level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Speak with Dead",
-      "icon": "https://bg3.wiki/w/images/thumb/8/8c/Speak_with_Dead_Icon.webp/40px-Speak_with_Dead_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Speak_with_Dead",
+      "name": "Remove Curse",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7f/Remove_Curse_Icon.webp/40px-Remove_Curse_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Remove_Curse",
       "level": "3rd level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Vampiric Touch",
-      "icon": "https://bg3.wiki/w/images/thumb/8/85/Vampiric_Touch_Icon.webp/40px-Vampiric_Touch_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Vampiric_Touch",
-      "level": "3rd level",
-      "school": "Necromancy"
-    },
-    {
-      "name": "Blight",
-      "icon": "https://bg3.wiki/w/images/thumb/e/e0/Blight_Icon.webp/40px-Blight_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Blight",
+      "name": "Banishment",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6d/Banishment_Icon.webp/40px-Banishment_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Banishment",
       "level": "4th level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Contagion",
-      "icon": "https://bg3.wiki/w/images/thumb/6/60/Contagion_Filth_Fever_Icon.webp/40px-Contagion_Filth_Fever_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Contagion",
+      "name": "Death Ward",
+      "icon": "https://bg3.wiki/w/images/thumb/8/84/Death_Ward_Icon.webp/40px-Death_Ward_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Death_Ward",
+      "level": "4th level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Freedom of Movement",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f0/Freedom_of_Movement_Icon.webp/40px-Freedom_of_Movement_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Freedom_of_Movement",
+      "level": "4th level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Stoneskin",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c3/Stoneskin_Icon.webp/40px-Stoneskin_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Stoneskin",
+      "level": "4th level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Dispel Evil And Good",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a5/Dispel_Evil_And_Good_Icon.webp/40px-Dispel_Evil_And_Good_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dispel_Evil_And_Good",
       "level": "5th level",
-      "school": "Necromancy"
+      "school": "Abjuration"
     },
     {
-      "name": "Circle of Death",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f2/Circle_of_Death_Icon.webp/40px-Circle_of_Death_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Circle_of_Death",
-      "level": "6th level",
-      "school": "Necromancy"
-    },
-    {
-      "name": "Create Undead",
-      "icon": "https://bg3.wiki/w/images/thumb/d/da/Create_Undead_Icon.webp/40px-Create_Undead_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Create_Undead",
-      "level": "6th level",
-      "school": "Necromancy"
-    },
-    {
-      "name": "Eyebite",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f7/Eyebite_Panicked_Icon.webp/40px-Eyebite_Panicked_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Eyebite",
-      "level": "6th level",
-      "school": "Necromancy"
-    },
-    {
-      "name": "Harm",
-      "icon": "https://bg3.wiki/w/images/thumb/0/09/Harm_Icon.webp/40px-Harm_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Harm",
-      "level": "6th level",
-      "school": "Necromancy"
-    },
-    {
-      "name": "Minor Illusion",
-      "icon": "https://bg3.wiki/w/images/thumb/9/9d/Minor_Illusion_Icon.webp/40px-Minor_Illusion_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Minor_Illusion",
-      "level": "Cantrip",
-      "school": "Illusion"
-    },
-    {
-      "name": "Colour Spray",
-      "icon": "https://bg3.wiki/w/images/thumb/2/24/Colour_Spray_Icon.webp/40px-Colour_Spray_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Colour_Spray",
-      "level": "1st level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Disguise Self",
-      "icon": "https://bg3.wiki/w/images/thumb/8/8d/Disguise_Self_Icon.webp/40px-Disguise_Self_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Disguise_Self",
-      "level": "1st level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Blur",
-      "icon": "https://bg3.wiki/w/images/thumb/0/0d/Blur_Icon.webp/40px-Blur_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Blur",
-      "level": "2nd level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Invisibility (spell)",
-      "icon": "https://bg3.wiki/w/images/thumb/4/4e/Invisibility_spell_Icon.webp/40px-Invisibility_spell_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Invisibility_(spell)",
-      "level": "2nd level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Mirror Image",
-      "icon": "https://bg3.wiki/w/images/thumb/4/41/Mirror_Image_Icon.webp/40px-Mirror_Image_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Mirror_Image",
-      "level": "2nd level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Phantasmal Force",
-      "icon": "https://bg3.wiki/w/images/thumb/a/ac/Phantasmal_Force_Icon.webp/40px-Phantasmal_Force_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Phantasmal_Force",
-      "level": "2nd level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Shadow Blade",
-      "icon": "https://bg3.wiki/w/images/thumb/6/6e/Shadow_Blade_Icon.webp/40px-Shadow_Blade_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Shadow_Blade",
-      "level": "2nd level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Silence",
-      "icon": "https://bg3.wiki/w/images/thumb/7/78/Silence_Icon.webp/40px-Silence_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Silence",
-      "level": "2nd level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Fear",
-      "icon": "https://bg3.wiki/w/images/thumb/a/ad/Fear_Icon.webp/40px-Fear_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Fear",
-      "level": "3rd level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Hypnotic Pattern",
-      "icon": "https://bg3.wiki/w/images/thumb/2/28/Hypnotic_Pattern_Icon.webp/40px-Hypnotic_Pattern_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Hypnotic_Pattern",
-      "level": "3rd level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Greater Invisibility",
-      "icon": "https://bg3.wiki/w/images/thumb/2/28/Greater_Invisibility_Icon.webp/40px-Greater_Invisibility_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Greater_Invisibility",
-      "level": "4th level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Phantasmal Killer",
-      "icon": "https://bg3.wiki/w/images/thumb/d/da/Phantasmal_Killer_Icon.webp/40px-Phantasmal_Killer_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Phantasmal_Killer",
-      "level": "4th level",
-      "school": "Illusion"
-    },
-    {
-      "name": "Seeming",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f4/Seeming_Icon.webp/40px-Seeming_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Seeming",
+      "name": "Greater Restoration",
+      "icon": "https://bg3.wiki/w/images/thumb/e/ee/Greater_Restoration_Icon.webp/40px-Greater_Restoration_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Greater_Restoration",
       "level": "5th level",
-      "school": "Illusion"
+      "school": "Abjuration"
+    },
+    {
+      "name": "Planar Binding",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fa/Planar_Binding_Icon.webp/40px-Planar_Binding_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Planar_Binding",
+      "level": "5th level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Globe of Invulnerability",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7a/Globe_of_Invulnerability_Icon.webp/40px-Globe_of_Invulnerability_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Globe_of_Invulnerability",
+      "level": "6th level",
+      "school": "Abjuration"
+    },
+    {
+      "name": "Acid Splash",
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Acid_Splash_Icon.webp/40px-Acid_Splash_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Acid_Splash",
+      "level": "Cantrip",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Mage Hand",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f9/Mage_Hand_Icon.webp/40px-Mage_Hand_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mage_Hand",
+      "level": "Cantrip",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Poison Spray",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1d/Poison_Spray_Icon.webp/40px-Poison_Spray_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Poison_Spray",
+      "level": "Cantrip",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Produce Flame",
+      "icon": "https://bg3.wiki/w/images/thumb/e/ec/Produce_Flame_Icon.webp/40px-Produce_Flame_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Produce_Flame",
+      "level": "Cantrip",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Arms of Hadar",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3e/Arms_of_Hadar_Icon.webp/40px-Arms_of_Hadar_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arms_of_Hadar",
+      "level": "1st level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Ensnaring Strike",
+      "icon": "https://bg3.wiki/w/images/thumb/6/60/Ensnaring_Strike_Ranged_Icon.webp/40px-Ensnaring_Strike_Ranged_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ensnaring_Strike",
+      "level": "1st level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Entangle",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d9/Entangle_Icon.webp/40px-Entangle_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Entangle",
+      "level": "1st level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Find Familiar",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Find_Familiar_Cat_Icon.webp/40px-Find_Familiar_Cat_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Find_Familiar",
+      "level": "1st level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Fog Cloud",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c0/Fog_Cloud_Icon.webp/40px-Fog_Cloud_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Fog_Cloud",
+      "level": "1st level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Grease",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7a/Grease_Icon.webp/40px-Grease_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Grease",
+      "level": "1st level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Hail of Thorns",
+      "icon": "https://bg3.wiki/w/images/thumb/6/63/Hail_of_Thorns_Icon.webp/40px-Hail_of_Thorns_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hail_of_Thorns",
+      "level": "1st level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Ice Knife",
+      "icon": "https://bg3.wiki/w/images/thumb/1/17/Ice_Knife_Icon.webp/40px-Ice_Knife_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ice_Knife",
+      "level": "1st level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Cloud of Daggers",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3d/Cloud_of_Daggers_Icon.webp/40px-Cloud_of_Daggers_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Cloud_of_Daggers",
+      "level": "2nd level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Flaming Sphere",
+      "icon": "https://bg3.wiki/w/images/thumb/6/66/Flaming_Sphere_Icon.webp/40px-Flaming_Sphere_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Flaming_Sphere",
+      "level": "2nd level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Misty Step",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1f/Misty_Step_Icon.webp/40px-Misty_Step_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Misty_Step",
+      "level": "2nd level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Web",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Web_Icon.webp/40px-Web_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Web",
+      "level": "2nd level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Call Lightning",
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Call_Lightning_Icon.webp/40px-Call_Lightning_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Call_Lightning",
+      "level": "3rd level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Conjure Barrage",
+      "icon": "https://bg3.wiki/w/images/thumb/d/df/Conjure_Barrage_Icon.webp/40px-Conjure_Barrage_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Conjure_Barrage",
+      "level": "3rd level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Hunger of Hadar",
+      "icon": "https://bg3.wiki/w/images/thumb/4/44/Hunger_of_Hadar_Icon.webp/40px-Hunger_of_Hadar_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hunger_of_Hadar",
+      "level": "3rd level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Sleet Storm",
+      "icon": "https://bg3.wiki/w/images/thumb/5/50/Sleet_Storm_Icon.webp/40px-Sleet_Storm_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Sleet_Storm",
+      "level": "3rd level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Spirit Guardians",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d6/Spirit_Guardians_Icon.webp/40px-Spirit_Guardians_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Spirit_Guardians",
+      "level": "3rd level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Stinking Cloud",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b7/Stinking_Cloud_Icon.webp/40px-Stinking_Cloud_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Stinking_Cloud",
+      "level": "3rd level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Conjure Minor Elemental",
+      "icon": "https://bg3.wiki/w/images/thumb/0/08/Conjure_Minor_Elemental_Azer_Icon.webp/40px-Conjure_Minor_Elemental_Azer_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Conjure_Minor_Elemental",
+      "level": "4th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Conjure Woodland Being",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8a/Conjure_Woodland_Being_Icon.webp/40px-Conjure_Woodland_Being_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Conjure_Woodland_Being",
+      "level": "4th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Dimension Door",
+      "icon": "https://bg3.wiki/w/images/thumb/d/da/Dimension_Door_Icon.webp/40px-Dimension_Door_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dimension_Door",
+      "level": "4th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Evard's Black Tentacles",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d6/Evard%27s_Black_Tentacles_Icon.webp/40px-Evard%27s_Black_Tentacles_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Evard%27s_Black_Tentacles",
+      "level": "4th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Grasping Vine",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Grasping_Vine_Icon.webp/40px-Grasping_Vine_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Grasping_Vine",
+      "level": "4th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Guardian of Faith",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7d/Guardian_of_Faith_Icon.webp/40px-Guardian_of_Faith_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Guardian_of_Faith",
+      "level": "4th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Cloudkill",
+      "icon": "https://bg3.wiki/w/images/thumb/7/74/Cloudkill_Icon.webp/40px-Cloudkill_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Cloudkill",
+      "level": "5th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Conjure Elemental",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e6/Conjure_Elemental_Icon.webp/40px-Conjure_Elemental_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Conjure_Elemental",
+      "level": "5th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Insect Plague",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a2/Insect_Plague_Icon.webp/40px-Insect_Plague_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Insect_Plague",
+      "level": "5th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Arcane Gate",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6e/Arcane_Gate_Icon.webp/40px-Arcane_Gate_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arcane_Gate",
+      "level": "6th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Heroes' Feast",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a0/Heroes%27_Feast_Icon.webp/40px-Heroes%27_Feast_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Heroes%27_Feast",
+      "level": "6th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Planar Ally",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f3/Planar_Ally_Icon.webp/40px-Planar_Ally_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Planar_Ally",
+      "level": "6th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Wall of Thorns",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6e/Wall_of_Thorns_Icon.webp/40px-Wall_of_Thorns_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Wall_of_Thorns",
+      "level": "6th level",
+      "school": "Conjuration"
+    },
+    {
+      "name": "Guidance",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7f/Guidance_Icon.webp/40px-Guidance_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Guidance",
+      "level": "Cantrip",
+      "school": "Divination"
+    },
+    {
+      "name": "True Strike",
+      "icon": "https://bg3.wiki/w/images/thumb/4/47/True_Strike_Icon.webp/40px-True_Strike_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/True_Strike",
+      "level": "Cantrip",
+      "school": "Divination"
+    },
+    {
+      "name": "Hunter's Mark",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f6/Hunter%27s_Mark_Icon.webp/40px-Hunter%27s_Mark_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hunter%27s_Mark",
+      "level": "1st level",
+      "school": "Divination"
+    },
+    {
+      "name": "Speak with Animals",
+      "icon": "https://bg3.wiki/w/images/thumb/2/24/Speak_with_Animals_Icon.webp/40px-Speak_with_Animals_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Speak_with_Animals",
+      "level": "1st level",
+      "school": "Divination"
+    },
+    {
+      "name": "Detect Thoughts",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b6/Detect_Thoughts_Icon.webp/40px-Detect_Thoughts_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Detect_Thoughts",
+      "level": "2nd level",
+      "school": "Divination"
+    },
+    {
+      "name": "See Invisibility (spell)",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c3/See_Invisibility_Icon.webp/40px-See_Invisibility_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/See_Invisibility_(spell)",
+      "level": "2nd level",
+      "school": "Divination"
+    },
+    {
+      "name": "Friends",
+      "icon": "https://bg3.wiki/w/images/thumb/7/75/Friends_Icon.webp/40px-Friends_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Friends",
+      "level": "Cantrip",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Vicious Mockery",
+      "icon": "https://bg3.wiki/w/images/thumb/6/66/Vicious_Mockery_Icon.webp/40px-Vicious_Mockery_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Vicious_Mockery",
+      "level": "Cantrip",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Animal Friendship",
+      "icon": "https://bg3.wiki/w/images/thumb/3/36/Animal_Friendship_Icon.webp/40px-Animal_Friendship_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Animal_Friendship",
+      "level": "1st level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Bane (spell)",
+      "icon": "https://bg3.wiki/w/images/thumb/1/19/Bane_spell_Icon.webp/40px-Bane_spell_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bane_(spell)",
+      "level": "1st level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Bless",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c4/Bless_Icon.webp/40px-Bless_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bless",
+      "level": "1st level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Charm Person",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bc/Charm_Person_Icon.webp/40px-Charm_Person_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Charm_Person",
+      "level": "1st level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Command",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7f/Command_Halt_Icon.webp/40px-Command_Halt_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Command",
+      "level": "1st level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Compelled Duel",
+      "icon": "https://bg3.wiki/w/images/thumb/7/73/Compelled_Duel_Icon.webp/40px-Compelled_Duel_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Compelled_Duel",
+      "level": "1st level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Dissonant Whispers",
+      "icon": "https://bg3.wiki/w/images/thumb/4/40/Dissonant_Whispers_Icon.webp/40px-Dissonant_Whispers_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dissonant_Whispers",
+      "level": "1st level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Heroism",
+      "icon": "https://bg3.wiki/w/images/thumb/1/19/Heroism_Icon.webp/40px-Heroism_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Heroism",
+      "level": "1st level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Hex",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9f/Hex_Icon.webp/40px-Hex_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hex",
+      "level": "1st level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Sleep",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ae/Sleep_Icon.webp/40px-Sleep_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Sleep",
+      "level": "1st level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Tasha's Hideous Laughter",
+      "icon": "https://bg3.wiki/w/images/thumb/2/27/Tasha%27s_Hideous_Laughter_Icon.webp/40px-Tasha%27s_Hideous_Laughter_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Tasha%27s_Hideous_Laughter",
+      "level": "1st level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Calm Emotions",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d9/Calm_Emotions_Icon.webp/40px-Calm_Emotions_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Calm_Emotions",
+      "level": "2nd level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Crown of Madness",
+      "icon": "https://bg3.wiki/w/images/thumb/4/48/Crown_of_Madness_Icon.webp/40px-Crown_of_Madness_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Crown_of_Madness",
+      "level": "2nd level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Enthrall",
+      "icon": "https://bg3.wiki/w/images/thumb/9/90/Enthrall_Icon.webp/40px-Enthrall_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Enthrall",
+      "level": "2nd level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Hold Person",
+      "icon": "https://bg3.wiki/w/images/thumb/7/75/Hold_Person_Icon.webp/40px-Hold_Person_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hold_Person",
+      "level": "2nd level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Confusion",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7b/Confusion_Icon.webp/40px-Confusion_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Confusion",
+      "level": "4th level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Dominate Beast",
+      "icon": "https://bg3.wiki/w/images/thumb/8/83/Dominate_Beast_Icon.webp/40px-Dominate_Beast_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dominate_Beast",
+      "level": "4th level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Dominate Person",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1d/Dominate_Person_Icon.webp/40px-Dominate_Person_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dominate_Person",
+      "level": "5th level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Hold Monster",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cf/Hold_Monster_Icon.webp/40px-Hold_Monster_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hold_Monster",
+      "level": "5th level",
+      "school": "Enchantment"
+    },
+    {
+      "name": "Otto's Irresistible Dance",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8c/Otto%27s_Irresistible_Dance_Icon.webp/40px-Otto%27s_Irresistible_Dance_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Otto%27s_Irresistible_Dance",
+      "level": "6th level",
+      "school": "Enchantment"
     },
     {
       "name": "Booming Blade",
@@ -8352,634 +8744,242 @@
       "school": "Evocation"
     },
     {
-      "name": "Friends",
-      "icon": "https://bg3.wiki/w/images/thumb/7/75/Friends_Icon.webp/40px-Friends_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Friends",
+      "name": "Minor Illusion",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9d/Minor_Illusion_Icon.webp/40px-Minor_Illusion_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Minor_Illusion",
       "level": "Cantrip",
-      "school": "Enchantment"
+      "school": "Illusion"
     },
     {
-      "name": "Vicious Mockery",
-      "icon": "https://bg3.wiki/w/images/thumb/6/66/Vicious_Mockery_Icon.webp/40px-Vicious_Mockery_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Vicious_Mockery",
+      "name": "Colour Spray",
+      "icon": "https://bg3.wiki/w/images/thumb/2/24/Colour_Spray_Icon.webp/40px-Colour_Spray_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Colour_Spray",
+      "level": "1st level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Disguise Self",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8d/Disguise_Self_Icon.webp/40px-Disguise_Self_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Disguise_Self",
+      "level": "1st level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Blur",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0d/Blur_Icon.webp/40px-Blur_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blur",
+      "level": "2nd level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Invisibility (spell)",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4e/Invisibility_spell_Icon.webp/40px-Invisibility_spell_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Invisibility_(spell)",
+      "level": "2nd level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Mirror Image",
+      "icon": "https://bg3.wiki/w/images/thumb/4/41/Mirror_Image_Icon.webp/40px-Mirror_Image_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mirror_Image",
+      "level": "2nd level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Phantasmal Force",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ac/Phantasmal_Force_Icon.webp/40px-Phantasmal_Force_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Phantasmal_Force",
+      "level": "2nd level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Shadow Blade",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6e/Shadow_Blade_Icon.webp/40px-Shadow_Blade_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Shadow_Blade",
+      "level": "2nd level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Silence",
+      "icon": "https://bg3.wiki/w/images/thumb/7/78/Silence_Icon.webp/40px-Silence_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Silence",
+      "level": "2nd level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Fear",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ad/Fear_Icon.webp/40px-Fear_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Fear",
+      "level": "3rd level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Hypnotic Pattern",
+      "icon": "https://bg3.wiki/w/images/thumb/2/28/Hypnotic_Pattern_Icon.webp/40px-Hypnotic_Pattern_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hypnotic_Pattern",
+      "level": "3rd level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Greater Invisibility",
+      "icon": "https://bg3.wiki/w/images/thumb/2/28/Greater_Invisibility_Icon.webp/40px-Greater_Invisibility_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Greater_Invisibility",
+      "level": "4th level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Phantasmal Killer",
+      "icon": "https://bg3.wiki/w/images/thumb/d/da/Phantasmal_Killer_Icon.webp/40px-Phantasmal_Killer_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Phantasmal_Killer",
+      "level": "4th level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Seeming",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f4/Seeming_Icon.webp/40px-Seeming_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Seeming",
+      "level": "5th level",
+      "school": "Illusion"
+    },
+    {
+      "name": "Bone Chill",
+      "icon": "https://bg3.wiki/w/images/thumb/0/03/Bone_Chill_Icon.webp/40px-Bone_Chill_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bone_Chill",
       "level": "Cantrip",
-      "school": "Enchantment"
+      "school": "Necromancy"
     },
     {
-      "name": "Animal Friendship",
-      "icon": "https://bg3.wiki/w/images/thumb/3/36/Animal_Friendship_Icon.webp/40px-Animal_Friendship_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Animal_Friendship",
+      "name": "Bursting Sinew",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0f/Bursting_Sinew_Icon.webp/40px-Bursting_Sinew_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bursting_Sinew",
+      "level": "Cantrip",
+      "school": "Necromancy"
+    },
+    {
+      "name": "Toll the Dead",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c0/Toll_the_Dead_Icon.webp/40px-Toll_the_Dead_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Toll_the_Dead",
+      "level": "Cantrip",
+      "school": "Necromancy"
+    },
+    {
+      "name": "False Life",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f2/False_Life_Icon.webp/40px-False_Life_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/False_Life",
       "level": "1st level",
-      "school": "Enchantment"
+      "school": "Necromancy"
     },
     {
-      "name": "Bane (spell)",
-      "icon": "https://bg3.wiki/w/images/thumb/1/19/Bane_spell_Icon.webp/40px-Bane_spell_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Bane_(spell)",
+      "name": "Inflict Wounds",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3d/Inflict_Wounds_Icon.webp/40px-Inflict_Wounds_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Inflict_Wounds",
       "level": "1st level",
-      "school": "Enchantment"
+      "school": "Necromancy"
     },
     {
-      "name": "Bless",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c4/Bless_Icon.webp/40px-Bless_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Bless",
+      "name": "Ray of Sickness",
+      "icon": "https://bg3.wiki/w/images/thumb/7/74/Ray_of_Sickness_Icon.webp/40px-Ray_of_Sickness_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ray_of_Sickness",
       "level": "1st level",
-      "school": "Enchantment"
+      "school": "Necromancy"
     },
     {
-      "name": "Charm Person",
-      "icon": "https://bg3.wiki/w/images/thumb/b/bc/Charm_Person_Icon.webp/40px-Charm_Person_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Charm_Person",
-      "level": "1st level",
-      "school": "Enchantment"
-    },
-    {
-      "name": "Command",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7f/Command_Halt_Icon.webp/40px-Command_Halt_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Command",
-      "level": "1st level",
-      "school": "Enchantment"
-    },
-    {
-      "name": "Compelled Duel",
-      "icon": "https://bg3.wiki/w/images/thumb/7/73/Compelled_Duel_Icon.webp/40px-Compelled_Duel_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Compelled_Duel",
-      "level": "1st level",
-      "school": "Enchantment"
-    },
-    {
-      "name": "Dissonant Whispers",
-      "icon": "https://bg3.wiki/w/images/thumb/4/40/Dissonant_Whispers_Icon.webp/40px-Dissonant_Whispers_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Dissonant_Whispers",
-      "level": "1st level",
-      "school": "Enchantment"
-    },
-    {
-      "name": "Heroism",
-      "icon": "https://bg3.wiki/w/images/thumb/1/19/Heroism_Icon.webp/40px-Heroism_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Heroism",
-      "level": "1st level",
-      "school": "Enchantment"
-    },
-    {
-      "name": "Hex",
-      "icon": "https://bg3.wiki/w/images/thumb/9/9f/Hex_Icon.webp/40px-Hex_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Hex",
-      "level": "1st level",
-      "school": "Enchantment"
-    },
-    {
-      "name": "Sleep",
-      "icon": "https://bg3.wiki/w/images/thumb/a/ae/Sleep_Icon.webp/40px-Sleep_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Sleep",
-      "level": "1st level",
-      "school": "Enchantment"
-    },
-    {
-      "name": "Tasha's Hideous Laughter",
-      "icon": "https://bg3.wiki/w/images/thumb/2/27/Tasha%27s_Hideous_Laughter_Icon.webp/40px-Tasha%27s_Hideous_Laughter_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Tasha%27s_Hideous_Laughter",
-      "level": "1st level",
-      "school": "Enchantment"
-    },
-    {
-      "name": "Calm Emotions",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d9/Calm_Emotions_Icon.webp/40px-Calm_Emotions_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Calm_Emotions",
+      "name": "Blindness",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5a/Blindness_Icon.webp/40px-Blindness_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blindness",
       "level": "2nd level",
-      "school": "Enchantment"
+      "school": "Necromancy"
     },
     {
-      "name": "Crown of Madness",
-      "icon": "https://bg3.wiki/w/images/thumb/4/48/Crown_of_Madness_Icon.webp/40px-Crown_of_Madness_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Crown_of_Madness",
+      "name": "Ray of Enfeeblement",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7b/Ray_of_Enfeeblement_Icon.webp/40px-Ray_of_Enfeeblement_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ray_of_Enfeeblement",
       "level": "2nd level",
-      "school": "Enchantment"
+      "school": "Necromancy"
     },
     {
-      "name": "Enthrall",
-      "icon": "https://bg3.wiki/w/images/thumb/9/90/Enthrall_Icon.webp/40px-Enthrall_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Enthrall",
-      "level": "2nd level",
-      "school": "Enchantment"
+      "name": "Animate Dead",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2f/Animate_Dead_Icon.webp/40px-Animate_Dead_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Animate_Dead",
+      "level": "3rd level",
+      "school": "Necromancy"
     },
     {
-      "name": "Hold Person",
-      "icon": "https://bg3.wiki/w/images/thumb/7/75/Hold_Person_Icon.webp/40px-Hold_Person_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Hold_Person",
-      "level": "2nd level",
-      "school": "Enchantment"
+      "name": "Bestow Curse",
+      "icon": "https://bg3.wiki/w/images/thumb/0/00/Bestow_Curse_Icon.webp/40px-Bestow_Curse_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bestow_Curse",
+      "level": "3rd level",
+      "school": "Necromancy"
     },
     {
-      "name": "Confusion",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7b/Confusion_Icon.webp/40px-Confusion_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Confusion",
+      "name": "Feign Death",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fe/Feign_Death_Icon.webp/40px-Feign_Death_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Feign_Death",
+      "level": "3rd level",
+      "school": "Necromancy"
+    },
+    {
+      "name": "Revivify",
+      "icon": "https://bg3.wiki/w/images/thumb/5/59/Revivify_Icon.webp/40px-Revivify_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Revivify",
+      "level": "3rd level",
+      "school": "Necromancy"
+    },
+    {
+      "name": "Speak with Dead",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8c/Speak_with_Dead_Icon.webp/40px-Speak_with_Dead_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Speak_with_Dead",
+      "level": "3rd level",
+      "school": "Necromancy"
+    },
+    {
+      "name": "Vampiric Touch",
+      "icon": "https://bg3.wiki/w/images/thumb/8/85/Vampiric_Touch_Icon.webp/40px-Vampiric_Touch_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Vampiric_Touch",
+      "level": "3rd level",
+      "school": "Necromancy"
+    },
+    {
+      "name": "Blight",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e0/Blight_Icon.webp/40px-Blight_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blight",
       "level": "4th level",
-      "school": "Enchantment"
+      "school": "Necromancy"
     },
     {
-      "name": "Dominate Beast",
-      "icon": "https://bg3.wiki/w/images/thumb/8/83/Dominate_Beast_Icon.webp/40px-Dominate_Beast_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Dominate_Beast",
-      "level": "4th level",
-      "school": "Enchantment"
-    },
-    {
-      "name": "Dominate Person",
-      "icon": "https://bg3.wiki/w/images/thumb/1/1d/Dominate_Person_Icon.webp/40px-Dominate_Person_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Dominate_Person",
+      "name": "Contagion",
+      "icon": "https://bg3.wiki/w/images/thumb/6/60/Contagion_Filth_Fever_Icon.webp/40px-Contagion_Filth_Fever_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Contagion",
       "level": "5th level",
-      "school": "Enchantment"
+      "school": "Necromancy"
     },
     {
-      "name": "Hold Monster",
-      "icon": "https://bg3.wiki/w/images/thumb/c/cf/Hold_Monster_Icon.webp/40px-Hold_Monster_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Hold_Monster",
-      "level": "5th level",
-      "school": "Enchantment"
-    },
-    {
-      "name": "Otto's Irresistible Dance",
-      "icon": "https://bg3.wiki/w/images/thumb/8/8c/Otto%27s_Irresistible_Dance_Icon.webp/40px-Otto%27s_Irresistible_Dance_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Otto%27s_Irresistible_Dance",
+      "name": "Circle of Death",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f2/Circle_of_Death_Icon.webp/40px-Circle_of_Death_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Circle_of_Death",
       "level": "6th level",
-      "school": "Enchantment"
+      "school": "Necromancy"
     },
     {
-      "name": "Guidance",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7f/Guidance_Icon.webp/40px-Guidance_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Guidance",
-      "level": "Cantrip",
-      "school": "Divination"
-    },
-    {
-      "name": "True Strike",
-      "icon": "https://bg3.wiki/w/images/thumb/4/47/True_Strike_Icon.webp/40px-True_Strike_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/True_Strike",
-      "level": "Cantrip",
-      "school": "Divination"
-    },
-    {
-      "name": "Hunter's Mark",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f6/Hunter%27s_Mark_Icon.webp/40px-Hunter%27s_Mark_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Hunter%27s_Mark",
-      "level": "1st level",
-      "school": "Divination"
-    },
-    {
-      "name": "Speak with Animals",
-      "icon": "https://bg3.wiki/w/images/thumb/2/24/Speak_with_Animals_Icon.webp/40px-Speak_with_Animals_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Speak_with_Animals",
-      "level": "1st level",
-      "school": "Divination"
-    },
-    {
-      "name": "Detect Thoughts",
-      "icon": "https://bg3.wiki/w/images/thumb/b/b6/Detect_Thoughts_Icon.webp/40px-Detect_Thoughts_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Detect_Thoughts",
-      "level": "2nd level",
-      "school": "Divination"
-    },
-    {
-      "name": "See Invisibility (spell)",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c3/See_Invisibility_Icon.webp/40px-See_Invisibility_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/See_Invisibility_(spell)",
-      "level": "2nd level",
-      "school": "Divination"
-    },
-    {
-      "name": "Acid Splash",
-      "icon": "https://bg3.wiki/w/images/thumb/9/99/Acid_Splash_Icon.webp/40px-Acid_Splash_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Acid_Splash",
-      "level": "Cantrip",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Mage Hand",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f9/Mage_Hand_Icon.webp/40px-Mage_Hand_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Mage_Hand",
-      "level": "Cantrip",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Poison Spray",
-      "icon": "https://bg3.wiki/w/images/thumb/1/1d/Poison_Spray_Icon.webp/40px-Poison_Spray_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Poison_Spray",
-      "level": "Cantrip",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Produce Flame",
-      "icon": "https://bg3.wiki/w/images/thumb/e/ec/Produce_Flame_Icon.webp/40px-Produce_Flame_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Produce_Flame",
-      "level": "Cantrip",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Arms of Hadar",
-      "icon": "https://bg3.wiki/w/images/thumb/3/3e/Arms_of_Hadar_Icon.webp/40px-Arms_of_Hadar_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arms_of_Hadar",
-      "level": "1st level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Ensnaring Strike",
-      "icon": "https://bg3.wiki/w/images/thumb/6/60/Ensnaring_Strike_Ranged_Icon.webp/40px-Ensnaring_Strike_Ranged_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Ensnaring_Strike",
-      "level": "1st level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Entangle",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d9/Entangle_Icon.webp/40px-Entangle_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Entangle",
-      "level": "1st level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Find Familiar",
-      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Find_Familiar_Cat_Icon.webp/40px-Find_Familiar_Cat_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Find_Familiar",
-      "level": "1st level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Fog Cloud",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c0/Fog_Cloud_Icon.webp/40px-Fog_Cloud_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Fog_Cloud",
-      "level": "1st level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Grease",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7a/Grease_Icon.webp/40px-Grease_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Grease",
-      "level": "1st level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Hail of Thorns",
-      "icon": "https://bg3.wiki/w/images/thumb/6/63/Hail_of_Thorns_Icon.webp/40px-Hail_of_Thorns_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Hail_of_Thorns",
-      "level": "1st level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Ice Knife",
-      "icon": "https://bg3.wiki/w/images/thumb/1/17/Ice_Knife_Icon.webp/40px-Ice_Knife_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Ice_Knife",
-      "level": "1st level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Cloud of Daggers",
-      "icon": "https://bg3.wiki/w/images/thumb/3/3d/Cloud_of_Daggers_Icon.webp/40px-Cloud_of_Daggers_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Cloud_of_Daggers",
-      "level": "2nd level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Flaming Sphere",
-      "icon": "https://bg3.wiki/w/images/thumb/6/66/Flaming_Sphere_Icon.webp/40px-Flaming_Sphere_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Flaming_Sphere",
-      "level": "2nd level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Misty Step",
-      "icon": "https://bg3.wiki/w/images/thumb/1/1f/Misty_Step_Icon.webp/40px-Misty_Step_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Misty_Step",
-      "level": "2nd level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Web",
-      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Web_Icon.webp/40px-Web_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Web",
-      "level": "2nd level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Call Lightning",
-      "icon": "https://bg3.wiki/w/images/thumb/9/99/Call_Lightning_Icon.webp/40px-Call_Lightning_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Call_Lightning",
-      "level": "3rd level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Conjure Barrage",
-      "icon": "https://bg3.wiki/w/images/thumb/d/df/Conjure_Barrage_Icon.webp/40px-Conjure_Barrage_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Conjure_Barrage",
-      "level": "3rd level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Hunger of Hadar",
-      "icon": "https://bg3.wiki/w/images/thumb/4/44/Hunger_of_Hadar_Icon.webp/40px-Hunger_of_Hadar_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Hunger_of_Hadar",
-      "level": "3rd level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Sleet Storm",
-      "icon": "https://bg3.wiki/w/images/thumb/5/50/Sleet_Storm_Icon.webp/40px-Sleet_Storm_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Sleet_Storm",
-      "level": "3rd level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Spirit Guardians",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d6/Spirit_Guardians_Icon.webp/40px-Spirit_Guardians_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Spirit_Guardians",
-      "level": "3rd level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Stinking Cloud",
-      "icon": "https://bg3.wiki/w/images/thumb/b/b7/Stinking_Cloud_Icon.webp/40px-Stinking_Cloud_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Stinking_Cloud",
-      "level": "3rd level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Conjure Minor Elemental",
-      "icon": "https://bg3.wiki/w/images/thumb/0/08/Conjure_Minor_Elemental_Azer_Icon.webp/40px-Conjure_Minor_Elemental_Azer_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Conjure_Minor_Elemental",
-      "level": "4th level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Conjure Woodland Being",
-      "icon": "https://bg3.wiki/w/images/thumb/8/8a/Conjure_Woodland_Being_Icon.webp/40px-Conjure_Woodland_Being_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Conjure_Woodland_Being",
-      "level": "4th level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Dimension Door",
-      "icon": "https://bg3.wiki/w/images/thumb/d/da/Dimension_Door_Icon.webp/40px-Dimension_Door_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Dimension_Door",
-      "level": "4th level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Evard's Black Tentacles",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d6/Evard%27s_Black_Tentacles_Icon.webp/40px-Evard%27s_Black_Tentacles_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Evard%27s_Black_Tentacles",
-      "level": "4th level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Grasping Vine",
-      "icon": "https://bg3.wiki/w/images/thumb/8/8b/Grasping_Vine_Icon.webp/40px-Grasping_Vine_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Grasping_Vine",
-      "level": "4th level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Guardian of Faith",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7d/Guardian_of_Faith_Icon.webp/40px-Guardian_of_Faith_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Guardian_of_Faith",
-      "level": "4th level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Cloudkill",
-      "icon": "https://bg3.wiki/w/images/thumb/7/74/Cloudkill_Icon.webp/40px-Cloudkill_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Cloudkill",
-      "level": "5th level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Conjure Elemental",
-      "icon": "https://bg3.wiki/w/images/thumb/e/e6/Conjure_Elemental_Icon.webp/40px-Conjure_Elemental_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Conjure_Elemental",
-      "level": "5th level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Insect Plague",
-      "icon": "https://bg3.wiki/w/images/thumb/a/a2/Insect_Plague_Icon.webp/40px-Insect_Plague_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Insect_Plague",
-      "level": "5th level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Arcane Gate",
-      "icon": "https://bg3.wiki/w/images/thumb/6/6e/Arcane_Gate_Icon.webp/40px-Arcane_Gate_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arcane_Gate",
+      "name": "Create Undead",
+      "icon": "https://bg3.wiki/w/images/thumb/d/da/Create_Undead_Icon.webp/40px-Create_Undead_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Create_Undead",
       "level": "6th level",
-      "school": "Conjuration"
+      "school": "Necromancy"
     },
     {
-      "name": "Heroes' Feast",
-      "icon": "https://bg3.wiki/w/images/thumb/a/a0/Heroes%27_Feast_Icon.webp/40px-Heroes%27_Feast_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Heroes%27_Feast",
+      "name": "Eyebite",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f7/Eyebite_Panicked_Icon.webp/40px-Eyebite_Panicked_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Eyebite",
       "level": "6th level",
-      "school": "Conjuration"
+      "school": "Necromancy"
     },
     {
-      "name": "Planar Ally",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f3/Planar_Ally_Icon.webp/40px-Planar_Ally_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Planar_Ally",
+      "name": "Harm",
+      "icon": "https://bg3.wiki/w/images/thumb/0/09/Harm_Icon.webp/40px-Harm_Icon.webp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Harm",
       "level": "6th level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Wall of Thorns",
-      "icon": "https://bg3.wiki/w/images/thumb/6/6e/Wall_of_Thorns_Icon.webp/40px-Wall_of_Thorns_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Wall_of_Thorns",
-      "level": "6th level",
-      "school": "Conjuration"
-    },
-    {
-      "name": "Blade Ward",
-      "icon": "https://bg3.wiki/w/images/thumb/0/04/Blade_Ward_Icon.webp/40px-Blade_Ward_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Blade_Ward",
-      "level": "Cantrip",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Resistance (Cantrip)",
-      "icon": "https://bg3.wiki/w/images/thumb/a/a1/Resistance_Cantrip_Icon.webp/40px-Resistance_Cantrip_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Resistance_(Cantrip)",
-      "level": "Cantrip",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Armour of Agathys",
-      "icon": "https://bg3.wiki/w/images/thumb/7/77/Armour_of_Agathys_Icon.webp/40px-Armour_of_Agathys_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Armour_of_Agathys",
-      "level": "1st level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Mage Armour",
-      "icon": "https://bg3.wiki/w/images/thumb/0/0d/Mage_Armour_Icon.webp/40px-Mage_Armour_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Mage_Armour",
-      "level": "1st level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Protection from Evil and Good",
-      "icon": "https://bg3.wiki/w/images/thumb/3/35/Protection_from_Evil_and_Good_Icon.webp/40px-Protection_from_Evil_and_Good_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Protection_from_Evil_and_Good",
-      "level": "1st level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Sanctuary",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c1/Sanctuary_Icon.webp/40px-Sanctuary_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Sanctuary",
-      "level": "1st level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Shield (spell)",
-      "icon": "https://bg3.wiki/w/images/thumb/c/cf/Shield_spell_Icon.webp/40px-Shield_spell_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Shield_(spell)",
-      "level": "1st level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Shield of Faith",
-      "icon": "https://bg3.wiki/w/images/thumb/8/83/Shield_of_Faith_Icon.webp/40px-Shield_of_Faith_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Shield_of_Faith",
-      "level": "1st level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Aid",
-      "icon": "https://bg3.wiki/w/images/thumb/5/50/Aid_Icon.webp/40px-Aid_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Aid",
-      "level": "2nd level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Arcane Lock",
-      "icon": "https://bg3.wiki/w/images/thumb/7/79/Arcane_Lock_Icon.webp/40px-Arcane_Lock_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Arcane_Lock",
-      "level": "2nd level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Lesser Restoration",
-      "icon": "https://bg3.wiki/w/images/thumb/e/e4/Lesser_Restoration_Icon.webp/40px-Lesser_Restoration_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Lesser_Restoration",
-      "level": "2nd level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Pass Without Trace",
-      "icon": "https://bg3.wiki/w/images/thumb/2/2b/Pass_Without_Trace_Icon.webp/40px-Pass_Without_Trace_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Pass_Without_Trace",
-      "level": "2nd level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Protection from Poison",
-      "icon": "https://bg3.wiki/w/images/thumb/3/3b/Protection_from_Poison_Icon.webp/40px-Protection_from_Poison_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Protection_from_Poison",
-      "level": "2nd level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Warding Bond",
-      "icon": "https://bg3.wiki/w/images/thumb/e/ea/Warding_Bond_Icon.webp/40px-Warding_Bond_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Warding_Bond",
-      "level": "2nd level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Beacon of Hope",
-      "icon": "https://bg3.wiki/w/images/thumb/5/5d/Beacon_of_Hope_Icon.webp/40px-Beacon_of_Hope_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Beacon_of_Hope",
-      "level": "3rd level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Counterspell",
-      "icon": "https://bg3.wiki/w/images/thumb/5/50/Counterspell_Icon.webp/40px-Counterspell_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Counterspell",
-      "level": "3rd level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Glyph of Warding",
-      "icon": "https://bg3.wiki/w/images/thumb/8/88/Glyph_of_Warding_Icon.webp/40px-Glyph_of_Warding_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Glyph_of_Warding",
-      "level": "3rd level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Protection from Energy",
-      "icon": "https://bg3.wiki/w/images/thumb/1/15/Protection_from_Energy_Icon.webp/40px-Protection_from_Energy_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Protection_from_Energy",
-      "level": "3rd level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Remove Curse",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7f/Remove_Curse_Icon.webp/40px-Remove_Curse_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Remove_Curse",
-      "level": "3rd level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Banishment",
-      "icon": "https://bg3.wiki/w/images/thumb/6/6d/Banishment_Icon.webp/40px-Banishment_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Banishment",
-      "level": "4th level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Death Ward",
-      "icon": "https://bg3.wiki/w/images/thumb/8/84/Death_Ward_Icon.webp/40px-Death_Ward_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Death_Ward",
-      "level": "4th level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Freedom of Movement",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f0/Freedom_of_Movement_Icon.webp/40px-Freedom_of_Movement_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Freedom_of_Movement",
-      "level": "4th level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Stoneskin",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c3/Stoneskin_Icon.webp/40px-Stoneskin_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Stoneskin",
-      "level": "4th level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Dispel Evil And Good",
-      "icon": "https://bg3.wiki/w/images/thumb/a/a5/Dispel_Evil_And_Good_Icon.webp/40px-Dispel_Evil_And_Good_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Dispel_Evil_And_Good",
-      "level": "5th level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Greater Restoration",
-      "icon": "https://bg3.wiki/w/images/thumb/e/ee/Greater_Restoration_Icon.webp/40px-Greater_Restoration_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Greater_Restoration",
-      "level": "5th level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Planar Binding",
-      "icon": "https://bg3.wiki/w/images/thumb/f/fa/Planar_Binding_Icon.webp/40px-Planar_Binding_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Planar_Binding",
-      "level": "5th level",
-      "school": "Abjuration"
-    },
-    {
-      "name": "Globe of Invulnerability",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7a/Globe_of_Invulnerability_Icon.webp/40px-Globe_of_Invulnerability_Icon.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Globe_of_Invulnerability",
-      "level": "6th level",
-      "school": "Abjuration"
+      "school": "Necromancy"
     },
     {
       "name": "Shillelagh",
