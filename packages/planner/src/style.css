@@ -7,6 +7,10 @@
 @plugin "@tailwindcss/typography";
 @plugin "@egoist/tailwindcss-icons";
 
+@theme {
+  --breakpoint-3xl: 120rem;
+}
+
 @utility prose-slate {
   --tw-prose-bullets: var(--color-slate-700);
 }
