@@ -186,7 +186,7 @@ const LazyGettingStartedDialog = defineAsyncComponent({
 </script>
 
 <template>
-  <div class="grid h-full w-full">
+  <div class="grid">
     <div class="relative bg-surface-950" @drop="onDrop">
       <VueFlow
         :zoom-on-double-click="false"
