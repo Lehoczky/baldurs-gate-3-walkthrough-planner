@@ -10,8 +10,12 @@ import { getClothes } from "./pages/clothes.ts"
 import { getCoatings } from "./pages/coatings.ts"
 import { getCompanions } from "./pages/companions.ts"
 import { getElixirs } from "./pages/elixirs.ts"
+import { getFootwears } from "./pages/footwears.ts"
+import { getHandwears } from "./pages/handwears.ts"
+import { getHeadwears } from "./pages/headwears.ts"
 import { getLocations } from "./pages/locations.ts"
 import { getPotions } from "./pages/potions.ts"
+import { getShields } from "./pages/shields.ts"
 import { getSpells } from "./pages/spells.ts"
 import { getWeapons } from "./pages/weapons.ts"
 import { getSavedData, saveData } from "./saved-data.ts"
@@ -32,15 +36,15 @@ try {
   if (shouldScrape("coatings")) savedData.coatings = await getCoatings(page)
   if (shouldScrape("companions")) savedData.companions = getCompanions()
   if (shouldScrape("elixirs")) savedData.elixirs = await getElixirs(page)
-  // if (shouldScrape("footwears")) savedData.footwears = await getArmours(page)
+  if (shouldScrape("footwears")) savedData.footwears = await getFootwears(page)
   // if (shouldScrape("grenades")) savedData.grenades = await getArmours(page)
-  // if (shouldScrape("handwears")) savedData.handwears = await getArmours(page)
-  // if (shouldScrape("headwears")) savedData.headwears = await getArmours(page)
+  if (shouldScrape("handwears")) savedData.handwears = await getHandwears(page)
+  if (shouldScrape("headwears")) savedData.headwears = await getHeadwears(page)
   if (shouldScrape("locations")) savedData.locations = getLocations()
   if (shouldScrape("potions")) savedData.potions = await getPotions(page)
   // if (shouldScrape("rings")) savedData.rings = await getArmours(page)
   // if (shouldScrape("scrolls")) savedData.scrolls = await getArmours(page)
-  // if (shouldScrape("shields")) savedData.shields = await getArmours(page)
+  if (shouldScrape("shields")) savedData.shields = await getShields(page)
   if (shouldScrape("spells")) savedData.spells = await getSpells(page)
   if (shouldScrape("weapons")) savedData.weapons = await getWeapons(page)
 } finally {

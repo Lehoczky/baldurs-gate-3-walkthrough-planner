@@ -31,7 +31,8 @@
     "unplugin",
     "usetoast",
     "vueflow",
-    "vueuse"
+    "vueuse",
+    "wikitable"
   ],
   "tailwindCSS.lint.suggestCanonicalClasses": "ignore"
 }
