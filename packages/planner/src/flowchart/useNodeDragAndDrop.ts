@@ -54,6 +54,10 @@ export function useNodeDrop() {
 
     const id = crypto.randomUUID()
     const rawNodeData = event.dataTransfer?.getData(DATA_TRANSFER_ID)
+    if (!rawNodeData) {
+      return
+    }
+
     const nodeData = JSON.parse(rawNodeData)
     const node: Node = {
       id,
