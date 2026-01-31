@@ -4065,6 +4065,18 @@
   ],
   "rings": [
     {
+      "name": "Guiding Light",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bf/Ring_D_Gold_A_1_Unfaded_Icon.png/50px-Ring_D_Gold_A_1_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Guiding_Light",
+      "rarity": "Story Item"
+    },
+    {
+      "name": "Szarr Family Ring",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bc/Szarr_Family_Ring_Unfaded_Icon.png/50px-Szarr_Family_Ring_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Szarr_Family_Ring",
+      "rarity": "Story Item"
+    },
+    {
       "name": "Burnished Ring",
       "icon": "https://bg3.wiki/w/images/thumb/6/61/Ring_A_Gem_A_Gold_1_Unfaded_Icon.png/50px-Ring_A_Gem_A_Gold_1_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Burnished_Ring",
@@ -4470,6 +4482,12 @@
       "name": "Dark Ring",
       "icon": "https://bg3.wiki/w/images/thumb/7/7e/Ring_I_Unfaded_Icon.png/50px-Ring_I_Unfaded_Icon.png",
       "wikiLink": "https://bg3.wiki/wiki/Dark_Ring",
+      "rarity": "Common"
+    },
+    {
+      "name": "Dowry Ring",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cd/Ring_A_Simple_Gold_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_Unfaded_Icon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dowry_Ring",
       "rarity": "Common"
     },
     {
