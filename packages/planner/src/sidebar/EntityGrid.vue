@@ -6,6 +6,7 @@ import RightSidebarCompanionGrid from "@/entities/companions/RightSidebarCompani
 import RightSidebarItemGrid from "@/entities/items/RightSidebarItemGrid.vue"
 import RightSidebarLocationGrid from "@/entities/locations/RightSidebarLocationGrid.vue"
 import RightSidebarSpellGrid from "@/entities/spells/RightSidebarSpellGrid.vue"
+import RightSidebarTraderGrid from "@/entities/traders/RightSidebarTraderGrid.vue"
 import { useDataStore } from "@/store/data"
 
 const dataStore = useDataStore()
@@ -20,6 +21,8 @@ const gridForCategory = computed(() => {
       return RightSidebarLocationGrid
     case "spells":
       return RightSidebarSpellGrid
+    case "traders":
+      return RightSidebarTraderGrid
     default:
       return RightSidebarItemGrid
   }

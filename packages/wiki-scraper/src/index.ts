@@ -20,6 +20,7 @@ import { getRings } from "./pages/rings.ts"
 import { getScrolls } from "./pages/scrolls.ts"
 import { getShields } from "./pages/shields.ts"
 import { getSpells } from "./pages/spells.ts"
+import { getTraders } from "./pages/traders.ts"
 import { getWeapons } from "./pages/weapons.ts"
 import { getSavedData, saveData } from "./saved-data.ts"
 
@@ -49,6 +50,7 @@ try {
   if (shouldScrape("scrolls")) savedData.scrolls = await getScrolls(page)
   if (shouldScrape("shields")) savedData.shields = await getShields(page)
   if (shouldScrape("spells")) savedData.spells = await getSpells(page)
+  if (shouldScrape("traders")) savedData.traders = await getTraders(page)
   if (shouldScrape("weapons")) savedData.weapons = await getWeapons(page)
 } finally {
   browser.close()

@@ -47,7 +47,7 @@ export const locationSchema = z.strictObject({
   }),
   area: z.strictObject({
     name: z.string(),
-    link: z.url(),
+    link: z.string(),
   }),
   icon: z.url(),
   wikiLink: z.url(),
@@ -79,6 +79,15 @@ export const bossSchema = z.strictObject({
 })
 export type Boss = z.infer<typeof bossSchema>
 
+export const traderSchema = z.strictObject({
+  name: z.string(),
+  icon: z.url(),
+  wikiLink: z.url(),
+  location: z.string(),
+  goods: z.string(),
+})
+export type Trader = z.infer<typeof traderSchema>
+
 export const savedWikiDataSchema = z.strictObject({
   weapons: z.array(itemSchema).default([]),
   clothes: z.array(itemSchema).default([]),
@@ -100,6 +109,7 @@ export const savedWikiDataSchema = z.strictObject({
   locations: z.array(locationSchema).default([]),
   spells: z.array(spellSchema).default([]),
   bosses: z.array(bossSchema).default([]),
+  traders: z.array(traderSchema).default([]),
 })
 export type SavedWikiData = z.infer<typeof savedWikiDataSchema>
 

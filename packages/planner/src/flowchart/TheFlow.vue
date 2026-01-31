@@ -24,6 +24,7 @@ import CompanionNode from "@/entities/companions/CompanionNode.vue"
 import ItemNode from "@/entities/items/ItemNode.vue"
 import LocationNode from "@/entities/locations/LocationNode.vue"
 import SpellNode from "@/entities/spells/SpellNode.vue"
+import TraderNode from "@/entities/traders/TraderNode.vue"
 import { HelpPanel } from "@/help-panel"
 import { useStorageStore } from "@/store/storage"
 
@@ -213,6 +214,9 @@ const LazyGettingStartedDialog = defineAsyncComponent({
         </template>
         <template #node-spell="props">
           <SpellNode v-bind="props" />
+        </template>
+        <template #node-trader="props">
+          <TraderNode v-bind="props" />
         </template>
         <template #node-start="props">
           <StartNode v-bind="props" />

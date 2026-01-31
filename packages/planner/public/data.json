@@ -7185,7 +7185,6 @@
     {
       "name": "Blighted Village",
       "description": "An abandoned village, now occupied by goblins ",
-      "icon": "https://bg3.wiki/w/images/thumb/0/01/Blighted_Village.jpg/400px-Blighted_Village.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7194,12 +7193,12 @@
         "name": "Wilderness",
         "link": "https://bg3.wiki/wiki/Wilderness"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/0/01/Blighted_Village.jpg/400px-Blighted_Village.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Blighted_Village"
     },
     {
       "name": "Emerald Grove",
       "description": "A sacred grove and home to druids, and temporary refuge for a group of tiefling refugees",
-      "icon": "https://bg3.wiki/w/images/thumb/c/cd/Sacred_Pool.png/400px-Sacred_Pool.png",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7208,12 +7207,12 @@
         "name": "Wilderness",
         "link": "https://bg3.wiki/wiki/Wilderness"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/c/cd/Sacred_Pool.png/400px-Sacred_Pool.png",
       "wikiLink": "https://bg3.wiki/wiki/Emerald_Grove"
     },
     {
       "name": "Forest",
       "description": "A patch of woodland west of the grove",
-      "icon": "https://bg3.wiki/w/images/thumb/3/3a/Forest.jpg/400px-Forest.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7222,12 +7221,12 @@
         "name": "Wilderness",
         "link": "https://bg3.wiki/wiki/Wilderness"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/3/3a/Forest.jpg/400px-Forest.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Forest"
     },
     {
       "name": "Goblin Camp",
       "description": "An old Selûnite temple in use as a base of operations for the Cult of the Absolute",
-      "icon": "https://bg3.wiki/w/images/thumb/3/32/Goblin_Camp.jpg/381px-Goblin_Camp.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7236,12 +7235,12 @@
         "name": "Wilderness",
         "link": "https://bg3.wiki/wiki/Wilderness"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/3/32/Goblin_Camp.jpg/381px-Goblin_Camp.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Goblin_Camp"
     },
     {
       "name": "Mountain Pass",
       "description": "A trail at the edge of the wilderness, leading off to Rosymorn Monastery",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d5/Mountain_Pass.jpg/376px-Mountain_Pass.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7250,12 +7249,12 @@
         "name": "Wilderness",
         "link": "https://bg3.wiki/wiki/Wilderness"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/d/d5/Mountain_Pass.jpg/376px-Mountain_Pass.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Mountain_Pass"
     },
     {
       "name": "Overgrown Ruins",
       "description": "A large ruin near to the grove, with the remnants of what was once a chapel",
-      "icon": "https://bg3.wiki/w/images/thumb/a/ad/Overgrown_Ruins.png/400px-Overgrown_Ruins.png",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7264,12 +7263,12 @@
         "name": "Wilderness",
         "link": "https://bg3.wiki/wiki/Wilderness"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/a/ad/Overgrown_Ruins.png/400px-Overgrown_Ruins.png",
       "wikiLink": "https://bg3.wiki/wiki/Overgrown_Ruins"
     },
     {
       "name": "Ravaged Beach",
       "description": "A beach along the river Chionthar, now strewn with the remains of a crashed Nautiloid",
-      "icon": "https://bg3.wiki/w/images/thumb/a/a4/Ravaged_Beach.jpg/267px-Ravaged_Beach.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7278,12 +7277,12 @@
         "name": "Wilderness",
         "link": "https://bg3.wiki/wiki/Wilderness"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/a/a4/Ravaged_Beach.jpg/267px-Ravaged_Beach.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Ravaged_Beach"
     },
     {
       "name": "Sunlit Wetlands",
       "description": "Picturesque wetlands that give way to a Putrid Bog when held under scrutiny",
-      "icon": "https://bg3.wiki/w/images/thumb/9/98/Sunlit_Wetlands.jpg/359px-Sunlit_Wetlands.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7292,12 +7291,12 @@
         "name": "Wilderness",
         "link": "https://bg3.wiki/wiki/Wilderness"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/9/98/Sunlit_Wetlands.jpg/359px-Sunlit_Wetlands.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Sunlit_Wetlands"
     },
     {
       "name": "The Risen Road",
       "description": "A long stretch of road that connects Elturel and Baldur's Gate, running parallel to the river Chionthar",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d5/The_Risen_Road.jpg/373px-The_Risen_Road.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7306,12 +7305,12 @@
         "name": "Wilderness",
         "link": "https://bg3.wiki/wiki/Wilderness"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/d/d5/The_Risen_Road.jpg/373px-The_Risen_Road.jpg",
       "wikiLink": "https://bg3.wiki/wiki/The_Risen_Road"
     },
     {
       "name": "Waukeen's Rest",
       "description": "An inn on the Risen Road, in flames after an assault from the Absolute",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c3/Waukeen%27s_Rest.jpg/378px-Waukeen%27s_Rest.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7320,12 +7319,12 @@
         "name": "Wilderness",
         "link": "https://bg3.wiki/wiki/Wilderness"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/c/c3/Waukeen%27s_Rest.jpg/378px-Waukeen%27s_Rest.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Waukeen%27s_Rest"
     },
     {
       "name": "Rosymorn Monastery Trail",
       "description": "A pilgrimage trail leading between the wilderness, Rosymorn Monastary and the Shadow-Cursed Lands",
-      "icon": "https://bg3.wiki/w/images/thumb/4/4f/Screen_Rosymorn_Monastery_Trail_Bridge_East.jpg/400px-Screen_Rosymorn_Monastery_Trail_Bridge_East.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7334,12 +7333,12 @@
         "name": "Rosymorn Monastery Trail",
         "link": "https://bg3.wiki/wiki/Rosymorn_Monastery_Trail"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/4/4f/Screen_Rosymorn_Monastery_Trail_Bridge_East.jpg/400px-Screen_Rosymorn_Monastery_Trail_Bridge_East.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Rosymorn_Monastery_Trail"
     },
     {
       "name": "Rosymorn Monastery",
       "description": "A seculded monastery for monks of Lathander",
-      "icon": "https://bg3.wiki/w/images/thumb/9/9b/Screen_View_South_Building_Rosymorn_Monastery.jpg/400px-Screen_View_South_Building_Rosymorn_Monastery.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7348,12 +7347,12 @@
         "name": "Rosymorn Monastery Trail",
         "link": "https://bg3.wiki/wiki/Rosymorn_Monastery_Trail"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/9/9b/Screen_View_South_Building_Rosymorn_Monastery.jpg/400px-Screen_View_South_Building_Rosymorn_Monastery.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Rosymorn_Monastery"
     },
     {
       "name": "Creche Y'llek",
       "description": "Rosymorn Monastery's living quarters, transformed into a githyanki base",
-      "icon": "https://bg3.wiki/w/images/thumb/1/11/Screen_Cr%C3%A8che_Y%27llek_Portrait_of_Vlaakith.jpg/400px-Screen_Cr%C3%A8che_Y%27llek_Portrait_of_Vlaakith.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7362,12 +7361,12 @@
         "name": "Rosymorn Monastery Trail",
         "link": "https://bg3.wiki/wiki/Rosymorn_Monastery_Trail"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/1/11/Screen_Cr%C3%A8che_Y%27llek_Portrait_of_Vlaakith.jpg/400px-Screen_Cr%C3%A8che_Y%27llek_Portrait_of_Vlaakith.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Creche_Y%27llek"
     },
     {
       "name": "Arcane Tower",
       "description": "An isolated wizard tower protected by Arcane Cannons",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7c/Arcane_Tower.jpg/375px-Arcane_Tower.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7376,12 +7375,12 @@
         "name": "Underdark",
         "link": "https://bg3.wiki/wiki/Underdark"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/7/7c/Arcane_Tower.jpg/375px-Arcane_Tower.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Arcane_Tower"
     },
     {
       "name": "Ebonlake Grotto",
       "description": "Home of the myconids, lead by Sovereign Spaw",
-      "icon": "https://bg3.wiki/w/images/thumb/f/fd/Ebonlake_Grotto_Overview.jpg/475px-Ebonlake_Grotto_Overview.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7390,12 +7389,12 @@
         "name": "Underdark",
         "link": "https://bg3.wiki/wiki/Underdark"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/f/fd/Ebonlake_Grotto_Overview.jpg/475px-Ebonlake_Grotto_Overview.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Ebonlake_Grotto"
     },
     {
       "name": "Decrepit Village",
       "description": "An abandoned village on a beach beside the Ebonlake",
-      "icon": "https://bg3.wiki/w/images/thumb/7/70/Decrepit_Village_2.jpg/417px-Decrepit_Village_2.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7404,12 +7403,12 @@
         "name": "Underdark",
         "link": "https://bg3.wiki/wiki/Underdark"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/7/70/Decrepit_Village_2.jpg/417px-Decrepit_Village_2.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Decrepit_Village"
     },
     {
       "name": "Dread Hollow",
       "description": "A cavernous hollow growing a large Sussur tree",
-      "icon": "https://bg3.wiki/w/images/thumb/6/68/Dread_Hollow.jpg/393px-Dread_Hollow.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7418,12 +7417,12 @@
         "name": "Underdark",
         "link": "https://bg3.wiki/wiki/Underdark"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/6/68/Dread_Hollow.jpg/393px-Dread_Hollow.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Dread_Hollow"
     },
     {
       "name": "The Festering Cove",
       "description": "A hidden cove, home to followers of BOOOAL",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c8/The_Festering_Cove.jpg/375px-The_Festering_Cove.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7432,12 +7431,12 @@
         "name": "Underdark",
         "link": "https://bg3.wiki/wiki/Underdark"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/c/c8/The_Festering_Cove.jpg/375px-The_Festering_Cove.jpg",
       "wikiLink": "https://bg3.wiki/wiki/The_Festering_Cove"
     },
     {
       "name": "Selûnite Outpost",
       "description": "An abandoned outpost which previously housed followers of Selûne",
-      "icon": "https://bg3.wiki/w/images/thumb/9/9e/Selunite_Outpost_Front.jpg/426px-Selunite_Outpost_Front.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7446,12 +7445,12 @@
         "name": "Underdark",
         "link": "https://bg3.wiki/wiki/Underdark"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/9/9e/Selunite_Outpost_Front.jpg/426px-Selunite_Outpost_Front.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Sel%C3%BBnite_Outpost"
     },
     {
       "name": "Storehouse",
       "description": "A lone storehouse with an elevator leading to the surface",
-      "icon": "https://bg3.wiki/w/images/thumb/2/25/Storehouse_South.png/400px-Storehouse_South.png",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7460,12 +7459,12 @@
         "name": "Underdark",
         "link": "https://bg3.wiki/wiki/Underdark"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/2/25/Storehouse_South.png/400px-Storehouse_South.png",
       "wikiLink": "https://bg3.wiki/wiki/Storehouse"
     },
     {
       "name": "Grymforge",
       "description": "The legendary Grymforge, built by Sharran worshippers in times past",
-      "icon": "https://bg3.wiki/w/images/thumb/4/41/Grymforge.jpg/375px-Grymforge.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7474,12 +7473,12 @@
         "name": "Underdark",
         "link": "https://bg3.wiki/wiki/Underdark"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/4/41/Grymforge.jpg/375px-Grymforge.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Grymforge"
     },
     {
       "name": "Nautiloid",
       "description": "A flying illithid ship visited during the prologue, travelling through the Hells",
-      "icon": "https://bg3.wiki/w/images/thumb/7/70/Nautiloid.webp/363px-Nautiloid.webp.png",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7488,12 +7487,12 @@
         "name": "Other planes",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/7/70/Nautiloid.webp/363px-Nautiloid.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Nautiloid"
     },
     {
       "name": "Astral Plane",
       "description": "A small section of the Astral Sea",
-      "icon": "https://bg3.wiki/w/images/thumb/9/99/Screen_Astral_Plane_South_East_A.jpg/400px-Screen_Astral_Plane_South_East_A.jpg",
       "act": {
         "name": "Act One",
         "link": "https://bg3.wiki/wiki/Act_One"
@@ -7502,12 +7501,12 @@
         "name": "Other planes",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Screen_Astral_Plane_South_East_A.jpg/400px-Screen_Astral_Plane_South_East_A.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Astral_Plane"
     },
     {
       "name": "Ruined Battlefield",
       "description": "A large battlefield spanning half the region, with remnants of a conflict from before the shadow curse",
-      "icon": "https://bg3.wiki/w/images/thumb/9/96/Ruined_Battlefield.webp/375px-Ruined_Battlefield.webp.png",
       "act": {
         "name": "Act Two",
         "link": "https://bg3.wiki/wiki/Act_Two"
@@ -7516,12 +7515,12 @@
         "name": "Shadow-Cursed Lands",
         "link": "https://bg3.wiki/wiki/Shadow-Cursed_Lands"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/9/96/Ruined_Battlefield.webp/375px-Ruined_Battlefield.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Ruined_Battlefield"
     },
     {
       "name": "Last Light Inn",
       "description": "A sanctuary within the Shadow-Cursed Lands, currently occupied by Harpers and members of the Flaming Fist",
-      "icon": "https://bg3.wiki/w/images/thumb/a/a7/Last_Light_Inn.webp/349px-Last_Light_Inn.webp.png",
       "act": {
         "name": "Act Two",
         "link": "https://bg3.wiki/wiki/Act_Two"
@@ -7530,12 +7529,12 @@
         "name": "Shadow-Cursed Lands",
         "link": "https://bg3.wiki/wiki/Shadow-Cursed_Lands"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/a/a7/Last_Light_Inn.webp/349px-Last_Light_Inn.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Last_Light_Inn"
     },
     {
       "name": "Reithwin Town",
       "description": "A now empty town, previously home to followers of Selûne and the Thorm family",
-      "icon": "https://bg3.wiki/w/images/thumb/9/93/Reithwin_Town.webp/407px-Reithwin_Town.webp.png",
       "act": {
         "name": "Act Two",
         "link": "https://bg3.wiki/wiki/Act_Two"
@@ -7544,12 +7543,12 @@
         "name": "Shadow-Cursed Lands",
         "link": "https://bg3.wiki/wiki/Shadow-Cursed_Lands"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/9/93/Reithwin_Town.webp/407px-Reithwin_Town.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Reithwin_Town"
     },
     {
       "name": "Grand Mausoleum",
       "description": "The Thorm family mausoleum, resting place of Melodia Thorm and entrance to the Gauntlet of Shar",
-      "icon": "https://bg3.wiki/w/images/thumb/6/6c/Grand_Mausoleum_Vestibule.jpg/400px-Grand_Mausoleum_Vestibule.jpg",
       "act": {
         "name": "Act Two",
         "link": "https://bg3.wiki/wiki/Act_Two"
@@ -7558,12 +7557,12 @@
         "name": "Shadow-Cursed Lands",
         "link": "https://bg3.wiki/wiki/Shadow-Cursed_Lands"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/6/6c/Grand_Mausoleum_Vestibule.jpg/400px-Grand_Mausoleum_Vestibule.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Grand_Mausoleum"
     },
     {
       "name": "Moonrise Towers",
       "description": "The seat of the Absolute and base of their operations, located south of Reithwin Town",
-      "icon": "https://bg3.wiki/w/images/thumb/4/47/Moonrise_Towers_Overview.jpg/400px-Moonrise_Towers_Overview.jpg",
       "act": {
         "name": "Act Two",
         "link": "https://bg3.wiki/wiki/Act_Two"
@@ -7572,12 +7571,12 @@
         "name": "Shadow-Cursed Lands",
         "link": "https://bg3.wiki/wiki/Shadow-Cursed_Lands"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/4/47/Moonrise_Towers_Overview.jpg/400px-Moonrise_Towers_Overview.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Moonrise_Towers"
     },
     {
       "name": "Shadowfell",
       "description": "A plane of shadows and domain of Shar",
-      "icon": "https://bg3.wiki/w/images/thumb/3/36/Shadowfell.jpg/400px-Shadowfell.jpg",
       "act": {
         "name": "Act Two",
         "link": "https://bg3.wiki/wiki/Act_Two"
@@ -7586,12 +7585,12 @@
         "name": "Other planes",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/3/36/Shadowfell.jpg/400px-Shadowfell.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Shadowfell"
     },
     {
       "name": "Rivington",
       "description": "The southern-most district of Baldur's Gate, located on the southern shore of the River Chionthar and south of of Wyrm's Crossing",
-      "icon": "https://bg3.wiki/w/images/thumb/8/87/Rivington.jpg/430px-Rivington.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7600,12 +7599,12 @@
         "name": "Rivington",
         "link": "https://bg3.wiki/wiki/Rivington"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/8/87/Rivington.jpg/430px-Rivington.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Rivington"
     },
     {
       "name": "Arfur's Mansion",
       "description": "The home of toymaker Arfur Gregorio",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c0/Arfur%27s_Mansion.jpg/401px-Arfur%27s_Mansion.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7614,12 +7613,12 @@
         "name": "Rivington",
         "link": "https://bg3.wiki/wiki/Rivington"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/c/c0/Arfur%27s_Mansion.jpg/401px-Arfur%27s_Mansion.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Arfur%27s_Mansion"
     },
     {
       "name": "Circus of the Last Days",
       "description": "An extraplanar circus run by ringmaster Lucretious",
-      "icon": "https://bg3.wiki/w/images/thumb/2/20/Circus_of_the_Last_Days.jpg/495px-Circus_of_the_Last_Days.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7628,12 +7627,12 @@
         "name": "Rivington",
         "link": "https://bg3.wiki/wiki/Rivington"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/2/20/Circus_of_the_Last_Days.jpg/495px-Circus_of_the_Last_Days.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Circus_of_the_Last_Days"
     },
     {
       "name": "Open Hand Temple",
       "description": "A temple dedicated to Ilmater, grieving after the loss of their head priest",
-      "icon": "https://bg3.wiki/w/images/thumb/0/03/Open_Hand_Temple_Front.jpg/400px-Open_Hand_Temple_Front.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7642,12 +7641,12 @@
         "name": "Rivington",
         "link": "https://bg3.wiki/wiki/Rivington"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/0/03/Open_Hand_Temple_Front.jpg/400px-Open_Hand_Temple_Front.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Open_Hand_Temple"
     },
     {
       "name": "Requisitioned Barn",
       "description": "A large barn, currently in use as storage for refugee requisitions",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f8/Requisitioned_Barn.jpg/400px-Requisitioned_Barn.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7656,12 +7655,12 @@
         "name": "Rivington",
         "link": "https://bg3.wiki/wiki/Rivington"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/f/f8/Requisitioned_Barn.jpg/400px-Requisitioned_Barn.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Requisitioned_Barn"
     },
     {
       "name": "South Span Checkpoint",
       "description": "An intermediate checkpoint between Rivington and Wyrm's Crossing",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f2/South_Span_Checkpoint.jpg/408px-South_Span_Checkpoint.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7670,12 +7669,12 @@
         "name": "Rivington",
         "link": "https://bg3.wiki/wiki/Rivington"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/f/f2/South_Span_Checkpoint.jpg/408px-South_Span_Checkpoint.jpg",
       "wikiLink": "https://bg3.wiki/wiki/South_Span_Checkpoint"
     },
     {
       "name": "Sword Coast Couriers",
       "description": "Rivington's post office, complete with pigeon carriers",
-      "icon": "https://bg3.wiki/w/images/thumb/0/0c/SwordCoastCouriers_Exterior.jpg/401px-SwordCoastCouriers_Exterior.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7684,12 +7683,12 @@
         "name": "Rivington",
         "link": "https://bg3.wiki/wiki/Rivington"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/0/0c/SwordCoastCouriers_Exterior.jpg/401px-SwordCoastCouriers_Exterior.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Sword_Coast_Couriers"
     },
     {
       "name": "Rivington General",
       "description": "A weapons and armour store, run by Gyldro Angleiron and his clerk Exxvikyap",
-      "icon": "https://bg3.wiki/w/images/thumb/9/92/Rivington_General.jpg/400px-Rivington_General.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7698,12 +7697,12 @@
         "name": "Rivington",
         "link": "https://bg3.wiki/wiki/Rivington"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/9/92/Rivington_General.jpg/400px-Rivington_General.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Rivington_General"
     },
     {
       "name": "Wyrm's Crossing",
       "description": "A crossing between Rivington and the Lower City of Baldur's Gate",
-      "icon": "https://bg3.wiki/w/images/thumb/e/e2/Wyrm%27s_Crossing_Side.jpg/401px-Wyrm%27s_Crossing_Side.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7712,12 +7711,12 @@
         "name": "Wyrm's Crossing",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/e/e2/Wyrm%27s_Crossing_Side.jpg/401px-Wyrm%27s_Crossing_Side.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Wyrm%27s_Crossing"
     },
     {
       "name": "Danthelon's Dancing Axe",
       "description": "A weapons and armour store owned by Entharl Danthelon, as well as a front to a Harper hideout",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d7/Danthelon%27s_Dancing_Axe.jpg/357px-Danthelon%27s_Dancing_Axe.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7726,12 +7725,12 @@
         "name": "Wyrm's Crossing",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/d/d7/Danthelon%27s_Dancing_Axe.jpg/357px-Danthelon%27s_Dancing_Axe.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Danthelon%27s_Dancing_Axe"
     },
     {
       "name": "Sharess' Caress",
       "description": "A house of pleasure run by Mamzell Amira and Kira",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f4/Sharess%27_Caress.jpg/331px-Sharess%27_Caress.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7740,12 +7739,12 @@
         "name": "Wyrm's Crossing",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/f/f4/Sharess%27_Caress.jpg/331px-Sharess%27_Caress.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Sharess%27_Caress"
     },
     {
       "name": "Wyrm's Rock Fortress",
       "description": "An island-fortress which serves as one of the Flaming Fist's headquarters",
-      "icon": "https://bg3.wiki/w/images/thumb/2/2b/Wyrm%27s_Rock_Fortress.jpg/400px-Wyrm%27s_Rock_Fortress.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7754,12 +7753,12 @@
         "name": "Wyrm's Crossing",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/2/2b/Wyrm%27s_Rock_Fortress.jpg/400px-Wyrm%27s_Rock_Fortress.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Wyrm%27s_Rock_Fortress"
     },
     {
       "name": "Lower City",
       "description": "The mercantile hub and southernmost region of the port-side city of Baldur's Gate",
-      "icon": "https://bg3.wiki/w/images/thumb/e/e2/Lower_City.jpg/400px-Lower_City.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7768,12 +7767,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/e/e2/Lower_City.jpg/400px-Lower_City.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Lower_City"
     },
     {
       "name": "Baldur's Mouth",
       "description": "A print shop for news broadsheets, run by editor Ettvard",
-      "icon": "https://bg3.wiki/w/images/thumb/5/57/Baldur%27s_Mouth.jpg/400px-Baldur%27s_Mouth.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7782,12 +7781,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/5/57/Baldur%27s_Mouth.jpg/400px-Baldur%27s_Mouth.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Baldur%27s_Mouth"
     },
     {
       "name": "Basilisk Gate Barracks",
       "description": "Barracks for the Flaming Fist and location of Heapside Prison",
-      "icon": "https://bg3.wiki/w/images/thumb/9/9e/Basilisk_gate_crossing.jpg/400px-Basilisk_gate_crossing.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7796,12 +7795,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/9/9e/Basilisk_gate_crossing.jpg/400px-Basilisk_gate_crossing.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Basilisk_Gate_Barracks"
     },
     {
       "name": "Bloomridge Park",
       "description": "A large park in the north of the Lower City",
-      "icon": "https://bg3.wiki/w/images/thumb/c/cf/Bloomridge_Park.jpg/400px-Bloomridge_Park.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7810,12 +7809,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/c/cf/Bloomridge_Park.jpg/400px-Bloomridge_Park.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Bloomridge_Park"
     },
     {
       "name": "Candulhallow's Tombstones",
       "description": "An unassuming funerary store nestled along a back street",
-      "icon": "https://bg3.wiki/w/images/thumb/2/2e/Candulhallows_Tombstones_Entrance.jpg/400px-Candulhallows_Tombstones_Entrance.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7824,12 +7823,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/2/2e/Candulhallows_Tombstones_Entrance.jpg/400px-Candulhallows_Tombstones_Entrance.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Candulhallow%27s_Tombstones"
     },
     {
       "name": "Counting House",
       "description": "A banking and storage facility found along the southern coast of the Lower City",
-      "icon": "https://bg3.wiki/w/images/thumb/b/be/Tim-coddens-tim-coddens-thecountinghouse-01.webp/400px-Tim-coddens-tim-coddens-thecountinghouse-01.webp.png",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7838,12 +7837,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/b/be/Tim-coddens-tim-coddens-thecountinghouse-01.webp/400px-Tim-coddens-tim-coddens-thecountinghouse-01.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Counting_House"
     },
     {
       "name": "Devil's Fee",
       "description": "A curio store run by Helsik",
-      "icon": "https://bg3.wiki/w/images/thumb/f/ff/Devil%27s_Fee.jpg/400px-Devil%27s_Fee.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7852,12 +7851,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/f/ff/Devil%27s_Fee.jpg/400px-Devil%27s_Fee.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Devil%27s_Fee"
     },
     {
       "name": "Elerrathin's Home",
       "description": "The home of Jaheira and her wards, with a large, lush basement cavern",
-      "icon": "https://bg3.wiki/w/images/thumb/5/5f/Elerrathins_Home.jpg/400px-Elerrathins_Home.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7866,12 +7865,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/5/5f/Elerrathins_Home.jpg/400px-Elerrathins_Home.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Elerrathin%27s_Home"
     },
     {
       "name": "Elfsong Tavern",
       "description": "A well-known tavern, popular with adventurers and independent operators",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d2/Elfsong_Tavern_Street_View.jpg/460px-Elfsong_Tavern_Street_View.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7880,12 +7879,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/d/d2/Elfsong_Tavern_Street_View.jpg/460px-Elfsong_Tavern_Street_View.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Elfsong_Tavern"
     },
     {
       "name": "Felogyr's Fireworks",
       "description": "A fireworks store in the south-east of the city",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f9/Jef-simons-jef-simons-bg3-citypropuse1.webp/400px-Jef-simons-jef-simons-bg3-citypropuse1.webp.png",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7894,12 +7893,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/f/f9/Jef-simons-jef-simons-bg3-citypropuse1.webp/400px-Jef-simons-jef-simons-bg3-citypropuse1.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Felogyr%27s_Fireworks"
     },
     {
       "name": "Flymm Cargo",
       "description": "A dock-side warehouse and access point to the Lower City Sewers and Iron Throne",
-      "icon": "https://bg3.wiki/w/images/thumb/4/4f/Flymm_Cargo.jpg/400px-Flymm_Cargo.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7908,12 +7907,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/4/4f/Flymm_Cargo.jpg/400px-Flymm_Cargo.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Flymm_Cargo"
     },
     {
       "name": "Forge of the Nine",
       "description": "An outdoor smithy, possibly run by Dammon",
-      "icon": "https://bg3.wiki/w/images/thumb/9/94/Forge_of_the_Nine.jpg/400px-Forge_of_the_Nine.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7922,12 +7921,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/9/94/Forge_of_the_Nine.jpg/400px-Forge_of_the_Nine.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Forge_of_the_Nine"
     },
     {
       "name": "Graveyard (Lower City)",
       "description": "The Lower City's graveyard, housing several mausoleums and a morgue",
-      "icon": "https://bg3.wiki/w/images/thumb/3/35/Graveyard_%28Lower_City%29.jpg/400px-Graveyard_%28Lower_City%29.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7936,12 +7935,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/3/35/Graveyard_%28Lower_City%29.jpg/400px-Graveyard_%28Lower_City%29.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Graveyard_(Lower_City)"
     },
     {
       "name": "House of Grief",
       "description": "A healing house run by Sharran cultists, and aboveground facade to their cloister",
-      "icon": "https://bg3.wiki/w/images/thumb/3/3e/House_of_Grief.jpg/400px-House_of_Grief.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7950,12 +7949,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/3/3e/House_of_Grief.jpg/400px-House_of_Grief.jpg",
       "wikiLink": "https://bg3.wiki/wiki/House_of_Grief"
     },
     {
       "name": "Lady Jannath's Estate",
       "description": "The home of Lady Jannath and her husband, the artist Oskar Fevras",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f0/Lady_Jannaths_Estate_Exterior.png/381px-Lady_Jannaths_Estate_Exterior.png",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7964,12 +7963,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/f/f0/Lady_Jannaths_Estate_Exterior.png/381px-Lady_Jannaths_Estate_Exterior.png",
       "wikiLink": "https://bg3.wiki/wiki/Lady_Jannath%27s_Estate"
     },
     {
       "name": "Lustrous Lass",
       "description": "A cursed ship docked at Greyharbour",
-      "icon": "https://bg3.wiki/w/images/thumb/d/dc/Lustrous_Lass.jpg/400px-Lustrous_Lass.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7978,12 +7977,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/d/dc/Lustrous_Lass.jpg/400px-Lustrous_Lass.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Lustrous_Lass"
     },
     {
       "name": "Old Garlow's Place",
       "description": "A somewhat rundown house and hideout for a group of hag survivors",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f4/Old_Garlow%27s_Place.jpg/416px-Old_Garlow%27s_Place.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -7992,12 +7991,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/f/f4/Old_Garlow%27s_Place.jpg/416px-Old_Garlow%27s_Place.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Old_Garlow%27s_Place"
     },
     {
       "name": "Philgrave's Mansion",
       "description": "A waterside mansion and home of Mystic Carrion",
-      "icon": "https://bg3.wiki/w/images/thumb/0/06/Philgrave%27s_Mansion.jpg/340px-Philgrave%27s_Mansion.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8006,12 +8005,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/0/06/Philgrave%27s_Mansion.jpg/340px-Philgrave%27s_Mansion.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Philgrave%27s_Mansion"
     },
     {
       "name": "Steel Watch Foundry",
       "description": "Factory for Gortash's Steel Watch, found near the Grey Harbour",
-      "icon": "https://bg3.wiki/w/images/thumb/4/41/Steel_Watch_Foundry.png/400px-Steel_Watch_Foundry.png",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8020,12 +8019,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/4/41/Steel_Watch_Foundry.png/400px-Steel_Watch_Foundry.png",
       "wikiLink": "https://bg3.wiki/wiki/Steel_Watch_Foundry"
     },
     {
       "name": "Sorcerous Sundries",
       "description": "A large magical marketplace, run by the renound wizard Lorroakan",
-      "icon": "https://bg3.wiki/w/images/thumb/1/11/Sorcerous_Sundries.jpg/400px-Sorcerous_Sundries.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8034,12 +8033,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/1/11/Sorcerous_Sundries.jpg/400px-Sorcerous_Sundries.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Sorcerous_Sundries"
     },
     {
       "name": "Stormshore Tabernacle",
       "description": "A house of worship in the north-eastern part of the city",
-      "icon": "https://bg3.wiki/w/images/thumb/7/7a/Stormshore_tabernacle.jpg/400px-Stormshore_tabernacle.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8048,12 +8047,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/7/7a/Stormshore_tabernacle.jpg/400px-Stormshore_tabernacle.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Stormshore_Tabernacle"
     },
     {
       "name": "Szarr Palace",
       "description": "Palace of Cazador Szarr and home to his vampire spawn",
-      "icon": "https://bg3.wiki/w/images/thumb/a/aa/Olivier-mir-cazador-001.webp/416px-Olivier-mir-cazador-001.webp.png",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8062,12 +8061,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/a/aa/Olivier-mir-cazador-001.webp/416px-Olivier-mir-cazador-001.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Szarr_Palace"
     },
     {
       "name": "The Blushing Mermaid",
       "description": "A large tavern with an old ship's bow protruding from the side",
-      "icon": "https://bg3.wiki/w/images/thumb/a/a4/Blushing_Mermaid_Outside.jpg/400px-Blushing_Mermaid_Outside.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8076,12 +8075,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/a/a4/Blushing_Mermaid_Outside.jpg/400px-Blushing_Mermaid_Outside.jpg",
       "wikiLink": "https://bg3.wiki/wiki/The_Blushing_Mermaid"
     },
     {
       "name": "Wine Festival",
       "description": "A small festival taking place on the Highberry's home porch, hosted by Cora Highberry",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d3/Wine_Festival.jpg/400px-Wine_Festival.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8090,12 +8089,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/d/d3/Wine_Festival.jpg/400px-Wine_Festival.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Wine_Festival"
     },
     {
       "name": "The Lodge",
       "description": "Headquarters of the Society of Brilliance, perched high above the Greyharbour Docks",
-      "icon": "https://bg3.wiki/w/images/thumb/e/eb/The_Lodge.jpg/400px-The_Lodge.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8104,12 +8103,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/e/eb/The_Lodge.jpg/400px-The_Lodge.jpg",
       "wikiLink": "https://bg3.wiki/wiki/The_Lodge"
     },
     {
       "name": "Water Queen's House",
       "description": "An outdoor temple to Bitch Queen Umberlee, overseen by Wavemistress Allandra Grey",
-      "icon": "https://bg3.wiki/w/images/thumb/2/25/Water_Queen%27s_House_Sideview.jpg/400px-Water_Queen%27s_House_Sideview.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8118,12 +8117,12 @@
         "name": "Baldur's Gate",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/2/25/Water_Queen%27s_House_Sideview.jpg/400px-Water_Queen%27s_House_Sideview.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Water_Queen%27s_House"
     },
     {
       "name": "Lower City Sewers",
       "description": "A large sewerage network beneath the Lower City",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f5/Lower_City_Sewers_North.jpg/374px-Lower_City_Sewers_North.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8132,12 +8131,12 @@
         "name": "Underground",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/f/f5/Lower_City_Sewers_North.jpg/374px-Lower_City_Sewers_North.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Lower_City_Sewers"
     },
     {
       "name": "Undercity Ruins",
       "description": "The remains of an old city, located in a vast cavern beneath Baldur's Gate",
-      "icon": "https://bg3.wiki/w/images/thumb/8/80/Undercity_Ruins.jpg/400px-Undercity_Ruins.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8146,12 +8145,12 @@
         "name": "Underground",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/8/80/Undercity_Ruins.jpg/400px-Undercity_Ruins.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Undercity_Ruins"
     },
     {
       "name": "Upper City",
       "description": "A wealthy region in Baldur's Gate, home to its patriar families",
-      "icon": "https://bg3.wiki/w/images/thumb/4/43/Upper_City_Invasion.webp/400px-Upper_City_Invasion.webp.png",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8160,12 +8159,12 @@
         "name": "Upper City",
         "link": "https://bg3.wiki/wiki/Upper_City"
       },
+      "icon": "https://bg3.wiki/w/images/thumb/4/43/Upper_City_Invasion.webp/400px-Upper_City_Invasion.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/Upper_City"
     },
     {
       "name": "Astral Plane*",
       "description": "A small section of the Astral Sea",
-      "icon": "https://bg3.wiki/w/images/thumb/9/99/Screen_Astral_Plane_South_East_A.jpg/400px-Screen_Astral_Plane_South_East_A.jpg",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8174,12 +8173,12 @@
         "name": "Other planes",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Screen_Astral_Plane_South_East_A.jpg/400px-Screen_Astral_Plane_South_East_A.jpg",
       "wikiLink": "https://bg3.wiki/wiki/Astral_Plane"
     },
     {
       "name": "House of Hope",
       "description": "Raphael's home in the hells",
-      "icon": "https://bg3.wiki/w/images/thumb/6/66/Edward-vanderghote-houseofhope-01.webp/400px-Edward-vanderghote-houseofhope-01.webp.png",
       "act": {
         "name": "Act Three",
         "link": "https://bg3.wiki/wiki/Act_Three"
@@ -8188,6 +8187,7 @@
         "name": "Other planes",
         "link": ""
       },
+      "icon": "https://bg3.wiki/w/images/thumb/6/66/Edward-vanderghote-houseofhope-01.webp/400px-Edward-vanderghote-houseofhope-01.webp.png",
       "wikiLink": "https://bg3.wiki/wiki/House_of_Hope"
     }
   ],
@@ -9787,6 +9787,631 @@
       "name": "Zevlor",
       "icon": "https://bg3.wiki/w/images/thumb/6/60/Zevlor-looks.png/525px-Zevlor-looks.png",
       "wikiLink": "https://bg3.wiki/wiki/Zevlor"
+    }
+  ],
+  "traders": [
+    {
+      "name": "Arron",
+      "icon": "https://bg3.wiki/w/images/thumb/c/ca/Portrait_Arron.png/30px-Portrait_Arron.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arron",
+      "location": "Emerald Grove",
+      "goods": "General"
+    },
+    {
+      "name": "Auntie Ethel",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9e/Portrait_Ethel_Human.png/30px-Portrait_Ethel_Human.png",
+      "wikiLink": "https://bg3.wiki/wiki/Auntie_Ethel",
+      "location": "Emerald Grove[1]",
+      "goods": "Potions and lotions and alchemy"
+    },
+    {
+      "name": "Brem",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2b/Portrait_Brem.png/30px-Portrait_Brem.png",
+      "wikiLink": "https://bg3.wiki/wiki/Brem",
+      "location": "The Risen Road",
+      "goods": "Grenades, weapons, and armour (Zhentarim only)"
+    },
+    {
+      "name": "Cyrel",
+      "icon": "https://bg3.wiki/w/images/thumb/0/04/Portrait_Cyrel.png/30px-Portrait_Cyrel.png",
+      "wikiLink": "https://bg3.wiki/wiki/Cyrel",
+      "location": "Risen Road Toll House",
+      "goods": "Consumables"
+    },
+    {
+      "name": "Dammon",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b0/Portrait_Dammon.png/30px-Portrait_Dammon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dammon",
+      "location": "Emerald Grove",
+      "goods": "Weapons and armour"
+    },
+    {
+      "name": "Mattis",
+      "icon": "https://bg3.wiki/w/images/thumb/6/69/Portrait_Mattis.png/30px-Portrait_Mattis.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mattis",
+      "location": "Emerald Grove",
+      "goods": "Junk"
+    },
+    {
+      "name": "Mol",
+      "icon": "https://bg3.wiki/w/images/thumb/4/43/Portrait_Mol.png/30px-Portrait_Mol.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mol",
+      "location": "Emerald Grove",
+      "goods": "Junk"
+    },
+    {
+      "name": "Glomp",
+      "icon": "https://bg3.wiki/w/images/thumb/9/92/Portrait_Glomp.png/30px-Portrait_Glomp.png",
+      "wikiLink": "https://bg3.wiki/wiki/Glomp",
+      "location": "Goblin Camp",
+      "goods": "Loot[2]"
+    },
+    {
+      "name": "Grat",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f7/Portrait_Grat.png/30px-Portrait_Grat.png",
+      "wikiLink": "https://bg3.wiki/wiki/Grat",
+      "location": "Goblin Camp",
+      "goods": "General"
+    },
+    {
+      "name": "Okta",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7d/Portrait_Okta.png/30px-Portrait_Okta.png",
+      "wikiLink": "https://bg3.wiki/wiki/Okta",
+      "location": "Emerald Grove",
+      "goods": "Camp Supplies"
+    },
+    {
+      "name": "Roah Moonglow",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e7/Portrait_Roah_Moonglow.png/30px-Portrait_Roah_Moonglow.png",
+      "wikiLink": "https://bg3.wiki/wiki/Roah_Moonglow",
+      "location": "Goblin Camp",
+      "goods": "General"
+    },
+    {
+      "name": "Volo",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4c/Portrait_Volo.png/30px-Portrait_Volo.png",
+      "wikiLink": "https://bg3.wiki/wiki/Volo",
+      "location": "Emerald Grove[3]",
+      "goods": "Scrolls and potions"
+    },
+    {
+      "name": "Jeera",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2d/Portrait_Jeera.png/30px-Portrait_Jeera.png",
+      "wikiLink": "https://bg3.wiki/wiki/Jeera",
+      "location": "Crèche Y'llek",
+      "goods": "General"
+    },
+    {
+      "name": "Esther",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f5/Portrait_Esther.png/30px-Portrait_Esther.png",
+      "wikiLink": "https://bg3.wiki/wiki/Esther",
+      "location": "Rosymorn Monastery Trail",
+      "goods": "General"
+    },
+    {
+      "name": "Blurg",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b7/Portrait_Blurg.png/30px-Portrait_Blurg.png",
+      "wikiLink": "https://bg3.wiki/wiki/Blurg",
+      "location": "Ebonlake Grotto",
+      "goods": "General, alchemy"
+    },
+    {
+      "name": "Derryth Bonecloak",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7e/Portrait_Derryth_Bonecloak.png/30px-Portrait_Derryth_Bonecloak.png",
+      "wikiLink": "https://bg3.wiki/wiki/Derryth_Bonecloak",
+      "location": "Ebonlake Grotto",
+      "goods": "Weapons and armour, alchemy"
+    },
+    {
+      "name": "Greymon",
+      "icon": "https://bg3.wiki/w/images/thumb/5/58/Portrait_Greymon.png/30px-Portrait_Greymon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Greymon",
+      "location": "Grymforge",
+      "goods": "Weapons"
+    },
+    {
+      "name": "Omeluum",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7b/Portrait_Omeluum.png/30px-Portrait_Omeluum.png",
+      "wikiLink": "https://bg3.wiki/wiki/Omeluum",
+      "location": "Ebonlake Grotto",
+      "goods": "Special"
+    },
+    {
+      "name": "Kith",
+      "icon": "https://bg3.wiki/w/images/thumb/0/0b/Portrait_Kith.png/30px-Portrait_Kith.png",
+      "wikiLink": "https://bg3.wiki/wiki/Kith",
+      "location": "Grymforge",
+      "goods": "Consumables"
+    },
+    {
+      "name": "Araj Oblodra",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3f/Portrait_Araj_Oblodra.png/30px-Portrait_Araj_Oblodra.png",
+      "wikiLink": "https://bg3.wiki/wiki/Araj_Oblodra",
+      "location": "Moonrise Towers",
+      "goods": "Alchemy"
+    },
+    {
+      "name": "Balthazar",
+      "icon": "https://bg3.wiki/w/images/thumb/7/74/Portrait_Balthazar.png/30px-Portrait_Balthazar.png",
+      "wikiLink": "https://bg3.wiki/wiki/Balthazar",
+      "location": "Gauntlet of Shar",
+      "goods": "Alchemy"
+    },
+    {
+      "name": "Barcus",
+      "icon": "https://bg3.wiki/w/images/thumb/d/dc/Portrait_Barcus_Wroot.png/30px-Portrait_Barcus_Wroot.png",
+      "wikiLink": "https://bg3.wiki/wiki/Barcus",
+      "location": "Last Light Inn",
+      "goods": "Consumables"
+    },
+    {
+      "name": "He Who Was",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7f/Portrait_He_Who_Was.png/30px-Portrait_He_Who_Was.png",
+      "wikiLink": "https://bg3.wiki/wiki/He_Who_Was",
+      "location": "Ruined Battlefield",
+      "goods": "Alchemy"
+    },
+    {
+      "name": "Hoarding Merregon",
+      "icon": "https://bg3.wiki/w/images/thumb/0/02/Portrait_Hoarding_Merregon.png/30px-Portrait_Hoarding_Merregon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hoarding_Merregon",
+      "location": "Gauntlet of Shar",
+      "goods": "Consumables"
+    },
+    {
+      "name": "Lann Tarv",
+      "icon": "https://bg3.wiki/w/images/thumb/4/42/Portrait_Lann_Tarv.png/30px-Portrait_Lann_Tarv.png",
+      "wikiLink": "https://bg3.wiki/wiki/Lann_Tarv",
+      "location": "Moonrise Towers",
+      "goods": "Weapons and armour"
+    },
+    {
+      "name": "Talli",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d2/Portrait_Talli.png/30px-Portrait_Talli.png",
+      "wikiLink": "https://bg3.wiki/wiki/Talli",
+      "location": "Last Light Inn[3]",
+      "goods": "General"
+    },
+    {
+      "name": "Anna Lidwin",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1d/Portrait_Anna_Lidwin.png/30px-Portrait_Anna_Lidwin.png",
+      "wikiLink": "https://bg3.wiki/wiki/Anna_Lidwin",
+      "location": "House of Healing",
+      "goods": "Potions, alchemy"
+    },
+    {
+      "name": "Boney",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8d/Portrait_Boney.png/30px-Portrait_Boney.png",
+      "wikiLink": "https://bg3.wiki/wiki/Boney",
+      "location": "Circus of the Last Days[1]",
+      "goods": "Scrolls, gemstones"
+    },
+    {
+      "name": "Bumpnagel",
+      "icon": "https://bg3.wiki/w/images/thumb/2/22/Portrait_Bumpnagel.png/30px-Portrait_Bumpnagel.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bumpnagel",
+      "location": "Angleiron's Cellar",
+      "goods": "Consumables, armour"
+    },
+    {
+      "name": "Exxvikyap",
+      "icon": "https://bg3.wiki/w/images/thumb/6/69/Portrait_Exxvikyap.png/30px-Portrait_Exxvikyap.png",
+      "wikiLink": "https://bg3.wiki/wiki/Exxvikyap",
+      "location": "Rivington General",
+      "goods": "Weapons and armour"
+    },
+    {
+      "name": "Ferg Drogher",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7b/Portrait_Ferg_Drogher.png/30px-Portrait_Ferg_Drogher.png",
+      "wikiLink": "https://bg3.wiki/wiki/Ferg_Drogher",
+      "location": "Requisitioned Barn[2]",
+      "goods": "Weapons and armour"
+    },
+    {
+      "name": "Lilly Beanbottom",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e7/Portrait_Lilly_Beanbottom.png/30px-Portrait_Lilly_Beanbottom.png",
+      "wikiLink": "https://bg3.wiki/wiki/Lilly_Beanbottom",
+      "location": "Outside Open Hand Temple",
+      "goods": "Baldur's Mouth Gazette"
+    },
+    {
+      "name": "Popper",
+      "icon": "https://bg3.wiki/w/images/thumb/8/87/Portrait_Popper.png/30px-Portrait_Popper.png",
+      "wikiLink": "https://bg3.wiki/wiki/Popper",
+      "location": "Circus of the Last Days",
+      "goods": "Consumables"
+    },
+    {
+      "name": "Zara",
+      "icon": "https://bg3.wiki/w/images/thumb/3/31/Portrait_Zara.png/30px-Portrait_Zara.png",
+      "wikiLink": "https://bg3.wiki/wiki/Zara",
+      "location": "Circus of the Last Days",
+      "goods": "Dyes and disguise kits"
+    },
+    {
+      "name": "Zethino",
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Portrait_Zethino.png/30px-Portrait_Zethino.png",
+      "wikiLink": "https://bg3.wiki/wiki/Zethino",
+      "location": "Circus of the Last Days[5]",
+      "goods": "Alchemy"
+    },
+    {
+      "name": "Arkleia Oloril",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a6/Portrait_Arkleia_Oloril.png/30px-Portrait_Arkleia_Oloril.png",
+      "wikiLink": "https://bg3.wiki/wiki/Arkleia_Oloril",
+      "location": "Wyrm's Rock Fortress",
+      "goods": "Weapons and armour"
+    },
+    {
+      "name": "Carmen Pennygood",
+      "icon": "https://bg3.wiki/w/images/thumb/a/aa/Portrait_Carmen_Pennygood.png/30px-Portrait_Carmen_Pennygood.png",
+      "wikiLink": "https://bg3.wiki/wiki/Carmen_Pennygood",
+      "location": "Carm's Garms",
+      "goods": "Camp clothing and dyes"
+    },
+    {
+      "name": "Entharl Danthelon",
+      "icon": "https://bg3.wiki/w/images/thumb/3/30/Portrait_Entharl_Danthelon.png/30px-Portrait_Entharl_Danthelon.png",
+      "wikiLink": "https://bg3.wiki/wiki/Entharl_Danthelon",
+      "location": "Danthelon's Dancing Axe",
+      "goods": "Weapons and armour"
+    },
+    {
+      "name": "Glynda Oltower",
+      "icon": "https://bg3.wiki/w/images/thumb/e/ea/Portrait_Glynda_Oltower.png/30px-Portrait_Glynda_Oltower.png",
+      "wikiLink": "https://bg3.wiki/wiki/Glynda_Oltower",
+      "location": "Along the bridge",
+      "goods": "Grenades and Tools"
+    },
+    {
+      "name": "Hoots Hooligan",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e0/Portrait_Hoots_Hooligan.png/30px-Portrait_Hoots_Hooligan.png",
+      "wikiLink": "https://bg3.wiki/wiki/Hoots_Hooligan",
+      "location": "Sharess' Caress",
+      "goods": "Camp supplies"
+    },
+    {
+      "name": "Queelia Arvis",
+      "icon": "https://bg3.wiki/w/images/thumb/a/af/Portrait_Queelia_Arvis.png/30px-Portrait_Queelia_Arvis.png",
+      "wikiLink": "https://bg3.wiki/wiki/Queelia_Arvis",
+      "location": "Fraygo's Flophouse",
+      "goods": "Camp supplies"
+    },
+    {
+      "name": "Roberon Silt",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b6/Portrait_Roberon_Silt.png/30px-Portrait_Roberon_Silt.png",
+      "wikiLink": "https://bg3.wiki/wiki/Roberon_Silt",
+      "location": "Along the bridge",
+      "goods": "Paintings and dyes"
+    },
+    {
+      "name": "Horst",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b7/Portrait_Horst.png/30px-Portrait_Horst.png",
+      "wikiLink": "https://bg3.wiki/wiki/Horst",
+      "location": "The Velveteen Elixir",
+      "goods": "Potions and alchemy"
+    },
+    {
+      "name": "Thodric Shedeveer",
+      "icon": "https://bg3.wiki/w/images/thumb/0/07/Portrait_Thodric_Shedeveer.png/30px-Portrait_Thodric_Shedeveer.png",
+      "wikiLink": "https://bg3.wiki/wiki/Thodric_Shedeveer",
+      "location": "Along the bridge",
+      "goods": "Fish"
+    },
+    {
+      "name": "Griska",
+      "icon": "https://bg3.wiki/w/images/thumb/0/03/Portrait_Griska.png/30px-Portrait_Griska.png",
+      "wikiLink": "https://bg3.wiki/wiki/Griska",
+      "location": "Fraygo's Flophouse",
+      "goods": "Potions and alchemy"
+    },
+    {
+      "name": "Velson Oakes",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a9/Portrait_Velson_Oakes.png/30px-Portrait_Velson_Oakes.png",
+      "wikiLink": "https://bg3.wiki/wiki/Velson_Oakes",
+      "location": "Along the bridge",
+      "goods": "Camp supplies"
+    },
+    {
+      "name": "Alan Alyth",
+      "icon": "https://bg3.wiki/w/images/thumb/7/76/Portrait_Alan_Alyth.png/30px-Portrait_Alan_Alyth.png",
+      "wikiLink": "https://bg3.wiki/wiki/Alan_Alyth",
+      "location": "Elfsong Tavern",
+      "goods": "Camp supplies"
+    },
+    {
+      "name": "Avery Sonshal",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8c/Portrait_Avery_Sonshal.png/30px-Portrait_Avery_Sonshal.png",
+      "wikiLink": "https://bg3.wiki/wiki/Avery_Sonshal",
+      "location": "Felogyr's Fireworks",
+      "goods": "Grenades"
+    },
+    {
+      "name": "Baelen Bonecloak",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e0/Portrait_Baelen_Bonecloak.png/30px-Portrait_Baelen_Bonecloak.png",
+      "wikiLink": "https://bg3.wiki/wiki/Baelen_Bonecloak",
+      "location": "Bonecloak's Apothecary",
+      "goods": "Alchemy"
+    },
+    {
+      "name": "Bosun Gannet",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ab/Portrait_Gannet.png/30px-Portrait_Gannet.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bosun_Gannet",
+      "location": "The Blushing Mermaid",
+      "goods": "Camp supplies"
+    },
+    {
+      "name": "Tamara",
+      "icon": "https://bg3.wiki/w/images/thumb/4/40/Portrait_Tamara.png/30px-Portrait_Tamara.png",
+      "wikiLink": "https://bg3.wiki/wiki/Tamara",
+      "location": "Felogyr's Fireworks",
+      "goods": "Grenades"
+    },
+    {
+      "name": "Dravo Flymm",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f3/Portrait_Dravo_Flymm.png/30px-Portrait_Dravo_Flymm.png",
+      "wikiLink": "https://bg3.wiki/wiki/Dravo_Flymm",
+      "location": "Flymm's Cobblers",
+      "goods": "Boots and shoes"
+    },
+    {
+      "name": "Figaro Pennygood",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e0/Portrait_Figaro_Pennygood.png/30px-Portrait_Figaro_Pennygood.png",
+      "wikiLink": "https://bg3.wiki/wiki/Figaro_Pennygood",
+      "location": "Facemaker's Boutique",
+      "goods": "Camp clothing and dyes"
+    },
+    {
+      "name": "Fytz",
+      "icon": "https://bg3.wiki/w/images/thumb/9/98/Portrait_Fytz.png/30px-Portrait_Fytz.png",
+      "wikiLink": "https://bg3.wiki/wiki/Fytz",
+      "location": "Stormshore Armoury",
+      "goods": "Weapons"
+    },
+    {
+      "name": "Gloomy Fentonson",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bf/Portrait_Gloomy_Fentonson.png/30px-Portrait_Gloomy_Fentonson.png",
+      "wikiLink": "https://bg3.wiki/wiki/Gloomy_Fentonson",
+      "location": "Stormshore Armoury",
+      "goods": "Armours"
+    },
+    {
+      "name": "Helsik",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8a/Portrait_Helsik.png/30px-Portrait_Helsik.png",
+      "wikiLink": "https://bg3.wiki/wiki/Helsik",
+      "location": "Devil's Fee",
+      "goods": "Weapons and armour"
+    },
+    {
+      "name": "Honest Vendor",
+      "icon": "https://bg3.wiki/w/images/thumb/a/ac/Portrait_Honest_Vendor.png/30px-Portrait_Honest_Vendor.png",
+      "wikiLink": "https://bg3.wiki/wiki/Honest_Vendor",
+      "location": "Lower City",
+      "goods": "Non-magical jewelry"
+    },
+    {
+      "name": "Lakrissa",
+      "icon": "https://bg3.wiki/w/images/thumb/4/48/Portrait_Lakrissa.png/30px-Portrait_Lakrissa.png",
+      "wikiLink": "https://bg3.wiki/wiki/Lakrissa",
+      "location": "Elfsong Tavern",
+      "goods": "Camp supplies"
+    },
+    {
+      "name": "Lorroakan's Projection",
+      "icon": "https://bg3.wiki/w/images/thumb/7/74/Portrait_Lorroakan%27s_Projection.png/30px-Portrait_Lorroakan%27s_Projection.png",
+      "wikiLink": "https://bg3.wiki/wiki/Lorroakan%27s_Projection",
+      "location": "Sorcerous Sundries",
+      "goods": "Weapons, armour and rare scrolls"
+    },
+    {
+      "name": "Maude",
+      "icon": "https://bg3.wiki/w/images/thumb/4/49/Portrait_Maude.png/30px-Portrait_Maude.png",
+      "wikiLink": "https://bg3.wiki/wiki/Maude",
+      "location": "Graveyard",
+      "goods": "Flowers"
+    },
+    {
+      "name": "Mirie",
+      "icon": "https://bg3.wiki/w/images/thumb/1/19/Portrait_Mirie.png/30px-Portrait_Mirie.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mirie",
+      "location": "House of Grief",
+      "goods": "Sharran Literature"
+    },
+    {
+      "name": "Mohan",
+      "icon": "https://bg3.wiki/w/images/thumb/9/99/Portrait_Mohan.png/30px-Portrait_Mohan.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mohan",
+      "location": "Lower City",
+      "goods": "General"
+    },
+    {
+      "name": "Mystic Carrion",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fe/Portrait_Mystic_Carrion.png/30px-Portrait_Mystic_Carrion.png",
+      "wikiLink": "https://bg3.wiki/wiki/Mystic_Carrion",
+      "location": "Philgrave's Mansion",
+      "goods": "Armour, scrolls"
+    },
+    {
+      "name": "Nansi Gretta",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bc/Portrait_Nansi_Gretta.png/30px-Portrait_Nansi_Gretta.png",
+      "wikiLink": "https://bg3.wiki/wiki/Nansi_Gretta",
+      "location": "The Bibliophile",
+      "goods": "Books and rare scrolls"
+    },
+    {
+      "name": "News Hawker Chalara",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4f/Portrait_Chalara.png/30px-Portrait_Chalara.png",
+      "wikiLink": "https://bg3.wiki/wiki/News_Hawker_Chalara",
+      "location": "Underneath Blushing Mermaid",
+      "goods": "Baldur's Mouth Gazette"
+    },
+    {
+      "name": "News Hawker Jason",
+      "icon": "https://bg3.wiki/w/images/thumb/4/49/Portrait_Jason.png/30px-Portrait_Jason.png",
+      "wikiLink": "https://bg3.wiki/wiki/News_Hawker_Jason",
+      "location": "Outside Bonecloak's Apothecary",
+      "goods": "Baldur's Mouth Gazette"
+    },
+    {
+      "name": "News Hawker Jonah",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4b/Portrait_Jonah.png/30px-Portrait_Jonah.png",
+      "wikiLink": "https://bg3.wiki/wiki/News_Hawker_Jonah",
+      "location": "Outside Facemaker's Boutique",
+      "goods": "Baldur's Mouth Gazette, Junk"
+    },
+    {
+      "name": "News Hawker Luan",
+      "icon": "https://bg3.wiki/w/images/thumb/e/eb/Portrait_Luan.png/30px-Portrait_Luan.png",
+      "wikiLink": "https://bg3.wiki/wiki/News_Hawker_Luan",
+      "location": "Gallows near Basilisk Gate Barracks",
+      "goods": "Baldur's Mouth Gazette, Junk"
+    },
+    {
+      "name": "Nocturne",
+      "icon": "https://bg3.wiki/w/images/thumb/2/26/Portrait_Nocturne.png/30px-Portrait_Nocturne.png",
+      "wikiLink": "https://bg3.wiki/wiki/Nocturne",
+      "location": "Cloister of Sombre Embrace",
+      "goods": "Potions and scrolls"
+    },
+    {
+      "name": "Old Troutman",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f3/Portrait_Old_Troutman.png/30px-Portrait_Old_Troutman.png",
+      "wikiLink": "https://bg3.wiki/wiki/Old_Troutman",
+      "location": "Eastern Docks",
+      "goods": "Fish"
+    },
+    {
+      "name": "Oliver Tefoco",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3b/Portrait_Oliver_Tefoco.png/30px-Portrait_Oliver_Tefoco.png",
+      "wikiLink": "https://bg3.wiki/wiki/Oliver_Tefoco",
+      "location": "Beehive General Goods",
+      "goods": "General, alchemy"
+    },
+    {
+      "name": "Omotola",
+      "icon": "https://bg3.wiki/w/images/thumb/b/bf/Portrait_Omotola.png/30px-Portrait_Omotola.png",
+      "wikiLink": "https://bg3.wiki/wiki/Omotola",
+      "location": "The Glitter Gala",
+      "goods": "Non-magical jewelry"
+    },
+    {
+      "name": "Phlanders Hort",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5f/Portrait_Phlanders_Hort.png/30px-Portrait_Phlanders_Hort.png",
+      "wikiLink": "https://bg3.wiki/wiki/Phlanders_Hort",
+      "location": "Facemaker's Boutique",
+      "goods": "Camp clothing and dyes"
+    },
+    {
+      "name": "Rolan",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7b/Portrait_Rolan.png/30px-Portrait_Rolan.png",
+      "wikiLink": "https://bg3.wiki/wiki/Rolan",
+      "location": "Sorcerous Sundries",
+      "goods": "Weapons, armour and rare scrolls"
+    },
+    {
+      "name": "Rolan's Projection",
+      "icon": "https://bg3.wiki/w/images/thumb/c/ce/Portrait_Rolan%27s_Projection.png/30px-Portrait_Rolan%27s_Projection.png",
+      "wikiLink": "https://bg3.wiki/wiki/Rolan%27s_Projection",
+      "location": "Sorcerous Sundries",
+      "goods": "Weapons, armour and rare scrolls"
+    },
+    {
+      "name": "Roveer",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1d/Portrait_Roveer.png/30px-Portrait_Roveer.png",
+      "wikiLink": "https://bg3.wiki/wiki/Roveer",
+      "location": "Elfsong Tavern",
+      "goods": "Food"
+    },
+    {
+      "name": "Sally Flymm",
+      "icon": "https://bg3.wiki/w/images/thumb/6/63/Portrait_Sally_Flymm.png/30px-Portrait_Sally_Flymm.png",
+      "wikiLink": "https://bg3.wiki/wiki/Sally_Flymm",
+      "location": "Flymm's Cobblers",
+      "goods": "Boots and shoes"
+    },
+    {
+      "name": "Silfy",
+      "icon": "https://bg3.wiki/w/images/thumb/d/df/Portrait_Silfy.png/30px-Portrait_Silfy.png",
+      "wikiLink": "https://bg3.wiki/wiki/Silfy",
+      "location": "Heapside Strand",
+      "goods": "Baldur's Mouth Gazette, Junk"
+    },
+    {
+      "name": "Skittle",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f3/Portrait_Skittle.png/30px-Portrait_Skittle.png",
+      "wikiLink": "https://bg3.wiki/wiki/Skittle",
+      "location": "Heapside Prison",
+      "goods": "Consumables, junk"
+    },
+    {
+      "name": "Henk",
+      "icon": "https://bg3.wiki/w/images/thumb/6/68/Portrait_Henk.png/30px-Portrait_Henk.png",
+      "wikiLink": "https://bg3.wiki/wiki/Henk",
+      "location": "The Singing Lute",
+      "goods": "Camp supplies"
+    },
+    {
+      "name": "Thomas C. Quirkilious",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5d/Portrait_Thomas_C._Quirkilious.png/30px-Portrait_Thomas_C._Quirkilious.png",
+      "wikiLink": "https://bg3.wiki/wiki/Thomas_C._Quirkilious",
+      "location": "Chromatic Scale",
+      "goods": "Instruments"
+    },
+    {
+      "name": "Thrumbo",
+      "icon": "https://bg3.wiki/w/images/thumb/9/9f/Portrait_Thrumbo.png/30px-Portrait_Thrumbo.png",
+      "wikiLink": "https://bg3.wiki/wiki/Thrumbo",
+      "location": "Philgrave's Mansion",
+      "goods": "Armour, scrolls"
+    },
+    {
+      "name": "Tolna Tome-Monger",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a5/Portrait_Tolna_Tome-Monger.png/30px-Portrait_Tolna_Tome-Monger.png",
+      "wikiLink": "https://bg3.wiki/wiki/Tolna_Tome-Monger",
+      "location": "Sorcerous Sundries",
+      "goods": "Books and rare scrolls"
+    },
+    {
+      "name": "Humbletoes",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a1/Portrait_Humbletoes.png/30px-Portrait_Humbletoes.png",
+      "wikiLink": "https://bg3.wiki/wiki/Humbletoes",
+      "location": "Stormshore Tabernacle",
+      "goods": "Weapons, armour, consumables, scrolls"
+    },
+    {
+      "name": "Bareki",
+      "icon": "https://bg3.wiki/w/images/thumb/1/12/Portrait_Bareki.png/30px-Portrait_Bareki.png",
+      "wikiLink": "https://bg3.wiki/wiki/Bareki",
+      "location": "Undercity Ruins",
+      "goods": "Armour"
+    },
+    {
+      "name": "Echo of Abazigal",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fb/Portrait_Echo_of_Abazigal.png/30px-Portrait_Echo_of_Abazigal.png",
+      "wikiLink": "https://bg3.wiki/wiki/Echo_of_Abazigal",
+      "location": "Murder Tribunal",
+      "goods": "Weapons and armour, consumables"
+    },
+    {
+      "name": "Severn",
+      "icon": "https://bg3.wiki/w/images/thumb/4/40/Portrait_Severn.png/30px-Portrait_Severn.png",
+      "wikiLink": "https://bg3.wiki/wiki/Severn",
+      "location": "Guildhall bar",
+      "goods": "Camp supplies"
+    },
+    {
+      "name": "Sticky Dondo",
+      "icon": "https://bg3.wiki/w/images/thumb/2/28/Portrait_Sticky_Dondo.png/30px-Portrait_Sticky_Dondo.png",
+      "wikiLink": "https://bg3.wiki/wiki/Sticky_Dondo",
+      "location": "Guildhall",
+      "goods": "Consumables, armour"
+    },
+    {
+      "name": "Koll (kobold)",
+      "icon": "https://bg3.wiki/w/images/thumb/1/10/Portrait_Koll_%28kobold%29.png/30px-Portrait_Koll_%28kobold%29.png",
+      "wikiLink": "https://bg3.wiki/wiki/Koll_(kobold)",
+      "location": "The Watch Citadel",
+      "goods": "Consumables"
     }
   ]
 }

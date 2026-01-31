@@ -81,6 +81,10 @@ const categories_: Category[] = [
     icon: "https://bg3.wiki/w/images/thumb/1/19/Magic_Missile_Icon.png/150px-Magic_Missile_Icon.png",
   },
   {
+    name: "traders",
+    icon: "https://bg3.wiki/w/images/a/ac/Trade_Icon.png",
+  },
+  {
     name: "weapons",
     icon: "https://bg3.wiki/w/images/thumb/f/f1/Greataxe_Faded.png/196px-Greataxe_Faded.png",
   },
@@ -128,6 +132,7 @@ export const useDataStore = defineStore("data", () => {
     locations: {},
     spells: {},
     bosses: {},
+    traders: {},
   })
 
   const searchText = ref("")
