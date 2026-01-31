@@ -59,7 +59,7 @@ export function getLocations(): Location[] {
       name: "Ravaged Beach",
       description:
         "A beach along the river Chionthar, now strewn with the remains of a crashed Nautiloid",
-      icon: "https://bg3.wiki/w/images/thumb/a/a4/Ravaged_Beach.jpg/388px-Ravaged_Beach.jpg",
+      icon: "https://bg3.wiki/w/images/thumb/a/a4/Ravaged_Beach.jpg/267px-Ravaged_Beach.jpg",
       act: "Act One",
       area: "Wilderness",
       wikiLink: "https://bg3.wiki/wiki/Ravaged_Beach",
@@ -498,7 +498,7 @@ export function getLocations(): Location[] {
       name: "Old Garlow's Place",
       description:
         "A somewhat rundown house and hideout for a group of hag survivors",
-      icon: "https://bg3.wiki/w/index.php?title=Special:Upload&wpDestFile=Old_Garlow%27s_Place.jpg",
+      icon: "https://bg3.wiki/w/images/thumb/f/f4/Old_Garlow%27s_Place.jpg/416px-Old_Garlow%27s_Place.jpg",
       act: "Act Three",
       area: "Baldur's Gate",
       wikiLink: "https://bg3.wiki/wiki/Old_Garlow%27s_Place",
@@ -515,7 +515,7 @@ export function getLocations(): Location[] {
       name: "Steel Watch Foundry",
       description:
         "Factory for Gortash's Steel Watch, found near the Grey Harbour",
-      icon: "https://bg3.wiki/w/images/thumb/4/41/Steel_Watch_Foundry.png/355px-Steel_Watch_Foundry.png",
+      icon: "https://bg3.wiki/w/images/thumb/4/41/Steel_Watch_Foundry.png/400px-Steel_Watch_Foundry.png",
       act: "Act Three",
       area: "Baldur's Gate",
       wikiLink: "https://bg3.wiki/wiki/Steel_Watch_Foundry",
@@ -584,7 +584,7 @@ export function getLocations(): Location[] {
     {
       name: "Lower City Sewers",
       description: "A large sewerage network beneath the Lower City",
-      icon: "https://bg3.wiki/w/images/thumb/f/f5/Lower_City_Sewers_North.jpg/400px-Lower_City_Sewers_North.jpg",
+      icon: "https://bg3.wiki/w/images/thumb/f/f5/Lower_City_Sewers_North.jpg/374px-Lower_City_Sewers_North.jpg",
       act: "Act Three",
       area: "Underground",
       wikiLink: "https://bg3.wiki/wiki/Lower_City_Sewers",

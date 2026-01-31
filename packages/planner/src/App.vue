@@ -61,7 +61,7 @@ fetchStoreData()
         </SplitterPanel>
 
         <SplitterPanel v-if="storeLoaded">
-          <TheSidebar class="h-dvh lg:min-w-[506px] 3xl:min-w-[530px]" />
+          <TheSidebar class="h-dvh lg:min-w-[506px] 3xl:min-w-[654px]" />
         </SplitterPanel>
       </Splitter>
     </main>
