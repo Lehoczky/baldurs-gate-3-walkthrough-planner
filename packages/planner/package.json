@@ -21,7 +21,8 @@
     "primevue": "^4.5.4",
     "swiper": "^12.0.3",
     "vue": "^3.5.27",
-    "vue3-text-clamp": "^0.1.2"
+    "vue3-text-clamp": "^0.1.2",
+    "zod": "4.3.6"
   },
   "devDependencies": {
     "@bg3-walkthrough-planner/types": "workspace:^",

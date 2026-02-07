@@ -1,9 +1,14 @@
 import { type GraphNode, type Node, useVueFlow } from "@vue-flow/core"
 import { nextTick, watch } from "vue"
+import { z } from "zod/mini"
 
 const DATA_TRANSFER_ID = "application/vueflow-node"
+const dataTransferSchema = z.object({
+  type: z.string(),
+})
+export type DataTransferObject = z.infer<typeof dataTransferSchema>
 
-export function onDragStart(event: DragEvent, dragData: object) {
+export function onDragStart(event: DragEvent, dragData: DataTransferObject) {
   if (event.dataTransfer) {
     event.dataTransfer.setData(DATA_TRANSFER_ID, JSON.stringify(dragData))
     event.dataTransfer.effectAllowed = "move"
@@ -58,13 +63,16 @@ export function useNodeDrop() {
       return
     }
 
-    const nodeData = JSON.parse(rawNodeData)
+    const parsedData = dataTransferSchema.safeParse(JSON.parse(rawNodeData))
+    if (!parsedData.success) {
+      return
+    }
+    const { type, ...data } = parsedData.data
     const node: Node = {
       id,
-      type: nodeData.type,
+      type,
       position,
-      label: nodeData.name,
-      data: { ...nodeData },
+      data,
     }
     addNodes(node)
     await nextTick()
