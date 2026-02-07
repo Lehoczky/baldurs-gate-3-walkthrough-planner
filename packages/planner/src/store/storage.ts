@@ -98,12 +98,16 @@ export const useStorageStore = defineStore("storage", () => {
   }
 
   const { open: loadFromFile, onChange } = useFileDialog({
-    accept: "text/*",
+    accept: ".json",
     multiple: false,
   })
 
   onChange(async (files) => {
-    const file = files![0]
+    const file = files[0]
+    if (!file) {
+      // Dialog was closed without choosing a file
+      return
+    }
     await loadFileIntoFlow(file!)
   })
 
