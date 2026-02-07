@@ -61,7 +61,7 @@ const contextMenuItems = ref<MenuItem[]>([
     <Handle id="note-handle-2" type="source" :position="Position.Bottom" />
     <Handle id="note-handle-3" type="source" :position="Position.Left" />
     <Handle id="note-handle-4" type="source" :position="Position.Right" />
-    <NodeResizer :min-width="120" :min-height="120" />
+    <NodeResizer :min-width="120" :min-height="80" />
     <div
       aria-haspopup="true"
       class="nowheel w-full overflow-hidden rounded-md"
