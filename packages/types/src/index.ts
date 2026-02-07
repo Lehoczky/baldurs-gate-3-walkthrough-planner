@@ -75,6 +75,7 @@ export type Spell = z.infer<typeof spellSchema>
 export const bossSchema = z.strictObject({
   name: z.string(),
   icon: z.url(),
+  act: z.string(),
   wikiLink: z.url(),
 })
 export type Boss = z.infer<typeof bossSchema>

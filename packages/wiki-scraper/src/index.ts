@@ -37,7 +37,7 @@ try {
   if (shouldScrape("amulets")) savedData.amulets = await getAmulets(page)
   if (shouldScrape("armours")) savedData.armours = await getArmours(page)
   if (shouldScrape("arrows")) savedData.arrows = await getArrows(page)
-  if (shouldScrape("bosses")) savedData.bosses = getBosses()
+  if (shouldScrape("bosses")) savedData.bosses = await getBosses(page)
   if (shouldScrape("cloaks")) savedData.cloaks = await getCloaks(page)
   if (shouldScrape("clothes")) savedData.clothes = await getClothes(page)
   if (shouldScrape("coatings")) savedData.coatings = await getCoatings(page)

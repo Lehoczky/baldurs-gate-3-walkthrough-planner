@@ -1,13 +1,19 @@
 <script setup lang="ts">
 import type { Companion } from "@bg3-walkthrough-planner/types"
-import type { PropType } from "vue"
+import { computed, type PropType, ref } from "vue"
+import TextClamp from "vue3-text-clamp"
 
-defineProps({
+const props = defineProps({
   companion: {
     type: Object as PropType<Companion>,
     required: true,
   },
 })
+
+const isTextClamped = ref(false)
+const title = computed(() =>
+  isTextClamped.value ? props.companion.name : null,
+)
 </script>
 
 <template>
@@ -23,12 +29,14 @@ defineProps({
       alt=""
     />
 
-    <a
-      :href="companion.wikiLink"
-      class="underline-offset-1 hover:underline"
-      target="_blank"
-    >
-      {{ companion.name }}
+    <a :href="companion.wikiLink" class="group" target="_blank">
+      <TextClamp
+        class="underline-offset-1 group-hover:underline"
+        :title="title"
+        :text="companion.name"
+        :max-lines="1"
+        @clamp-change="isTextClamped = $event"
+      />
     </a>
   </div>
 </template>
