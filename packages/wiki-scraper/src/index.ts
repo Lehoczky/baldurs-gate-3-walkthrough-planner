@@ -22,10 +22,13 @@ import { getShields } from "./pages/shields.ts"
 import { getSpells } from "./pages/spells.ts"
 import { getTraders } from "./pages/traders.ts"
 import { getWeapons } from "./pages/weapons.ts"
-import { getSavedData, saveData } from "./saved-data.ts"
+import { createStorage } from "./saved-data.ts"
 
-const { shouldScrape } = parseArgs()
-const savedData = await getSavedData()
+const { dryRun, shouldScrape } = parseArgs()
+const storage = createStorage({
+  dryRun,
+})
+const savedData = await storage.load()
 
 const browser = await chromium.launch()
 const page = await browser.newPage()
@@ -56,4 +59,4 @@ try {
   browser.close()
 }
 
-await saveData(savedData)
+await storage.save(savedData)
