@@ -1,5 +1,11 @@
 <script setup lang="ts">
-import { type NodeProps, useNode, useVueFlow } from "@vue-flow/core"
+import {
+  Handle,
+  type NodeProps,
+  Position,
+  useNode,
+  useVueFlow,
+} from "@vue-flow/core"
 import { NodeResizer } from "@vue-flow/node-resizer"
 import { onClickOutside } from "@vueuse/core"
 import ContextMenu from "primevue/contextmenu"
@@ -51,6 +57,10 @@ const contextMenuItems = ref<MenuItem[]>([
   <div
     class="relative flex h-full rounded-md bg-yellow-300 text-slate-800 shadow-lg"
   >
+    <Handle id="note-handle-1" type="source" :position="Position.Top" />
+    <Handle id="note-handle-2" type="source" :position="Position.Bottom" />
+    <Handle id="note-handle-3" type="source" :position="Position.Left" />
+    <Handle id="note-handle-4" type="source" :position="Position.Right" />
     <NodeResizer :min-width="120" :min-height="120" />
     <div
       aria-haspopup="true"
@@ -87,6 +97,9 @@ const contextMenuItems = ref<MenuItem[]>([
 
 .vue-flow__node-note {
   @apply rounded-md;
+
+  --handle-bg: var(--color-yellow-400);
+  --handle-border: var(--color-surface-800);
 }
 
 .vue-flow__node-note.selected {
