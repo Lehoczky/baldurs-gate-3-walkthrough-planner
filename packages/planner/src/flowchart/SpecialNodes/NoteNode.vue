@@ -71,12 +71,12 @@ const contextMenuItems = ref<MenuItem[]>([
         v-if="editing"
         ref="textarea"
         v-model="text"
-        class="nodrag scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600 mt-0.5 h-full w-full flex-1 resize-none bg-yellow-300 p-4 text-sm text-slate-800 outline-none placeholder:text-slate-500 placeholder:italic"
+        class="nodrag scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600 mt-0.5 h-full w-full flex-1 resize-none bg-yellow-300 p-4 text-sm leading-normal text-slate-800 outline-none placeholder:text-slate-500 placeholder:italic"
         placeholder="Write something here..."
       />
       <div
         v-else
-        class="scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600 prose prose-sm h-full max-w-none flex-1 cursor-text overflow-auto p-4 prose-slate"
+        class="scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600 prose prose-sm h-full max-w-none flex-1 cursor-text overflow-auto p-4 leading-normal prose-slate"
         @dblclick="startEditing"
         v-html="renderedText"
       />

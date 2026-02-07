@@ -12,6 +12,7 @@
 }
 
 @utility prose-slate {
+  --tw-prose-body: var(--color-slate-800);
   --tw-prose-bullets: var(--color-slate-700);
 }
 
