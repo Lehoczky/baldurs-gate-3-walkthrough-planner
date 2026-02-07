@@ -9644,149 +9644,304 @@
   ],
   "bosses": [
     {
-      "name": "Ansur",
-      "icon": "https://bg3.wiki/w/images/thumb/3/34/Ansur.webp/450px-Ansur.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Ansur"
-    },
-    {
-      "name": "Apostle of Myrkul",
-      "icon": "https://bg3.wiki/w/images/thumb/6/62/Apostle_of_Myrkul.png/450px-Apostle_of_Myrkul.png",
-      "wikiLink": "https://bg3.wiki/wiki/Apostle_of_Myrkul"
-    },
-    {
       "name": "Auntie Ethel",
-      "icon": "https://bg3.wiki/w/images/thumb/6/60/Auntie-Ethel-Hag.webp/450px-Auntie-Ethel-Hag.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Auntie_Ethel"
+      "icon": "https://bg3.wiki/w/images/thumb/6/6b/Portrait_Ethel.png/140px-Portrait_Ethel.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Auntie_Ethel",
+      "act": "Act One"
     },
     {
       "name": "Bernard",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d5/Bernard.jpg/450px-Bernard.jpg",
-      "wikiLink": "https://bg3.wiki/wiki/Bernard"
+      "icon": "https://bg3.wiki/w/images/thumb/0/03/Portrait_Bernard.png/140px-Portrait_Bernard.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Bernard",
+      "act": "Act One"
     },
     {
-      "name": "Balthazar",
-      "icon": "https://bg3.wiki/w/images/thumb/c/c7/Balthazar.png/450px-Balthazar.png",
-      "wikiLink": "https://bg3.wiki/wiki/Balthazar"
+      "name": "Bulette",
+      "icon": "https://bg3.wiki/w/images/thumb/6/69/Portrait_Bulette.png/140px-Portrait_Bulette.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Bulette",
+      "act": "Act One"
     },
     {
-      "name": "Cazador",
-      "icon": "https://bg3.wiki/w/images/thumb/e/ec/Cazador_Smile.png/450px-Cazador_Smile.png",
-      "wikiLink": "https://bg3.wiki/wiki/Cazador"
+      "name": "Ch'r'ai W'wargaz",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c3/Portrait_W%27wargaz.png/140px-Portrait_W%27wargaz.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Ch%27r%27ai_W%27wargaz",
+      "act": "Act One"
+    },
+    {
+      "name": "Commander Zhalk",
+      "icon": "https://bg3.wiki/w/images/thumb/4/44/Portrait_Zhalk.png/140px-Portrait_Zhalk.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Commander_Zhalk",
+      "act": "Act One"
     },
     {
       "name": "Dror Ragzlin",
-      "icon": "https://bg3.wiki/w/images/thumb/0/05/Dror_Ragzlin_Quest.webp/450px-Dror_Ragzlin_Quest.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Dror_Ragzlin"
-    },
-    {
-      "name": "Enver Gortash",
-      "icon": "https://bg3.wiki/w/images/thumb/0/0d/Gortash.png/450px-Gortash.png",
-      "wikiLink": "https://bg3.wiki/wiki/Enver_Gortash"
+      "icon": "https://bg3.wiki/w/images/thumb/e/ee/Portrait_Dror_Ragzlin.png/140px-Portrait_Dror_Ragzlin.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Dror_Ragzlin",
+      "act": "Act One"
     },
     {
       "name": "Flind",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d5/Flind.jpg/525px-Flind.jpg",
-      "wikiLink": "https://bg3.wiki/wiki/Flind"
+      "icon": "https://bg3.wiki/w/images/thumb/c/c0/Portrait_Flind.png/140px-Portrait_Flind.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Flind",
+      "act": "Act One"
     },
     {
-      "name": "Gerringothe Thorm",
-      "icon": "https://bg3.wiki/w/images/thumb/a/ac/Gerringothe.png/450px-Gerringothe.png",
-      "wikiLink": "https://bg3.wiki/wiki/Gerringothe_Thorm"
+      "name": "Gekh Coal",
+      "icon": "https://bg3.wiki/w/images/thumb/d/d0/Portrait_Gekh_Coal.png/140px-Portrait_Gekh_Coal.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Gekh_Coal",
+      "act": "Act One"
     },
     {
       "name": "Grym",
-      "icon": "https://bg3.wiki/w/images/thumb/1/1f/Grym-npc.webp/525px-Grym-npc.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Grym"
+      "icon": "https://bg3.wiki/w/images/thumb/4/4a/Portrait_Grym.png/140px-Portrait_Grym.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Grym",
+      "act": "Act One"
+    },
+    {
+      "name": "Glut",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fe/Portrait_Glut.png/140px-Portrait_Glut.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Glut",
+      "act": "Act One"
     },
     {
       "name": "Gut",
-      "icon": "https://bg3.wiki/w/images/thumb/2/2d/Gut-face.jpg/525px-Gut-face.jpg",
-      "wikiLink": "https://bg3.wiki/wiki/Gut"
+      "icon": "https://bg3.wiki/w/images/thumb/5/5b/Portrait_Gut.png/140px-Portrait_Gut.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Gut",
+      "act": "Act One"
     },
     {
       "name": "Kagha",
-      "icon": "https://bg3.wiki/w/images/thumb/b/be/Kagha-face.jpg/525px-Kagha-face.jpg",
-      "wikiLink": "https://bg3.wiki/wiki/Kagha"
+      "icon": "https://bg3.wiki/w/images/thumb/5/5d/Portrait_Kagha.png/140px-Portrait_Kagha.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Kagha",
+      "act": "Act One"
     },
     {
-      "name": "Kar'niss",
-      "icon": "https://bg3.wiki/w/images/thumb/f/f8/Kar%27niss.webp/450px-Kar%27niss.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Kar%27niss"
-    },
-    {
-      "name": "Ketheric Thorm",
-      "icon": "https://bg3.wiki/w/images/thumb/d/d7/Kethericthorm.jpg/450px-Kethericthorm.jpg",
-      "wikiLink": "https://bg3.wiki/wiki/Ketheric_Thorm"
-    },
-    {
-      "name": "Lorroakan",
-      "icon": "https://bg3.wiki/w/images/thumb/d/de/Lorroakan.png/525px-Lorroakan.png",
-      "wikiLink": "https://bg3.wiki/wiki/Lorroakan"
-    },
-    {
-      "name": "Malus Thorm",
-      "icon": "https://bg3.wiki/w/images/thumb/1/1b/Malus_Thorm.png/450px-Malus_Thorm.png",
-      "wikiLink": "https://bg3.wiki/wiki/Malus_Thorm"
-    },
-    {
-      "name": "Mystic Carrion",
-      "icon": "https://bg3.wiki/w/images/thumb/8/82/Mystic_Carrion.png/450px-Mystic_Carrion.png",
-      "wikiLink": "https://bg3.wiki/wiki/Mystic_Carrion"
+      "name": "Minthara",
+      "icon": "https://bg3.wiki/w/images/thumb/8/8e/Portrait_Minthara_%28263%29.png/140px-Portrait_Minthara_%28263%29.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Minthara",
+      "act": "Act One"
     },
     {
       "name": "Nere",
-      "icon": "https://bg3.wiki/w/images/thumb/0/0c/Nere-face.jpg/360px-Nere-face.jpg",
-      "wikiLink": "https://bg3.wiki/wiki/Nere"
+      "icon": "https://bg3.wiki/w/images/thumb/9/96/Portrait_Nere.png/140px-Portrait_Nere.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Nere",
+      "act": "Act One"
     },
     {
-      "name": "Orin",
-      "icon": "https://bg3.wiki/w/images/thumb/4/4a/Orin_Bhaal_Temple_Quest.jpg/1200px-Orin_Bhaal_Temple_Quest.jpg?20230828235345",
-      "wikiLink": "https://bg3.wiki/wiki/Orin"
+      "name": "Owlbear",
+      "icon": "https://bg3.wiki/w/images/thumb/2/25/Portrait_Owlbear.png/140px-Portrait_Owlbear.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Owlbear",
+      "act": "Act One"
     },
     {
-      "name": "Raphael",
-      "icon": "https://bg3.wiki/w/images/thumb/5/5b/Raphael_Devil.png/450px-Raphael_Devil.png",
-      "wikiLink": "https://bg3.wiki/wiki/Raphael"
+      "name": "Phase Spider Matriarch",
+      "icon": "https://bg3.wiki/w/images/thumb/8/82/Portrait_Phase_Spider.png/140px-Portrait_Phase_Spider.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Phase_Spider_Matriarch",
+      "act": "Act One"
     },
     {
-      "name": "Sarevok",
-      "icon": "https://bg3.wiki/w/images/thumb/1/18/Sarevok_Cinematic.webp/450px-Sarevok_Cinematic.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Sarevok_Anchev"
+      "name": "Sarth Baretha",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f5/Portrait_Sarth_Baretha.png/140px-Portrait_Sarth_Baretha.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Sarth_Baretha",
+      "act": "Act One"
     },
     {
-      "name": "Steel Watcher Titan",
-      "icon": "https://bg3.wiki/w/images/thumb/e/e7/Bg3.steel-watcher-titan.png/450px-Bg3.steel-watcher-titan.png",
-      "wikiLink": "https://bg3.wiki/wiki/Steel_Watcher_Titan"
+      "name": "Spectator",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c7/Portrait_Spectator.png/140px-Portrait_Spectator.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Spectator",
+      "act": "Act One"
     },
     {
-      "name": "The Netherbrain",
-      "icon": "https://bg3.wiki/w/images/thumb/4/4d/Netherbrain_Illusion.webp/450px-Netherbrain_Illusion.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/The_Netherbrain"
+      "name": "Apostle of Myrkul",
+      "icon": "https://bg3.wiki/w/images/thumb/1/18/Portrait_Apostle_of_Myrkul.png/140px-Portrait_Apostle_of_Myrkul.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Apostle_of_Myrkul",
+      "act": "Act Two"
+    },
+    {
+      "name": "Balthazar",
+      "icon": "https://bg3.wiki/w/images/thumb/7/74/Portrait_Balthazar.png/140px-Portrait_Balthazar.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Balthazar",
+      "act": "Act Two"
+    },
+    {
+      "name": "Ch'r'ai Tska'an",
+      "icon": "https://bg3.wiki/w/images/thumb/7/71/Portrait_Tska%27an.png/140px-Portrait_Tska%27an.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Ch%27r%27ai_Tska%27an",
+      "act": "Act Two"
+    },
+    {
+      "name": "Gerringothe Thorm",
+      "icon": "https://bg3.wiki/w/images/thumb/2/24/Portrait_Gerringothe_Thorm.png/140px-Portrait_Gerringothe_Thorm.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Gerringothe_Thorm",
+      "act": "Act Two"
+    },
+    {
+      "name": "Jaheira",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a8/Portrait_Jaheira.png/140px-Portrait_Jaheira.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Jaheira",
+      "act": "Act Two"
+    },
+    {
+      "name": "Kar'niss",
+      "icon": "https://bg3.wiki/w/images/thumb/7/7b/Portrait_Kar%27niss.png/140px-Portrait_Kar%27niss.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Kar%27niss",
+      "act": "Act Two"
+    },
+    {
+      "name": "Ketheric Thorm",
+      "icon": "https://bg3.wiki/w/images/thumb/f/f2/Portrait_Ketheric_Thorm.png/140px-Portrait_Ketheric_Thorm.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Ketheric_Thorm",
+      "act": "Act Two"
+    },
+    {
+      "name": "Malus Thorm",
+      "icon": "https://bg3.wiki/w/images/thumb/0/05/Portrait_Malus_Thorm.png/140px-Portrait_Malus_Thorm.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Malus_Thorm",
+      "act": "Act Two"
+    },
+    {
+      "name": "Marcus Falgor",
+      "icon": "https://bg3.wiki/w/images/thumb/7/78/Portrait_Marcus_Falgor.png/140px-Portrait_Marcus_Falgor.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Marcus_Falgor",
+      "act": "Act Two"
+    },
+    {
+      "name": "Oliver",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e0/Portrait_Oliver.png/140px-Portrait_Oliver.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Oliver",
+      "act": "Act Two"
+    },
+    {
+      "name": "Prelate Lir'i'c",
+      "icon": "https://bg3.wiki/w/images/thumb/a/a7/Portrait_Lir%27i%27c.png/140px-Portrait_Lir%27i%27c.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Prelate_Lir%27i%27c",
+      "act": "Act Two"
+    },
+    {
+      "name": "Shadow-Cursed Shambling Mound",
+      "icon": "https://bg3.wiki/w/images/thumb/3/34/Portrait_Shambling_Mound.png/140px-Portrait_Shambling_Mound.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Shadow-Cursed_Shambling_Mound",
+      "act": "Act Two"
     },
     {
       "name": "Thisobald Thorm",
-      "icon": "https://bg3.wiki/w/images/thumb/2/28/Thisobald.png/450px-Thisobald.png",
-      "wikiLink": "https://bg3.wiki/wiki/Thisobald_Thorm"
-    },
-    {
-      "name": "Tska'an",
-      "icon": "https://bg3.wiki/w/images/thumb/d/dc/Ch%27r%27ai_Tska%27an.PNG/450px-Ch%27r%27ai_Tska%27an.PNG",
-      "wikiLink": "https://bg3.wiki/wiki/Tska%27an"
-    },
-    {
-      "name": "Viconia",
-      "icon": "https://bg3.wiki/w/images/thumb/8/84/Viconia_Dialogue.webp/450px-Viconia_Dialogue.webp.png",
-      "wikiLink": "https://bg3.wiki/wiki/Viconia_DeVir"
+      "icon": "https://bg3.wiki/w/images/thumb/3/3e/Portrait_Thisobald_Thorm.png/140px-Portrait_Thisobald_Thorm.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Thisobald_Thorm",
+      "act": "Act Two"
     },
     {
       "name": "Yurgir",
-      "icon": "https://bg3.wiki/w/images/thumb/8/84/Yurgir.jpg/450px-Yurgir.jpg",
-      "wikiLink": "https://bg3.wiki/wiki/Yurgir"
+      "icon": "https://bg3.wiki/w/images/thumb/3/3d/Portrait_Yurgir.png/140px-Portrait_Yurgir.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Yurgir",
+      "act": "Act Two"
     },
     {
-      "name": "Zevlor",
-      "icon": "https://bg3.wiki/w/images/thumb/6/60/Zevlor-looks.png/525px-Zevlor-looks.png",
-      "wikiLink": "https://bg3.wiki/wiki/Zevlor"
+      "name": "Z'rell",
+      "icon": "https://bg3.wiki/w/images/thumb/c/c6/Portrait_Z%27rell.png/140px-Portrait_Z%27rell.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Z%27rell",
+      "act": "Act Two"
+    },
+    {
+      "name": "Aelis Siryasius",
+      "icon": "https://bg3.wiki/w/images/thumb/4/4b/Portrait_Aelis_Siryasius.png/140px-Portrait_Aelis_Siryasius.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Aelis_Siryasius",
+      "act": "Act Three"
+    },
+    {
+      "name": "Ansur",
+      "icon": "https://bg3.wiki/w/images/thumb/6/6d/Portrait_Ansur.png/140px-Portrait_Ansur.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Ansur",
+      "act": "Act Three"
+    },
+    {
+      "name": "Cazador",
+      "icon": "https://bg3.wiki/w/images/thumb/9/97/Portrait_Cazador_Szarr.png/140px-Portrait_Cazador_Szarr.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Cazador",
+      "act": "Act Three"
+    },
+    {
+      "name": "Ch'r'ai Har'rak",
+      "icon": "https://bg3.wiki/w/images/thumb/7/71/Portrait_Har%27rak.png/140px-Portrait_Har%27rak.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Ch%27r%27ai_Har%27rak",
+      "act": "Act Three"
+    },
+    {
+      "name": "Aylin",
+      "icon": "https://bg3.wiki/w/images/thumb/2/2d/Portrait_Aylin.png/140px-Portrait_Aylin.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Aylin",
+      "act": "Act Three"
+    },
+    {
+      "name": "Dominated Red Dragon",
+      "icon": "https://bg3.wiki/w/images/thumb/1/1c/Portrait_Red_Dragon.png/140px-Portrait_Red_Dragon.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Dominated_Red_Dragon",
+      "act": "Act Three"
+    },
+    {
+      "name": "Enver Gortash",
+      "icon": "https://bg3.wiki/w/images/thumb/0/00/Portrait_Gortash.png/140px-Portrait_Gortash.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Enver_Gortash",
+      "act": "Act Three"
+    },
+    {
+      "name": "Lorroakan",
+      "icon": "https://bg3.wiki/w/images/thumb/3/3e/Portrait_Lorroakan.png/140px-Portrait_Lorroakan.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Lorroakan",
+      "act": "Act Three"
+    },
+    {
+      "name": "Mystic Carrion",
+      "icon": "https://bg3.wiki/w/images/thumb/f/fe/Portrait_Mystic_Carrion.png/140px-Portrait_Mystic_Carrion.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Mystic_Carrion",
+      "act": "Act Three"
+    },
+    {
+      "name": "The Netherbrain",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b2/Portrait_The_Netherbrain.png/140px-Portrait_The_Netherbrain.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/The_Netherbrain",
+      "act": "Act Three"
+    },
+    {
+      "name": "Nine-Fingers Keene",
+      "icon": "https://bg3.wiki/w/images/thumb/5/56/Portrait_Nine-Fingers_Keene.png/140px-Portrait_Nine-Fingers_Keene.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Nine-Fingers_Keene",
+      "act": "Act Three"
+    },
+    {
+      "name": "Orin",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e4/Portrait_Orin.png/140px-Portrait_Orin.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Orin",
+      "act": "Act Three"
+    },
+    {
+      "name": "Ptaris",
+      "icon": "https://bg3.wiki/w/images/thumb/e/e1/Portrait_Ptaris.png/140px-Portrait_Ptaris.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Ptaris",
+      "act": "Act Three"
+    },
+    {
+      "name": "Raphael",
+      "icon": "https://bg3.wiki/w/images/thumb/3/39/Portrait_Raphael.png/140px-Portrait_Raphael.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Raphael",
+      "act": "Act Three"
+    },
+    {
+      "name": "Sarevok Anchev",
+      "icon": "https://bg3.wiki/w/images/thumb/5/5b/Portrait_Sarevok.png/140px-Portrait_Sarevok.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Sarevok_Anchev",
+      "act": "Act Three"
+    },
+    {
+      "name": "Steel Watcher Titan",
+      "icon": "https://bg3.wiki/w/images/thumb/b/b7/Portrait_Steel_Watcher_Titan.png/140px-Portrait_Steel_Watcher_Titan.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Steel_Watcher_Titan",
+      "act": "Act Three"
+    },
+    {
+      "name": "Viconia DeVir",
+      "icon": "https://bg3.wiki/w/images/thumb/c/cd/Portrait_Viconia_DeVir.png/140px-Portrait_Viconia_DeVir.png.webp",
+      "wikiLink": "https://bg3.wiki/wiki/Viconia_DeVir",
+      "act": "Act Three"
     }
   ],
   "traders": [
