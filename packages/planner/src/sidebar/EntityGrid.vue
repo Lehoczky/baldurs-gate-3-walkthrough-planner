@@ -2,6 +2,7 @@
 import { storeToRefs } from "pinia"
 import { computed } from "vue"
 
+import RightSidebarBossGrid from "@/entities/bosses/RightSidebarBossGrid.vue"
 import RightSidebarCompanionGrid from "@/entities/companions/RightSidebarCompanionGrid.vue"
 import RightSidebarItemGrid from "@/entities/items/RightSidebarItemGrid.vue"
 import RightSidebarLocationGrid from "@/entities/locations/RightSidebarLocationGrid.vue"
@@ -15,6 +16,7 @@ const { shownEntities, selectedCategoryName } = storeToRefs(dataStore)
 const gridForCategory = computed(() => {
   switch (selectedCategoryName.value) {
     case "bosses":
+      return RightSidebarBossGrid
     case "companions":
       return RightSidebarCompanionGrid
     case "locations":
