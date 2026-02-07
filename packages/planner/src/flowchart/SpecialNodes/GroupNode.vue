@@ -1,16 +1,12 @@
 <script setup lang="ts">
-import { Handle, type NodeProps, Position } from "@vue-flow/core"
+import { Handle, Position } from "@vue-flow/core"
 import { useNode, useVueFlow } from "@vue-flow/core"
 import { NodeResizer } from "@vue-flow/node-resizer"
-import { useToString } from "@vueuse/core"
 import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
 import { defineAsyncComponent, ref, useTemplateRef } from "vue"
 
 import { defineDeleteMenuItem } from "@/ui/contextmenu"
-
-const props = defineProps<NodeProps>()
-const labelAsString = useToString(props.data.label)
 
 const showDialog = ref(false)
 const LazyGroupLabelDialog = defineAsyncComponent({
@@ -55,13 +51,13 @@ function editGroupName(value: string | undefined) {
       <div
         class="absolute top-0 right-0 rounded-bl-lg border-b-2 border-l-2 border-current bg-surface-950 px-6 py-3"
       >
-        {{ labelAsString }}
+        {{ node.data.label }}
       </div>
     </div>
     <ContextMenu ref="contextMenu" :model="contextMenuItems" />
     <LazyGroupLabelDialog
       v-if="showDialog"
-      :label="labelAsString"
+      :label="node.data.label"
       @close="editGroupName"
     />
   </div>
