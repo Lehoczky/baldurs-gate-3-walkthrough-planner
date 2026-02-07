@@ -70,6 +70,10 @@ function editGroupName(value: string | undefined) {
   @apply rounded-md;
 }
 
+.vue-flow__node-group .vue-flow__handle {
+  @apply md:size-2.5;
+}
+
 .vue-flow__node-group.selected {
   @apply ring-4 ring-primary-800;
 }
