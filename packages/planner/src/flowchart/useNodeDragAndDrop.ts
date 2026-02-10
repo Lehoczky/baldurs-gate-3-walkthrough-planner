@@ -3,7 +3,7 @@ import { nextTick, watch } from "vue"
 import { z } from "zod/mini"
 
 const DATA_TRANSFER_ID = "application/vueflow-node"
-const dataTransferSchema = z.object({
+const dataTransferSchema = z.looseObject({
   type: z.string(),
 })
 export type DataTransferObject = z.infer<typeof dataTransferSchema>
