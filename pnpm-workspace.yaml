@@ -2,13 +2,13 @@ packages:
   - packages/*
 
 catalog:
-  "@types/node": ^24.10.9
+  '@types/node': ^24.10.13
   es-toolkit: ^1.44.0
   eslint: ^9.39.2
   typescript: ~5.9.3
 
 onlyBuiltDependencies:
-  - "@tailwindcss/oxide"
+  - '@tailwindcss/oxide'
   - esbuild
   - nx
   - vue-demi
