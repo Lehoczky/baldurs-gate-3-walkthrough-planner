@@ -89,6 +89,32 @@ export const traderSchema = z.strictObject({
 })
 export type Trader = z.infer<typeof traderSchema>
 
+export const creatureSchema = z.strictObject({
+  name: z.string(),
+  icon: z.url(),
+  wikiLink: z.url(),
+  type: z.object({
+    name: z.literal([
+      "Aberration",
+      "Beast",
+      "Celestial",
+      "Construct",
+      "Dragon",
+      "Elemental",
+      "Fey",
+      "Fiend",
+      "Giant",
+      "Humanoid",
+      "Monstrosity",
+      "Ooze",
+      "Plant",
+      "Undead",
+    ]),
+    url: z.url(),
+  }),
+})
+export type Creature = z.infer<typeof creatureSchema>
+
 export const savedWikiDataSchema = z.strictObject({
   weapons: z.array(itemSchema).default([]),
   clothes: z.array(itemSchema).default([]),
@@ -111,6 +137,7 @@ export const savedWikiDataSchema = z.strictObject({
   spells: z.array(spellSchema).default([]),
   bosses: z.array(bossSchema).default([]),
   traders: z.array(traderSchema).default([]),
+  creatures: z.array(creatureSchema).default([]),
 })
 export type SavedWikiData = z.infer<typeof savedWikiDataSchema>
 

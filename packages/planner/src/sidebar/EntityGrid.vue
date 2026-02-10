@@ -4,6 +4,7 @@ import { computed } from "vue"
 
 import RightSidebarBossGrid from "@/entities/bosses/RightSidebarBossGrid.vue"
 import RightSidebarCompanionGrid from "@/entities/companions/RightSidebarCompanionGrid.vue"
+import RightSidebarCreatureGrid from "@/entities/creatures/RightSidebarCreatureGrid.vue"
 import RightSidebarItemGrid from "@/entities/items/RightSidebarItemGrid.vue"
 import RightSidebarLocationGrid from "@/entities/locations/RightSidebarLocationGrid.vue"
 import RightSidebarSpellGrid from "@/entities/spells/RightSidebarSpellGrid.vue"
@@ -25,6 +26,8 @@ const gridForCategory = computed(() => {
       return RightSidebarSpellGrid
     case "traders":
       return RightSidebarTraderGrid
+    case "creatures":
+      return RightSidebarCreatureGrid
     default:
       return RightSidebarItemGrid
   }

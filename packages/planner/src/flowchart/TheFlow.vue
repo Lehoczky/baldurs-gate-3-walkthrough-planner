@@ -22,6 +22,7 @@ import {
 
 import BossNode from "@/entities/bosses/BossNode.vue"
 import CompanionNode from "@/entities/companions/CompanionNode.vue"
+import CreatureNode from "@/entities/creatures/CreatureNode.vue"
 import ItemNode from "@/entities/items/ItemNode.vue"
 import LocationNode from "@/entities/locations/LocationNode.vue"
 import SpellNode from "@/entities/spells/SpellNode.vue"
@@ -212,6 +213,9 @@ const LazyGettingStartedDialog = defineAsyncComponent({
         </template>
         <template #node-companion="props">
           <CompanionNode v-bind="props" />
+        </template>
+        <template #node-creature="props">
+          <CreatureNode v-bind="props" />
         </template>
         <template #node-boss="props">
           <BossNode v-bind="props" />

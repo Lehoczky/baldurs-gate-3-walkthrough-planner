@@ -14,7 +14,7 @@ const props = defineProps({
 })
 
 const dragData = computed(() => ({
-  type: "boss",
+  nodeType: "boss",
   ...props.boss,
 }))
 </script>

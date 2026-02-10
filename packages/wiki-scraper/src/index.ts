@@ -9,6 +9,7 @@ import { getCloaks } from "./pages/cloaks.ts"
 import { getClothes } from "./pages/clothes.ts"
 import { getCoatings } from "./pages/coatings.ts"
 import { getCompanions } from "./pages/companions.ts"
+import { getCreatures } from "./pages/creatures.ts"
 import { getElixirs } from "./pages/elixirs.ts"
 import { getFootwears } from "./pages/footwears.ts"
 import { getGrenades } from "./pages/grenades.ts"
@@ -42,6 +43,7 @@ try {
   if (shouldScrape("clothes")) savedData.clothes = await getClothes(page)
   if (shouldScrape("coatings")) savedData.coatings = await getCoatings(page)
   if (shouldScrape("companions")) savedData.companions = getCompanions()
+  if (shouldScrape("creatures")) savedData.creatures = await getCreatures(page)
   if (shouldScrape("elixirs")) savedData.elixirs = await getElixirs(page)
   if (shouldScrape("footwears")) savedData.footwears = await getFootwears(page)
   if (shouldScrape("grenades")) savedData.grenades = await getGrenades(page)

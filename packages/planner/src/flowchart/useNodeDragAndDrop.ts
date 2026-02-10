@@ -4,7 +4,7 @@ import { z } from "zod/mini"
 
 const DATA_TRANSFER_ID = "application/vueflow-node"
 const dataTransferSchema = z.looseObject({
-  type: z.string(),
+  nodeType: z.string(),
 })
 export type DataTransferObject = z.infer<typeof dataTransferSchema>
 
@@ -67,10 +67,10 @@ export function useNodeDrop() {
     if (!parsedData.success) {
       return
     }
-    const { type, ...data } = parsedData.data
+    const { nodeType, ...data } = parsedData.data
     const node: Node = {
       id,
-      type,
+      type: nodeType,
       position,
       data,
     }

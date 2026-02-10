@@ -14,7 +14,7 @@ const props = defineProps({
 })
 
 const dragData = computed(() => ({
-  type: "trader",
+  nodeType: "trader",
   ...props.trader,
 }))
 </script>

@@ -14,7 +14,7 @@ const props = defineProps({
 })
 
 const dragData = computed(() => ({
-  type: "location",
+  nodeType: "location",
   ...props.location,
 }))
 </script>

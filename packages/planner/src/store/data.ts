@@ -37,6 +37,10 @@ const categories_: Category[] = [
     icon: "https://bg3.wiki/w/images/thumb/7/7d/Companions.png/150px-Companions.png",
   },
   {
+    name: "creatures",
+    icon: "https://bg3.wiki/w/images/thumb/5/5a/NPCs.png/100px-NPCs.png.webp",
+  },
+  {
     name: "elixirs",
     icon: "https://bg3.wiki/w/images/thumb/b/bc/ELX_Elixir_of_Cold_Resistance_Faded.png/196px-ELX_Elixir_of_Cold_Resistance_Faded.png",
   },
@@ -133,6 +137,7 @@ export const useDataStore = defineStore("data", () => {
     spells: {},
     bosses: {},
     traders: {},
+    creatures: {},
   })
 
   const searchText = ref("")

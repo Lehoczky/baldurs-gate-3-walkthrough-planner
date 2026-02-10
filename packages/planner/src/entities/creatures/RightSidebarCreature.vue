@@ -1,29 +1,29 @@
 <script setup lang="ts">
-import type { Companion } from "@bg3-walkthrough-planner/types"
+import type { Creature } from "@bg3-walkthrough-planner/types"
 import { computed, type PropType } from "vue"
 
 import { onDragStart } from "@/flowchart/useNodeDragAndDrop"
 
-import BaseCompanion from "./BaseCompanion.vue"
+import BaseCreature from "./BaseCreature.vue"
 
 const props = defineProps({
-  companion: {
-    type: Object as PropType<Companion>,
+  creature: {
+    type: Object as PropType<Creature>,
     required: true,
   },
 })
 
 const dragData = computed(() => ({
-  nodeType: "companion",
-  ...props.companion,
+  nodeType: "creature",
+  ...props.creature,
 }))
 </script>
 
 <template>
-  <BaseCompanion
+  <BaseCreature
     draggable="true"
     class="transition-color duration-200 has-data-dragging:bg-surface-700! data-dragging:bg-surface-700!"
-    :companion="companion"
+    :creature="creature"
     @dragstart="onDragStart($event, dragData)"
   />
 </template>
