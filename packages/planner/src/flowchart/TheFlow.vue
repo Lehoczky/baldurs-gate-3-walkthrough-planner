@@ -43,12 +43,14 @@ const {
   addSelectedNodes,
   getNodes,
   getSelectedNodes,
+  getSelectedEdges,
   onConnect,
   onEdgeContextMenu,
   onEdgeDoubleClick,
   onEdgesChange,
   onNodesChange,
   removeNodes,
+  removeEdges,
 } = useVueFlow()
 onConnect((params) => addEdges(params))
 
@@ -113,7 +115,8 @@ useEventListener("keydown", (event) => {
   const { key, ctrlKey, target } = event
 
   if (key === "Delete") {
-    deleteSelectedNodes()
+    event.preventDefault()
+    deleteSelected()
   } else if (ctrlKey && key === "a" && !isEditableElement(target)) {
     event.preventDefault()
     selectEveryNode()
@@ -144,8 +147,9 @@ function isEditableElement(el: EventTarget) {
   return false
 }
 
-function deleteSelectedNodes() {
+function deleteSelected() {
   removeNodes(getSelectedNodes.value)
+  removeEdges(getSelectedEdges.value)
 }
 
 function selectEveryNode() {
