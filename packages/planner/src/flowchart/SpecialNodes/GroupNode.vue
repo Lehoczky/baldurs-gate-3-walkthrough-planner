@@ -27,7 +27,7 @@ const contextMenuItems = ref<MenuItem[]>([
 ])
 
 function editGroupName(value: string | undefined) {
-  if (value !== undefined) {
+  if (value) {
     node.data.label = value
   }
   showDialog.value = false
