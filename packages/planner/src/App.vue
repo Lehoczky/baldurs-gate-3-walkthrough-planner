@@ -38,7 +38,7 @@ fetchStoreData()
 <template>
   <div>
     <main
-      class="grid h-dvh text-[#d2d2d2] max-lg:grid-rows-[55%_auto] lg:grid-cols-[auto_528px]"
+      class="grid h-dvh text-[#d2d2d2] max-lg:grid-rows-[55%_auto] lg:grid-cols-[auto_528px] 3xl:grid-cols-[auto_656px]"
     >
       <FloatingDataFilters
         v-if="showFloatingFilters"
