@@ -1,12 +1,6 @@
 <script setup lang="ts">
 import { Background } from "@vue-flow/background"
-import {
-  MarkerType,
-  type NodeAddChange,
-  type NodeChange,
-  useVueFlow,
-  VueFlow,
-} from "@vue-flow/core"
+import { MarkerType, useVueFlow, VueFlow } from "@vue-flow/core"
 import { useEventListener, watchOnce } from "@vueuse/core"
 import { storeToRefs } from "pinia"
 import ContextMenu from "primevue/contextmenu"
@@ -32,6 +26,7 @@ import { useStorageStore } from "@/store/storage"
 
 import FlowContextMenu from "./contextmenu/FlowContextMenu.vue"
 import EmptyFlow from "./EmptyFlow.vue"
+import NodeRemovalNotifier from "./NodeRemovalNotifier.vue"
 import EndNode from "./SpecialNodes/EndNode.vue"
 import GroupNode from "./SpecialNodes/GroupNode.vue"
 import StartNode from "./SpecialNodes/StartNode.vue"
@@ -66,7 +61,6 @@ onEdgesChange((changes) => {
 })
 onNodesChange((changes) => {
   updateSavedState(changes)
-  selectNewlyAddedNodesOnChanges(changes)
 })
 
 onEdgeContextMenu(({ edge, event }) => {
@@ -97,19 +91,6 @@ const LazyNoteNode = defineAsyncComponent({
   delay: 0,
 })
 requestIdleCallback(() => import("./SpecialNodes/NoteNode.vue"))
-
-/**
- * Select the nodes that gets added to the flow.
- */
-function selectNewlyAddedNodesOnChanges(changes: NodeChange[]) {
-  const addedNodes = changes
-    .filter(({ type }) => type === "add")
-    .map((changes) => (changes as NodeAddChange).item)
-
-  if (addedNodes.length) {
-    addSelectedNodes(addedNodes)
-  }
-}
 
 useEventListener("keydown", (event) => {
   const { key, ctrlKey, target } = event
@@ -259,5 +240,6 @@ const LazyGettingStartedDialog = defineAsyncComponent({
       v-if="showEdgeLabelDialog"
       @close="showEdgeLabelDialog = false"
     />
+    <NodeRemovalNotifier />
   </div>
 </template>
