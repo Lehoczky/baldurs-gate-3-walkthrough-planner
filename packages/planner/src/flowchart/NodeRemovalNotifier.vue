@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { type GraphNode, useVueFlow } from "@vue-flow/core"
 import Button from "primevue/button"
-import Toast from "primevue/toast"
+import Toast, { type ToastMessageOptions } from "primevue/toast"
 import { useToast } from "primevue/usetoast"
 
 const { onNodesChange, findNode, addNodes } = useVueFlow()
@@ -27,9 +27,10 @@ onNodesChange((changes) => {
 })
 
 function showNodeDeletedToast(node: GraphNode) {
-  const message = {
+  const message: ToastMessageOptions = {
     severity: "error",
     group: "node-delete",
+    life: 8000,
     detail: {
       undo: () => {
         addNodes(node)
@@ -49,7 +50,10 @@ function showNodeDeletedToast(node: GraphNode) {
   <Toast position="bottom-left" group="node-delete">
     <template #message="{ message }">
       <div class="flex flex-1 items-center gap-2">
-        <div class="flex-1 text-lg font-medium">Node deleted</div>
+        <div class="flex flex-1 items-center gap-1.5 text-lg font-medium">
+          <span class="i-lucide-trash-2"></span>
+          <span>Node deleted</span>
+        </div>
         <Button severity="danger" size="small" @click="message.detail.undo()">
           Undo
         </Button>
