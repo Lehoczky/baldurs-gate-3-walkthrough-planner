@@ -14,6 +14,7 @@ import { computed, onMounted, ref, useTemplateRef } from "vue"
 
 import { defineDeleteMenuItem } from "@/ui/contextmenu"
 
+import { useFlowSearch } from "../useFlowSearch"
 import { useMarkdownIt } from "./useMarkdownIt"
 
 const props = defineProps<NodeProps>()
@@ -51,11 +52,15 @@ const contextMenuItems = ref<MenuItem[]>([
   },
   defineDeleteMenuItem({ command: () => removeNodes(id) }),
 ])
+
+const { checkMatch } = useFlowSearch()
+const isMatched = checkMatch(() => text.value)
 </script>
 
 <template>
   <div
     class="relative flex h-full rounded-md bg-yellow-300 text-slate-800 shadow-lg"
+    :class="{ 'opacity-50': !editing && !isMatched }"
   >
     <Handle id="note-handle-1" type="source" :position="Position.Top" />
     <Handle id="note-handle-2" type="source" :position="Position.Bottom" />

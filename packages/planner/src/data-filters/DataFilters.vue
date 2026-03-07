@@ -1,27 +1,12 @@
 <script setup lang="ts">
-import { useEventListener } from "@vueuse/core"
 import { storeToRefs } from "pinia"
 import InputText from "primevue/inputtext"
 
-import { useDeselectElements } from "../flowchart/useDeselectElements"
 import { useDataStore } from "../store/data"
 import CategorySelect from "./CategorySelect.vue"
 
 const dataStore = useDataStore()
 const { searchText, categories, selectedCategoryName } = storeToRefs(dataStore)
-
-useEventListener("keydown", (event) => {
-  const { key, ctrlKey } = event
-
-  if (ctrlKey && key === "k") {
-    event.preventDefault()
-    const searchInput = document.getElementById("search")
-    searchInput.focus()
-    setTimeout(() => deselectElements(), 200)
-  }
-})
-
-const { deselectElements } = useDeselectElements()
 </script>
 
 <template>

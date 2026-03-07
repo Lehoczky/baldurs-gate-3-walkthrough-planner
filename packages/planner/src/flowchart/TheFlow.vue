@@ -26,10 +26,12 @@ import { useStorageStore } from "@/store/storage"
 
 import FlowContextMenu from "./contextmenu/FlowContextMenu.vue"
 import EmptyFlow from "./EmptyFlow.vue"
+import FlowSearchInput from "./FlowSearchInput.vue"
 import NodeRemovalNotifier from "./NodeRemovalNotifier.vue"
 import EndNode from "./SpecialNodes/EndNode.vue"
 import GroupNode from "./SpecialNodes/GroupNode.vue"
 import StartNode from "./SpecialNodes/StartNode.vue"
+import { useFlowSearch } from "./useFlowSearch"
 import { useNodeDrop } from "./useNodeDragAndDrop"
 
 const {
@@ -92,6 +94,8 @@ const LazyNoteNode = defineAsyncComponent({
 })
 requestIdleCallback(() => import("./SpecialNodes/NoteNode.vue"))
 
+const flowSearch = useFlowSearch()
+
 useEventListener("keydown", (event) => {
   const { key, ctrlKey, target } = event
 
@@ -101,6 +105,9 @@ useEventListener("keydown", (event) => {
   } else if (ctrlKey && key === "a" && !isEditableElement(target)) {
     event.preventDefault()
     selectEveryNode()
+  } else if (ctrlKey && key === "k") {
+    event.preventDefault()
+    flowSearch.toggle()
   } else if (ctrlKey && key === "s") {
     event.preventDefault()
     save()
@@ -232,6 +239,9 @@ const LazyGettingStartedDialog = defineAsyncComponent({
       <LazyGettingStartedDialog v-if="showTutorial" @close="closeTutorial" />
 
       <HelpPanel class="absolute top-0 left-8" />
+      <Transition name="fade-in-up">
+        <FlowSearchInput v-if="flowSearch.isShown.value" />
+      </Transition>
     </div>
 
     <FlowContextMenu ref="flowContextMenu" />
@@ -243,3 +253,18 @@ const LazyGettingStartedDialog = defineAsyncComponent({
     <NodeRemovalNotifier />
   </div>
 </template>
+
+<style scoped>
+.fade-in-up-enter-active,
+.fade-in-up-leave-active {
+  transition-property: opacity, transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.fade-in-up-enter-from,
+.fade-in-up-leave-to {
+  transform: translateY(-10px);
+  opacity: 0;
+}
+</style>

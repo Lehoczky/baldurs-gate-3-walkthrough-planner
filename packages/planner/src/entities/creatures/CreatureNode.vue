@@ -6,13 +6,14 @@ import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
 import { ref, useTemplateRef } from "vue"
 
+import { useFlowSearch } from "@/flowchart/useFlowSearch"
 import { defineDeleteMenuItem } from "@/ui/contextmenu"
 
 import BaseCreature from "./BaseCreature.vue"
 
 interface NodeData extends Creature {}
 
-defineProps<NodeProps<NodeData>>()
+const props = defineProps<NodeProps<NodeData>>()
 
 const { id } = useNode()
 const { removeNodes } = useVueFlow()
@@ -20,10 +21,13 @@ const contextMenu = useTemplateRef("contextMenu")
 const contextMenuItems = ref<MenuItem[]>([
   defineDeleteMenuItem({ command: () => removeNodes(id) }),
 ])
+
+const { checkMatch } = useFlowSearch()
+const isMatched = checkMatch(() => props.data.name)
 </script>
 
 <template>
-  <div>
+  <div :class="{ 'opacity-50': !isMatched }">
     <Handle id="handle-1" type="source" :position="Position.Top" />
     <Handle id="handle-2" type="source" :position="Position.Bottom" />
     <Handle id="handle-3" type="source" :position="Position.Left" />
