@@ -25,5 +25,6 @@
       "dependsOn": ["build"]
     }
   },
-  "defaultBase": "master"
+  "defaultBase": "master",
+  "analytics": false
 }
