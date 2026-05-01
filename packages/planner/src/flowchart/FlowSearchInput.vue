@@ -1,11 +1,16 @@
 <script setup lang="ts">
+import { useVueFlow } from "@vue-flow/core"
 import { useEventListener } from "@vueuse/core"
 import Button from "primevue/button"
-import { onMounted, useTemplateRef } from "vue"
+import { computed, onMounted, useTemplateRef } from "vue"
 
 import { useFlowSearch } from "./useFlowSearch"
 
 const flowSearch = useFlowSearch()
+const { getNodes } = useVueFlow()
+const nodeCount = computed(() => {
+  return getNodes.value.length
+})
 
 const element = useTemplateRef("root")
 useEventListener(element, "keydown", (event) => {
@@ -25,12 +30,17 @@ onMounted(() => {
     ref="root"
     class="absolute top-4 right-4 flex items-center gap-1 rounded-md bg-surface-900 px-3 py-2 ring-surface-800 has-focus-within:ring-2"
   >
-    <input
-      ref="input"
-      v-model="flowSearch.searchText.value"
-      type="text"
-      class="outline-0"
-    />
+    <div class="flex w-3xs items-center gap-2">
+      <input
+        ref="input"
+        v-model="flowSearch.searchText.value"
+        type="text"
+        class="flex-1 outline-0"
+      />
+      <div v-if="flowSearch.searchText.value" class="text-sm text-muted-color">
+        {{ flowSearch.matchedCount }} / {{ nodeCount }}
+      </div>
+    </div>
     <Button
       variant="text"
       size="small"

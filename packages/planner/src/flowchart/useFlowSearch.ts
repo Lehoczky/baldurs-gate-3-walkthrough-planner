@@ -1,7 +1,8 @@
-import { computed, type ComputedRef, shallowRef } from "vue"
+import { computed, type ComputedRef, shallowRef, watch } from "vue"
 
 const isShown = shallowRef(false)
 const searchText = shallowRef("")
+const matchedCount = shallowRef(0)
 
 export function useFlowSearch() {
   function toggle(): void {
@@ -13,7 +14,7 @@ export function useFlowSearch() {
   }
 
   function checkMatch(callback: () => string): ComputedRef<boolean> {
-    return computed(() => {
+    const isMatched = computed(() => {
       if (!searchText.value) {
         return true
       }
@@ -22,7 +23,18 @@ export function useFlowSearch() {
       const textToSearch = searchText.value.toLowerCase()
       return text.includes(textToSearch)
     })
+
+    watch(
+      isMatched,
+      (isMatched) => {
+        const matchCountDiff = isMatched ? 1 : -1
+        matchedCount.value += matchCountDiff
+      },
+      { immediate: true },
+    )
+
+    return isMatched
   }
 
-  return { searchText, isShown, toggle, hide, checkMatch }
+  return { searchText, isShown, matchedCount, toggle, hide, checkMatch }
 }
