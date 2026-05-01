@@ -48,6 +48,9 @@ function close() {
     class="w-11/12 md:w-160"
     visible
     :header="title"
+    :pt="{
+      content: '[scrollbar-gutter:stable]',
+    }"
     modal
     dismissable-mask
     @update:visible="close"
