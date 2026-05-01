@@ -5,10 +5,9 @@
     ".": "./src/index.ts"
   },
   "dependencies": {
-    "zod": "4.3.6"
+    "zod": "catalog:"
   },
   "devDependencies": {
-    "@types/node": "catalog:",
     "typescript": "catalog:"
   }
 }
