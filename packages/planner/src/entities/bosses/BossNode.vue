@@ -23,7 +23,7 @@ const contextMenuItems = ref<MenuItem[]>([
 ])
 
 const { checkMatch } = useFlowSearch()
-const isMatched = checkMatch(() => props.data.name)
+const isMatched = checkMatch(id, () => props.data.name)
 </script>
 
 <template>

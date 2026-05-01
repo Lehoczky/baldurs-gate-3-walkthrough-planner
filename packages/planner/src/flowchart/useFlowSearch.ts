@@ -1,10 +1,14 @@
+import { useVueFlow } from "@vue-flow/core"
+import { without } from "es-toolkit/array"
 import { computed, type ComputedRef, shallowRef, watch } from "vue"
 
 const isShown = shallowRef(false)
 const searchText = shallowRef("")
-const matchedCount = shallowRef(0)
+const matchedNodes = shallowRef<string[]>([])
 
 export function useFlowSearch() {
+  const { onNodesChange } = useVueFlow()
+
   function toggle(): void {
     isShown.value = !isShown.value
   }
@@ -13,7 +17,10 @@ export function useFlowSearch() {
     searchText.value = ""
   }
 
-  function checkMatch(callback: () => string): ComputedRef<boolean> {
+  function checkMatch(
+    nodeId: string,
+    callback: () => string,
+  ): ComputedRef<boolean> {
     const isMatched = computed(() => {
       if (!searchText.value) {
         return true
@@ -27,8 +34,9 @@ export function useFlowSearch() {
     watch(
       isMatched,
       (isMatched) => {
-        const matchCountDiff = isMatched ? 1 : -1
-        matchedCount.value += matchCountDiff
+        matchedNodes.value = isMatched
+          ? [...matchedNodes.value, nodeId]
+          : without(matchedNodes.value, nodeId)
       },
       { immediate: true },
     )
@@ -36,5 +44,13 @@ export function useFlowSearch() {
     return isMatched
   }
 
-  return { searchText, isShown, matchedCount, toggle, hide, checkMatch }
+  onNodesChange((changes) => {
+    for (const change of changes) {
+      if (change.type === "remove") {
+        matchedNodes.value = without(matchedNodes.value, change.id)
+      }
+    }
+  })
+
+  return { searchText, isShown, matchedNodes, toggle, hide, checkMatch }
 }

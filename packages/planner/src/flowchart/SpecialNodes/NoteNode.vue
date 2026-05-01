@@ -54,7 +54,7 @@ const contextMenuItems = ref<MenuItem[]>([
 ])
 
 const { checkMatch } = useFlowSearch()
-const isMatched = checkMatch(() => text.value)
+const isMatched = checkMatch(id, () => text.value)
 </script>
 
 <template>
