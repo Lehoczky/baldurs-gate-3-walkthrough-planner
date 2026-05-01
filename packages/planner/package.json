@@ -30,7 +30,7 @@
     "@egoist/tailwindcss-icons": "^1.9.2",
     "@iconify-json/lucide": "^1.2.105",
     "@iconify-json/ri": "^1.2.10",
-    "@lehoczky/eslint-config-vue": "^2.0.15",
+    "@lehoczky/eslint-config-vue": "^3.0.0",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.2.4",
     "@types/markdown-it": "^14.1.2",
