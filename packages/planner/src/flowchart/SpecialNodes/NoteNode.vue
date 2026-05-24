@@ -69,8 +69,11 @@ const contextMenuItems = ref<MenuItem[]>([
 const root = useTemplateRef("root")
 const currentZoom = computed(() => viewport.value.zoom)
 useEventListener(root, "navigate-to-node", (event: NavigateToNodeEvent) => {
-  const id = event.detail.id
-  fitView({ nodes: [id], maxZoom: currentZoom.value })
+  fitView({
+    nodes: [event.detail.id],
+    maxZoom: currentZoom.value,
+    duration: 300,
+  })
 })
 
 const { checkMatch } = useFlowSearch()
