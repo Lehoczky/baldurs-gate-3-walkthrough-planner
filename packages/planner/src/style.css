@@ -14,6 +14,7 @@
 @utility prose-slate {
   --tw-prose-body: var(--color-slate-800);
   --tw-prose-bullets: var(--color-slate-700);
+  --tw-prose-quote-borders: var(--color-slate-400);
 }
 
 .vue-flow__handle {
