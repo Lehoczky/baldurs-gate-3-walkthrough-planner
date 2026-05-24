@@ -30,6 +30,6 @@ const { deselectElements } = useDeselectElements()
   >
     <DataFilters v-if="showDataFilters" />
     <LazyErrorMessage v-if="error" />
-    <EntityGrid class="h-full" />
+    <EntityGrid class="h-full flex-1" />
   </div>
 </template>
