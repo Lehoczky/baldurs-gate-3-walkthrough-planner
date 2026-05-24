@@ -2,9 +2,9 @@ packages:
   - packages/*
 
 catalog:
-  '@types/node': ^24.12.2
+  '@types/node': ^24.12.4
   es-toolkit: ^1.46.1
-  eslint: ^10.2.1
+  eslint: ^10.4.0
   typescript: ~6.0.3
   zod: "4.3.6"
 

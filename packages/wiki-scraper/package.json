@@ -7,9 +7,9 @@
   },
   "dependencies": {
     "@bg3-walkthrough-planner/types": "workspace:^",
-    "@clack/prompts": "^1.3.0",
+    "@clack/prompts": "^1.4.0",
     "es-toolkit": "catalog:",
-    "playwright": "^1.59.1"
+    "playwright": "^1.60.0"
   },
   "devDependencies": {
     "@lehoczky/eslint-config-typescript": "^3.0.0",
