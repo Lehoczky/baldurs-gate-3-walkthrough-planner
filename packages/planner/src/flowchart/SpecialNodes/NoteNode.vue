@@ -30,6 +30,12 @@ function startEditing() {
   setTimeout(() => textarea.value.select(), 50)
 }
 
+function stopDeletePropagation(event: KeyboardEvent) {
+  if (event.key === "Delete") {
+    event.stopPropagation()
+  }
+}
+
 onClickOutside(textarea, () => {
   editing.value = false
   node.data.label = text.value
@@ -76,12 +82,13 @@ const isMatched = checkMatch(id, () => text.value)
         v-if="editing"
         ref="textarea"
         v-model="text"
-        class="nodrag scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600 mt-0.5 h-full w-full flex-1 resize-none bg-yellow-300 p-4 text-sm leading-normal text-slate-800 outline-none placeholder:text-slate-500 placeholder:italic"
+        class="nodrag mt-0.5 h-full w-full flex-1 resize-none scrollbar-thin scrollbar-thumb-yellow-600 scrollbar-track-yellow-400 bg-yellow-300 p-4 text-sm leading-normal text-slate-800 outline-none placeholder:text-slate-500 placeholder:italic"
         placeholder="Write something here..."
+        @keydown="stopDeletePropagation($event)"
       />
       <div
         v-else
-        class="scrollbar-thin scrollbar-track-yellow-400 scrollbar-thumb-yellow-600 prose prose-sm h-full max-w-none flex-1 cursor-text overflow-auto p-4 leading-normal prose-slate"
+        class="prose prose-sm h-full max-w-none flex-1 cursor-text scrollbar-thin scrollbar-thumb-yellow-600 scrollbar-track-yellow-400 overflow-auto p-4 leading-normal prose-slate"
         @dblclick="startEditing"
         v-html="renderedText"
       />
