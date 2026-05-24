@@ -1,7 +1,7 @@
 import markdownit, { type PluginSimple } from "markdown-it"
 import { computed, type Ref } from "vue"
 
-import { nodeLink } from "./node-navigation"
+import { nodeLink } from "../nodeNavigation/markdownItPlugin"
 
 let md: ReturnType<typeof markdownit>
 

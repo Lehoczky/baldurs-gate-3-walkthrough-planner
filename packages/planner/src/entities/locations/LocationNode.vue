@@ -6,6 +6,7 @@ import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
 import { ref, useTemplateRef } from "vue"
 
+import { defineCopyNodeLinkMenuItem } from "@/flowchart/nodeNavigation/menuItem"
 import { useFlowSearch } from "@/flowchart/useFlowSearch"
 import { defineDeleteMenuItem } from "@/ui/contextmenu"
 
@@ -19,6 +20,7 @@ const { id } = useNode()
 const { removeNodes } = useVueFlow()
 const contextMenu = useTemplateRef("contextMenu")
 const contextMenuItems = ref<MenuItem[]>([
+  defineCopyNodeLinkMenuItem(id),
   defineDeleteMenuItem({ command: () => removeNodes(id) }),
 ])
 

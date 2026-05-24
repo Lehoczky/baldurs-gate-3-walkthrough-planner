@@ -1,8 +1,8 @@
 import type { PluginSimple } from "markdown-it"
 
-export type NavigateToNodeEvent = CustomEvent<{ id: string }>
+import { NODE_PROTOCOL } from "./protocol"
 
-const NODE_PROTOCOL = "node"
+export type NavigateToNodeEvent = CustomEvent<{ id: string }>
 
 export const nodeLink: PluginSimple = (md) => {
   const defaultRender =
@@ -30,10 +30,6 @@ export const nodeLink: PluginSimple = (md) => {
 
     return defaultRender(tokens, idx, options, env, self)
   }
-}
-
-export function createNodeLink(nodeId: string): string {
-  return `${NODE_PROTOCOL}:${nodeId}`
 }
 
 function isNodeLink(href: string) {

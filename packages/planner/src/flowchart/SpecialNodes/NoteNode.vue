@@ -7,15 +7,16 @@ import {
   useVueFlow,
 } from "@vue-flow/core"
 import { NodeResizer } from "@vue-flow/node-resizer"
-import { onClickOutside, useClipboard, useEventListener } from "@vueuse/core"
+import { onClickOutside, useEventListener } from "@vueuse/core"
 import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
 import { computed, onMounted, ref, useTemplateRef } from "vue"
 
 import { defineDeleteMenuItem } from "@/ui/contextmenu"
 
+import type { NavigateToNodeEvent } from "../nodeNavigation/markdownItPlugin"
+import { defineCopyNodeLinkMenuItem } from "../nodeNavigation/menuItem"
 import { useFlowSearch } from "../useFlowSearch"
-import { createNodeLink, type NavigateToNodeEvent } from "./node-navigation"
 import { useMarkdownIt } from "./useMarkdownIt"
 
 const props = defineProps<NodeProps>()
@@ -50,7 +51,6 @@ onMounted(() => {
 
 const { id } = useNode()
 const { removeNodes, fitView, viewport } = useVueFlow()
-const { copy } = useClipboard()
 const contextMenu = useTemplateRef("contextMenu")
 const contextMenuItems = ref<MenuItem[]>([
   {
@@ -58,11 +58,7 @@ const contextMenuItems = ref<MenuItem[]>([
     icon: "i-lucide-edit-3",
     command: () => startEditing(),
   },
-  {
-    label: "Copy node link",
-    icon: "i-lucide-link",
-    command: () => copy(createNodeLink(id)),
-  },
+  defineCopyNodeLinkMenuItem(id),
   defineDeleteMenuItem({ command: () => removeNodes(id) }),
 ])
 
