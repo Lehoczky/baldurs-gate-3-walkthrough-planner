@@ -1,5 +1,7 @@
-import markdownit from "markdown-it"
+import markdownit, { type PluginSimple } from "markdown-it"
 import { computed, type Ref } from "vue"
+
+import { nodeLink } from "./node-navigation"
 
 let md: ReturnType<typeof markdownit>
 
@@ -21,7 +23,8 @@ export function useMarkdownIt(text: Ref<string>) {
   if (!md) {
     md = markdownit({ linkify: true, breaks: true })
     md.linkify.set({ fuzzyEmail: false })
-    renderLinkTargetBlank(md)
+    md.use(nodeLink)
+    md.use(externalLinkTarget)
   }
   return computed(() => md.render(text.value))
 }
@@ -30,7 +33,7 @@ export function useMarkdownIt(text: Ref<string>) {
  *
  * See: https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md#renderer
  */
-function renderLinkTargetBlank(md: markdownit) {
+const externalLinkTarget: PluginSimple = (md) => {
   const defaultRender =
     md.renderer.rules.link_open ||
     function (tokens, idx, options, _env, self) {
@@ -38,7 +41,13 @@ function renderLinkTargetBlank(md: markdownit) {
     }
 
   md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
-    tokens[idx].attrSet("target", "_blank")
+    const token = tokens[idx]
+
+    const href = token.attrGet("href")
+    if (href.startsWith("https:")) {
+      token.attrSet("target", "_blank")
+    }
+
     return defaultRender(tokens, idx, options, env, self)
   }
 }

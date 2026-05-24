@@ -7,7 +7,7 @@ import {
   useVueFlow,
 } from "@vue-flow/core"
 import { NodeResizer } from "@vue-flow/node-resizer"
-import { onClickOutside } from "@vueuse/core"
+import { onClickOutside, useClipboard, useEventListener } from "@vueuse/core"
 import ContextMenu from "primevue/contextmenu"
 import type { MenuItem } from "primevue/menuitem"
 import { computed, onMounted, ref, useTemplateRef } from "vue"
@@ -15,6 +15,7 @@ import { computed, onMounted, ref, useTemplateRef } from "vue"
 import { defineDeleteMenuItem } from "@/ui/contextmenu"
 
 import { useFlowSearch } from "../useFlowSearch"
+import { createNodeLink, type NavigateToNodeEvent } from "./node-navigation"
 import { useMarkdownIt } from "./useMarkdownIt"
 
 const props = defineProps<NodeProps>()
@@ -48,7 +49,8 @@ onMounted(() => {
 })
 
 const { id } = useNode()
-const { removeNodes } = useVueFlow()
+const { removeNodes, fitView, viewport } = useVueFlow()
+const { copy } = useClipboard()
 const contextMenu = useTemplateRef("contextMenu")
 const contextMenuItems = ref<MenuItem[]>([
   {
@@ -56,8 +58,20 @@ const contextMenuItems = ref<MenuItem[]>([
     icon: "i-lucide-edit-3",
     command: () => startEditing(),
   },
+  {
+    label: "Copy node link",
+    icon: "i-lucide-link",
+    command: () => copy(createNodeLink(id)),
+  },
   defineDeleteMenuItem({ command: () => removeNodes(id) }),
 ])
+
+const root = useTemplateRef("root")
+const currentZoom = computed(() => viewport.value.zoom)
+useEventListener(root, "navigate-to-node", (event: NavigateToNodeEvent) => {
+  const id = event.detail.id
+  fitView({ nodes: [id], maxZoom: currentZoom.value })
+})
 
 const { checkMatch } = useFlowSearch()
 const isMatched = checkMatch(id, () => text.value)
@@ -65,6 +79,7 @@ const isMatched = checkMatch(id, () => text.value)
 
 <template>
   <div
+    ref="root"
     class="relative flex h-full rounded-md bg-yellow-300 text-slate-800 shadow-lg"
     :class="{ 'opacity-50': !editing && !isMatched }"
   >
