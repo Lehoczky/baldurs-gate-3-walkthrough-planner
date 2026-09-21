@@ -8,52 +8,52 @@ export function getCompanions(): Companion[] {
   return [
     {
       name: "Astarion",
-      icon: "https://bg3.wiki/w/images/thumb/1/1b/Portrait_Astarion.png/180px-Portrait_Astarion.png",
+      icon: "https://bg3.wiki/w/images/thumb/1/1b/Portrait_Astarion.png/180px-Portrait_Astarion.png.webp",
       wikiLink: "https://bg3.wiki/wiki/Astarion",
     },
     {
       name: "Gale",
-      icon: "https://bg3.wiki/w/images/thumb/1/11/Portrait_Gale.png/180px-Portrait_Gale.png",
+      icon: "https://bg3.wiki/w/images/thumb/1/11/Portrait_Gale.png/180px-Portrait_Gale.png.webp",
       wikiLink: "https://bg3.wiki/wiki/Gale",
     },
     {
       name: "Karlach",
-      icon: "https://bg3.wiki/w/images/thumb/b/b2/Portrait_Karlach.png/180px-Portrait_Karlach.png",
+      icon: "https://bg3.wiki/w/images/thumb/b/b2/Portrait_Karlach.png/180px-Portrait_Karlach.png.webp",
       wikiLink: "https://bg3.wiki/wiki/Karlach",
     },
     {
       name: "Lae'zel",
-      icon: "https://bg3.wiki/w/images/thumb/8/86/Portrait_Lae%27zel.png/180px-Portrait_Lae%27zel.png",
+      icon: "https://bg3.wiki/w/images/thumb/8/86/Portrait_Lae%27zel.png/180px-Portrait_Lae%27zel.png.webp",
       wikiLink: "https://bg3.wiki/wiki/Lae%27zel",
     },
     {
       name: "Shadowheart",
-      icon: "https://bg3.wiki/w/images/thumb/7/7e/Portrait_Shadowheart.png/180px-Portrait_Shadowheart.png",
+      icon: "https://bg3.wiki/w/images/thumb/7/7e/Portrait_Shadowheart.png/180px-Portrait_Shadowheart.png.webp",
       wikiLink: "https://bg3.wiki/wiki/Shadowheart",
     },
     {
       name: "Wyll",
-      icon: "https://bg3.wiki/w/images/thumb/6/6d/Portrait_Wyll.png/180px-Portrait_Wyll.png",
+      icon: "https://bg3.wiki/w/images/thumb/6/6d/Portrait_Wyll.png/180px-Portrait_Wyll.png.webp",
       wikiLink: "https://bg3.wiki/wiki/Wyll",
     },
     {
       name: "Halsin",
-      icon: "https://bg3.wiki/w/images/thumb/f/fe/Portrait_Halsin.png/180px-Portrait_Halsin.png",
+      icon: "https://bg3.wiki/w/images/thumb/f/fe/Portrait_Halsin.png/180px-Portrait_Halsin.png.webp",
       wikiLink: "https://bg3.wiki/wiki/Halsin",
     },
     {
       name: "Minthara",
-      icon: "https://bg3.wiki/w/images/thumb/8/8e/Portrait_Minthara_%28263%29.png/120px-Portrait_Minthara_%28263%29.png",
+      icon: "https://bg3.wiki/w/images/thumb/8/8e/Portrait_Minthara_%28263%29.png/120px-Portrait_Minthara_%28263%29.png.webp",
       wikiLink: "https://bg3.wiki/wiki/Minthara",
     },
     {
       name: "Minsc",
-      icon: "https://bg3.wiki/w/images/thumb/d/d6/Portrait_Minsc.png/180px-Portrait_Minsc.png",
+      icon: "https://bg3.wiki/w/images/thumb/d/d6/Portrait_Minsc.png/180px-Portrait_Minsc.png.webp",
       wikiLink: "https://bg3.wiki/wiki/Minsc",
     },
     {
       name: "Jaheira",
-      icon: "https://bg3.wiki/w/images/thumb/a/a8/Portrait_Jaheira.png/180px-Portrait_Jaheira.png",
+      icon: "https://bg3.wiki/w/images/thumb/a/a8/Portrait_Jaheira.png/180px-Portrait_Jaheira.png.webp",
       wikiLink: "https://bg3.wiki/wiki/Jaheira",
     },
   ]

@@ -20,11 +20,9 @@ async function getItemsOnPage(page: Page): Promise<Boss[]> {
     `.mw-parser-output h3:has(.mw-headline)`,
     (headlines) => {
       return headlines.map((headline) => {
-        const description = headline.nextElementSibling!
-        const actLink = description.querySelector("a")!
-        const actName = actLink.getAttribute("title")!
+        const actName = headline.firstChild!.textContent!
 
-        const gallery = description.nextElementSibling!
+        const gallery = headline.nextElementSibling!
         const galleryItems = [...gallery.querySelectorAll(".gallerybox")]
 
         return galleryItems.map((element) => {
